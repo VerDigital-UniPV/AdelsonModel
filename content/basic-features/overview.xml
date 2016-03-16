@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Grundfunktionen</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Edirom Online Beispieledition</title>
+                </edition>
+                <respStmt>
+                    <resp>Release</resp>
+                    <persName>Capelle, Irmlind</persName>
+                    <persName>Iffland, Joachim</persName>
+                    <persName>Röwenstrunk, Daniel</persName>
+                    <persName>Schilke, Elena</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="pbl">Virtueller Foschungsverbund Edirom</orgName>
+                    <ptr target="http://edirom.de/"/>
+                    <address>
+                        <addrLine>Musikwissenschaftliches Seminar Detmold/Paderborn</addrLine>
+                        <addrLine>Virtueller Foschungsverbund Edirom</addrLine>
+                        <addrLine>Hornsche Straße 39</addrLine>
+                        <addrLine>32756</addrLine>
+                        <addrLine>Detmold</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="de">
+                <p></p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc status="candidate">
+            <change who="DR" when="2016-03-16">Text mit wichtigsten Metadaten angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
