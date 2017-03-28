@@ -7,7 +7,7 @@
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
     <type>library</type>
-    <target>/db/apps/edirom/edition-example</target>
+    <target>/edirom/edition-example</target>
     <prepare>pre-install.xql</prepare>
     <finish/>
     <permissions user="edirom" password="edirom" group="edirom" mode="rwxrwxr-x"/>
