@@ -21,9 +21,14 @@
                     <names>
                         <name>Funktionen</name>
                     </names>
-                    <navigatorItem xml:id="navItem-00" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/basic-features/overview.xml">
+                    <navigatorItem xml:id="navItem-00" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/features/overview.xml">
                         <names>
                             <name>Grundfunktionen</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-01" sortNo="2" targets="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_786a4e99-aacd-459d-a40a-79c894e92497.xml">
+                        <names>
+                            <name>Ebenenüberlagerung</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
