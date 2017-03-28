@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="edirom_source_786a4e99-aacd-459d-a40a-79c894e92497" meiversion="2013">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="edirom_source_786a4e99-aacd-459d-a40a-79c894e92497" meiversion="2013">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -12,6 +12,11 @@
                         <title>Sammelausgabe</title>
                     </titleStmt>
                     <pubStmt/>
+                    <notesStmt>
+                        <annot type="overlay" xml:id="overlay_1" plist="#overlay_1_1">
+                            <title>sample SVG overlay</title>
+                        </annot>
+                    </notesStmt>
                     <relationList>
                         <relation rel="isEmbodimentOf" target="xmldb:exist:///db/contents/works/edirom_work_6eb12027-28e6-4ca2-96cb-5152e0225292.xml#edirom_work_6eb12027-28e6-4ca2-96cb-5152e0225292_exp1"/>
                     </relationList>
@@ -33,6 +38,12 @@
                 <zone xml:id="edirom_zone_708ab758-9fd7-45bc-b56d-fb834b96f916" type="measure" ulx="1276" uly="922" lrx="1712" lry="1358"/>
                 <zone xml:id="edirom_zone_793e53ae-6e6d-429c-81b0-0174af063ffe" type="measure" ulx="214" uly="1381" lrx="661" lry="1817"/>
                 <zone xml:id="edirom_zone_10db79a1-6ca5-4ade-9a82-00093f104975" type="measure" ulx="588" uly="1389" lrx="880" lry="1813"/>
+                <svg:svg width="100%" height="100%" xml:id="overlay_1_1">
+                    <svg:desc>sample svg rect</svg:desc>
+                    <svg:g alignment-baseline="baseline">
+                        <svg:rect width="100" height="100" fill="none" stroke="red" stroke-width="3px" x="100" y="100"></svg:rect>
+                    </svg:g>
+                </svg:svg>
             </surface>
         </facsimile>
         <body>
