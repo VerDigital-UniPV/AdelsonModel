@@ -1,2 +1,2 @@
 # EditionExample
-An example edition for Edirom Online
+An example edition for [_Edirom Online_](https://github.com/Edirom/Edirom-Online). 
