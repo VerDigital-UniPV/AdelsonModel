@@ -5,14 +5,14 @@
     </languages>
     <!--<preferences xlink:href="xmldb:exist:///db/apps/contents/edition/freidi-prefs.xml"/>-->
     <works>
-        <work xml:id="work" sortNo="1" xlink:href="xmldb:exist:///db/apps/contents/work.xml">
+        <work xml:id="work" sortNo="1" xlink:href="xmldb:exist:///db/apps/edirom/edition-example/content/work.xml">
             <navigatorDefinition>
                 
                 <navigatorCategory xml:id="navCategory-00" sortNo="-1">
                     <names>
                         <name>Die Beispieledition</name>
                     </names>
-                    <navigatorItem xml:id="navItem-000" sortNo="1" targets="xmldb:exist:///db/apps/sampleEdition/startwindow.xml">
+                    <navigatorItem xml:id="navItem-000" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/startwindow.xml">
                         <names><name>Einleitung</name>
                         </names>
                     </navigatorItem>
@@ -21,7 +21,7 @@
                     <names>
                         <name>Funktionen</name>
                     </names>
-                    <navigatorItem xml:id="navItem-00" sortNo="1" targets="xmldb:exist:///db/apps/sampleEdition/basic-features/overview.xml">
+                    <navigatorItem xml:id="navItem-00" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/basic-features/overview.xml">
                         <names>
                             <name>Grundfunktionen</name>
                         </names>
