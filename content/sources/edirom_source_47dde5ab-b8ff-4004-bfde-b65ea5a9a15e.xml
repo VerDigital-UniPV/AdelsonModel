@@ -12,20 +12,20 @@
                         Klavier</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                <availability>recorded</availability>
-            </pubStmt>
-            
+            <pubStmt/>
             <sourceDesc>
-                <source/>
+                <source>
+                    <identifier type="siglum">ED</identifier>
+                    <identifier type="D-KA">Mus. Hs. 1295b</identifier>
+                    <titleStmt>
+                        <title>Autograph</title>
+                    </titleStmt>
+                </source>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de">Trüber Abschied</titlePart>
-                    <titlePart type="perf" xml:lang="de">für eine Singstimme &amp; Klavierbegleitung</titlePart>
-                </title>
+                <title type="uniform" xml:lang="de">Trüber Abschied für eine Singstimme &amp; Klavierbegleitung</title>
                 <lyricist>
                     <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </lyricist>
@@ -159,13 +159,13 @@
     <music>
         <facsimile>
             <surface xml:id="surface_52b0a53c-a8e9-48ce-aa4c-4bae46ce1556" n="1">
-                <graphic target="essEdiromImages/autograph/MusHs1295_01r.jpeg"
+                <graphic target="6118288"
                      type="facsimile"
                      width="2257"
                      height="2839"/>
             </surface>
             <surface xml:id="surface_e6f33593-41d0-40bb-a060-c328101cd49e" n="2">
-                <graphic target="essEdiromImages/autograph/MusHs1295_01v.jpeg"
+                <graphic target="6118289"
                      type="facsimile"
                      width="2257"
                      height="2839"/>
@@ -291,7 +291,7 @@
                   lry="2195"/>
          </surface>
             <surface xml:id="surface_70511d7b-0e66-42f0-939c-319898c86c11" n="3">
-                <graphic target="essEdiromImages/autograph/MusHs1295_02r.jpeg"
+                <graphic target="6118290"
                      type="facsimile"
                      width="2257"
                      height="2839"/>
@@ -411,7 +411,7 @@
                   lry="2700"/>
          </surface>
             <surface xml:id="surface_f4e10ab5-42ab-4b93-8249-243ccc4a658d" n="4">
-                <graphic target="essEdiromImages/autograph/MusHs1295_02v.jpeg"
+                <graphic target="6118291"
                      type="facsimile"
                      width="2257"
                      height="2839"/>
