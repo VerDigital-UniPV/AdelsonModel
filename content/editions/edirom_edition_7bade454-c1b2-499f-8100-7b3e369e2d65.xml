@@ -7,9 +7,7 @@
             <titleStmt>
                 <title type="uniform" xml:lang="de">Trüber Abschied (Edition)</title>
             </titleStmt>
-            <pubStmt>
-                <availability>recorded</availability>
-            </pubStmt>
+            <pubStmt/>
         </fileDesc>
         <workList>
             <work>
@@ -40,14 +38,10 @@
                 </perfMedium>
             </work>
         </workList>
-        <manifestationList>
-            <manifestation type="ed">
+        <sourceDesc>
+            <source>
                 <titleStmt>
-                    <title>
-                        <titlePart type="main">Trüber Abschied</titlePart>
-                        <titlePart type="perf">für eine Singstimme &amp;
-                            Klavierbegleitung</titlePart>
-                    </title>
+                    <title>Neuedition</title>
                     <composer>
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
@@ -57,9 +51,6 @@
                     <editor>
                   <persName>Dennis Ried</persName>
                </editor>
-                    <respStmt>
-                        <persName role="artist">Sibelius 7.5</persName>
-                    </respStmt>
                 </titleStmt>
                 <langUsage>
                     <language auth="de"/>
@@ -73,11 +64,11 @@
                 </classification>
                 <relationList>
                     <relation rel="isEmbodimentOf"
-                         target="xmldb:exist:///db/apps/essEdiromData/data/essUser00/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
+                         target="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
                          type="edirom"/>
                 </relationList>
-            </manifestation>
-        </manifestationList>
+            </source>
+        </sourceDesc>
         <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
     </meiHead>
     <music>
