@@ -17,19 +17,19 @@
                         <name xml:lang="de">Einführung</name>
                         <name xml:lang="en">Introduction</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/startwindow.xml">
+                    <navigatorItem xml:id="navItem-0-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/edition-example/content/startwindow.xml">
                         <names>
                             <name xml:lang="de">Klick und lies mich!</name>
                             <name xml:lang="en">Click and read me!</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-0" sortNo="2">
+                <navigatorCategory xml:id="navCategory-1" sortNo="2">
                     <names>
                         <name xml:lang="de">Werk</name>
                         <name xml:lang="en">Work</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0"
+                    <navigatorItem xml:id="navItem-1-1"
                               sortNo="1"
                               targets="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml[width:900]">
                         <names>
@@ -38,12 +38,12 @@
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-0" sortNo="3">
+                <navigatorCategory xml:id="navCategory-2" sortNo="3">
                     <names>
                         <name xml:lang="de">Quellen</name>
                         <name xml:lang="en">Sources</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0"
+                    <navigatorItem xml:id="navItem-2-1"
                               sortNo="1"
                               targets="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml">
                         <names>
@@ -51,7 +51,7 @@
                             <name xml:lang="en">First edition (ED)</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-0"
+                    <navigatorItem xml:id="navItem-2-2"
                               sortNo="1"
                               targets="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml">
                         <names>
@@ -60,12 +60,12 @@
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-0" sortNo="3">
+                <navigatorCategory xml:id="navCategory-3" sortNo="3">
                     <names>
                         <name xml:lang="de">Edition</name>
                         <name xml:lang="en">Edition</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0"
+                    <navigatorItem xml:id="navItem-3-1"
                               sortNo="1"
                               targets="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml">
                         <names>
