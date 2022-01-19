@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9" meiversion="4.0.0">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9" meiversion="2013">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -11,16 +11,16 @@
                 <unpub/>
             </availability>
         </fileDesc>
-        <workList>
+        <workDesc>
             <work>
-                <title type="uniform" xml:lang="de">
-                    <titlePart type="main">Trüber Abschied</titlePart>
-                    <titlePart type="perf">für Singstimme und Klavier</titlePart>
-                </title>
+                <titleStmt>
+                <title type="uniform" xml:lang="de">Trüber Abschied (für Singstimme und Klavier)</title>
+                
                 <composer>
                     <persName auth="gnd" auth.uri="https://d-nb.info/gnd/" codedval="117758817">Ludwig Baumann</persName>
                 </composer>
-                <key pname="a" mode="minor"/>
+                </titleStmt>
+                <!--<key pname="a" mode="minor"/>
         <meter count="4" unit="4"/>
         <tempo>Andante</tempo>
         <incip/>
@@ -35,7 +35,7 @@
                         <perfRes count="1">Singstimme</perfRes>
                         <perfRes count="1">Klavier</perfRes>
                     </perfResList>
-                </perfMedium>
+                </perfMedium>-->
                 <notesStmt>
                     <annot type="criticalCommentary">
                         <annot type="editorialComment" xml:id="ess_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3">
@@ -156,7 +156,7 @@
                     <expression label="Trüber Abschied" xml:id="edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"><title/></expression>
                 </expressionList>
             </work>
-        </workList>
+        </workDesc>
     </meiHead>
     <music/>
 </mei>
