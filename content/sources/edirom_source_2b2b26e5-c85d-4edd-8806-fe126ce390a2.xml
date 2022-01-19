@@ -1,58 +1,41 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei"
+    xmlns:svg="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2">
+     xml:id="edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2"
+     meiversion="2013">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Trüber Abschied (Erstdruck)</title>
             </titleStmt>
-            <pubStmt>
-                <availability>recorded</availability>
-            </pubStmt>
+            <pubStmt/>
         </fileDesc>
-        <workList>
-            <work>
-                <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de">Trüber Abschied</titlePart>
-                    <titlePart type="number" label="opus" auth="woo"/>
-                    <titlePart type="perf" xml:lang="de">für Singstimme und Klavier</titlePart>
-                </title>
-                <lyricist>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </lyricist>
-                <composer>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-                <key pname="a" mode="minor"/>
-                <meter count="4" unit="4" sym="common"/>
-                <tempo>Andante.</tempo>
-                <incip/>
-                <perfMedium>
-                    <perfResList>
-                        <perfRes auth="baudi-09-82e86ea7">Singstimme</perfRes>
-                        <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-                    </perfResList>
-                </perfMedium>
-            </work>
-        </workList>
-        <manifestationList>
-            <manifestation type="pr">
+        <sourceDesc>
+            <source>
+                <identifier type="siglum">ED</identifier>
                 <identifier type="D-KA">M 313</identifier>
                 <titleStmt>
-                    <title>
-                        <titlePart type="main">Trüber Abschied</titlePart>
-                        <titlePart type="perf">für eine Singstimme &amp;
-                            Klavierbegleitung</titlePart>
-                    </title>
-                    <composer>
+                    <title>Erstdruck</title>
+                </titleStmt>
+                <pubStmt/>
+                <notesStmt>
+                    <annot type="overlay" xml:id="overlay_1" plist="#overlay_1_1">
+                        <title>sample SVG overlay</title>
+                    </annot>
+                </notesStmt>
+                <relationList>
+                    <relation rel="isEmbodimentOf" target="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
+                        type="edirom"/>
+                </relationList>
+            </source>
+        </sourceDesc>
+                    <!--<composer>
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                     <lyricist>
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                    </lyricist>
-                </titleStmt>
-                <physDesc>
+                    </lyricist>-->
+                <!--<physDesc>
                     <titlePage>
                         <p decls="titlePage">
                             <rend halign="center">
@@ -95,7 +78,7 @@
                             Gebrauchsspuren. Im Fals verstärkt. Mit Fadenheftung in einen
                             Kartonumschlag eingebunden.</p>
                     </condition>
-                    <physMedium><!-- Lagenordnung -->
+                    <physMedium><!-\- Lagenordnung -\->
                         <stamp>
                             <locus n="2r" type="stamps">
                                 <symbol class="blb-002"/>
@@ -109,77 +92,26 @@
                             </locus>
                         </stamp>
                     </physMedium>
-                </physDesc>
-                <physLoc>
+                </physDesc>-->
+                <!--<physLoc>
                     <repository>
                         <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">M 313</identifier>
                     </repository>
-                </physLoc>
-                <history/>
-                <langUsage>
-                    <language auth="de"/>
-                </langUsage>
-                <contents/>
-                <biblList/>
-                <notesStmt>
-                    <!-- Weitere Anmerkungen des Beschreibers -->
-                    <annot n="1" resp="dried" corresp="hand1">Ludwig Baumann, fol. 1v</annot>
-                    <annot type="ambitus" corresp="baudi-09-82e86ea7">
-                        <note type="start" pname="e" oct="4"/>–<note type="end" pname="f" accid="s" oct="5"/>
-                    </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
-                            <rend halign="left" valign="top">aK</rend>
-                            <symbol/>
-                        </locus>
-                    </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
-                            <rend halign="right" valign="top">M 313</rend>
-                            <symbol/>
-                        </locus>
-                    </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
-                            <rend halign="center" valign="bottom">[um 1915]</rend>
-                            <symbol/>
-                        </locus>
-                    </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
-                            <rend halign="center" valign="bottom">Z</rend>
-                            <symbol/>
-                        </locus>
-                    </annot>
-                    <annot resp="dried" corresp="hand2">fol. 2v<locus type="biblNotes" corresp="hand1">
-                            <rend halign="left" valign="top">[pt?]</rend>
-                            <symbol/>
-                        </locus>
-                    </annot>
-                </notesStmt>
-                <classification>
-                    <termList>
-                        <term type="source">print</term>
-                        <term type="workGroup">vocal</term>
-                        <term type="genre">song</term>
-                    </termList>
-                </classification>
-                <componentList>
-                    <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
-                </componentList>
-                <relationList>
-                    <relation rel="isEmbodimentOf"
-                        target="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
-                         type="edirom"/>
-                </relationList>
-            </manifestation>
-        </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
+                </physLoc>-->
     </meiHead>
     <music>
         <facsimile>
-            <surface xml:id="surface_6e0bffe6-1b0e-46da-b34b-1f37dd87914d" n="1">
-                <graphic target="essEdiromImages/druck/M313_01v.jpeg"
+            <surface xml:id="surface_a6a80c78-f933-4129-bda1-29e5dc37f4dd" n="1">
+                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295250" type="facsimile"
+                    width="3266"
+                    height="4089"/>
+            </surface>
+            <surface xml:id="surface_6e0bffe6-1b0e-46da-b34b-1f37dd87914d" n="2">
+                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295251"
                      type="facsimile"
-                     width="1652"
-                     height="2338"/>
+                     width="3266"
+                     height="4089"/>
                 <zone xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"
                   type="measure"
                   ulx="63"
@@ -300,12 +232,18 @@
                   uly="1767"
                   lrx="1618"
                   lry="2256"/>
+                <svg:svg width="100%" height="100%" xml:id="overlay_1_1">
+                    <svg:desc>sample svg rect</svg:desc>
+                    <svg:g alignment-baseline="baseline">
+                        <svg:rect width="100" height="100" fill="none" stroke="red" stroke-width="3px" x="100" y="100"></svg:rect>
+                    </svg:g>
+                </svg:svg>
             </surface>
-            <surface xml:id="surface_930c6885-c1e2-4bd9-8e6d-737c59cf6771" n="2">
-                <graphic target="essEdiromImages/druck/M313_02r.jpeg"
+            <surface xml:id="surface_930c6885-c1e2-4bd9-8e6d-737c59cf6771" n="3">
+                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295252"
                      type="facsimile"
-                     width="1652"
-                     height="2338"/>
+                     width="1019"
+                     height="1541"/>
                 <zone xml:id="edirom_zone_ea3b955b-86c2-4cac-9dde-4874bc5b7422"
                   type="measure"
                   ulx="69"
@@ -420,6 +358,9 @@
                   uly="1581"
                   lrx="1612"
                   lry="2053"/>
+            </surface>
+            <surface xml:id="surface_5051a6c4-add9-4db9-94f3-e1229f7a8212" n="4">
+                <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253/pct:0,0,100,100/full/0/default.jpg" type="facsimile" width="1019" height="1541"/>
             </surface>
         </facsimile>
         <body>
