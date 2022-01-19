@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="EditionExample" basedir=".">
+<project default="deploy" name="EditionExample" basedir=".">
     <xmlproperty file="expath-pkg.xml"/>
     
     <!-- where to find eXist-dist for auto deploy -->
     <property name="exist5.libs" value="/Users/opt/exist-distribution-5.3.1/lib"/>
-    <property name="exist.db" value="xmldb:exist://localhost:8080/exist/xmlrpc/db"/>
+    <property name="exist.db" value="xmldb:exist://localhost:8070/exist/xmlrpc/db"/>
     <property name="exist.user" value="admin"/>
     <property name="exist.pass" value=""/>
     
-    <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="EditionExample"/>
+    <property name="project.version" value="${package(version)}"/>
+    <property name="project.name" value="${package(name)}"/>
     <property name="build.dir" value="build"/>
     
     <target name="xar">
@@ -48,9 +49,9 @@
             user="${exist.user}"
             password="${exist.pass}">
             (
-            if("${project.app}" = repo:list()) then (
-            repo:undeploy("${project.app}"),
-            repo:remove("${project.app}")
+            if("${project.name}" = repo:list()) then (
+            repo:undeploy("${project.name}"),
+            repo:remove("${project.name}")
             )
             else (),
             repo:install-and-deploy-from-db("/db/tmp/${project.app}-${project.version}.xar")
