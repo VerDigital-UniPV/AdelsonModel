@@ -166,7 +166,7 @@
                 </componentList>
                 <relationList>
                     <relation rel="isEmbodimentOf"
-                         target="xmldb:exist:///db/apps/essEdiromData/data/essUser00/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
+                        target="xmldb:exist:///db/apps/edirom/edition-example/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml#edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9_exp1"
                          type="edirom"/>
                 </relationList>
             </manifestation>
