@@ -108,10 +108,7 @@
                     height="4089"/>
             </surface>
             <surface xml:id="surface_6e0bffe6-1b0e-46da-b34b-1f37dd87914d" n="2">
-                     width="3266"
-                     height="4089"/>
-                <graphic target="6295251"
-                     type="facsimile"/>
+                <graphic target="6295251" type="facsimile" width="3266" height="4089"/>
                 <zone xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"
                   type="measure"
                   ulx="63"
