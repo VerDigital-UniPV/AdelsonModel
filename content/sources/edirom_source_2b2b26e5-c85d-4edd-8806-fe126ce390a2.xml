@@ -103,15 +103,15 @@
     <music>
         <facsimile>
             <surface xml:id="surface_a6a80c78-f933-4129-bda1-29e5dc37f4dd" n="1">
-                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295250" type="facsimile"
+                <graphic target="6295250" type="facsimile"
                     width="3266"
                     height="4089"/>
             </surface>
             <surface xml:id="surface_6e0bffe6-1b0e-46da-b34b-1f37dd87914d" n="2">
-                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295251"
-                     type="facsimile"
                      width="3266"
                      height="4089"/>
+                <graphic target="6295251"
+                     type="facsimile"/>
                 <zone xml:id="edirom_zone_ede27fd1-4107-4f24-8bbe-ed623955f7f3"
                   type="measure"
                   ulx="63"
@@ -240,7 +240,7 @@
                 </svg:svg>
             </surface>
             <surface xml:id="surface_930c6885-c1e2-4bd9-8e6d-737c59cf6771" n="3">
-                <graphic target="https://digital.blb-karlsruhe.de/blbihd/download/webcache/1000/6295252"
+                <graphic target="6295252"
                      type="facsimile"
                      width="1019"
                      height="1541"/>
@@ -360,7 +360,7 @@
                   lry="2053"/>
             </surface>
             <surface xml:id="surface_5051a6c4-add9-4db9-94f3-e1229f7a8212" n="4">
-                <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253/pct:0,0,100,100/full/0/default.jpg" type="facsimile" width="1019" height="1541"/>
+                <graphic target="6295253" type="facsimile" width="1019" height="1541"/>
             </surface>
         </facsimile>
         <body>
