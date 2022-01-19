@@ -25,7 +25,9 @@
     <entries>
         <entry key="application_language" value="en"/>
         <entry key="annotation_layout" value="EdiromOnline.view.window.annotationLayouts.AnnotationLayout1"/>
-        <entry key="image_prefix" value=""/>
+        <!-- overwriting image server and prefix must be done in edirom-prefs.xml -->
+        <!--<entry key="image_server" value="openseadragon"/>
+        <entry key="image_prefix" value=""/>-->
         <entry key="edition_path" value="/db/apps/edirom/edition-example/content/ediromEditions/"/>
     </entries>
 </prefs>
