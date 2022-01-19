@@ -15,7 +15,6 @@
             <work>
                 <titleStmt>
                 <title type="uniform" xml:lang="de">Trüber Abschied (für Singstimme und Klavier)</title>
-                
                 <composer>
                     <persName auth="gnd" auth.uri="https://d-nb.info/gnd/" codedval="117758817">Ludwig Baumann</persName>
                 </composer>
@@ -38,7 +37,7 @@
                 </perfMedium>-->
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <annot type="editorialComment" xml:id="ess_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3">
+                        <annot type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3">
                             <title xml:lang="de">blabla deutsch</title>
                             <title xml:lang="en">blabla english</title>
                             <p>
@@ -46,7 +45,7 @@
                             <ptr type="priority" target="#AnnotPrio2"/>
                             <ptr type="categories" target="#Beschreibung"/>
                         </annot>
-                        <annot type="editorialComment" xml:id="ess_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml#edirom_measure_9d146d07-9fc5-42da-927a-58ac4e9f36b0 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c">
+                        <annot type="editorialComment" xml:id="edirom_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml#edirom_measure_9d146d07-9fc5-42da-927a-58ac4e9f36b0 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c">
                             <title xml:lang="de">Takt drei</title>
                             <title xml:lang="en">Measure three</title>
                             <p xml:lang="de">
