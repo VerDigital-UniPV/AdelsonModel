@@ -18,15 +18,14 @@
  *
  *  ID: $Id$
  -->
+<?xml-model href="https://raw.githubusercontent.com/Edirom/edirom-edition-schema/develop/prefs/v1.0/prefs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/edirom-edition-schema/develop/prefs/v1.0/prefs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <prefs>
     <version>1.0</version>
     <entries>
-        
         <entry key="application_language" value="en"/>
         <entry key="annotation_layout" value="EdiromOnline.view.window.annotationLayouts.AnnotationLayout1"/>
         <entry key="image_prefix" value=""/>
         <entry key="edition_path" value="/db/apps/edirom/edition-example/content/ediromEditions/"/>
-        
-        
     </entries>
 </prefs>
