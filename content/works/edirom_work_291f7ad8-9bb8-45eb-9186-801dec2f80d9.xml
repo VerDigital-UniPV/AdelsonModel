@@ -18,7 +18,7 @@
                     <titlePart type="perf">für Singstimme und Klavier</titlePart>
                 </title>
                 <composer>
-                    <persName auth="gnd" auth.uri="	https://d-nb.info/gnd/" codedval="117758817">Ludwig Baumann</persName>
+                    <persName auth="gnd" auth.uri="https://d-nb.info/gnd/" codedval="117758817">Ludwig Baumann</persName>
                 </composer>
                 <key pname="a" mode="minor"/>
         <meter count="4" unit="4"/>
