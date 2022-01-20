@@ -28,14 +28,14 @@
             <surface xml:id="surface_52b0a53c-a8e9-48ce-aa4c-4bae46ce1556" n="1">
                 <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6118288"
                      type="facsimile"
-                     width="2257"
-                     height="2839"/>
+                     width="3588"
+                     height="4452"/>
             </surface>
             <surface xml:id="surface_e6f33593-41d0-40bb-a060-c328101cd49e" n="2">
                 <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6118289"
                      type="facsimile"
-                     width="2257"
-                     height="2839"/>
+                     width="3588"
+                     height="4452"/>
             <zone xml:id="edirom_zone_3882251b-bd76-406e-9ccb-cf7841004a72"
                   type="measure"
                   ulx="273"
@@ -160,8 +160,8 @@
             <surface xml:id="surface_70511d7b-0e66-42f0-939c-319898c86c11" n="3">
                 <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6118290"
                      type="facsimile"
-                     width="2257"
-                     height="2839"/>
+                     width="3588"
+                     height="4452"/>
             <zone xml:id="edirom_zone_ad505480-9a4c-45d0-8d3b-f8759a7960b3"
                   type="measure"
                   ulx="231"
@@ -280,8 +280,8 @@
             <surface xml:id="surface_f4e10ab5-42ab-4b93-8249-243ccc4a658d" n="4">
                 <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6118291"
                      type="facsimile"
-                     width="2257"
-                     height="2839"/>
+                     width="3588"
+                     height="4452"/>
             </surface>
         </facsimile>
         <body>

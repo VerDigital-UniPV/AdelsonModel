@@ -169,8 +169,8 @@
             <surface xml:id="surface_930c6885-c1e2-4bd9-8e6d-737c59cf6771" n="3">
                 <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295252"
                      type="facsimile"
-                     width="1019"
-                     height="1541"/>
+                     width="3266"
+                     height="4089"/>
                 <zone xml:id="edirom_zone_ea3b955b-86c2-4cac-9dde-4874bc5b7422"
                   type="measure"
                   ulx="69"
@@ -287,7 +287,8 @@
                   lry="2053"/>
             </surface>
             <surface xml:id="surface_5051a6c4-add9-4db9-94f3-e1229f7a8212" n="4">
-                <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253" type="facsimile" width="1019" height="1541"/>
+              <graphic target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253" type="facsimile" width="3266"
+                height="4089"/>
             </surface>
         </facsimile>
         <body>
