@@ -5,7 +5,7 @@
     <languages>
         <language xml:lang="de" complete="true"/>
     </languages>
-    <preferences xlink:href="xmldb:exist:///db/apps/edirom/edition-example/content/edition-example/prefs.xml"/>
+    <preferences xlink:href="xmldb:exist:///db/apps/edirom/edition-example/prefs.xml"/>
     <works>
         <work xml:id="edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9"
             sortNo="1"
