@@ -19,10 +19,10 @@
                     <persName auth="gnd" auth.uri="https://d-nb.info/gnd/" codedval="117758817">Ludwig Baumann</persName>
                 </composer>
                 </titleStmt>
-                <!--<key pname="a" mode="minor"/>
-        <meter count="4" unit="4"/>
-        <tempo>Andante</tempo>
-        <incip/>
+                <key pname="a" mode="minor"/>
+                <meter count="4" unit="4"/>
+                <tempo>Andante</tempo>
+                <incip/>
                 <creation/>
                 <history/>
                 <langUsage>
@@ -34,24 +34,90 @@
                         <perfRes count="1">Singstimme</perfRes>
                         <perfRes count="1">Klavier</perfRes>
                     </perfResList>
-                </perfMedium>-->
+                </perfMedium>
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <annot type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3">
-                            <title xml:lang="de">blabla deutsch</title>
-                            <title xml:lang="en">blabla english</title>
-                            <p>
-                                <rend rend="bold">A</rend> ist einfach schöner als <rend rend="bold">ED</rend></p>
-                            <ptr type="priority" target="#AnnotPrio2"/>
-                            <ptr type="categories" target="#Beschreibung"/>
-                        </annot>
-                        <annot type="editorialComment" xml:id="edirom_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/editions/edirom_edition_7bade454-c1b2-499f-8100-7b3e369e2d65.xml#edirom_measure_9d146d07-9fc5-42da-927a-58ac4e9f36b0 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_b1981cb9-3a44-439c-9c5b-b05e822d553e xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_747caf9a-f0e5-431f-8209-d94642e75a5c">
-                            <title xml:lang="de">Takt drei</title>
-                            <title xml:lang="en">Measure three</title>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00001" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
+                            xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b">
+                            <title xml:lang="de">Generalanmerkung: Pausensetzung</title>
+                            <title xml:lang="en"></title>
                             <p xml:lang="de">
-                                Dies ist der dritte Takt des Liedes</p>
-                            <ptr type="priority" target="#AnnotPrio1"/>
-                            <ptr type="categories" target="#Beschreibung"/>
+                                In <rend rend="bold">Ms</rend> sind Viertelpausen häufig liegend notiert. Ganztaktpausen hängen mitunter an der mittleren Notenlinie.</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio2"/>
+                            <ptr type="categories" target="#Pausensetzung"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00002" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46">
+                            <title xml:lang="de">Generalanmerkung: Halsung</title>
+                            <title xml:lang="en">General note: necking</title>
+                            <p xml:lang="de">In <rend rend="bold">Ms</rend> sind die Notenhälse durchgängig rechts am Notenkopf angesetzt.</p>
+                            <p xml:lang="en">In <rend rend="bold">Ms</rend>, the note stems are continuous to the right of the notehead.</p>
+                            <ptr type="priority" target="#AnnotPrio2"/>
+                            <ptr type="categories" target="#HalsungBalkung"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00003" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5">
+                            <title xml:lang="de">Auftakt, Tempobezeichnung</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                <rend rend="bold">Ms</rend> Bassschlüssel über Rasur</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio3"/>
+                            <ptr type="categories" target="#RasurTektur"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00004" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_6314cf44-469e-4307-b0aa-4cf0ab84afd5 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_6b8c96f1-e88a-4a85-a724-d20e1ef7bba3
+                            xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b">
+                            <title xml:lang="de">Auftakt, Klavier (rechte Hand)</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                <rend rend="bold">Ms</rend> Andante ohne abschließenden Punkt</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio3"/>
+                            <ptr type="categories" target="#Vortragsanweisung"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00005" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_e3530909-145e-466e-939e-b6c7e4015842 xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_1a33a36a-906a-4e45-9545-aa8d465bfe8b">
+                            <title xml:lang="de">T. 2 Zz. 4, Klavier</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                In <rend rend="bold">Ms</rend> steht das pianissimo vor dem Schlag</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio3"/>
+                            <ptr type="categories" target="#Dynamik"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00006" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46">
+                            <title xml:lang="de">T. 5 Zz. 3, Klavier (beide Hände)</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                In <rend rend="bold">Ms</rend> ohne Staccati</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio2"/>
+                            <ptr type="categories" target="#Artikulation"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00007" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml#edirom_measure_3c608e31-8266-48e7-bc62-d521b5bc711b xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_4248d364-fd7a-4090-8adc-ea8ccd8afb46">
+                            <title xml:lang="de">T. 5 (Ende)</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                In <rend rend="bold">Ms</rend> ist am Ende des Taktes in der linken Hand des Klaviers ein Stechereivermerk mit Bleistift nachgetragen</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio3"/>
+                            <ptr type="categories" target="#Dynamik"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00008" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml# xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_75db15ab-9162-4098-9960-a5f1503eef1e">
+                            <title xml:lang="de">T. 6 Zz. 1&amp;3, Klavier (rechte Hand)</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                In <rend rend="bold">Ms</rend> fehlen (aus Platzgründen) die Staccati</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio2"/>
+                            <ptr type="categories" target="#Artikulation"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="edirom_annotation_00008" plist="xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_47dde5ab-b8ff-4004-bfde-b65ea5a9a15e.xml# xmldb:exist:///db/apps/edirom/edition-example/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml#edirom_measure_75db15ab-9162-4098-9960-a5f1503eef1e">
+                            <title xml:lang="de">T. 6 Zz. 3, Klavier (linke Hand)</title>
+                            <title xml:lang="en"></title>
+                            <p xml:lang="de">
+                                In <rend rend="bold">Ms</rend> steht die Viertel <rend rend="italic">f</rend> auf einer Rasur (vormals <rend rend="italic">e</rend>)</p>
+                            <p xml:lang="en"></p>
+                            <ptr type="priority" target="#AnnotPrio3"/>
+                            <ptr type="categories" target="#RasurTektur"/>
                         </annot>
                     </annot>
                 </notesStmt>
@@ -95,10 +161,6 @@
                             <name xml:lang="de">Pedalsetzung</name>
                             <name xml:lang="en">pedal</name>
                         </term>
-                        <term classcode="ediromCategory" xml:id="Phrasierungsboegen">
-                            <name xml:lang="de">Phrasierungsbögen</name>
-                            <name xml:lang="en">phrasing</name>
-                        </term>
                         <term classcode="ediromCategory" xml:id="Bogensetzung">
                             <name xml:lang="de">Bogensetzung</name>
                             <name xml:lang="en">slurs</name>
@@ -118,14 +180,6 @@
                         <term classcode="ediromCategory" xml:id="Streichung">
                             <name xml:lang="de">Streichung</name>
                             <name xml:lang="en">deletion</name>
-                        </term>
-                        <term classcode="ediromCategory" xml:id="Choral">
-                            <name xml:lang="de">Choral</name>
-                            <name xml:lang="en">chorale</name>
-                        </term>
-                        <term classcode="ediromCategory" xml:id="Choraltext">
-                            <name xml:lang="de">Choraltext</name>
-                            <name xml:lang="en">chorale text</name>
                         </term>
                         <term classcode="ediromCategory" xml:id="Liedtext">
                             <name xml:lang="de">Liedtext</name>
