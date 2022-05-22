@@ -28,13 +28,7 @@
     </meiHead>
     <music>
         <facsimile>
-            <surface lrx="3266" lry="4089" n="[1]" label="[1]" ulx="0" uly="0" xml:id="surface_a6a80c78-f933-4129-bda1-29e5dc37f4dd">
-                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295248" type="facsimile" width="3266" xml:id="graphic_4ecc6be1-8660-4ced-95e0-59a91d84de39"/>
-            </surface>
-            <surface lrx="3266" lry="4089" n="[2]" label="[2]" ulx="0" uly="0" xml:id="surface_6e0bffe6-1b0e-46da-b34b-1f37dd87914d">
-                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295249" type="facsimile" width="3266" xml:id="graphic_a3c66e59-5f6c-4b0b-9614-01a7be3ec6a8"/>
-            </surface>
-            <surface lrx="3266" lry="4089" n="[3]" label="[3]" ulx="0" uly="0" xml:id="surface_81b124b9-5d8f-4869-b95a-515a665db94f">
+            <surface lrx="3266" lry="4089" n="1" ulx="0" uly="0" xml:id="surface_a6a80c78-f933-4129-bda1-29e5dc37f4dd">
                 <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295250" type="facsimile" width="3266" xml:id="graphic_4ecc6be1-8660-4ced-95e0-59a91d84de39"/>
             </surface>
             <surface lrx="3266" lry="4089" n="2" label="2" ulx="0" uly="0" xml:id="surface_838fc989-0194-4b18-9627-8e04cfe7e91c">
@@ -90,12 +84,6 @@
             </surface>
             <surface lrx="3266" lry="4089" n="[6]" label="[6]" ulx="0" uly="0" xml:id="surface_5051a6c4-add9-4db9-94f3-e1229f7a8212">
                 <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295253" type="facsimile" width="3266" xml:id="graphic_3dcb150b-0f6f-40e9-b424-4f495ca9e72d"/>
-            </surface>
-            <surface lrx="3266" lry="4089" n="[7]" label="[7]" ulx="0" uly="0" xml:id="surface_d11e4b83-5436-4edd-be1e-ee3e59b5525a">
-                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295254" type="facsimile" width="3266" xml:id="graphic_376520e3-e1b2-4f0b-99bf-3f8ee0b5f573"/>
-            </surface>
-            <surface lrx="3266" lry="4089" n="[8]" label="[8]" ulx="0" uly="0" xml:id="surface_9c08b3c3-7fb5-4810-8b66-3d609f820e91">
-                <graphic height="4089" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/6295255" type="facsimile" width="3266" xml:id="graphic_05778ba9-5afe-4671-8157-ade085be69f3"/>
             </surface>
         </facsimile>
         <body>
