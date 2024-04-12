@@ -23,4 +23,4 @@ cd /Users/User/GitHub/EditionExample
 ```terminal
 ant
 ```
-The default build target `xar` of `build.xml` will generate a folder "build" in the EditionExample-folder containing `EditionExample-VERSION.xar` e.g. `EditionExample-0.1.xar`. This file can be deployed in your _eXist-db_.
+The default build target `xar` of `build.xml` will generate a folder "dist" in the Repository containing `EditionExample-VERSION.xar` e.g. `EditionExample-0.1.xar`. This file can be uploaded to your _eXist-db_ instance.
