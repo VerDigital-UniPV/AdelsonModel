@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="deploy" name="EditionExample" basedir=".">
+<project default="xar" name="EditionExample" basedir=".">
+    
+    <!-- import default properties -->
+    <property file="build.properties"/>
     <xmlproperty file="expath-pkg.xml"/>
     
-    <!-- where to find eXist-dist for auto deploy -->
-    <property name="exist5.libs" value="/Users/opt/exist-distribution-5.3.1/lib"/>
-    <property name="exist.db" value="xmldb:exist://localhost:8080/exist/xmlrpc/db"/>
-    <property name="exist.user" value="admin"/>
-    <property name="exist.pass" value=""/>
-    
-    <property name="project.app" value="EditionExample"/>
     <property name="project.version" value="${package(version)}"/>
     <property name="project.name" value="${package(name)}"/>
-    <property name="build.dir" value="build"/>
     
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/"/>
+        <mkdir dir="${dist.dir}"/>
+        <zip basedir="." destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/ ${dist.dir}/"/>
+        <antcall target="clean"/>
     </target>
     
     <target name="clean">
-        <delete dir="build/"/>
-    </target>
-    
-    <target name="deploy" depends="clean, xar">
-        <path id="classpath.eXist5">
-            <fileset dir="${exist5.libs}" erroronmissingdir="no">
-                <include name="*.jar"/>
-            </fileset>
-        </path>
-        <typedef resource="org/exist/ant/antlib.xml" uri="http://exist-db.org/ant">
-            <classpath refid="classpath.eXist5"/>
-        </typedef>
-        
-        <!-- store xar-file in eXist-db -->
-        <xdb:store xmlns:xdb="http://exist-db.org/ant"
-            uri="${exist.db}/tmp"
-            createcollection="true"
-            createsubcollections="true"
-            user="${exist.user}"
-            password="${exist.pass}"
-            failonerror="true">
-            <fileset file="${build.dir}/${project.app}-${project.version}.xar"/>
-        </xdb:store>
-        
-        <!-- Deploy the xar -->
-        <xdb:xquery  xmlns:xdb="http://exist-db.org/ant"
-            uri="${exist.db}"
-            user="${exist.user}"
-            password="${exist.pass}">
-            (
-            if("${project.name}" = repo:list()) then (
-            repo:undeploy("${project.name}"),
-            repo:remove("${project.name}")
-            )
-            else (),
-            repo:install-and-deploy-from-db("/db/tmp/${project.app}-${project.version}.xar")
-            )
-        </xdb:xquery>
+        <delete dir="${build.dir}"/>
     </target>
 </project>
