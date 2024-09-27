@@ -9,13 +9,8 @@
     <property name="project.name" value="${package(name)}"/>
     
     <target name="xar">
-        <mkdir dir="${build.dir}"/>
         <mkdir dir="${dist.dir}"/>
-        <zip basedir="." destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/ ${dist.dir}/"/>
-        <antcall target="clean"/>
+        <zip basedir="." destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${dist.dir}/"/>
     </target>
     
-    <target name="clean">
-        <delete dir="${build.dir}"/>
-    </target>
 </project>
