@@ -1,3 +1,14 @@
+Prototype digital music edition for Bellini's _Adelson e Salvini_
+
+# Adelson Model
+Containing 
+Numbers 1, 3 and 5
+
+Plus Libretto
+
+
+Created using Edirom Edition Example as template
+
 # Edition Example
 This example edition is to build a sample edition data set that can be installed in [eXist-db](https://github.com/eXist-db/exist) alongside [_Edirom Online_](https://github.com/Edirom/Edirom-Online). The data set is to provide two perspectives on Edirom Online:
 
