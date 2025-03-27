@@ -91,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <names>
                                 <name>N.1</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="">
+                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero1.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Main version</name>
                                     <name xml:lang="en">Main version</name>
@@ -104,13 +104,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </names>
                             </navigatorItem>
                         </navigatorCategory>
-                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="">
+                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero3.xml[width:900]">
                             <names>
                                 <name xml:lang="de">N.3</name>
                                 <name xml:lang="en">N.3</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-4-1-3" sortNo="3" targets="">
+                        <navigatorItem xml:id="navItem-2-4-1-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero5.xml[width:900]">
                             <names>
                                 <name xml:lang="de">N.5</name>
                                 <name xml:lang="en">N.5</name>
@@ -130,7 +130,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </navigatorItem>
                         </navigatorCategory>
                     </navigatorCategory>
-                    <navigatorCategory xml:id="navCategory-2-5" sortNo="5" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml[width:900]">
+                    <navigatorCategory xml:id="navCategory-2-5" sortNo="5" targets="">
                         <names>
                             <name xml:lang="de">Libretto</name>
                             <name xml:lang="en">Libretto</name>
@@ -142,7 +142,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="en">Fioravanti's version</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml[width:900]">
+                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml[width:600]">
                             <names>
                                 <name xml:lang="de">Bellini's first version</name>
                                 <name xml:lang="en">Bellini's first version</name>
