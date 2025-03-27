@@ -1,0 +1,685 @@
+/* CSS from  Open-Faust https://radar4culture.radar-service.eu/radar/de/dataset/uupxmgkq94r0jpsk */
+/* add prefs.xml file in root dir: */
+/*
+<!--
+ *  Edirom Edition Example
+ *  Copyright (C) 2017 Virtueller Forschungsverbund Edirom <info@edirom.de>
+ *  http://www.edirom.de
+ *
+ *  Edirom Online is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  Edirom Online is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Edirom Online.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *  ID: $Id$
+ -->
+<?xml-model href="https://raw.githubusercontent.com/Edirom/edirom-edition-schema/develop/prefs/v1.0/prefs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/edirom-edition-schema/develop/prefs/v1.0/prefs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<prefs>
+    <version>1.0</version>
+    <entries>
+        <entry key="application_language" value="en"/>
+        <entry key="annotation_layout" value="EdiromOnline.view.window.annotationLayouts.AnnotationLayout2"/>
+
+        <!-- path in exist-db of the edition root -->
+        <entry key="edition_path" value="/db/apps/edirom/open-faust/"/>
+
+        <!-- digilib settings -->
+        <entry key="image_server" value="digilib"/>
+        <entry key="image_prefix" value="https://digilib.lilienteich.de/open-faust/"/>
+
+        <!-- load custom css for faust edition -->
+        <entry key="additional_css_path" value="xmldb:exist:///db/apps/edirom/open-faust/content/edition.css"/>
+
+        <!-- XQuery -->
+        <!-- OPERA custom Text Edition stuff -->
+        <entry key="data/xql/getText.xql" value="../../../exist/rest/db/apps/edirom/open-faust/content/xql/getText.xql"/>
+    </entries>
+</prefs>
+*/
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    min-width: 4em;
+    /* color: rgb(0, 0, 0) */
+}
+
+hi {
+    font-style: italic;
+}
+
+div.lg {
+    display: block;
+    padding-left: 4em
+}
+
+span.reg {
+    font-style: normal;
+    color:#9e0303
+}
+
+[rend="right"] {
+    text-align: right;
+}
+
+span.ital {
+    font-style:italic;
+}
+
+span.name {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-style: normal;
+}
+div.speaker {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-size: 1.0rem !important;
+    color: #000000;
+    letter-spacing: 0.4px;
+    text-align: left;
+    line-height: 16px;
+    margin-top: 5px;
+    margin-bottom:  10px !important;
+}
+span.add {
+    font-style: italic;
+    font-weight: bold;
+    color: #9e0303;
+}
+
+span.it {
+    font-style: italic;
+}
+
+span.del {
+    text-decoration: line-through;
+    color: hwb(221 31% 10%);
+}
+/* editorial */
+/* default values in apps/Edirom-Online/resources/EdiromOnline-all_01.css */
+.textViewContent h1 {
+/*     font-size: 1.50313rem !important; */
+    font-size: 1.0rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 2em 1em 1em 1em;
+}
+.textViewContent h2 {
+    font-weight: bold;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 0.91406rem !important;
+    font-style: normal;
+    text-align: center;
+    color: #777777;
+    margin: 2.5em auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.textViewContent h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.6em
+}
+div.textViewContent div.tei_body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8125rem;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 1.2em !important;
+    margin-bottom: 100px;
+}
+div.textViewContent div.toc ol {
+    font-size: 0.69875rem;
+    font-family: Verdana, sans-serif;
+    line-height: 1.75 !important;
+    background-color: #ededed;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1.5em 3em;
+    list-style: none;
+}
+
+/* line */
+div.textViewContent section.editorial div.line {
+    margin: 6em 30em 3em 6.75em;
+    border-bottom: 1px solid #333;
+}
+
+/* footnotes in SD */
+div.textViewContent section.editorial div.line {
+    margin: 6em 30em 3em 1em;
+    border-bottom: 1px solid #333;
+    background-color: green;
+}
+div.textViewContent section.editorial div.footnotes {
+    line-height: 1.5;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    text-align: justify;
+}
+div.textViewContent section.editorial div.note {
+    font-family: Verdana, sans-serif;
+    font-size: 0.69875rem;
+    color: #494949;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    text-indent: 0
+}
+div.textViewContent section.editorial div.note sup {
+    vertical-align: super
+}
+div.textViewContent section.editorial div.citquote {
+    font-family: Verdana, sans-serif;
+    font-size: 0.69875rem !important;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 1.8em 2em
+}
+div.textViewContent section.editorial span.noteLabel {
+    display: none;
+    margin-left: 0.4em
+}
+div.textViewContent section.editorial div.footnotes a {
+    text-decoration: none;
+}
+div.textViewContent section.editorial div.footnotes a sup.hi {
+    background-color: #ededed !important;
+    border-radius: 2px 2px 2px 2px;
+    padding: 2px 2px 0;
+    font-weight: normal;
+}
+div.textViewContent section.editorial div.note {
+    font-family: Verdana, sans-serif;
+    font-size: 0.69875rem;
+    color: #494949;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    text-indent: 0;
+}
+
+/* tables */
+
+table {
+    border-spacing: 0;
+}
+
+.textViewContent table, .textViewContent table tr, .textViewContent table td {
+    border: medium none;
+    margin-bottom: 0em;
+    font-family: Verdana, sans-serif;
+    font-size: 0.8125rem;
+    padding-bottom: 0.67em;
+    line-height: 1.33em;
+}
+div.textViewContent table td.celllabel {
+    font-weight: bold;
+    color: #777777;
+    max-width: 25em;
+}
+div.textViewContent table td.rightcolumn {
+    min-width: 6em;
+}
+div.textViewContent table td.tableau {
+    text-transform: none;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+div.textViewContent table td {
+    vertical-align: baseline
+}
+.textViewContent div.titlePage {
+    border-bottom: 0px;
+}
+div.textViewContent div.titlePart {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 24px;
+}
+.textViewContent div.titlePart.main {
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 1em;
+}
+.textViewContent div.editor {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    line-height: 1.33em;
+    font-size: 12px;
+}
+div.textViewContent div.SourceDescription div a {
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.link_ref {
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    cursor: pointer ;
+    color: #73025d;
+    font-size: 22px;
+}
+
+/*Regeln für die TEXT EDITION*/
+table.librettoEdition td.technicalColumnLeft {
+    min-width: 50px;
+    padding-right: 5px;
+    text-align: right;
+    padding-bottom: 0; 
+}
+/* adapt width to longest text line of the piece (l-544) */
+table.librettoEdition td.text1Column {
+    min-width: 401px !important;
+    max-width: 401px !important;
+    width: 401px !important;
+}
+table.librettoEdition td.text1Column {
+    background-color: #F5F5F5;
+    padding: 0 5px;
+    border-left: 0.5px solid #ccc;
+    border-right: 0.5px solid #ccc;
+}
+table.librettoEdition td.annotColumn {
+    min-width: 50px;
+    vertical-align: baseline;
+    text-align: left;
+}
+table.librettoEdition tr:first-child .text1column {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/*header*/
+table.librettoEdition span.titlePart.type_main {
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 1em;
+}
+table.librettoEdition span.titlePart {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+table.librettoEdition span.titlePart.type_genre {
+    display: block;
+    margin-bottom: 24px;
+}
+table.librettoEdition span.titlePart.type_editor {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 60px;
+    font-size: 12px;
+}
+table.librettoEdition {
+    text-align: center;
+    font-size: 12px;
+}
+table.librettoEdition span.verseNumber, table.librettoEdition span.musicalNumber {
+    display: inline-block;
+    color: #666666;
+    font-size: 10.2px;
+}
+table.librettoEdition span.musicalNumber {
+    font-weight: bold;
+    vertical-align: baseline;
+    margin-top: 20px; 
+   margin-bottom:0px
+}
+table.librettoEdition span.head {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+table.librettoEdition span.type_musNr {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+table.librettoEdition span.head.type_act {
+    margin-bottom: -20px;
+    font-weight: 600;
+}
+table.librettoEdition span.castItem {
+    display: block;
+    text-align: left
+}
+
+table.librettoEdition span.roleName {
+    display: inline-block;
+    text-align: left;
+    font-size: 12.5px;
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+}
+table.librettoEdition span.stage span.roleName {
+    font-style: normal;
+    padding-left: 0; 
+}
+
+table.librettoEdition span.stage {
+ 
+     margin: 5px 0px 5px 0px;
+    color: black;
+    font-size: 12px !important;
+}
+
+/*Text*/
+table.librettoEdition td span.l {
+    font-size: 12px;
+}
+
+table.librettoEdition span.div {
+    display: block;
+    text-indent: 1em;
+}
+table.librettoEdition span.speaker {
+    display: inline-block;
+    font-size: 12.5px; 
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-style: normal;
+    font-variant: small-caps;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 5px;    
+}
+table.librettoEdition span.speaker.rend_margin_top {
+    margin-top: 45px;
+}
+/*table.librettoEdition span.type_stage {
+    font-style: italic;
+}
+*/
+table.librettoEdition td span.p-in-sp {
+    font-variant: normal;
+    text-align: left;
+    display: block;
+    line-height: 16px
+}
+
+
+/* .textViewContent span.stage {
+    font-style: italic;
+} */
+
+table.librettoEdition span.stage.type_setting {
+    margin-top: 12px;
+    margin-bottom: 0; 
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+table.librettoEdition span.stage.type_setting_change {
+    margin-bottom: 12px;
+}
+
+
+table.librettoEdition span.stage.type_cast {
+    margin-top: 0px;
+    margin-bottom: 5px
+}
+
+table.librettoEdition span.stage.type_stageAfterSpeaker {
+   display: inline; 
+   text-transform: none;
+    font-style: italic;
+    font-variant: normal;
+    letter-spacing: 0px
+}
+
+table.librettoEdition span.head.type_main {
+    font-size: 24px;
+}
+table.librettoEdition span.head.type_scene {
+    text-transform: uppercase;
+    font-size: 16px;
+    /*margin-top: 20px;*/
+}
+table.librettoEdition span.head.type_tableau {
+    text-transform: none;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+table.librettoEdition span.hi.rend_antiqua {
+    text-transform: inherit;
+}
+
+table.librettoEdition span.lg {
+    margin-left: 0px;
+    padding-left: 3em
+}
+
+table.librettoEdition span.title {
+    display: inline;
+    font-style: italic}
+
+table.librettoEdition {
+    white-space: normal;
+    line-height: 1.7em;
+}
+
+able.librettoEdition tr:first-child .text1column {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+table.librettoEdition .p {
+    display: block;
+    margin-top: 1.0em;
+    line-height: 1.7em;
+    text-align: justify;
+    /*text-indent: 1em;*/
+}
+table.librettoEdition .p.p_first {
+    margin: 0.7em 0 0 0;
+}
+
+table.librettoEdition .seg {
+    display: inline;
+    font-size: 12px;
+}
+table.librettoEdition .seg:before {
+    color: #666666;
+    font-size: 0.6em;
+    vertical-align: super;
+    content: attr(n); /*  " " attr(n); */
+}
+
+.rend_inline {
+    display: inline !important;
+}
+.rend_left {
+    text-align: left !important;
+}
+div.textEditionBox div.scrollCont {
+    top: 0px;
+    width: auto !important;
+}
+/*table.librettoEdition.TextEdition_1 span.lg {
+    display: block;
+    line-height: 1.7em;
+    text-align: left;
+}*/
+table.librettoEdition span.hi {
+    font-size: 1em !important;
+    font-variant: inherit !important;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+}
+table.librettoEdition td span.l {
+    font-variant: normal;
+    text-align: left;
+    display: block;
+    line-height: 1.7em;
+}
+table.librettoEdition td span.l.rend_indentlg {
+    padding-left: 3em;
+}
+table.librettoEdition td span.l.lg.type_paragraphl_first {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraph {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphl_last {
+    margin-bottom: 10px;
+    padding-left: 0em;
+}
+
+table.librettoEdition td span.l.lg.type_paragraphpart_Il_first {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_I {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_Il_last {
+    margin-bottom: 0px;
+    padding-left: 0em;
+}
+
+table.librettoEdition td span.l.lg.type_paragraphpart_Ml_first {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_M {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_Ml_last {
+    margin-bottom: 0px;
+    padding-left: 0em;
+}
+
+table.librettoEdition td span.l.lg.type_paragraphpart_Fl_first {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_F {
+    padding-left: 0em;
+}
+table.librettoEdition td span.l.lg.type_paragraphpart_Fl_last {
+    margin-bottom: 10px;
+    padding-left: 0em;
+}
+
+table.librettoEdition td span.l.type_stanzal_first {
+   padding-left: 3em;
+   margin-top: 10px;
+}
+table.librettoEdition td span.l.type_stanza {
+    padding-left: 3em;
+}
+table.librettoEdition td span.l.type_stanzal_last {
+    padding-left: 3em;
+     margin-bottom: 10px;
+}
+table.librettoEdition td span.l.part_Itype_stanzal_first {
+    padding-left: 3em;
+    margin: 10px 0 0 0em;
+}
+table.librettoEdition td span.l.part_Mtype_stanzal_first {
+    padding-left: 3em;
+    margin: 10px 0 0 0em;
+}
+table.librettoEdition td span.l.part_Ftype_stanzal_first {
+    padding-left: 3em;
+    margin: 10px 0 0 0em;
+}
+table.librettoEdition td span.l.rend_no_marginlg {
+    margin: 0px 0 0 0;
+}
+table.librettoEdition td span.l.synch_Ipart_Ilg:before {
+    content: "\23A7";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_Mpart_Ilg:before {
+    content: "\23AA";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_Fpart_Ilg:before {
+    content: "\23A9";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_Ilg:before {
+    content: "\23A7";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_Mlg:before {
+    content: "\23AA";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_Flg:before {
+    content: "\23A9";
+    font-size: 1em;
+}
+table.librettoEdition td span.l.synch_I:before {
+    content: "\23A7";
+    font-size: 1em;
+    left: 0em !important;
+}
+table.librettoEdition td span.l.synch_M:before {
+    content: "\23AA";
+    font-size: 1em;
+    left: 0em !important;
+}
+table.librettoEdition td span.l.synch_F:before {
+    content: "\23A9";
+    font-size: 1em;
+    left: 0em !important;
+}
+table.librettoEdition td span.supplied {
+    display: inline
+}
+table.librettoEdition span.supplied.reason_tab {
+    visibility: hidden;
+    font-size: 12px;
+    margin-left: 0px;
+}
+table.librettoEdition td span.supplied.reason_editorial:before {
+    content: "["
+}
+table.librettoEdition td span.supplied.reason_editorial:after {
+    content: "]"
+}
+table.librettoEdition td span.ref {
+    cursor: pointer;  
+    color: #1354B5;
+}
+table.librettoEdition td span.supplied.reason_editorialref:before {
+    content: "["
+}
+table.librettoEdition td span.supplied.reason_editorialref:after {
+    content: "]"
+}
+/* end Text Edition */
