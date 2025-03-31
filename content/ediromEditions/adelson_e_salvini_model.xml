@@ -6,13 +6,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="adelson_e_salvini_model">
     <editionName>Adelson e Salvini: Model Digital Edition</editionName>
     <languages>
-        <language xml:lang="de" complete="true"/>
+        <language xml:lang="en" complete="true"/>
     </languages>
     <preferences xlink:href="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/prefs.xml"/>
     <works>
-        <work xml:id="edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9"
+        <work xml:id="edirom_work_adelson"
             sortNo="1"
-            xlink:href="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/works/edirom_work_291f7ad8-9bb8-45eb-9186-801dec2f80d9.xml">
+            xlink:href="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/works/edirom_work_adelson.xml">
             <navigatorDefinition>
                 <navigatorCategory xml:id="navCategory-1" sortNo="1">
                     <names>
