@@ -162,28 +162,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <name xml:lang="en">III. Critical Report</name>
                         <name xml:lang="it">III. Rapporto critico</name>
                     </names>
-                    <navigatorItem xml:id="navItem-3-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/init-test/content/texts/source_evaluation.xml">
+                    <navigatorItem xml:id="navItem-3-1" sortNo="1" targets="">
                         <names>
                             <name xml:lang="de">Table of Sources</name>
                             <name xml:lang="en">Source Evaluation</name>
                             <name xml:lang="it">Valutazione della fonte</name>
                         </names>
                     </navigatorItem>  
-                    <navigatorItem xml:id="navItem-3-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/init-test/content/sources/senzaTitolo.xml#mqkivgm2">
+                    <navigatorItem xml:id="navItem-3-2" sortNo="2" targets="">
                         <names>
                             <name xml:lang="de">Abkürzungen</name>
                             <name xml:lang="en">Abbreviations</name>
                             <name xml:lang="it">Abbreviazioni</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-3-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/init-test/content/sources/edirom_source_2b2b26e5-c85d-4edd-8806-fe126ce390a2.xml">
+                    <navigatorItem xml:id="navItem-3-3" sortNo="3" targets="x">
                         <names>
                             <name xml:lang="de">Source Descriptions</name>
                             <name xml:lang="en">Source Descriptions</name>
                             <name xml:lang="it">Source Descriptions</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-3-4" sortNo="4" targets="xmldb:exist:///db/apps/edirom/init-test/content/critical_report/critical_notes.xml">
+                    <navigatorItem xml:id="navItem-3-4" sortNo="4" targets="">
                         <names>
                             <name xml:lang="de">Critical Notes</name>
                             <name xml:lang="en">Critical Notes</name>
@@ -203,7 +203,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <name xml:lang="en">Music</name>
                             <name xml:lang="it">Musica</name>
                         </names>
-                    <navigatorItem xml:id="navItem-4-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/init-test/content/sources/numero3.xml">
+                    <navigatorItem xml:id="navItem-4-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero3.xml">
                         <names>
                             <name xml:lang="de">A1</name>
                             <name xml:lang="en">A1</name>
