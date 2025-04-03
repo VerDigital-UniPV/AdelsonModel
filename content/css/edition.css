@@ -60,10 +60,20 @@ div.lg {
     padding-left: 4em
 }
 
+div.trailer {
+    margin-top: 1.5em;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.2em
+}
+
 span.reg {
     font-style: normal;
     color:#9e0303
 }
+
+
 
 [rend="right"] {
     text-align: right;
@@ -91,7 +101,6 @@ div.speaker {
 }
 span.add {
     font-style: italic;
-    font-weight: bold;
     color: #9e0303;
 }
 
