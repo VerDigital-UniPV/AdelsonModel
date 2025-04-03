@@ -300,12 +300,12 @@
                      <sp who="#stru">
                         <speaker rend="addition">Stru.</speaker>
                         <lg type="stanza">
-                           <add resp="cbm">&lt;</add>
-                           <l n="36" rend="indent"><!--&lt;-->&#60;Geronio ancor non viene!</l>
+                           <add resp="cbm"></add>
+                           <l n="36" rend="indent">&#160;&#160;&#160;&lt;Geronio ancor non viene!</l>
                            <l n="37">Ogni indugio m’è peso,</l>
                            <l n="38">m’è sagro ogni momento... Ah! sì... vedremo!</l>
                            <l n="39">Furibondo mio cor per poco aspetta:</l>
-                           <!-- 40-->                 <l n="40">sarai contento appieno! Avrai vendetta!</l>
+<!-- 40-->                 <l n="40">sarai contento appieno! Avrai vendetta!</l>
                         </lg>
                         <lg type="stanza">
                            <l n="41" rend="indent">&#160;&#160;&#160;Tu provi un palpito</l>
@@ -322,7 +322,7 @@
                            <!--50-->                  <l n="50">riporto il vanto</l>
                            <l n="51">l’idea che m’agita</l>
                            <l n="52">compir saprò.&gt;</l>
-                           <add resp="cbm">&gt;</add></lg>                        
+                           <add resp="cbm"></add></lg>                        
                      </sp>
                      <stage>
                         [<hi rend="italic">esce GERONIO</hi>]
@@ -472,7 +472,7 @@
    </sp>
 </div3>
 <div3 type="dialog">   
-   <sp who="#bon">      
+   <sp who="#bon" xml:lang="nap">      
             <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la 
                digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe 
                dagl’immancabili appostatori! ahù! Don Bonifà? mercante de 
@@ -929,7 +929,7 @@
                <stage><name>Salvini</name> e <name>detta</name>; indi tutti come saranno indicati.</stage>
                <sp who="#sal">
                   <speaker>SAL.</speaker>
-                  <p>È il vostro cuore presago, o bella Nelly... <stage>(coraggio!)</stage></p>
+                  <p>È il vostro cuore presago, o bella Nelly... (coraggio!)</p>
                </sp>
                <sp who="#nel">
                   <speaker>NEL.</speaker>
@@ -967,7 +967,7 @@
                </sp>
                <sp who="#nel">
                   <speaker>NEL.</speaker>
-                  <p>Oh cielo! <stage rend="right">(dà un grido)</stage></p>
+                  <p>Oh cielo! <stage rend="right">(<hi rend="i">dà un grido</hi>)</stage></p>
                </sp>
                <sp who="#sal">
                   <speaker>SAL.</speaker>
@@ -1161,10 +1161,9 @@
                         <l>un tormento assai maggior!</l>
                      </lg>
                   </sp>
-<!-- it looks like this stage direction is actually justified left. but seems like ought to be right  -->
                   <stage rend="right">(<hi rend="i">qui da dentro si sente gridare Bonifacio</hi>)</stage>
                   
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l>Addò site? allegramente?</l>
@@ -1187,7 +1186,7 @@
                      </lg>
                      <stage rend="right">(<name>Bonifacio</name> <hi rend="i">vien fuora</hi>)</stage>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l>Oh Maddà! no paraguanto</l>
@@ -1202,7 +1201,7 @@
                         <l>Ah! ti spiega! qual novella?</l>
                      </lg>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l part="I">Mo ven’isso...</l>
@@ -1214,7 +1213,7 @@
                         <l part="F">Chi? favella!</l>
                      </lg>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l part="I">Isso! chi!</l>
@@ -1226,7 +1225,7 @@
                         <l part="M">Ah desso!</l>
                      </lg>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l part="F">Disso,</l>
@@ -1285,18 +1284,18 @@
                      <speaker>Sal.</speaker>
                      <lg>
                         <l>(Oh qual crucio! oh gelosia!</l>
-                        <!-- angle brackets -->
-                        <note>Il mio cor da duolo oppresso mi tormenta, che in me stesso me trovar io più non so.</note>
-                        <l>)</l>
+                        <note><add><l>&lt;Il mio cor da duolo oppresso</l>
+                        <l>mi tormenta, che in me stesso</l> 
+                        <l>me trovar io più non so.&gt;)</l></add></note>
                      </lg>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <lg>
                         <l>(Chisto abbotta! arrassosìa!</l>
-                        <!-- angle brackets -->
-                        <note>È mpazzuto e vall’appresso, nce vorria adesso, adesso nna nsagnia comifò.</note>
-                        <l>)</l>
+                        <note><add><l>&lt;È mpazzuto e vall’appresso,</l>   
+                         <l>nce vorria adesso, adesso</l> 
+                         <l>nna nsagnia comifò.&gt;)</l></add></note>
                      </lg>
                   </sp>
                   <sp who="#nel">
@@ -1307,11 +1306,10 @@
                         <l>Giusto ciel! la mia costanza</l>
                         <l>tu corona per pietà!</l>
                      </lg>
-                     <stage rend="right">(<hi rend="i">via</hi>)</stage>
+                     <note><stage rend="right">(<hi rend="i">via</hi>)</stage></note>
                   </sp>
-                  <stage>(<name>Salvini</name> via disperato. Dal folto del boschetto <name>Madama Rivers</name>, <name>Fanny</name>, 
+                  <stage rend="right">(<name>Salvini</name> via disperato. Dal folto del boschetto <name>Madama Rivers</name>, <name>Fanny</name>, 
                      <name>Geronio</name>, e <name>Coro</name> di Pastori, e <name>Bonifacio</name> è in iscena.)</stage>
-                  <stage>Qui, qui l’attenderemo, or dal boschetto ei viene.</stage>
                   <sp who="#mad">
                      <speaker>Mad.</speaker>
                      <lg>
@@ -1365,7 +1363,7 @@
                      <l>spiegare al buon padrone</l>
                      <l>da alcun di noi si dè.</l>
                   </sp>
-                  <sp who="#bon">
+                  <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <l>Zitto mo ce pens’io,</l>
                      <l>lassate fare a me.</l>
@@ -1392,7 +1390,7 @@
                      <l>alla sua serenità!</l>
                   </sp>
                   <sp who="#mad">
-                     <speaker>Mad</speaker>
+                     <speaker>Mad.</speaker>
                      <l part="I">Ah mio caro!</l>
                   </sp>
                   <sp who="#ade">
@@ -1405,25 +1403,25 @@
                      <l>Qui Geronio con rispetto...</l>
                   </sp>
                   <sp who="#fan">
-                     <speaker>FAN.</speaker>
+                     <speaker>Fan.</speaker>
                      <l>E Fanny s’inchina ancora...</l>
                   </sp>
                   <sp who="#coro">
-                     <speaker>CORO</speaker>
+                     <speaker>Coro</speaker>
                      <l>(Quando parli?)</l>
                   </sp>
-                  <sp who="#bon">
-                     <speaker>BON.</speaker>
+                  <sp who="#bon" xml:lang="nap">
+                     <speaker>Bon.</speaker>
                      <l>(Mo... mmalora!</l>
                      <l>Vi ca vuje cchiù me stonate!)</l>
                   </sp>
                   <sp who="#ade">
-                     <speaker>ADE.</speaker>
+                     <speaker>Ade.</speaker>
                      <l>Cari amici... oh quanto grate</l>
                      <l>sono a me le vostre gioie!</l>
                   </sp>
-                  <sp who="#bon">
-                     <speaker>BON.</speaker>
+                  <sp who="#bon" xml:lang="nap">
+                     <speaker>Bon.</speaker>
                      <l>Oh! Eccellentissimo!</l>
                      <l>Tra i Milordi Milordissimo...</l>
                      <l>tra i padroni padronissimo...</l>
@@ -1434,25 +1432,25 @@
                      <l>di sensi eroici...</l>
                   </sp>
                   <sp who="#ade">
-                     <speaker>ADE.</speaker>
+                     <speaker>Ade.</speaker>
                      <l>Ah! ah! ah! grazioso invero!</l>
                   </sp>
                   <sp who="#coro">
-                     <speaker>CORO</speaker>
+                     <speaker>Coro</speaker>
                      <l>Ei del nostro amor sincero</l>
                      <l>fu l’interprete, o signore:</l>
                      <l>ricevete il nostro cuore</l>
                      <l>pegno sol di eterna fé.</l>
                   </sp>
                   <sp who="#ade">
-                     <speaker>ADE.</speaker>
+                     <speaker>Ade.</speaker>
                      <l>Di mie cure il primo oggetto</l>
                      <l>voi sarete ognor per me.</l>
                      <l>Ma l’amico mio diletto?</l>
                      <l>Ma Salvini... ah dite! ov’è?</l>
                   </sp>
-                  <sp who="#bon">
-                     <speaker>BON.</speaker>
+                  <sp who="#bon" xml:lang="nap">
+                     <speaker>Bon.</speaker>
                      <l>(Oh mmalora!) Va trovanno</l>
                      <l>a’ quà bosco s’è ntanato...</l>
                   </sp>
@@ -1461,16 +1459,16 @@
                      <l>Egli è sempre concentrato...</l>
                   </sp>
                   <sp who="#fan #mad">
-                     <speaker>FAN. e MAD.</speaker>
+                     <speaker>Fan. e Mad.</speaker>
                      <l>Melanconico ed astratto....</l>
                   </sp>
                   <sp who="#ade">
-                     <speaker>ADE.</speaker>
+                     <speaker>Ade.</speaker>
                      <l>A me voli! il mio contento</l>
                      <l>egli venga a ricolmar!</l>
                   </sp>
                   <sp who="#coro">
-                     <speaker>Tutti col CORO</speaker>
+                     <speaker>Tutti col Coro</speaker>
                      <l>Di piacer la voce echeggi!</l>
                      <l>Ne risuoni ogni antro intorno!</l>
                      <l>Goda ognuno! ognun festeggi!</l>
@@ -1480,7 +1478,7 @@
                   </sp>
                </div3>
             </div2>
-            <trailer rend="center">FINE DELL’ATTO PRIMO</trailer>
+            <trailer rend="center">Fine dell'Atto Primo</trailer>
          </div1>
          <div1 n="II" type="Act">
             <div2 n="1" type="scene"/>
