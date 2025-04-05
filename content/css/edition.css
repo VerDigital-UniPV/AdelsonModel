@@ -55,6 +55,18 @@ hi {
     font-style: italic;
 }
 
+/* 
+hi[rend="bold"] {
+    font-weight: bold;
+    font-style: normal;
+}
+
+hi sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+*/
+
 div.lg {
     display: block;
     padding-left: 4em

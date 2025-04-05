@@ -66,6 +66,7 @@
             </tei:castList>
             
             -->
+            <!-- Reconsider NOTE element here for voice -->
             <castItem>
                <role xml:id="nel">Nelly</role>
                <note type="voice">soprano</note>
@@ -117,6 +118,8 @@
 <l xml:id="line-136">Da bin ich! – Welch erbärmlich Grauen</l>
                              
          -->
+         
+<!--         TODO: add #ref to castItem in NAME element-->
          <div1 n="I" type="Act">
             <head>ATTO PRIMO</head>
             <div2 n="1" type="Scene">
@@ -153,7 +156,7 @@
                      <l n="13">sarai Fortuna ognor!</l>
                   </lg>
                </sp>
-               <note xml:id="note1-l13">Note to Libretto at line 13</note>
+               <note xml:id="note-example">Note to Libretto at line 13</note>
                <sp who="#mad">
                   <speaker>Mad.</speaker>
                   <lg><l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
@@ -260,7 +263,7 @@
                
                <sp who="#fan">
                   <speaker>Fan.</speaker>
-                  <l n="">Ah! il mio maestro appunto...</l>
+                  <p>Ah! il mio maestro appunto...</p>
                </sp>
                <sp who="#mad">
                   <speaker>Mad.</speaker>
@@ -296,7 +299,6 @@
                <head rend="center">SCENA II.</head>
                <stage><hi rend="italic">Si avvanza <name>Struley</name> in abito da cacciatore con fucile alle mani<del resp="bellini">, e detto</del></hi></stage>
                <div3 type="musical-number" n="I/2">           
-
                      <sp who="#stru">
                         <speaker rend="addition">Stru.</speaker>
                         <lg type="stanza">
@@ -478,7 +480,7 @@
                dagl’immancabili appostatori! ahù! Don Bonifà? mercante de 
                salumme abbascio a la dogana! curribule, e capriolè da ccà, fratielle 
                smesteture, e gnore traseticce da llà... e tu sempe sbenave? ciuccio! 
-               te credive, ch’era pazzo?<note xml:id="note1_act1"/> e schiatta mo si vaje fujenno, e faje lo 
+               te credive, ch’era <note xml:id="note1-act1sc3">pazzo?</note> e schiatta mo si vaje fujenno, e faje lo 
                settescorza... mo che torna Milord lo patrone, le conto li guaje mieje: 
                o isso, ch’è tanto sbenneto, me sarva da sta piccola bagattella, o 
                attacco la mia muta a doje gamme, e me ne scappo Nsiberia. Llà po’ 
@@ -570,14 +572,14 @@
                      <l n="30">Dunque obbliarti... ah! mai!</l>
                      <l n="31">Prima morir... sì... scampo</l>
                      <l n="32">miglior non v’è, che morte:...</l>
-                     <l n="33">
+                     
                         <stage>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo disarma</hi>)</stage>
                         <!--  <note resp="#Microsoft_Office_User" when="2025-01-05T12:07:00Z">-->
                         <note resp="#Microsoft_Office_User">
                            This is different in Bellini’s autograph score</note>
                         <!--</note>-->
-                        )
-                     </l>
+                     <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>
+                     <l n="34">si frangano così.</l> 
                   </lg>
                </sp>
                
@@ -775,8 +777,12 @@
 <!-- *************************** SCENE 5 *********************************** -->
             
             <div2 type="scene" n="5">
-               <stage><name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e <name>FANNY</name>, e <hi>detto</hi></stage>
-               
+               <head rend="center">SCENA V.</head>
+               <note xml:id="note3-act1sc5"/>
+                <stage type="">
+                   <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e <name>FANNY</name>, e <hi>detto</hi>
+                </stage>
+               <div3 type="recitativo">            
                <sp who="#fan">
                   <speaker>Fan.</speaker>
                   <p>Come siete ingegnosa a fabbricarvi delle pene efimere, e senza sostegno!</p>
@@ -850,7 +856,7 @@
                <sp who="#mad">
                   <speaker>Mad.</speaker>
                   <p>Ma questo è troppo! oh quanto poco hai saputo conoscerlo finora!</p>
-               </sp>
+               </sp><note xml:id="note4-act1sc5"/>
                <stage rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
                
                <sp who="#bon" xml:lang="nap">
@@ -884,6 +890,7 @@
                   <p>Respiro! son sola alfine! uscite o miei sospiri dal profondo del cuore, e se un importuno riguardo vi ha trattenuti finora 
                      all’altrui presenza, liberi adesso confondetevi con queste aure felici, che un tempo respirai col mio bene!</p>
                </sp>
+               </div3>
                <div3 type="musical-number" n="I/5">               
                   <sp who="#nel">
                      <lg type="stanza">
@@ -898,12 +905,14 @@
                         <l>E al primo suo martir</l>
                         <l>ritorna l’alma!</l>
                      </lg>
+                     <note xml:id="note5-act1sc5">                     
                      <lg type="stanza">
                         <l>Al comparir di aprile</l>
                         <l>germoglia il prato, il fior;</l>
                         <l>rinnova al suo pastor</l>
                         <l>Clori l’affetto:</l> 
                      </lg>
+                     </note>
                      <lg type="stanza">
                         <l>parte, e poi riede il sole</l>
                         <l>di luce a sfavillar...</l>
@@ -923,7 +932,6 @@
 
 <!-- *************************** SCENE 6 *********************************** -->
 
-<!-- how to tag "detto"?, functions like a name element -->
             <div2 type="scene" n="6">
                <head rend="center">SCENA VI.</head>
                <stage><name>Salvini</name> e <name>detta</name>; indi tutti come saranno indicati.</stage>
@@ -1287,6 +1295,7 @@
                         <note><add><l>&lt;Il mio cor da duolo oppresso</l>
                         <l>mi tormenta, che in me stesso</l> 
                         <l>me trovar io più non so.&gt;)</l></add></note>
+
                      </lg>
                   </sp>
                   <sp who="#bon" xml:lang="nap">
