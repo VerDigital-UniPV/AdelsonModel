@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-model href="../../../Schema/BelliniLibrettoSchema.sch" 
+<?xml-model href="../../../Schema/BelliniLibrettoSchema.sch" 
             type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+            schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" 
@@ -36,6 +36,18 @@
             <normalization>
                <p/>
             </normalization>
+<!--            <correction>
+               <p>Codes can be used to categorize corrections identified in transcription: 
+                  For Example:
+                  <list type="gloss">
+                     <label>graphSubs</label>
+                     <item>Substitution of a more familiar word which resembles graphically
+                        what the scribe should be copying but which does not make sense in the
+                        context.</item>
+                     <!-\- ... -\->
+                  </list>
+               </p>
+            </correction>-->
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -109,16 +121,6 @@
       </front>
       <body>
          
-         <!-- For Line Numbering
-         
-         in Faust: 
-         
-<l xml:id="line-134">Meine Stimme zu hören, mein Antlitz zu sehn;</l>
-<l xml:id="line-135" n="135">Mich neigt dein mächtig Seelenflehn,</l>
-<l xml:id="line-136">Da bin ich! – Welch erbärmlich Grauen</l>
-                             
-         -->
-         
 <!--         TODO: add #ref to castItem in NAME element-->
          <div1 n="I" type="Act">
             <head>ATTO PRIMO</head>
@@ -159,17 +161,26 @@
                <note xml:id="note-example">Note to Libretto at line 13</note>
                <sp who="#mad">
                   <speaker>Mad.</speaker>
-                  <lg><l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
- <!--15-->        <l n="15">Adelson tornerà.</l></lg>
+                  <lg>
+                     <l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
+ <!--15-->        <l n="15">Adelson tornerà.</l>
+                  </lg>
                </sp>
                <sp who="#ger">
                   <speaker>Ger.</speaker>
-                  <l n="16" rend="indent">&#160;&#160;&#160;E a tanta buona gente</l>
-                  <l n="17">grato si mostrerà.</l>
-                  <l n="18" rend="indent"><hi rend="smallcaps">CORO</hi>&#160;&#160;&#160;Geronio! cosa dite?</l>
-                  <l n="19">Ci basta il suo ritorno:</l>
-<!--20-->         <l n="20">ah! così lieto giorno</l>
-                  <l n="21">quando spuntar saprà!</l>
+                  <lg>
+                     <l n="16" rend="indent">&#160;&#160;&#160;E a tanta buona gente</l>
+                     <l n="17">grato si mostrerà.</l>
+                  </lg>
+               </sp>
+               <sp who="#coro">
+                  <speaker>Coro</speaker>
+                  <lg>
+                     <l n="18" rend="indent">&#160;&#160;&#160;Geronio! cosa dite?</l>
+                     <l n="19">Ci basta il suo ritorno:</l>
+<!--20-->            <l n="20">ah! così lieto giorno</l>
+                     <l n="21">quando spuntar saprà!</l>
+                  </lg>
                </sp>
                <sp who="#mad">
                   <speaker>Mad.</speaker>
@@ -198,7 +209,7 @@
                <sp who="#mad">
                   <speaker>Mad.</speaker>
                   <lg>
-                     <l>Tanta felicità!</l>
+                     <l rend="indent">&#160;&#160;&#160;Tanta felicità!</l>
                   </lg>
                </sp>
                   <sp who="#fan">
@@ -212,7 +223,9 @@
             <sp who="#mad">
                <speaker>Mad.</speaker>
                <p>Andate pure o miei cari: i voti, che vi anima sul labbro un affetto
-               sincero, e che sapranno impetrare dal cielo il pronto ritorno di Milord,
+               sincero, e che sapranno impetrare dal 
+                  <choice resp="#cbm"><sic source="#na1816">Cielo</sic><corr>cielo</corr></choice> 
+               il pronto ritorno di Milord,
                saranno pel suo cuore grato, e benefico tanti altri teneri oggetti, onde
                sempre più interessarlo a vostro vantaggio.</p>
                <stage rend="right">(<hi rend="i">viano i contadini</hi>)</stage>
@@ -235,7 +248,9 @@
             <sp who="#mad">
                <speaker>Mad.</speaker>
                <p>Non è possibile: ama troppo la sua Nelly. Se fu per costargli la
-               vita la impreveduta perdita di lei, ora che un nume amico la rese a’ voti suoi,
+               vita la impreveduta perdita di lei, ora che un 
+                  <choice resp="#cbm"><sic source="#na1816">Nume</sic><corr>nume</corr></choice> 
+               amico la rese a’ voti suoi,
                saprà egli troncare ogni ostacolo, che per poco potesse prolungargli il
                di lei sospirato possesso.</p>
             </sp>
@@ -258,47 +273,58 @@
                <speaker>Mad.</speaker>
                <p>Che l’unica tua cura debba esser quella di apprendere le tue lezioni, 
                e proffittare delle amichevoli premure del tuo maestro Salvini, 
-               senza punto divagarti in frasi così leggere, e voluttuose.</p>
+               senza punto divagarti in frasi così 
+                  <choice><sic source="#na1816">leggiere</sic><corr resp="#cbm">leggere</corr></choice>, 
+               e voluttuose.</p>
             </sp>
                
-               <sp who="#fan">
-                  <speaker>Fan.</speaker>
-                  <p>Ah! il mio maestro appunto...</p>
-               </sp>
-               <sp who="#mad">
-                  <speaker>Mad.</speaker>
-                  <p>Non più, mi siegui: vado al fianco di Nelly: essa oltremodo è agitata:
-                     Adelson non le scrive da qualche settimana: io lo suppongo in
-                     viaggio: essa lo crede infedele, ed io per consolarla corro a dissipare i
-                     suoi ingiusti timori.</p>
-                  <!-- ADDed stage direction: con Geronio -->
-               </sp>
-               <stage rend="right">(<hi rend="italic">
-                  via</hi>&#160;[<hi rend="italic"><add resp="bellini">con Geronio</add></hi>])</stage>
-               <sp who="#fan">
-                  <speaker>
-                     <hi rend="smallcaps">Fan.</hi>
-                  </speaker>
-                  <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
-               </sp>
-               <stage rend="right">(<hi rend="italic">via</hi>)</stage>
+            <sp who="#fan">
+               <speaker>Fan.</speaker>
+               <p>Ah! il mio maestro appunto...</p>
+            </sp>
+            <sp who="#mad">
+               <speaker>Mad.</speaker>
+               <p>Non più, mi siegui: vado al fianco di Nelly: essa oltremodo è agitata:
+                  Adelson non le scrive da qualche settimana: io lo suppongo in
+                  viaggio: essa lo crede infedele, ed io per consolarla corro a dissipare i
+                  suoi ingiusti timori.</p>
+            </sp>
+            <stage rend="right">(<hi rend="italic">
+               via</hi>&#160;[<hi rend="italic"><add resp="bellini">con Geronio</add></hi>])</stage>
+            <sp who="#fan">
+               <speaker>
+                  <hi rend="smallcaps">Fan.</hi>
+               </speaker>
+               <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
+            </sp>
+            <stage rend="right">(<hi rend="italic">via</hi>)</stage>
+<app>
+<rdg source="#1816">            <sp who="#ger">
+               <speaker>Ger.</speaker>
+               <p>
+                  Son partite alla fine! non desiderava di meglio! Venisse adesso il
+                  <lb/>Colonnello Struley! eccolo! puntuale all’appuntamento!</p>
+            </sp>
+</rdg>
+   <rdg source="1825"/>
+</app>          
+         </div2>
 
-               <!-- Last <sp> speech: CUT in 1825 -->
-               <!-- NB: DEL element needs to go inside p . which leaves the speaker
-               as if the speaker is saying nothing -->
-               <sp who="#ger">
-                  <speaker>Ger.</speaker>
-                  <p><del>Son partite alla fine! non desiderava di meglio! Venisse adesso il
-                     <lb/>Colonnello Struley! eccolo! puntuale all’appuntamento!</del></p>
-               </sp>
-            </div2>
-
-<!-- *************************** SCENE 2 *********************************** -->
+<!-- *************************** SCENE 2 ******************************************************************* -->
+<!-- *************************** SCENE 2 ******************************************************************* -->
+<!-- *************************** SCENE 2 ******************************************************************* -->
+<!-- *************************** SCENE 2 ******************************************************************* -->
 
             <div2 n="2" type="scene">
                <head rend="center">SCENA II.</head>
                <stage><hi rend="italic">Si avvanza <name>Struley</name> in abito da cacciatore con fucile alle mani<del resp="bellini">, e detto</del></hi></stage>
-               <div3 type="musical-number" n="I/2">           
+ 
+               <div3 type="lyric" n="I/2">
+                  <head/>
+<app>
+    <rdg source="1816"/>
+    <rdg source="1825">         
+               
                      <sp who="#stru">
                         <speaker rend="addition">Stru.</speaker>
                         <lg type="stanza">
@@ -321,17 +347,19 @@
                            <l n="47" rend="indent">&#160;&#160;&#160;Se tu insensibile</l>
                            <l n="48">ti mostri al pianto,</l>
                            <l n="49">se sovra i gemiti</l>
-                           <!--50-->                  <l n="50">riporto il vanto</l>
+<!--50-->                  <l n="50">riporto il vanto</l>
                            <l n="51">l’idea che m’agita</l>
                            <l n="52">compir saprò.&gt;</l>
                            <add resp="cbm"></add></lg>                        
                      </sp>
-                     <stage>
+                  <stage rend="right">
                         [<hi rend="italic">esce GERONIO</hi>]
                      </stage>
 
-               </div3>
-<div3 type="dialog">
+               </rdg>
+ </app>
+</div3>
+<div3 type="parlato">
    <sp who="#stru">
                   <p>Io era già lì appiattato fin dall’aurora o Geronio.</p>
                </sp>
@@ -397,18 +425,22 @@
    </div3>
 </div2>
 
-<!-- *************************** SCENE 3 *********************************** -->
-
+<!-- *************************** SCENE 3 ******************************************************************* -->
+<!-- *************************** SCENE 3 ******************************************************************* -->
+<!-- *************************** SCENE 3 ******************************************************************* -->
+<!-- *************************** SCENE 3 ******************************************************************* -->
+            
             <div2 type="scene" n="3">
                <head rend="center">SCENA III.</head>               
                <stage>
-                  <name>Bonifacio</name> dal lato opposto a quello dond’è 
+                  <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è 
                   partito <name>Geronio</name>. È incontrato da un portalettere, 
                   che per fortuna gli domanda del suo nome medesimo: 
                   egli risponde
+                  </p>
                </stage>
 
-<div3 type="aria">   
+<div3 type="lyric">   
    <sp who="#Bon">
                <speaker>Bon.</speaker>
             <lg>
@@ -423,7 +455,8 @@
                <l n="61">a la fine de lo mese</l>
                <l n="62">te lo pozzo arremmedià.</l>
             </lg>
-               <stage>(<hi rend="italic">il portalettere segna in un piccolo libro il suo nome, e via</hi>)</stage>
+         <stage rend="right">(<hi rend="italic">il portalettere segna 
+            in un piccolo libro il suo nome, e via</hi>)</stage>
             <lg>
                <l n="63" rend="indent">&#160;&#160;&#160;Manco male! e nzì ad Irlanna</l>
                <l n="64">chi da Napole me manna</l>
@@ -473,7 +506,7 @@
             </lg>
    </sp>
 </div3>
-<div3 type="dialog">   
+<div3 type="parlato">   
    <sp who="#bon" xml:lang="nap">      
             <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la 
                digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe 
@@ -494,7 +527,11 @@
    </sp> 
 </div3>              
 </div2>
-            <!-- *************************** SCENE 4 *********************************** -->    
+            
+<!-- *************************** SCENE 4 ******************************************************************* -->
+<!-- *************************** SCENE 4 ******************************************************************* -->
+<!-- *************************** SCENE 4 ******************************************************************* -->
+<!-- *************************** SCENE 4 ******************************************************************* -->
             
             <div2 n="4" type="scene">
                <head rend="center">SCENA IV.</head>
@@ -509,11 +546,11 @@
                      <l n="99">&#160;&#160;&#160;Speranza seduttrice!</l>
                      <l n="100">Fuggi da questo cor.</l>
                      <l n="101">Son vittima infelice</l>
-                     <l n="102">di un disperato amor.</l>
+                     <l n="102">di un  amor.</l>
                      <l n="103">Ah no! non fulminarmi</l>
                      <l n="104">bella 
                         <choice>
-                           <corr resp="cbm">amistà</corr>
+                           <corr resp="#cbm">amistà</corr>
                            <sic>amtstà</sic>
                         </choice>
                         tradita,
@@ -571,14 +608,14 @@
                      <l n="29">Amarti... ah... non degg’io!</l>
                      <l n="30">Dunque obbliarti... ah! mai!</l>
                      <l n="31">Prima morir... sì... scampo</l>
-                     <l n="32">miglior non v’è, che morte:...</l>
+                     <l n="32">miglior non v’è, che morte:...</l>                     
+                     <stage><p>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo disarma</hi>)</p></stage>
+
+<!--                <note resp="#Microsoft_Office_User">
+                        This is different in Bellini’s autograph score</note>
+                     <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>-->
                      
-                        <stage>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo disarma</hi>)</stage>
-                        <!--  <note resp="#Microsoft_Office_User" when="2025-01-05T12:07:00Z">-->
-                        <note resp="#Microsoft_Office_User">
-                           This is different in Bellini’s autograph score</note>
-                        <!--</note>-->
-                     <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>
+                     <l n="33">le crude mie ritorte</l>
                      <l n="34">si frangano così.</l> 
                   </lg>
                </sp>
@@ -615,7 +652,7 @@
                   <speaker>Bon.</speaker>
                   <lg>
                      <l n="38">&#160;&#160;&#160;E pigliatenne scuorno!
-                        <!--                           <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
+                        <!--  <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
                               Correggerei il rientro (indicandolo nella codifica)
                            </note>-->
                         <note resp="#Microsoft_Office_User" >
@@ -624,7 +661,7 @@
                      </l>
                      <l n="39">
                         Jocarese la pella
-                        <!--                           <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">-->
+                        <!--   <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">-->
                         <note resp="#Microsoft_Office_User">
                            Integrare punteggiatura (indicandolo nella codifica)?</note>
                         <!--</note>-->
@@ -774,7 +811,10 @@
                </sp>
             </div2>
 
-<!-- *************************** SCENE 5 *********************************** -->
+<!-- *************************** SCENE 5 ******************************************************************* -->
+<!-- *************************** SCENE 5 ******************************************************************* -->
+<!-- *************************** SCENE 5 ******************************************************************* -->
+<!-- *************************** SCENE 5 ******************************************************************* -->
             
             <div2 type="scene" n="5">
                <head rend="center">SCENA V.</head>
@@ -921,7 +961,7 @@
                      </lg>             
                   </sp>
                </div3>
-               <div3 type="dialog">
+               <div3 type="parlato">
                   <sp who="#nel" >
                      <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, 
                         ed ha un foglio tra le mani... Salvini! quel foglio... ah forse....</p>
@@ -969,9 +1009,12 @@
                </sp>
                <sp who="#sal">
                   <speaker>SAL.</speaker>
-                  <p>Sposo! ah! giammai... giammai la sua penna sarà stata più energica ad esprimere dopo qualche silenzio i sensi del suo cuore.</p>
+                  <p>Sposo! ah! giammai... giammai la sua penna sarà stata più energica ad 
+                     esprimere dopo qualche silenzio i sensi del suo cuore.</p>
                   <stage rend="right">(<hi rend="i">ripigliandosi a stento apre il foglio, e legge</hi>)</stage>
-                  <quote>Amabile Nelly! <u>(che pena!)</u> Stanca non è la sorte di opporsi a nostri voti. Milord zio, che col suo pingue retaggio dovrà assicurarmi una immensa fortuna, dimentico del nostro giurato impegno...</quote>
+                  <quote>«Amabile Nelly! <u>(che pena!)</u> Stanca non è la sorte di opporsi a nostri voti. 
+                     Milord zio, che col suo pingue retaggio dovrà assicurarmi una immensa fortuna, 
+                     dimentico del nostro giurato impegno...»</quote>
                </sp>
                <sp who="#nel">
                   <speaker>NEL.</speaker>
@@ -1021,7 +1064,7 @@
                   <stage rend="right">(<hi rend="i">mentre si slancia, ed abbraccia Nelly, costei ripiglia l’uso de’ sensi</hi>)</stage>
                </sp>
                </div3>
-               <div3 type="aria">
+               <div3 type="lyric">
                   <label rend="display:none">Ah, se intorno a quest'urna funesta</label>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
@@ -1382,7 +1425,9 @@
                      <l>Oh! Bonifacio! evviva!</l>
                      <l>Tutti fidiamo in te.</l>
                   </sp>
-                  <stage rend="right"><hi rend="i">Arriva <name>Adelson</name> conducendo per mano <name>Nelly</name>, e seguito da altri contadini e servi.</hi></stage>
+                  <stage rend="right"><hi rend="i">Arriva <name>Adelson</name> 
+                     conducendo per mano <name>Nelly</name>, e seguito da altri 
+                     contadini e servi.</hi></stage>
                   <sp who="#ade">
                      <speaker>Ade.</speaker>
                      <l>Obbliarti! abbandonarti!</l><stage rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>

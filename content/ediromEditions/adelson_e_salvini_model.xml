@@ -104,13 +104,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </names>
                             </navigatorItem>
                         </navigatorCategory>
-                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero3.xml[width:900]">
+                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/merge3.xml[width:900]">
                             <names>
                                 <name xml:lang="de">N.3</name>
                                 <name xml:lang="en">N.3</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-4-1-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero5.xml[width:900]">
+                        <navigatorItem xml:id="navItem-2-4-1-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero5_merge.xml[width:900]">
                             <names>
                                 <name xml:lang="de">N.5</name>
                                 <name xml:lang="en">N.5</name>
