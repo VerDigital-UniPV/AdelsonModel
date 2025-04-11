@@ -7,10 +7,34 @@
     
     <property name="project.version" value="${package(version)}"/>
     <property name="project.name" value="${package(name)}"/>
+
+    <property name="build.dir" value="build"/>
     
     <target name="xar">
+        <!-- Prepare build directory -->
+        <mkdir dir="${build.dir}"/>
+
+        <!-- Copy content in build directory -->
+        <copy todir="${build.dir}/content" encoding="UTF-8" outputencoding="UTF-8">
+            <fileset dir="content" includes="**"/>
+        </copy>
+        <copy todir="${build.dir}" encoding="UTF-8" outputencoding="UTF-8">
+            <file file="collection.xconf"/>
+            <file file="repo.xml"/>
+            <file file="expath-pkg.xml"/>
+            <file file="pre-install.xql"/>
+        </copy>
+
+        <!-- Preprocess files in build directory -->
+        <!-- TODO: prepare-->
+
+        <!-- Build xar package from build dir -->
         <mkdir dir="${dist.dir}"/>
-        <zip basedir="." destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${dist.dir}/"/>
+        <zip basedir="${build.dir}" destfile="${dist.dir}/${project.app}-${project.version}.xar" excludes="${dist.dir}/"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
     </target>
     
 </project>
