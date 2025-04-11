@@ -26,7 +26,7 @@
         </copy>
 
         <!-- Preprocess files in build directory -->
-        <!-- TODO: prepare-->
+        <!-- TODO: preprocess files that have static alternative versions with XSLT -->
 
         <!-- Build xar package from build dir -->
         <mkdir dir="${dist.dir}"/>
