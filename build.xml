@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="AdelsonModel" basedir=".">
+<project default="xar" name="AdelsonModel" basedir="." xmlns:if="ant:if" xmlns:unless="ant:unless">
     
     <!-- import default properties -->
     <property file="build.properties"/>
@@ -9,8 +9,44 @@
     <property name="project.name" value="${package(name)}"/>
 
     <property name="build.dir" value="build"/>
+
+    <property name="saxon.url" value="https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-5/SaxonHE12-5J.zip"/>
+    <property name="resources.dir" value="resources"/>
+    <property name="saxon.dir" value="${resources.dir}/SaxonHE12-5J"/>
+    <property name="saxon.zip" value="${resources.dir}/SaxonHE12-5J.zip"/>
+
+    <!-- Download SaxonHE -->
+    <mkdir dir="${resources.dir}"/>
+
+    <target name="check-saxon">
+        <condition property="saxon.need.download">
+            <not>
+                <available file="${saxon.dir}" type="dir"/>
+            </not>
+        </condition>
+    </target>
+
+    <target name="download-saxon" depends="check-saxon" if="saxon.need.download">
+        <echo message="Downloading SaxonHE from ${saxon.url}..."/>
+        <get src="${saxon.url}" dest="${saxon.zip}" verbose="true"/>
+    </target>
+
+    <!-- Unzip SaxonHE -->
+    <target name="unzip-saxon" depends="download-saxon" if="saxon.need.download">
+        <mkdir dir="${saxon.dir}"/>
+        <unzip src="${saxon.zip}" dest="${saxon.dir}"/>
+        <delete file="${saxon.zip}"/>
+    </target>
     
-    <target name="xar">
+    <!-- Include SaxonHE -->
+    <path id="saxon.classpath">
+        <fileset dir="resources/SaxonHE12-5J">
+            <include name="saxon-he-*.jar"/>
+        </fileset>
+    </path>
+    
+    <!-- Build the package -->
+    <target name="xar" depends="unzip-saxon">
         <!-- Prepare build directory -->
         <mkdir dir="${build.dir}"/>
 
@@ -26,7 +62,16 @@
         </copy>
 
         <!-- Preprocess files in build directory -->
-        <!-- TODO: preprocess files that have static alternative versions with XSLT -->
+        <!-- Generate alternative versions for adelsonLibretto -->
+        <java classname="net.sf.saxon.Transform" fork="true" classpathref="saxon.classpath">
+            <arg value="-s:build/content/texts/adelsonLibretto.xml"/>
+            <arg value="-xsl:preprocessing/xsl/split_alternatives.xsl"/>
+            <arg value="-o:build/content/texts/temp.xml"/>
+            <arg value="output-filename=adelsonLibretto"/>
+        </java>
+        <delete file="build/content/texts/temp.xml"/>
+        
+        <!-- TODO: More preprocessing of files that have static alternative versions with XSLT -->
 
         <!-- Build xar package from build dir -->
         <mkdir dir="${dist.dir}"/>
