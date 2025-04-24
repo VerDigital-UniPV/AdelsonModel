@@ -302,7 +302,7 @@
                   <lb/>Colonnello Struley! eccolo! puntuale all’appuntamento!</p>
             </sp>
 </rdg>
-   <rdg source="1825"/>
+   <rdg source="#1825"/>
 </app>          
 </div>
 
@@ -318,8 +318,8 @@
                <div type="lyric" n="I/2">
                   <head/>
 <app>
-    <rdg source="1816"/>
-    <rdg source="1825">         
+    <rdg source="#1816"/>
+    <rdg source="#1825">         
                
                      <sp who="#stru">
                         <speaker rend="addition">Stru.</speaker>
