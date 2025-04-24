@@ -64,10 +64,6 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <!-- NOTE: 
-      del and add elements are more editorial 
-      but not apparently for Clemens
-      -->
       <front>
          <castList>
 <!-- 
@@ -122,9 +118,9 @@
       <body>
          
 <!--         TODO: add #ref to castItem in NAME element-->
-         <div1 n="I" type="Act">
+         <div n="1" type="act">
             <head>ATTO PRIMO</head>
-            <div2 n="1" type="Scene">
+            <div n="1" type="scene">
                <head rend="center">SCENA I.</head>
                <p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
                   è un tempietto: su quello a sinistra vi si legge ⸺ ALL’AMORE, su quello a dritta ⸺
@@ -142,7 +138,7 @@
                      <l n="2">del ben che tanto adoro!</l>
                      <l n="3">Mentre la man t’imita,</l>
                      <l n="4">il pregio del lavoro</l>
-   <!--5-->          <l n="5">è solo del mio cor.</l>
+                     <l n="5">è solo del mio cor.</l>
                   </lg>
                   <lg type="stanza">
                         <l n="6" rend="indent">&#160;&#160;&#160;Egli offre in ogni istante</l>
@@ -151,7 +147,7 @@
                      <l n="9">che in lui già impresse Amor.</l>
                   </lg>
                   <lg>
-   <!--10-->         <l n="10">Vien gente! ah mi dispiace!</l>                 
+                     <l n="10">Vien gente! ah mi dispiace!</l>                 
                         <stage rend="right">(<hi rend="ital">si alza</hi>)</stage>
                      <l n="11">Credea qui stare in pace...</l>
                      <l n="12">nemica al mio disegno</l>
@@ -163,7 +159,7 @@
                   <speaker>Mad.</speaker>
                   <lg>
                      <l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
- <!--15-->        <l n="15">Adelson tornerà.</l>
+                     <l n="15">Adelson tornerà.</l>
                   </lg>
                </sp>
                <sp who="#ger">
@@ -178,7 +174,7 @@
                   <lg>
                      <l n="18" rend="indent">&#160;&#160;&#160;Geronio! cosa dite?</l>
                      <l n="19">Ci basta il suo ritorno:</l>
-<!--20-->            <l n="20">ah! così lieto giorno</l>
+                     <l n="20">ah! così lieto giorno</l>
                      <l n="21">quando spuntar saprà!</l>
                   </lg>
                </sp>
@@ -308,18 +304,18 @@
 </rdg>
    <rdg source="1825"/>
 </app>          
-         </div2>
+</div>
 
 <!-- *************************** SCENE 2 ******************************************************************* -->
 <!-- *************************** SCENE 2 ******************************************************************* -->
 <!-- *************************** SCENE 2 ******************************************************************* -->
 <!-- *************************** SCENE 2 ******************************************************************* -->
 
-            <div2 n="2" type="scene">
+            <div n="2" type="scene">
                <head rend="center">SCENA II.</head>
                <stage><hi rend="italic">Si avvanza <name>Struley</name> in abito da cacciatore con fucile alle mani<del resp="bellini">, e detto</del></hi></stage>
  
-               <div3 type="lyric" n="I/2">
+               <div type="lyric" n="I/2">
                   <head/>
 <app>
     <rdg source="1816"/>
@@ -333,7 +329,7 @@
                            <l n="37">Ogni indugio m’è peso,</l>
                            <l n="38">m’è sagro ogni momento... Ah! sì... vedremo!</l>
                            <l n="39">Furibondo mio cor per poco aspetta:</l>
-<!-- 40-->                 <l n="40">sarai contento appieno! Avrai vendetta!</l>
+                           <l n="40">sarai contento appieno! Avrai vendetta!</l>
                         </lg>
                         <lg type="stanza">
                            <l n="41" rend="indent">&#160;&#160;&#160;Tu provi un palpito</l>
@@ -347,7 +343,7 @@
                            <l n="47" rend="indent">&#160;&#160;&#160;Se tu insensibile</l>
                            <l n="48">ti mostri al pianto,</l>
                            <l n="49">se sovra i gemiti</l>
-<!--50-->                  <l n="50">riporto il vanto</l>
+                           <l n="50">riporto il vanto</l>
                            <l n="51">l’idea che m’agita</l>
                            <l n="52">compir saprò.&gt;</l>
                            <add resp="cbm"></add></lg>                        
@@ -358,8 +354,8 @@
 
                </rdg>
  </app>
-</div3>
-<div3 type="parlato">
+</div>
+<div type="parlato">
    <sp who="#stru">
                   <p>Io era già lì appiattato fin dall’aurora o Geronio.</p>
                </sp>
@@ -422,15 +418,15 @@
             o essere scellerato, e traditore senza la propria inclinazione!</p>
       </sp>
       <stage rend="right">(<hi rend="i">via</hi>)</stage>
-   </div3>
-</div2>
+   </div>
+</div>
 
 <!-- *************************** SCENE 3 ******************************************************************* -->
 <!-- *************************** SCENE 3 ******************************************************************* -->
 <!-- *************************** SCENE 3 ******************************************************************* -->
 <!-- *************************** SCENE 3 ******************************************************************* -->
             
-            <div2 type="scene" n="3">
+            <div type="scene" n="3">
                <head rend="center">SCENA III.</head>               
                <stage>
                   <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è 
@@ -440,18 +436,18 @@
                   </p>
                </stage>
 
-<div3 type="lyric">   
+<div type="lyric" n="I/3">   
    <sp who="#Bon">
                <speaker>Bon.</speaker>
             <lg>
                <l n="53" rend="indent">&#160;&#160;&#160;Bonifacio Voccafrolla?</l>
                <l n="54">Lei l’ha in faccia, eccolo ccà.</l>
-   <!--55-->   <l n="55">C’è na lettera? uscia molla...</l>
+               <l n="55">C’è na lettera? uscia molla...</l>
                <l n="56">Comme dice? ho da sborzà?</l>
                <l n="57">No la voglio, tienetella...</l>
                <l n="58">Sei scelline? e afforza? oh bella!</l>
                <l n="59">Ca tu strille pierde il fiato!</l>
-   <!--60-->   <l n="60">Lo vorzillo sta scopato,</l>
+               <l n="60">Lo vorzillo sta scopato,</l>
                <l n="61">a la fine de lo mese</l>
                <l n="62">te lo pozzo arremmedià.</l>
             </lg>
@@ -460,7 +456,7 @@
             <lg>
                <l n="63" rend="indent">&#160;&#160;&#160;Manco male! e nzì ad Irlanna</l>
                <l n="64">chi da Napole me manna</l>
-   <!--65-->   <l n="65">le cervella a nfracetà?</l>
+               <l n="65">le cervella a nfracetà?</l>
             </lg> 
             <lg>
                <l n="66" rend="indent">&#160;&#160;&#160;«Mastro Tammaro Ossoduro...»</l>
@@ -469,44 +465,44 @@
                <l n="68">«Fuggi, e mettiti in sicuro...»</l>
                <l n="69">Fujo? pecché? vedimmo mo...</l>
             </lg>
-<!--70-->   <lg>
+      <lg>
                <l n="70" rend="indent">&#160;&#160;&#160;«Donna Popa vuol l’importo</l>
                <l n="71">della tela accredenzata...»</l>
                <l n="72">Ccà ce manca l’ommo muorto</l>
                <l n="73">si la tela è consumata!</l>
                <l n="74">«Donn’Orazio fa fracasso</l>
-   <!--75-->   <l n="75">pel danar della pigione...»</l>
+               <l n="75">pel danar della pigione...»</l>
                <l n="76">Le lassaje la casa a spasso,</l>
                <l n="77">e che bò st’animalone?</l>
                <l n="78">«Fa rumore il macellaio,</l>
                <l n="79">grida, e insiste il calzolaio,</l>
-   <!--80-->   <l n="80">la sensale tutt’i pegni</l>
+               <l n="80">la sensale tutt’i pegni</l>
                <l n="81">vuol far vendere all’incanto:</l>
                <l n="82">fuggi dico, ci son guai,</l>
                <l n="83">si è saputo dove stai,</l>
                <l n="84">ed io temo, che a quest’ora</l>
-   <!--85-->   <l n="85">qualche ufficio sia già fuora</l>
+               <l n="85">qualche ufficio sia già fuora</l>
                <l n="86">per poterti imprigionar.»</l>
             </lg>
             <lg>
                <l n="87" rend="indent">&#160;&#160;&#160;Ma che anime indiscrete!</l>
                <l n="88">Vonno zuco da le prete!</l>
                <l n="89">E non sanno, che a lo munno</l>
-   <!--90-->   <l n="90">da che il debito c’è stato,</l>
+               <l n="90">da che il debito c’è stato,</l>
                <l n="91">sempre il mutto ha trionfato,</l>
                <l n="92">che non paga chi non ha.</l>
             </lg>
             <lg>
                <l n="93">Che me mettono ngajola,</l>
                <l n="94">m’hanno appriesso da campà.</l>
-   <!--95-->   <l n="95">Mo vedimmo chi se stracqua</l>
+               <l n="95">Mo vedimmo chi se stracqua</l>
                <l n="96">creditori iniqui, e avari:</l>
                <l n="97">a cercarme vuje danari,</l>
                <l n="98">e io sempe a non pagà.</l>
             </lg>
    </sp>
-</div3>
-<div3 type="parlato">   
+</div>
+<div type="parlato">   
    <sp who="#bon" xml:lang="nap">      
             <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la 
                digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe 
@@ -525,15 +521,15 @@
                stammatina la cemmenera ha pigliato fuoco addavero, ca tene 
                l’uocchie cchiù sbotate de lo soleto!</p>
    </sp> 
-</div3>              
-</div2>
+</div>              
+</div>
             
 <!-- *************************** SCENE 4 ******************************************************************* -->
 <!-- *************************** SCENE 4 ******************************************************************* -->
 <!-- *************************** SCENE 4 ******************************************************************* -->
 <!-- *************************** SCENE 4 ******************************************************************* -->
             
-            <div2 n="4" type="scene">
+            <div n="4" type="scene">
                <head rend="center">SCENA IV.</head>
                <stage type="setting">
                   <p rend="center">
@@ -809,20 +805,20 @@
                      lo fatto mio appriesso a Milord... e pè sto piezzo de 
                      caicco qua iodece pò ascì co non est loco petitta?</p>
                </sp>
-            </div2>
+            </div>
 
 <!-- *************************** SCENE 5 ******************************************************************* -->
 <!-- *************************** SCENE 5 ******************************************************************* -->
 <!-- *************************** SCENE 5 ******************************************************************* -->
 <!-- *************************** SCENE 5 ******************************************************************* -->
             
-            <div2 type="scene" n="5">
+            <div type="scene" n="5">
                <head rend="center">SCENA V.</head>
                <note xml:id="note3-act1sc5"/>
                 <stage type="">
                    <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e <name>FANNY</name>, e <hi>detto</hi>
                 </stage>
-               <div3 type="recitativo">            
+               <div type="recitativo">            
                <sp who="#fan">
                   <speaker>Fan.</speaker>
                   <p>Come siete ingegnosa a fabbricarvi delle pene efimere, e senza sostegno!</p>
@@ -930,8 +926,8 @@
                   <p>Respiro! son sola alfine! uscite o miei sospiri dal profondo del cuore, e se un importuno riguardo vi ha trattenuti finora 
                      all’altrui presenza, liberi adesso confondetevi con queste aure felici, che un tempo respirai col mio bene!</p>
                </sp>
-               </div3>
-               <div3 type="musical-number" n="I/5">               
+               </div>
+               <div type="musical-number" n="I/5">               
                   <sp who="#nel">
                      <lg type="stanza">
                         <l>Dopo l’oscuro nembo</l>
@@ -960,19 +956,19 @@
                         <l>l’amato oggetto!</l>
                      </lg>             
                   </sp>
-               </div3>
-               <div3 type="parlato">
+               </div>
+               <div type="parlato">
                   <sp who="#nel" >
                      <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, 
                         ed ha un foglio tra le mani... Salvini! quel foglio... ah forse....</p>
                   </sp>
                   <stage rend="right">(<hi rend="italic">incontrandolo premurosa</hi>)</stage>
-               </div3>
-            </div2>
+               </div>
+            </div>
 
 <!-- *************************** SCENE 6 *********************************** -->
 
-            <div2 type="scene" n="6">
+            <div type="scene" n="6">
                <head rend="center">SCENA VI.</head>
                <stage><name>Salvini</name> e <name>detta</name>; indi tutti come saranno indicati.</stage>
                <sp who="#sal">
@@ -1042,7 +1038,7 @@
                   <stage rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
                </sp>
 
-               <div3 type="recitativo">
+               <div type="recitativo">
                <sp who="#sal">
                   <speaker>Sal.</speaker>
                   <lg>
@@ -1063,8 +1059,8 @@
                   </lg>
                   <stage rend="right">(<hi rend="i">mentre si slancia, ed abbraccia Nelly, costei ripiglia l’uso de’ sensi</hi>)</stage>
                </sp>
-               </div3>
-               <div3 type="lyric">
+               </div>
+               <div type="lyric">
                   <label rend="display:none">Ah, se intorno a quest'urna funesta</label>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
@@ -1530,13 +1526,13 @@
                      <l>E nel seno della gioia</l>
                      <l>corra ogni alma a giubbilar!</l>
                   </sp>
-               </div3>
-            </div2>
+               </div>
+            </div>
             <trailer rend="center">Fine dell'Atto Primo</trailer>
-         </div1>
-         <div1 n="II" type="Act">
-            <div2 n="1" type="scene"/>
-         </div1>
+         </div>
+         <div type="act" n="2">
+            <div type="scene" n="1"/>
+         </div>
       </body>
    </text>
 </TEI>
