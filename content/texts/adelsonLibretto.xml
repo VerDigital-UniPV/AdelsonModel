@@ -78,6 +78,7 @@
    character reference : e.g. <!ENTITY eacute "é"> 
    
 - Italicize stage directions, but not parentheses or square brackets
+   NB: Stage @type="setting" _not_ italicized 
 
 - Character names and abbreviations in small caps
   Line numbers
@@ -152,15 +153,15 @@
    <head>ATTO PRIMO</head>
    <div n="1" type="scene">
       <head rend="center">SCENA I.</head>
-      <p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
+      <stage type="setting"><p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
          è un tempietto: su quello a sinistra vi si legge ⸺ ALL’AMORE, su quello a dritta ⸺
          AL DISPIACERE. Un banco di verdura è presso al primo: due cipressi nascondono in
-         parte l’ingresso del secondo</p>
-      <p rend="center">
+         parte l’ingresso del secondo</p></stage>
+      <stage type="mixed business entrance"><p rend="center">
          <name>Fanny</name> è profondamente occupata a disegnare seduta sul poggiuolo di
          verdura. Slancia di quando in quando il suo furtivo sguardo d’intorno, per
          assicurarsi di non essere sorpresa, indi <name>Madama Rivers</name>, e
-            <name>Geronio</name> seguiti da’ contadini </p>
+            <name>Geronio</name> seguiti da’ contadini</p></stage>
 <div type="lyric" n="1" xml:id="a1-s1-1">
    <sp who="#fan">
          <speaker>Fan.</speaker>
@@ -179,13 +180,12 @@
          </lg>
          <lg>
             <l n="10">Vien gente! ah mi dispiace!</l>
-            <stage rend="right">(<hi rend="ital">si alza</hi>)</stage>
+            <stage type="business" rend="right">(<hi rend="ital">si alza</hi>)</stage>
             <l n="11">Credea qui stare in pace...</l>
             <l n="12">nemica al mio disegno</l>
             <l n="13">sarai Fortuna ognor!</l>
          </lg>
       </sp>
-      <note xml:id="note-example">Note to Libretto at line 13</note>
       <sp who="#mad">
          <speaker>Mad.</speaker>
          <lg>
@@ -257,7 +257,7 @@
             </choice> il pronto ritorno di Milord, saranno pel suo cuore grato, e benefico
             tanti altri teneri oggetti, onde sempre più interessarlo a vostro
             vantaggio.</p>
-         <stage rend="right">(<hi rend="i">viano i contadini</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">viano i contadini</hi>)</stage>
       </sp>
 
       <sp who="#fan">
@@ -316,13 +316,13 @@
             non le scrive da qualche settimana: io lo suppongo in viaggio: essa lo crede
             infedele, ed io per consolarla corro a dissipare i suoi ingiusti timori.</p>
       </sp>
-      <stage rend="right">(<hi rend="italic"> via</hi>&#160;[<hi rend="italic"><add
+      <stage type="exit" rend="right">(<hi rend="italic">via</hi>&#160;[<hi rend="italic"><add
                resp="bellini">con Geronio</add></hi>])</stage>
       <sp who="#fan">
          <speaker>Fan.</speaker>
          <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
       </sp>
-      <stage rend="right">(<hi rend="italic">via</hi>)</stage>
+      <stage type="exit" rend="right">(<hi rend="italic">via</hi>)</stage>
       <app>
          <rdg source="#1816">
             <sp who="#ger">
@@ -343,7 +343,7 @@
 
    <div n="2" type="scene">
       <head rend="center">SCENA II.</head>
-      <stage>Si avvanza <name>Struley</name> in abito da cacciatore con
+      <stage type="mixed entrance">Si avvanza <name>Struley</name> in abito da cacciatore con
             fucile alle mani
          <app>
             <rdg source="#1816">, e <name>detto</name></rdg>
@@ -383,7 +383,7 @@
                   <add resp="cbm"/>
                </lg>
             </sp>
-            <stage rend="right"> [<hi rend="italic">esce GERONIO</hi>] </stage>
+            <stage type="entrance" rend="right"> [<hi rend="italic">esce GERONIO</hi>] </stage>
             </div>
          </rdg>
       </app>
@@ -439,13 +439,13 @@
                i mezzi, onde io ciò ottenga. Quando il sole è oltre il meriggio, fa ch’io
                qui ti rivegga. O la tua vita, o Nelly in mio potere. Addio.</p>
          </sp>
-         <stage rend="right">(<hi rend="i">via</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage>
          <sp who="#ger">
             <speaker>Ger.</speaker>
             <p>Maledetta la mia diserzione! o morir salutato da quattro palle di moschetto,
                o essere scellerato, e traditore senza la propria inclinazione!</p>
          </sp>
-         <stage rend="right">(<hi rend="i">via</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage>
       </div>
    </div>
 
@@ -456,10 +456,10 @@
 
    <div type="scene" n="3">
       <head rend="center">SCENA III.</head>
-      <stage>
+      <stage type="mixed setting business">
          <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è partito
                <name>Geronio</name>. È incontrato da un portalettere, che per fortuna gli
-            domanda del suo nome medesimo: egli risponde </p>
+            domanda del suo nome medesimo: egli risponde</p>
       </stage>
 
       <div type="lyric" n="a1-s3-1">
@@ -477,7 +477,7 @@
                <l n="61">a la fine de lo mese</l>
                <l n="62">te lo pozzo arremmedià.</l>
             </lg>
-            <stage rend="right">(<hi rend="italic">il portalettere segna in un piccolo
+            <stage type="mixed business exit" rend="right">(<hi rend="italic">il portalettere segna in un piccolo
                   libro il suo nome, e via</hi>)</stage>
             <lg>
                <l n="63" rend="indent">&#160;&#160;&#160;Manco male! e nzì ad Irlanna</l>
@@ -488,7 +488,7 @@
       <!-- quoted material. quotation marks « » removed -->
                <l n="66" rend="indent">&#160;&#160;&#160;
                   <quote xml:lang="it" xml:id="a2-s3-1-q1">Mastro Tammaro Ossoduro...</quote></l>
-               <stage rend="right">(<hi rend="italic">legge</hi>)</stage>
+               <stage type="business" rend="right">(<hi rend="italic">legge</hi>)</stage>
                <l n="67">Oh! cainatemo! e che bò?</l>
                <l n="68"><quote xml:lang="it" xml:id="a1-s3-1-q2">Fuggi, e mettiti in sicuro...</quote></l>
                <l n="69">Fujo? pecché? vedimmo mo...</l>
@@ -558,7 +558,7 @@
 
    <div n="4" type="scene">
       <head rend="center">SCENA IV.</head>
-      <stage type="setting">
+      <stage type="mixed setting delivery">
          <p rend="center">
             <name>Bonifacio</name> resta in osservazione. <name>Salvini</name> si avvanza
             concentrato, dà alcuni passi ineguali, indi in un risalto di spavento esclama
@@ -596,12 +596,12 @@
          <speaker>Sal.</speaker>
          <lg>
             <l n="15">Su questo seggio... ah qui</l>
-            <stage rend="right">(<hi rend="i">va astratto a sedere sul banco di
+            <stage type="mixed business modifier" rend="right">(<hi rend="i">va astratto a sedere sul banco di
                   verdura</hi>)</stage>
             <l n="16">la vidi, e n’arsi un dì!</l>
             <l n="17">Il fortunato amico essa stringea nel seno...</l>
             <l n="18">E allor tutto il veleno</l>
-            <stage rend="right">(<hi rend="italic">rapidamente</hi>)</stage>
+            <stage type="delivery" rend="right">(<hi rend="italic">rapidamente</hi>)</stage>
             <l n="19">di un pertinace affetto</l>
             <l n="20">quest’anima sorbì!</l>
          </lg>
@@ -629,7 +629,7 @@
             <l n="31">Prima morir... sì... scampo</l>
             <l n="32">miglior non v’è, che morte:...</l>
             
-            <stage><p>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo
+            <stage type="business" ><p>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo
                      disarma</hi>)</p></stage>
 
             <!--                <note resp="#Microsoft_Office_User">
@@ -803,7 +803,7 @@
          <p>Eh vanne! Lasciami solo o mio perpetuo tormento! chi vedo! oh cielo! Nelly! ah
             si fugga! capace io più non mi sento di contenermi al suo aspetto... oh giorno!
             sorto tu sei per me più funesto degli altri!</p>
-         <stage rend="right">(<hi rend="i">fugge per un viale</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">fugge per un viale</hi>)</stage>
       </sp>
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
@@ -824,9 +824,9 @@
    <div type="scene" n="5">
       <head rend="center">SCENA V.</head>
       <note xml:id="note3-act1sc5"/>
-      <stage type="">
+      <stage type="exit" >
          <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e
-            <name>FANNY</name>, e <hi>detto</hi>
+            <name>FANNY</name>, e <name>detto</name>
       </stage>
       <div type="parlato" n="7">
          <sp who="#fan">
@@ -916,7 +916,7 @@
             <p>Ma questo è troppo! oh quanto poco hai saputo conoscerlo finora!</p>
          </sp>
          <note xml:id="note4-act1sc5"/>
-         <stage rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
 
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
@@ -945,7 +945,7 @@
             <p>(So ghiuto nzicco co lo viento contrario: quanno a la femmena vene no golio,
                terra tienete! no la sposta manco Giove mperzona.)</p>
          </sp>
-         <stage rend="right">(<hi rend="i">via</hi>)</stage>
+         <stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage>
 
          <sp who="#Nel">
             <speaker>Nel.</speaker>
@@ -990,7 +990,7 @@
             <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, ed ha un
                foglio tra le mani... Salvini! quel foglio... ah forse....</p>
          </sp>
-         <stage rend="right">(<hi rend="italic">incontrandolo premurosa</hi>)</stage>
+         <stage type="mixed business modifier" rend="right">(<hi rend="italic">incontrandolo premurosa</hi>)</stage>
       </div>
    </div>
 
@@ -998,7 +998,7 @@
 
    <div type="scene" n="6">
       <head rend="center">SCENA VI.</head>
-      <stage><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
+      <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
          indicati.</stage>
 <div type="parlato" n="9">
    <sp who="#sal">
@@ -1039,7 +1039,7 @@
          <speaker>Sal.</speaker>
          <p>Sposo! ah! giammai... giammai la sua penna sarà stata più energica ad esprimere
             dopo qualche silenzio i sensi del suo cuore.</p>
-         <stage rend="right">(<hi rend="i">ripigliandosi a stento apre il foglio, e
+         <stage type="business" rend="right">(<hi rend="i">ripigliandosi a stento apre il foglio, e
                legge</hi>)</stage>
          <quote>«Amabile Nelly! <u>(che pena!)</u> Stanca non è la sorte di opporsi a
             nostri voti. Milord zio, che col suo pingue retaggio dovrà assicurarmi una
@@ -1047,7 +1047,7 @@
       </sp>
       <sp who="#nel">
          <speaker>Nel.</speaker>
-         <p>Oh cielo! <stage rend="right">(<hi rend="i">dà un grido</hi>)</stage></p>
+         <p>Oh cielo! <stage type="delivery" rend="right">(<hi rend="i">dà un grido</hi>)</stage></p>
       </sp>
       <sp who="#sal">
          <speaker>Sal.</speaker>
@@ -1060,7 +1060,7 @@
          <speaker>Nel.</speaker>
          <p>Oh fulmine, che mi annienta! ah tutto previdi! dov’è adesso Madama Rivers? o
             traditore Adelson! oh eccesso maggior di ogni perfidia!</p>
-         <stage rend="right">(<hi rend="i">intanto Salvini scorre rapidamente il resto del
+         <stage type="business" rend="right">(<hi rend="i">intanto Salvini scorre rapidamente il resto del
                foglio</hi>)</stage>
       </sp>
       <sp who="#sal">
@@ -1071,7 +1071,7 @@
       <sp who="#nel">
          <speaker>Nel.</speaker>
          <p>Povera Nelly! chi mi soccorre! io moro!</p>
-         <stage rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
+         <stage type="business" rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
       </sp>
 </div>
       <div type="recitativo" n="10">
@@ -1094,7 +1094,7 @@
                <l>spirar così del mio tesoro in seno...</l>
             </lg>
          </sp>
-            <stage rend="right">(<hi rend="i">mentre si slancia, ed abbraccia Nelly, costei
+            <stage type="business" rend="right">(<hi rend="i">mentre si slancia, ed abbraccia Nelly, costei
                   ripiglia l’uso de’ sensi</hi>)</stage>
       </div>
       <div type="lyric" xml:id="a1-s6-1" n="11">
@@ -1109,7 +1109,7 @@
             <lg>
                <l part="M">Rinviene!</l>
             </lg>
-            <stage rend="right">(<hi rend="i">vorrebbe, ma non può staccarsi da
+            <stage type="modifier" rend="right">(<hi rend="i">vorrebbe, ma non può staccarsi da
                lei</hi>)</stage>
          </sp>
          <sp who="#nel">
@@ -1159,7 +1159,7 @@
             <lg>
                <l>Ah! comprendo il mio periglio!</l>
             </lg>
-            <stage rend="right">(<hi rend="i">spaventata fugge dalle braccia di
+            <stage type="mixed modifier business" rend="right">(<hi rend="i">spaventata fugge dalle braccia di
                   Salvini</hi>)</stage>
          </sp>
 
@@ -1237,7 +1237,7 @@
                <l>Sì... mi annienti un fato rio...</l>
                <l>Così estingua in me l’ardor.</l>
             </lg>
-            <stage rend="right">(<hi rend="i">nella massima disperazione</hi>)</stage>
+            <stage type="delivery" rend="right">(<hi rend="i">nella massima disperazione</hi>)</stage>
          </sp>
          <sp who="#nel">
             <speaker>Nel.</speaker>
@@ -1246,9 +1246,8 @@
                <l>un tormento assai maggior!</l>
             </lg>
          </sp>
-         <stage rend="right">(<hi rend="i">qui da dentro si sente gridare
+         <stage type="delivery" rend="right">(<hi rend="i">qui da dentro si sente gridare
             Bonifacio</hi>)</stage>
-
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <lg>
@@ -1270,7 +1269,7 @@
                <l>Non è in me cangiar consiglio,</l>
                <l>se tu mi hai rapito il cor!</l>
             </lg>
-            <stage rend="right">(<name>Bonifacio</name>
+            <stage type="entrance" rend="right">(<name>Bonifacio</name>
                <hi rend="i">vien fuora</hi>)</stage>
          </sp>
          <sp who="#bon" xml:lang="nap">
@@ -1404,9 +1403,9 @@
                <l>Giusto ciel! la mia costanza</l>
                <l>tu corona per pietà!</l>
             </lg>
-            <note><stage rend="right">(<hi rend="i">via</hi>)</stage></note>
+            <note><stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage></note>
          </sp>
-         <stage rend="right">(<name>Salvini</name> via disperato. Dal folto del boschetto
+         <stage type="mixed exit modifier entrance" rend="right">(<name>Salvini</name> via disperato. Dal folto del boschetto
                <name>Madama Rivers</name>, <name>Fanny</name>, <name>Geronio</name>, e
                <name>Coro</name> di Pastori, e <name>Bonifacio</name> è in iscena.)</stage>
          <sp who="#mad">
@@ -1417,12 +1416,25 @@
             </lg>
          </sp>
 
-         <!-- MORE Angle Brackets here -->
-         <sp who="#fan #ger #bon #coro">
-            <speaker>Fan., Ger., Bon., e Coro</speaker>
-            <l>Oh qual piacere estremo!</l>
-            <l>Andiamlo ad incontrar.</l>
-         </sp>
+         <!-- Here it is just 2 voices added, 
+            but have to encode entire contents 
+            of sp element in app -->
+         <app>
+            <rdg>
+               <sp who="#ger #coro">
+               <speaker>Ger., e Coro</speaker>
+                  <l>Oh qual piacere estremo!</l>
+                  <l>Andiamlo ad incontrar.</l>
+               </sp>
+            </rdg>
+            <rdg>
+               <sp who="#fan #ger #bon #coro">
+               <speaker>Fan., Ger., Bon., e Coro</speaker>
+                  <l>Oh qual piacere estremo!</l>
+                  <l>Andiamlo ad incontrar.</l>
+               </sp>
+            </rdg>
+         </app>
          <sp who="#mad">
             <speaker>Mad.</speaker>
             <lg>
@@ -1454,6 +1466,13 @@
             <l>la Lecca co la Mecca,</l>
             <l>l’America e ‘l Perù!</l>
          </sp>
+         
+         <!-- double square brackets
+         
+         [[FAN.	     Sguaiato ci vuol sale!
+	           Non mi fai rider più!]]
+         -->
+         
          <sp who="#coro">
             <speaker>Coro</speaker>
             <l>Ma qui garrir non vale...</l>
@@ -1472,12 +1491,12 @@
             <l>Oh! Bonifacio! evviva!</l>
             <l>Tutti fidiamo in te.</l>
          </sp>
-         <stage rend="right"><hi rend="i">Arriva <name>Adelson</name> conducendo per mano
+         <stage type="entrance" rend="right"><hi rend="i">Arriva <name>Adelson</name> conducendo per mano
                   <name>Nelly</name>, e seguito da altri contadini e servi.</hi></stage>
          <sp who="#ade">
             <speaker>Ade.</speaker>
             <l>Obbliarti! abbandonarti!</l>
-            <stage rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>
+            <stage type="delivery" rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>
             <l>Quale oltraggio a un fido core!</l>
             <l>Ah! tu fosti il primo ardore,</l>
             <l>che quest’alma ha incenerita!</l>
@@ -1510,6 +1529,7 @@
          <sp who="#coro">
             <speaker>Coro</speaker>
             <l>(Quando parli?)</l>
+            <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
@@ -1521,8 +1541,22 @@
             <l>Cari amici... oh quanto grate</l>
             <l>sono a me le vostre gioie!</l>
          </sp>
+         
+  <!--       to be encoded: coro text -->
+         
+         
+         <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
+         
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
+            
+            <!-- 
+            
+CORO	   (Ora è tempo!)               (a Bonifacio)
+BON.	    (Oh benaggioje! Me volite fa pensà?)
+ADE.	     Bonifacio!
+
+            -->
             <l>Oh! Eccellentissimo!</l>
             <l>Tra i Milordi Milordissimo...</l>
             <l>tra i padroni padronissimo...</l>
@@ -1568,6 +1602,10 @@
             <l>A me voli! il mio contento</l>
             <l>egli venga a ricolmar!</l>
          </sp>
+         
+         <!-- all speakers here. also a stage direction? -->
+         
+         
          <sp who="#coro">
             <speaker>Tutti col Coro</speaker>
             <l>Di piacer la voce echeggi!</l>
