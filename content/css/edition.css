@@ -120,6 +120,11 @@ span.it {
     font-style: italic;
 }
 
+span.small-caps {
+    font-variant: small-caps;
+}
+
+
 span.del {
     text-decoration: line-through;
     color: hwb(221 31% 10%);
