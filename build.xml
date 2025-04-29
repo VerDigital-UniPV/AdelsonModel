@@ -59,6 +59,8 @@
             <file file="repo.xml"/>
             <file file="expath-pkg.xml"/>
             <file file="pre-install.xql"/>
+            <file file="prefs.xml"/>
+            <file file="scaleZones.xql"/>
         </copy>
 
         <!-- Preprocess files in build directory -->
