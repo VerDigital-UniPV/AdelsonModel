@@ -136,13 +136,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <name xml:lang="en">Libretto</name>
                             <name xml:lang="it">Libretto</name>
                         </names>
-                        <navigatorItem xml:id="navItem-2-5-1" sortNo="1" targets="">
+                        <navigatorItem xml:id="navItem-2-5-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1816[width:600]">
                             <names>
                                 <name xml:lang="de">Fioravanti's version</name>
                                 <name xml:lang="en">Fioravanti's version</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml[width:600]">
+                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1825[width:600]">
                             <names>
                                 <name xml:lang="de">Bellini's first version</name>
                                 <name xml:lang="en">Bellini's first version</name>
