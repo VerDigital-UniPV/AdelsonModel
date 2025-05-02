@@ -12,19 +12,66 @@
          <titleStmt>
             <title type="main">Adelson e Salvini</title>
             <title type="subordinate">A Digital Edition</title>
-            <author/>
+
+            <author role="composer">
+               <idno type="GND" source="https://d-nb.info/gnd/">118655191</idno>
+               <persName>Vincenzo Bellini</persName>
+             </author>
+            
+            <author role="librettist">
+               <idno type="GND" source="https://d-nb.info/gnd/">115458239</idno>
+               <persName>Andrea Leone Tottola</persName>
+            </author>
+            
+            <editor xml:id="cbm">
+               <idno type="ORCID" source="https://orcid.org/">0000-0002-6758-5870</idno>
+               <persName>Candida Mantica</persName>
+            </editor>
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <persName sameAs="#verDigTeam_ms"/>
+            </respStmt>
          </titleStmt>
+         
          <editionStmt>
             <edition/>
          </editionStmt>
          <publicationStmt>
+            <publisher>VerDigital Project</publisher>
             <publisher/>
+            <date when="2025"></date>
+            
+            <availability>
+<!-- E.g. license -->
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+            
          </publicationStmt>
+         <seriesStmt> <!-- COMPLETE -->
+            <title>VerDigital Project</title>
+            <respStmt>
+               <resp>Project Team</resp>
+               <persName xml:id="verDiTeam_cm" role="project_lead" sameAs="#">Candida Mantica</persName>
+               <persName xml:id="verDiTeam_fm" role="researcher" sameAs="#">Francesco Maccarini</persName>
+               <persName xml:id="verDiTeam_gm" role="researcher" sameAs="#">Giovanni Meriani</persName>
+               <persName xml:id="verDiTeam_ms" role="researcher" sameAs="#">Mark Saccomano</persName>
+
+               <persName></persName>
+               <persName></persName>
+            
+            </respStmt>
+
+         </seriesStmt>
          <sourceDesc>
+<!-- Enter sources, id = #NA1825 and #A1 +superscript -->            
             <bibl/>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+<!-- Insert Project Description -->
+         <projectDesc>
+            <p></p>
+         </projectDesc>
          <editorialDecl>
             <normalization>
                <p/>
@@ -50,6 +97,10 @@
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
+         <langUsage>
+            <language ident="it">Italian</language>
+            <language ident="nap">Neapolitan</language>
+         </langUsage>
          <particDesc>
             <listPerson>
                <person xml:id="tottola" role="librettist">
