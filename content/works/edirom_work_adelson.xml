@@ -38,6 +38,7 @@
                 </perfMedium>
                 <notesStmt>
                     <annot type="criticalCommentary">
+                        <!--
                         <annot type="editorialComment" xml:id="annot_0000" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note-example">
                             <title xml:lang="de">Sample Annotation</title>
                             <title xml:lang="en">Sample Annotation</title>
@@ -45,52 +46,53 @@
                             <ptr type="priority" target="#AnnotPrio1"/>
                             <ptr type="categories" target="#Libretto"/>
                         </annot>
-                    </annot>
-                    <annot type="editorialComment" xml:id="annot_0001" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note1-act1sc3">
-                        <title>«puzzo?»</title>
-                        <p>
-                            <ref target="#NA1816"><hi rend="bold">NA<sup>1816</sup></hi>: «puzzo?».</ref>
-                        </p>
-                        <ptr type="priority" target="#AnnotPrio1"/>
-                        <ptr type="categories" target="#Libretto"/>
-                    </annot>
-                    <annot type="editorialComment" xml:id="annot_0002" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note2-act1sc4">
-                        <title>«le barbare ritorte»</title>
-                        <p>
-                            <ref target="#A1"><hi rend="bold">A<sup>1</sup></hi>: «le barbare ritorte».</ref>
-                        </p>
-                        <ptr type="priority" target="#AnnotPrio1"/>
-                        <ptr type="categories" target="#Libretto"/>
-                    </annot>
-                    <annot type="editorialComment" xml:id="annot_0003" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note3-act1sc5">
-                        <title>Scena V inizia...</title>                    
-                        <p>
-                            <ref target="#NA1816">
-                                <hi rend="bold">NA<sup>1816</sup></hi>: la Scena V inizia con un quartetto 
-                                di Nelly, Fanny, Madama Rivers e Bonifacio 
-                                (31 decasillabi, 12 ottonari).</ref>
-                        </p>
-                        <ptr type="priority" target="#AnnotPrio1"/>
-                        <ptr type="categories" target="#Libretto"/>
-                    </annot>
-                    <annot type="editorialComment" xml:id="annot_0004" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note4-act1sc5">
-                        <title>Scena V continua...</title>                    
-                        <p>
-                            <ref target="#NA1816">
-                                <hi rend="bold">NA<sup>1816</sup></hi>: la Scena V continua con un’aria di Madama Rivers (16 senari).</ref>
-                        </p>
-                        <ptr type="priority" target="#AnnotPrio1"/>
-                        <ptr type="categories" target="#Libretto"/>
-                    </annot>
-                    <annot type="editorialComment" xml:id="annot_0005" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note5-act1sc5">
-                        <title>questa quartina</title>                    
-                        <p>
-                            <ref target="#NA1816">
-                                <hi rend="bold">NA<sup>1816</sup></hi>: Bellini compose questa quartina nella prima versione della Romanza 
-                                (Appendice 1, N. 5a, batt. 42-56) ma la eliminò nella seconda (N. 5).</ref>
-                        </p>
-                        <ptr type="priority" target="#AnnotPrio1"/>
-                        <ptr type="categories" target="#Libretto"/>
+                        -->
+                        <annot type="editorialComment" xml:id="annot_0001" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note1-act1sc3">
+                            <title>«puzzo?»</title>
+                            <p>
+                                <ref target="#NA1816"><hi rend="bold">NA<sup>1816</sup></hi>: «puzzo?».</ref>
+                            </p>
+                            <ptr type="priority" target="#AnnotPrio1"/>
+                            <ptr type="categories" target="#Libretto"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="annot_0002" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note2-act1sc4">
+                            <title>«le barbare ritorte»</title>
+                            <p>
+                                <ref target="#A1"><hi rend="bold">A<sup>1</sup></hi>: «le barbare ritorte».</ref>
+                            </p>
+                            <ptr type="priority" target="#AnnotPrio1"/>
+                            <ptr type="categories" target="#Libretto"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="annot_0003" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note3-act1sc5">
+                            <title>Scena V inizia...</title>                    
+                            <p>
+                                <ref target="#NA1816">
+                                    <hi rend="bold">NA<sup>1816</sup></hi>: la Scena V inizia con un quartetto 
+                                    di Nelly, Fanny, Madama Rivers e Bonifacio 
+                                    (31 decasillabi, 12 ottonari).</ref>
+                            </p>
+                            <ptr type="priority" target="#AnnotPrio1"/>
+                            <ptr type="categories" target="#Libretto"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="annot_0004" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note4-act1sc5">
+                            <title>Scena V continua...</title>                    
+                            <p>
+                                <ref target="#NA1816">
+                                    <hi rend="bold">NA<sup>1816</sup></hi>: la Scena V continua con un’aria di Madama Rivers (16 senari).</ref>
+                            </p>
+                            <ptr type="priority" target="#AnnotPrio1"/>
+                            <ptr type="categories" target="#Libretto"/>
+                        </annot>
+                        <annot type="editorialComment" xml:id="annot_0005" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note5-act1sc5">
+                            <title>questa quartina</title>                    
+                            <p>
+                                <ref target="#NA1816">
+                                    <hi rend="bold">NA<sup>1816</sup></hi>: Bellini compose questa quartina nella prima versione della Romanza 
+                                    (Appendice 1, N. 5a, batt. 42-56) ma la eliminò nella seconda (N. 5).</ref>
+                            </p>
+                            <ptr type="priority" target="#AnnotPrio1"/>
+                            <ptr type="categories" target="#Libretto"/>
+                        </annot>
                     </annot>
                 </notesStmt>
                 <classification>
