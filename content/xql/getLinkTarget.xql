@@ -155,7 +155,7 @@ declare function local:getViews($type as xs:string, $docUri as xs:string, $doc a
     let $maps :=
         for $view in $views
         let $readingDocUri :=
-        if ($view = 'tei_textView' and exists($version)) then
+        if ($view = 'tei_textView' and $version != '') then
             local:getReadingDocUri($docUri, $version)
         else
             $docUri
@@ -295,7 +295,7 @@ let $version :=
     if (contains($uriParams, 'version=')) then
         (substring-after($uriParams, 'version='))
     else
-        ()
+        ''
 
 let $version :=
     if (contains($version, '&amp;')) then
@@ -362,7 +362,7 @@ let $map :=
     map {
         'type': $type,
         'title': 
-            if (exists($version)) then
+            if ($version != '') then
                 local:getWindowTitle($doc, $type) || " (Reading " || $version || ")"
             else
                 local:getWindowTitle($doc, $type),
