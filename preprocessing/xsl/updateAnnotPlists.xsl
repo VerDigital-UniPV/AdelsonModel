@@ -36,6 +36,7 @@
     <!-- Recursive template to split the plist attribute value by spaces -->
     <xsl:template name="split-plist">
         <xsl:param name="plist"/>
+        <xsl:param name="isFirst" select="true()"/>
         
         <!-- Base case: If the plist is empty, do nothing -->
         <xsl:if test="string($plist) != ''">
@@ -49,13 +50,24 @@
             <xsl:variable name="tail" select="substring-after($first, '#')"/>
             
             <!-- Add original path -->
-            <xsl:value-of select="$first"/>
+
+            <!-- If it's NOT the old path, output it -->
+            <xsl:if test="$path-base != $old.path">
+                <!-- Add space before non-first items -->
+                <xsl:if test="not($isFirst)">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+                <xsl:value-of select="$first"/>
+            </xsl:if>
             
             <!-- If the path-base matches old.path, append new.paths with tail -->
             <xsl:if test="$path-base = $old.path">
-                <xsl:text> </xsl:text>
+                <xsl:if test="not($isFirst)">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
                 <xsl:call-template name="append-new-paths">
                     <xsl:with-param name="tail" select="$tail"/>
+                    <xsl:with-param name="prefix-space" select="false()"/>
                 </xsl:call-template>
             </xsl:if>
             
