@@ -309,7 +309,8 @@
    <sp who="#mad">
          <speaker>Mad.</speaker>
          <p>Andate pure o miei cari: i voti, che vi anima sul labbro un affetto sincero, e
-            che sapranno impetrare dal <choice>
+            che sapranno impetrare dal
+            <choice>
                <sic source="#na1816">Cielo</sic>
                <corr resp="#cbm">cielo</corr>
             </choice> il pronto ritorno di Milord, saranno pel suo cuore grato, e benefico
@@ -333,7 +334,8 @@
       <sp who="#mad">
          <speaker>Mad.</speaker>
          <p>Non è possibile: ama troppo la sua Nelly. Se fu per costargli la vita la
-            impreveduta perdita di lei, ora che un <choice>
+            impreveduta perdita di lei, ora che un
+            <choice>
                <sic source="#na1816">Nume</sic>
                <corr resp="#cbm">nume</corr>
             </choice> amico la rese a’ voti suoi, saprà egli troncare ogni ostacolo, che
@@ -358,7 +360,8 @@
          <speaker>Mad.</speaker>
          <p>Che l’unica tua cura debba esser quella di apprendere le tue lezioni, e
             proffittare delle amichevoli premure del tuo maestro Salvini, senza punto
-            divagarti in frasi così <choice>
+            divagarti in frasi così
+            <choice>
                <sic source="#na1816">leggiere</sic>
                <corr resp="#cbm">leggere</corr>
             </choice>, e voluttuose.</p>
@@ -469,7 +472,8 @@
          <sp who="#stru">
             <speaker>Stru.</speaker>
             <p>Questa ingrata nipote a me appartiene: i vincoli della natura mi dichiarano
-               suo tutore: invano Adelson ha proccurato ottenerne dal<choice>
+               suo tutore: invano Adelson ha proccurato ottenerne dal
+               <choice>
                   <sic source="#1816">Magistrato</sic>
                   <corr resp="#cbm">magistrato</corr>
                </choice> la tutela,
@@ -480,9 +484,10 @@
          </sp>
          <sp who="#ger">
             <speaker>Ger.</speaker>
-            <p>Nol voglia il<choice>
-               <sic source="#1816">Cielo</sic>
-               <corr resp="#cbm"></corr>
+            <p>Nol voglia il
+               <choice>
+                  <sic source="#1816">Cielo</sic>
+                  <corr resp="#cbm"></corr>
             </choice>sareste allora la vittima de’ domestici di Milord.</p>
          </sp>
          <sp who="#stru">
@@ -561,19 +566,20 @@
                <l n="70" rend="indent">&#160;&#160;&#160;
                   <quote xml:lang="it" xml:id="a1-s3-1-q3">Donna Popa vuol l’importo</quote></l>
                <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela accredenzata...</quote></l>
-               <l n="72"><choice>
-                  <sic resp="#1816">Cca</sic>
-                  <corr resp="tbc">Ccà</corr>
+               <l n="72">
+                  <choice>
+                     <sic resp="#1816">Cca</sic>
+                     <corr resp="tbc">Ccà</corr>
                   
                   <!-- resp = TBC ?? From Bellini_1825 doc -->
                   
                </choice>ce manca l’ommo muorto</l>
                <l n="73">si la tela è consumata!</l>
-               <l n="74"><quote xml:lang="it" xml:id="a1-s3-1-q4">Donn’Orazio fa fracasso</quote></l>
-               <l n="75"><quote xml:lang="it" corresp="#a1-s3-1-q4">pel danar della pigione...</quote></l>
+               <l n="74"><quote xml:lang="it" xml:id="a1-s3-1-q4">&#171;Donn’Orazio fa fracasso</quote></l>
+               <l n="75"><quote xml:lang="it" corresp="#a1-s3-1-q4">pel danar della pigione...&#187;</quote></l>
                <l n="76">Le lassaje la casa a spasso,</l>
                <l n="77">e che bò st’animalone?</l>
-               <l n="78"><quote xml:lang="it" corresp="#a1-s3-1-q5">Fa rumore il macellaio,</quote></l>
+               <l n="78"><quote xml:lang="it" corresp="#a1-s3-1-q5">&#171;Fa rumore il macellaio,</quote></l>
                <l n="79"><quote xml:lang="it" corresp="#a1-s3-1-q5">grida, e insiste il calzolaio,</quote></l>
                <l n="80"><quote xml:lang="it" corresp="#a1-s3-1-q5">la sensale tutt’i pegni</quote></l>
                <l n="81"><quote xml:lang="it" corresp="#a1-s3-1-q5">vuol far vendere all’incanto:</quote></l>
@@ -581,7 +587,7 @@
                <l n="83"><quote xml:lang="it" corresp="#a1-s3-1-q5">si è saputo dove stai,</quote></l>
                <l n="84"><quote xml:lang="it" corresp="#a1-s3-1-q5">ed io temo, che a quest’ora</quote></l>
                <l n="85"><quote xml:lang="it" corresp="#a1-s3-1-q5">qualche ufficio sia già fuora</quote></l>
-               <l n="86"><quote xml:lang="it" corresp="#a1-s3-1-q5">per poterti imprigionar.</quote></l>
+               <l n="86"><quote xml:lang="it" corresp="#a1-s3-1-q5">per poterti imprigionar.&#187;</quote></l>
             </lg>
             <lg>
                <l n="87" rend="indent">&#160;&#160;&#160;Ma che anime indiscrete!</l>
@@ -606,10 +612,12 @@
             <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la
                digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe
                dagl’immancabili appostatori! ahù! Don Bonifà? mercante de salumme abbascio
-               a la<choice>
+               a la
+               <choice>
                   <sic source="#1816">Dogana</sic>
                   <corr resp="#cbm">dogana</corr>
-               </choice>! curribule, e capriolè da<choice>
+               </choice>! curribule, e capriolè da
+               <choice>
                   <sic source="#1816">cca</sic>
                   <corr resp="#cbm">ccà</corr>
                </choice>, fratielle smesteture, e gnore
@@ -622,7 +630,8 @@
                   <sic source="#1816">Maresciallo</sic>
                   <corr resp="#cbm">maresciallo</corr>
                </choice> Jelo, che ne caccia tutte li crediture: ma vecco lo pittore! e
-               pè la fine dell’opera chisto m’ha strascenato da Romma nzì a<choice>
+               pè la fine dell’opera chisto m’ha strascenato da Romma nzì a
+               <choice>
                   <sic source="#1816">cca</sic>
                   <corr resp="#cbm">ccà</corr>
                </choice> co isso
@@ -657,9 +666,12 @@
             <l n="99">&#160;&#160;&#160;Speranza seduttrice!</l>
             <l n="100">Fuggi da questo cor.</l>
             <l n="101">Son vittima infelice</l>
-            <l n="102">di un amor.</l>
-            <l n="103">Ah no! non fulminarmi</l>
-            <l n="104">bella <choice>
+            <l n="102">di un disperato amor.</l>
+         </lg>
+         <lg>
+            <l n="103">&#160;&#160;&#160;Ah no! non fulminarmi</l>
+            <l n="104">bella
+               <choice>
                   <corr resp="#cbm">amistà</corr>
                   <sic>amtstà</sic>
                </choice> tradita, </l>
@@ -702,7 +714,8 @@
             <l n="24">e de schiaffune, e paccare</l>
             <l n="25">me fa no complimento!</l>
             <l n="26">Gnernò, non me la sento:</l>
-            <l n="27">vedimmo sto mesterio a che ghiarrà a fenì.)</l>
+            <l n="27">vedimmo sto mesterio</l>
+            <l n="">a che ghiarrà a fenì.)</l>
          </lg>
       </sp>
 
@@ -715,8 +728,8 @@
             <l n="31">Prima morir... sì... scampo</l>
             <l n="32">miglior non v’è, che morte:...</l>
             
-            <stage type="business" ><p>(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo
-                     disarma</hi>)</p></stage>
+            <stage type="business">(<hi rend="i">brandisce un ferro, <name>Bonifacio</name> accorre e lo
+                     disarma</hi>)</stage>
 
             <!--                <note resp="#Microsoft_Office_User">
                This is different in Bellini’s autograph score</note>
@@ -730,44 +743,42 @@
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
          <lg>
-            <l n="34">&#160;&#160;&#160;Chia! tu che faje? mmalora!</l>
+            <l n="34" rend="indent">&#160;&#160;&#160;Chia! tu che faje? mmalora!</l>
          </lg>
       </sp>
 
       <sp who="#sal">
          <speaker>Sal.</speaker>
          <lg>
-            <l n="35">&#160;&#160;&#160;Ah! lascia pur, ch’io mora!</l>
+            <l n="35" rend="indent">&#160;&#160;&#160;Ah! lascia pur, ch’io mora!</l>
          </lg>
       </sp>
 
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
          <lg>
-            <l n="36">&#160;&#160;&#160;A chì? sì pazzo? lassa...</l>
+            <l n="36" rend="indent">&#160;&#160;&#160;A chì? sì pazzo? lassa...</l>
          </lg>
       </sp>
 
       <sp who="#sal">
          <speaker>Sal.</speaker>
          <lg>
-            <l n="37">&#160;&#160;&#160;Pietà per me crudele!</l>
+            <l n="37" rend="indent">&#160;&#160;&#160;Pietà per me crudele!</l>
          </lg>
       </sp>
 
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
          <lg>
-            <l n="38">&#160;&#160;&#160;E pigliatenne scuorno! <!--  <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
+            <l n="38" rend="indent">&#160;&#160;&#160;E pigliatenne scuorno! <!--  <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
                      Correggerei il rientro (indicandolo nella codifica)
                   </note>-->
-               <note resp="#Microsoft_Office_User"> Correggerei il rientro (indicandolo
-                  nella codifica) </note>
             </l>
-            <l n="39"> Jocarese la pella <!--   <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">-->
+            <l n="39"> Jocarese la pella <!--   <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
                <note resp="#Microsoft_Office_User"> Integrare punteggiatura (indicandolo
                   nella codifica)?</note>
-               <!--</note>-->
+               </note>-->
             </l>
             <l n="40">pe chi? pe na gonnella?</l>
          </lg>
@@ -776,7 +787,7 @@
       <sp who="#sal">
          <speaker>Sal.</speaker>
          <lg>
-            <l n="41">&#160;&#160;&#160;Ah! mi è tormento il vivere</l>
+            <l n="41" rend="indent">&#160;&#160;&#160;Ah! mi è tormento il vivere</l>
             <l n="42">senza la mia Nelly!</l>
          </lg>
       </sp>
@@ -784,7 +795,7 @@
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
          <lg>
-            <l n="43">&#160;&#160;&#160;Se vede ca sì quicquaro!</l>
+            <l n="43" rend="indent">&#160;&#160;&#160;Se vede ca sì quicquaro!</l>
             <l n="44">Ce mancano aute femmene</l>
             <l n="45">cchiù belle, e cchiù majateche?</l>
             <l n="46">Si non sarà Nelly,</l>
@@ -797,7 +808,7 @@
       </sp>
 
       <sp who="#sal">
-         <speaker>Salvini</speaker>
+         <speaker>Sal.</speaker>
          <lg>
             <l n="52">&#160;&#160;&#160;Ah! se a smorzar l’ardore</l>
             <l n="53">forza non ho che basti,</l>
@@ -807,7 +818,7 @@
       </sp>
 
       <sp who="#bon" xml:lang="nap">
-         <speaker>Bonifacio</speaker>
+         <speaker>Bon.</speaker>
          <lg>
             <l n="56">&#160;&#160;&#160;(Oh povero cerviello!</l>
             <l n="57">Cchiù ncapo non se trova!</l>
@@ -825,17 +836,19 @@
       </sp>
       <sp who="#Sal">
          <speaker>Sal.</speaker>
-         <p>Ah! l’avverso destino mi fece imbatter teco! senza il tuo<choice>
-            <sic source="#1816">ajuto</sic>
-            <corr resp="#cmb">aiuto</corr>
+         <p>Ah! l’avverso destino mi fece imbatter teco! senza il tuo
+            <choice>
+               <sic source="#1816">ajuto</sic>
+               <corr resp="#cmb">aiuto</corr>
          </choice>importuno
             Salvini no più non penerebbe a quest’ora?</p>
       </sp>
       <sp who="#bon" xml:lang="nap">
          <speaker>Bon.</speaker>
-         <p>E avrisse fatta l’urdema bestialità cchiù grossa de quante n’aje fatte<choice>
-            <sic source="#1816">nzi</sic>
-            <corr resp="cbm">nzì</corr>
+         <p>E avrisse fatta l’urdema bestialità cchiù grossa de quante n’aje fatte
+            <choice>
+               <sic source="#1816">nzi</sic>
+               <corr resp="cbm">nzì</corr>
             
          </choice> a
             mo, che non so poche! non c’è che ddì! chi lava la capo all’aseno, ce perde lo
@@ -851,7 +864,8 @@
             desìo di emulare i primi pennelli, i più fioriti ingegni d’Italia? tu grato a
             me, ed alla vecchia mia genitrice, che premurosi de’ tuoi giorni, ti traemmo
             dagli artigli di morte, ove ti avea abbandonato un fatale malore, hai creduto
-            colmarmi di<choice>
+            colmarmi di
+            <choice>
                <sic source="#1816">benefizj</sic>
                <corr resp="#cbm">benefizi</corr>
             </choice>, teco conducendomi, ed assicurandomi qui una vita agiata,
@@ -906,7 +920,8 @@
          <p>E bì che carrera! eh! la costata va piglianno de fummo! aggio paura, che Milord
             non manna lo pittore a pittà la gallaria de Minosse! ma s’accosta Nelly,
             Maddamma, e la nepote: si me vene a taglio, la voglio mpignà pe lo fatto mio
-            appriesso a Milord... e pè sto piezzo de caicco qua<choice>
+            appriesso a Milord... e pè sto piezzo de caicco qua
+            <choice>
                <sic source="#1816">Iodece</sic>
                <corr resp="#cbm">iodece</corr>
             </choice> pò ascì co non est
@@ -927,6 +942,213 @@
          <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e
             <name>FANNY</name>, e <name>detto</name>
       </stage>
+      
+      <app>
+         <rdg source="#1816">
+         <sp who="#mad">
+            <speaker>Mad.</speaker>
+            <lg>
+               <l rend="indent">Alle aurette, che spirano chete,</l>
+            </lg>
+         </sp>
+         
+         <sp who="#fan">
+            <speaker>Fan.</speaker>
+            <lg>
+               <l>mormorando il ruscello risponde:</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad #fan">
+            <speaker>a 2</speaker>
+            <lg>
+               <l>qui mia cara goder voi potrete</l>
+               <l part="I">quella calma...</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            
+            <speaker>Nel.</speaker>
+            <lg>
+               <l part="F">Che il cor più non ha.</l>
+            </lg>
+
+         </sp>
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+<!-- Double Check here if this is Nel or Bon interrupting -->
+            <stage type="delivery">(interrompendole)</stage>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Si a Milord te faje trovà strutta</l>
+               <l>vi ca pierde Maddà lo partito:</l>
+               <l>chillo arriva co molto appetito,</l>
+               <l>e non tiene che darle a magnà.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Ah! miei cari! quest’aura, quel rio,</l>
+               <l>il boschetto, l’amena pendice</l>
+               <l>mi rammenta, che un giorno felice</l>
+               <l>fu quest’alma, ma più non sarà!</l>
+            <lg>               
+               <l rend="indent">&#160;&#160;&#160;>Mi persegue un presagio funesto,</l>
+               <l>mille dubbi mi fanno perplessa,</l>
+               <l>la ragion ne domando a me stessa,</l>
+               <l>ma trovarla il mio core non sa!</l></lg>
+            </lg>
+         </sp>
+         
+         <sp who="#mad">
+            <speaker>Mad.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Ma la cosa è crudele in mia fè!</l>
+            </lg>
+         </sp>
+         
+         <sp who="#fan">
+            <speaker>Fan.</speaker>
+            <lg>
+               <l>Lagrimar, singhiozzar tutto il dì!</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad #fan">
+            <speaker>a 2</speaker>
+            <lg>
+               <l>Non conosco, non veggo il perché</l>
+               <l>voi dobbiate affannarvi così?</l>
+            </lg>
+         </sp>
+         
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;E pigliate l’esempio porzì</l>
+               <l>di mia mamma che maje picciò:</l>
+               <l>ogge tata nsalute morì,</l>
+               <l>essa n’auto domani sposò.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l rend="indent" part="I">&#160;&#160;&#160;Ma novelle di Adelson?</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad">
+            <speaker>Mad.</speaker>
+            <lg>
+               <l part="F">Si avranno.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l part="I">Ma suoi fogli?..</l>
+            </lg>
+         </sp>
+         
+         <sp who="#fan">
+            <speaker>Fan.</speaker>
+            <lg>
+               <l part="F">Quest’oggi verrano.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l rend="indent" part="I">&#160;&#160;&#160;Tutto nziemo la vide assommà.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l rend="indent" part="I">&#160;&#160;&#160;E fia vero!</l>
+            </lg>
+         </sp>
+         
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l part="F">Pe me ce scommetto.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l>Qual partì tornerà fido amante?</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad">
+            <speaker>Mad.</speaker>
+            <lg>
+               <l>Oh qual dubbio! fedele, costante,</l>
+            </lg>
+         </sp>
+         
+         <sp who="#fan">
+            <speaker>Fan.</speaker>
+            <lg>
+               <l>qual fu sempre, per voi tornerà.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l>Ah se del mio tesoro</l>
+               <l>ancor la fiamma io sono,</l>
+               <l>gli affanni ti perdono,</l>
+               <l>che fai sentirmi o Amor!</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad">
+            <speaker>Mad.</speaker>
+            <lg>
+               <l>Non più malinconia,</l>
+            </lg>
+         </sp>
+         
+         <sp who="#fan">
+            <speaker>Fan.</speaker>
+            <lg>
+               <l>tornate in allegria,</l>
+            </lg>
+         </sp>
+         
+         <sp who="#mad #fan">
+            <speaker>a 2</speaker>
+            <lg>
+               <l>respiri alfin contento</l>
+               <l>senza tormento – il cor.</l>
+            </lg>
+         </sp>
+         
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l>Oh quanta Milordielle</l>
+               <l>già vedo scapolare!</l>
+               <l>farranno pazziare</l>
+               <l>la madre, e ‘l genitor!</l>
+            </lg>
+         </sp>
+            
+         </rdg>
+         <rdg source="#1825"/>
+      </app>
       <div type="parlato" n="7">
          <sp who="#fan">
             <speaker>Fan.</speaker>
@@ -999,23 +1221,27 @@
 
          <sp who="#mad">
             <speaker>Mad.</speaker>
-            <p>E se il<choice>
-               <sic source="#1816">Cielo</sic>
-               <corr resp="#cbm">cielo</corr>
-            </choice> ti trasse da quel periglio, il<choice>
-               <sic source="#1816">Cielo</sic>
-               <corr resp="#cbm">cielo</corr>
-            </choice> istesso a coronar le tue
+            <p>E se il
+               <choice>
+                  <sic source="#1816">Cielo</sic>
+                  <corr resp="#cbm">cielo</corr>
+               </choice> ti trasse da quel periglio, il
+               <choice>
+                  <sic source="#1816">Cielo</sic>
+                  <corr resp="#cbm">cielo</corr>
+               </choice> istesso a coronar le tue
                brame invierà Milord nelle tue braccia.</p>
          </sp>
 
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <p>Non ne son persuasa: il suo silenzio di più settimane è il testimonio della
-               sua indifferenza... lo splendor della<choice>
+               sua indifferenza... lo splendor della
+               <choice>
                   <sic source="#1816">Corte</sic>
                   <corr resp="#cbm">corte</corr>
-               </choice>, le seducenti bellezze della<choice>
+               </choice>, le seducenti bellezze della
+               <choice>
                   <sic source="#1816">Capitale</sic>
                   <corr resp="#cbm"></corr>
                </choice> lo avranno involato alla sventurata Nelly!</p>
@@ -1059,10 +1285,11 @@
          
          <sp who="#nel">
             <speaker>Nel.</speaker>
-            <p>Ma sei troppo<choice>
-               <sic source="#1816">nojoso</sic>
-               <corr resp="#noioso"></corr>
-            </choice>! vanne ti ho detto!</p>
+            <p>Ma sei troppo
+               <choice>
+                  <sic source="#1816">nojoso</sic>
+                  <corr resp="#cbm">noioso</corr>
+               </choice>! vanne ti ho detto!</p>
          </sp>
 
          <sp who="#bon" xml:lang="nap">
@@ -1087,10 +1314,11 @@
          <sp who="#nel">
             <lg type="stanza">
                <l>Dopo l’oscuro nembo</l>
-               <l>il<choice>
-                  <sic source="#1816">Ciel</sic>
-                  <corr resp="#cbm">ciel</corr>
-               </choice> sperai seren,</l>
+               <l>il
+                  <choice>
+                     <sic source="#1816">Ciel</sic>
+                     <corr resp="#cbm">ciel</corr>
+                  </choice> sperai seren,</l>
                <l>e al mio tesoro in sen</l>
                <l>goder la calma.</l>
             </lg>
@@ -1129,7 +1357,9 @@
    </div>
 
    <!-- *************************** SCENE 6 *********************************** -->
-
+   <!-- *************************** SCENE 6 *********************************** -->
+   <!-- *************************** SCENE 6 *********************************** -->
+   
    <div type="scene" n="6">
       <head rend="center">SCENA VI.</head>
       <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
@@ -1141,10 +1371,11 @@
       </sp>
       <sp who="#nel">
          <speaker>Nel.</speaker>
-         <p>È Milord, che mi scrive? oh<choice>
-            <sic source="#1816">gioja</sic>
-            <corr resp="#cbm">gioia</corr>
-         </choice> inaspettata!</p>
+         <p>È Milord, che mi scrive? oh
+            <choice>
+               <sic source="#1816">gioja</sic>
+               <corr resp="#cbm">gioia</corr>
+            </choice> inaspettata!</p>
       </sp>
       <sp who="#sal">
          <speaker>Sal.</speaker>
@@ -1184,10 +1415,11 @@
       </sp>
       <sp who="#nel">
          <speaker>Nel.</speaker>
-         <p>Oh<choice>
-            <sic source="#1816">Cielo</sic>
-            <corr resp="#cbm">cielo</corr>
-         </choice>! <stage type="delivery" rend="right">(<hi rend="i">dà un grido</hi>)</stage></p>
+         <p>Oh&#160;
+            <choice>
+               <sic source="#1816">Cielo</sic>
+               <corr resp="#cbm">cielo</corr>
+            </choice>! <stage type="delivery" rend="right">(<hi rend="i">dà un grido</hi>)</stage></p>
       </sp>
       <sp who="#sal">
          <speaker>Sal.</speaker>
@@ -1214,8 +1446,8 @@
       <sp who="#nel">
          <speaker>Nel.</speaker>
          <p>Povera Nelly! chi mi soccorre! io moro!</p>
-         <stage type="business" rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
       </sp>
+      <stage type="business" rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
 </div>
       <div type="recitativo" n="10">
          <sp who="#sal">
@@ -1227,10 +1459,11 @@
                <l>Me sol persegue avverso fato! io solo</l>
                <l>deggio... e sempre penar!... perché più bella,</l>
                <l>or che pallido vel sue guance ha smorte,</l>
-               <l>tu la rendi<choice>
-                  <sic source="#1816">a</sic>
-                  <corr resp="#cbm">a’</corr>
-               </choice> miei sguardi o iniqua sorte?</l>
+               <l>tu la rendi
+                  <choice>
+                     <sic source="#1816">a</sic>
+                     <corr resp="#cbm">a’</corr>
+                  </choice> miei sguardi o iniqua sorte?</l>
                <l>Ah! si fugga... si corra</l>
                <l>fra inospiti deserti... almen potessi</l>
                <l>abbracciarla, e partir... felice istante!</l>
@@ -1250,7 +1483,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l part="I">Ah!</l>
+               <l rend="indent" part="I">&#160;&#160;&#160;Ah!</l>
             </lg>
          </sp>
          <sp who="#sal">
@@ -1292,7 +1525,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Che mai tenti? e qual è questa</l>
+               <l rend="indent">&#160;&#160;&#160;Che mai tenti? e qual è questa</l>
                <l part="I">folle audacia?</l>
             </lg>
          </sp>
@@ -1306,7 +1539,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Ah! comprendo il mio periglio!</l>
+               <l rend="indent">&#160;&#160;&#160;Ah! comprendo il mio periglio!</l>
             </lg>
             <stage type="mixed modifier business" rend="right">(<hi rend="i">spaventata fugge dalle braccia di
                   Salvini</hi>)</stage>
@@ -1322,17 +1555,19 @@
          <sp who="#sal">
             <speaker>Sal.</speaker>
             <lg>
-               <l>Sì, lo sappi... un mostro io sono...</l>
+               <l rend="indent">&#160;&#160;&#160;Sì, lo sappi... un mostro io sono...</l>
                <l part="I">Ti amo...</l>
             </lg>
          </sp>
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l part="M">Oh ciel<choice>
-                  <sic source="#1816">Ciel</sic>
-                  <corr resp="#cbm">ciel</corr>
-               </choice>!</l>
+               <l part="M">Oh&#160;
+                  <choice>
+                     <sic source="#1816">Ciel</sic>
+                     <corr resp="#cbm">ciel</corr>
+                  </choice>!
+               </l>
             </lg>
          </sp>
          <sp who="#sal">
@@ -1364,10 +1599,12 @@
          <sp who="#sal">
             <speaker>Sal.</speaker>
             <lg>
-               <l>&#160;&#160;&#160;Sì... è<choice>
-                  <sic source="#1816">un'amore</sic>
-                  <corr resp="#cbm">un amore</corr>
-               </choice>forsennato,</l>
+               <l>&#160;&#160;&#160;Sì... è&#160;
+                  <choice>
+                     <sic source="#1816">un'amore</sic>
+                     <corr resp="#cbm">un amore</corr>
+                  </choice>forsennato,
+               </l>
                <l>che mi toglie alla ragione...</l>
                <l>Grida invano... invan si oppone</l>
                <l>di amistà la voce irata...</l>
@@ -1380,7 +1617,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Chiudi, o vil, quel labbro insano!</l>
+               <l>&#160;&#160;&#160;Chiudi, o vil, quel labbro insano!</l>
                <l>E non pensi, e non rammenti,</l>
                <l>che a punire i tradimenti</l>
                <l>veglia un Dio fulminator?</l>
@@ -1389,7 +1626,7 @@
          <sp who="#sal">
             <speaker>Sal.</speaker>
             <lg>
-               <l>Sì... mi annienti un fato rio...</l>
+               <l>&#160;&#160;&#160;Sì... mi annienti un fato rio...</l>
                <l>Così estingua in me l’ardor.</l>
             </lg>
             <stage type="delivery" rend="right">(<hi rend="i">nella massima disperazione</hi>)</stage>
@@ -1397,7 +1634,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Ah! mancava al dolor mio</l>
+               <l rend="indent">&#160;&#160;&#160;Ah! mancava al dolor mio</l>
                <l>un tormento assai maggior!</l>
             </lg>
          </sp>
@@ -1421,7 +1658,7 @@
          <sp who="#sal">
             <speaker>Sal.</speaker>
             <lg>
-               <l>Non è in me cangiar consiglio,</l>
+               <l rend="indent">&#160;&#160;&#160;Non è in me cangiar consiglio,</l>
                <l>se tu mi hai rapito il cor!</l>
             </lg>
             <stage type="entrance" rend="right">(<name>Bonifacio</name>
@@ -1430,7 +1667,7 @@
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <lg>
-               <l>Oh Maddà! no paraguanto</l>
+               <l rend="indent">&#160;&#160;&#160;Oh Maddà! no paraguanto</l>
                <l>mo dammillo, e che sia gruosso,</l>
                <l>manna a cancaro lo chianto!</l>
                <l>Accommenza a sciascià!</l>
@@ -1439,7 +1676,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Ah! ti spiega! qual novella?</l>
+               <l rend="indent">&#160;&#160;&#160;Ah! ti spiega! qual novella?</l>
             </lg>
          </sp>
          <sp who="#bon" xml:lang="nap">
@@ -1483,7 +1720,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l part="I">Torna Adelson!</l>
+               <l part="I" rend="indent">&#160;&#160;&#160;Torna Adelson!</l>
             </lg>
          </sp>
          <sp who="#sal">
@@ -1496,7 +1733,7 @@
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <lg>
-               <l>Signorsì... mo no corriero</l>
+               <l rend="indent">&#160;&#160;&#160;Signorsì... mo no corriero</l>
                <l>ha portato chesta nova...</l>
                <l><choice>
                   <sic source="#1816">Cca</sic>
@@ -1508,7 +1745,7 @@
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
-               <l>Ma... dì... forse... colla sposa</l>
+               <l rend="indent">&#160;&#160;&#160;Ma... dì... forse... colla sposa</l>
                <l part="I">egli vien?</l>
             </lg>
          </sp>
@@ -1527,30 +1764,30 @@
          <sp who="#sal">
             <speaker>Sal.</speaker>
             <lg>
-               
-
-               <l>(Oh qual crucio! oh gelosia!</l>
-               
+               <l rend="indent">&#160;&#160;&#160;(Oh qual crucio! oh gelosia!</l>               
                <!-- APP -->
-               
-               
-               <note><add><l>&lt;Il mio cor da duolo oppresso</l>
+               <note>
+                  <add><l>&lt;Il mio cor da duolo oppresso</l>
                      <l>mi tormenta, che in me stesso</l>
-                     <l>me trovar io più non so.&gt;)</l></add></note>
-
+                     <l>me trovar io più non so.&gt;)</l>
+                  </add>
+               </note>
             </lg>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <lg>
-               <l>(Chisto abbotta! arrassosìa!</l>
+               <l rend="indent">&#160;&#160;&#160;(Chisto abbotta! arrassosìa!</l>
                
                <!-- APP -->
                
                
-               <note><add><l>&lt;È mpazzuto e vall’appresso,</l>
+               <note>
+                  <add><l>&lt;È mpazzuto e vall’appresso,</l>
                      <l>nce vorria adesso, adesso</l>
-                     <l>nna nsagnia comifò.&gt;)</l></add></note>
+                     <l>nna nsagnia comifò.&gt;)</l>
+                  </add>
+               </note>
             </lg>
          </sp>
          <sp who="#nel">
@@ -1558,10 +1795,11 @@
             <lg>
                <l>Ah! qual raggio di speranza</l>
                <l>balenando in sen mi va!</l>
-               <l>Giusto<choice>
-                  <sic source="#1816">Ciel</sic>
-                  <corr resp="#cbm">ciel</corr>
-               </choice>! la mia costanza</l>
+               <l>Giusto&#160;
+                  <choice>
+                     <sic source="#1816">Ciel</sic>
+                     <corr resp="#cbm">ciel</corr>
+                  </choice>! la mia costanza</l>
                <l>tu corona per pietà!</l>
             </lg>
             <note><stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage></note>
@@ -1572,7 +1810,8 @@
          <sp who="#mad">
             <speaker>Mad.</speaker>
             <lg>
-               <l><choice>
+               <l rend="indent">&#160;&#160;&#160;
+               <choice>
                   <sic source="#1816">Qui, quì</sic>
                   <corr resp="#cbm">Qui qui</corr>
                </choice>l'attenderemo,</l>
@@ -1581,28 +1820,27 @@
          </sp>
 
          <!-- Here it is just 2 voices added, 
-            but have to encode entire contents 
-            of sp element in app -->
-         <app>
-            <rdg>
-               <sp who="#ger #coro">
-               <speaker>Ger., e Coro</speaker>
-                  <l>Oh qual piacere estremo!</l>
-                  <l>Andiamlo ad incontrar.</l>
-               </sp>
-            </rdg>
-            <rdg>
-               <sp who="#fan #ger #bon #coro">
-               <speaker>Fan., Ger., Bon., e Coro</speaker>
-                  <l>Oh qual piacere estremo!</l>
-                  <l>Andiamlo ad incontrar.</l>
-               </sp>
-            </rdg>
-         </app>
+           
+         but not working to have entire <sp> in <app>
+         
+         -->
+         <sp who="#fan #ger #bon #coro">
+            <speaker>
+               <app>
+                  <rdg source="#1816">Ger., e Coro</rdg>
+                  <rdg source="#1825">Fan., Ger., Bon., e Coro</rdg>
+               </app>
+            </speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Oh qual piacere estremo!</l>
+               <l>Andiamlo ad incontrar.</l>
+            </lg>
+         </sp>
+         
          <sp who="#mad">
             <speaker>Mad.</speaker>
             <lg>
-               <l>Son già molti pastori</l>
+               <l rend="indent">&#160;&#160;&#160;Son già molti pastori</l>
                <l>accorsi a fargli onori:</l>
                <l>voi, che i più vecchi siete,</l>
                <l>qui lo saluterete,</l>
@@ -1612,57 +1850,71 @@
          </sp>
          <sp who="#fan">
             <speaker>Fan.</speaker>
-            <l>E poi mentre al suo bene</l>
-            <l>rende i primieri amplessi,</l>
-            <l>mischiarci non conviene,</l>
-            <l>lungi bisogna star.</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;E poi mentre al suo bene</l>
+               <l>rende i primieri amplessi,</l>
+               <l>mischiarci non conviene,</l>
+               <l>lungi bisogna star.</l>
+            </lg>
          </sp>
          <sp who="#mad">
             <speaker>Mad.</speaker>
-            <l>Sta zitta, impertinente!</l>
-            <l>Che sai di amplessi tu?</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Sta zitta, impertinente!</l>
+               <l>Che sai di amplessi tu?</l>
+            </lg>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
-            <l>Se! cridela nnozente!</l>
-            <l>Sta capozzella secca</l>
-            <l>starria pè arravogliare</l>
-            <l>la Lecca co la Mecca,</l>
-            <l>l’America e ‘l Perù!</l>
+            <lg>            
+               <l rend="indent">&#160;&#160;&#160;Se! cridela nnozente!</l>
+               <l>Sta capozzella secca</l>
+               <l>starria pè arravogliare</l>
+               <l>la Lecca co la Mecca,</l>
+               <l>l’America e ‘l Perù!</l>
+            </lg>
          </sp>
          <app>
             <rdg source="#1816">
                <sp who="#fan">
                   <speaker>Fan.</speaker>
-                  <l rend="indent">&#160;&#160;&#160;<choice>
+                  <lg>
+                     <l rend="indent">&#160;&#160;&#160;<choice>
                      <sic source="#1816">Sguajato</sic>
                      <corr resp="#cbm">Sguaiato</corr>
                   </choice> ci vuol sale!</l>
-                  <l>Non mi fai rider più</l>
+                  <l>Non mi fai rider più</l></lg>
                </sp>             
             </rdg>
             <rdg source="#1825"/>
          </app>
          <sp who="#coro">
             <speaker>Coro</speaker>
-            <l>Ma<choice>
-               <sic source="#1816">quì</sic>
-               <corr resp="#cbm">qui</corr>
-            </choice> garrir non vale...</l>
-            <l>Pensiamo in qual maniera</l>
-            <l>la nostra fè leale</l>
-            <l>spiegare al buon padrone</l>
-            <l>da alcun di noi si dè.</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Ma&#160;<choice>
+                  <sic source="#1816">quì</sic>
+                  <corr resp="#cbm">qui</corr>
+               </choice> garrir non vale...</l>
+               <l>Pensiamo in qual maniera</l>
+               <l>la nostra fè leale</l>
+               <l>spiegare al buon padrone</l>
+               <l>da alcun di noi si dè.</l>
+            </lg>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
-            <l>Zitto mo ce pens’io,</l>
-            <l>lassate fare a me.</l>
+<!-- Should ce/co correction be silent or footnote? (as per fioravanti_1816.doc) -->
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Zitto mo ce pens’io,</l>
+               <l>lassate fare a me.</l>
+            </lg>
          </sp>
          <sp who="#ger #coro">
             <speaker>Ger. e Coro</speaker>
-            <l>Oh! Bonifacio! evviva!</l>
-            <l>Tutti fidiamo in te.</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Oh! Bonifacio! evviva!</l>
+               <l>Tutti fidiamo in te.</l>
+            </lg>
          </sp>
          <stage type="entrance" rend="right">
             <hi rend="i">Arriva <name>Adelson</name> conducendo per mano <name>Nelly</name>, 
@@ -1670,146 +1922,199 @@
          </stage>
          <sp who="#ade">
             <speaker>Ade.</speaker>
-            <l>Obbliarti! abbandonarti!</l>
-            <stage type="delivery" rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>
-            <l>Quale oltraggio a un fido core!</l>
-            <l>Ah! tu fosti il primo ardore,</l>
-            <l>che quest’alma ha incenerita!</l>
-            <l>Pria lasciar saprei la vita,</l>
-            <l>che mancar di fedeltà.</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Obbliarti! abbandonarti!</l>
+                  <stage type="delivery" rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>
+               <l>Quale oltraggio a un fido core!</l>
+               <l>Ah! tu fosti il primo ardore,</l>
+               <l>che quest’alma ha incenerita!</l>
+               <l>Pria lasciar saprei la vita,</l>
+               <l>che mancar di fedeltà.</l>
+            </lg>
          </sp>
          <sp who="#nel">
             <speaker>Nel.</speaker>
-            <l>Cari accenti! Ciel pietoso!</l>
-            <l>Voi rendete il cor dubbioso</l>
-            <l>alla sua serenità!</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Cari accenti! Ciel pietoso!</l>
+               <l>Voi rendete il cor dubbioso</l>
+               <l>alla sua serenità!</l>
+            </lg>
          </sp>
          <sp who="#mad">
             <speaker>Mad.</speaker>
-            <l part="I">Ah mio caro!</l>
+            <lg>
+               <l part="I" rend="indent">&#160;&#160;&#160;Ah mio caro!</l>
+            </lg>
          </sp>
          <sp who="#ade">
             <speaker>Ade.</speaker>
-            <l part="F">Oh! voi qui siete!</l>
-            <l>Son tenuto al vostro affetto.</l>
+            <lg>
+               <l part="F">Oh! voi qui siete!</l>
+               <l>Son tenuto al vostro affetto.</l>
+            </lg>
          </sp>
          <sp who="#ger">
             <speaker>Ger.</speaker>
-            <l><choice>
-               <sic source="#1816">Quì</sic>
-               <corr resp="#cbm">Qui</corr>
-            </choice> Geronio con rispetto...</l>
+            <lg>
+               <l>
+               <choice>
+                  <sic source="#1816">Quì</sic>
+                  <corr resp="#cbm">Qui</corr>
+               </choice>&#160;Geronio con rispetto...</l>
+            </lg>
          </sp>
          <sp who="#fan">
             <speaker>Fan.</speaker>
-            <l>E Fanny s’inchina ancora...</l>
+            <lg>
+               <l>E Fanny s’inchina ancora...</l>
+            </lg>
          </sp>
          <sp who="#coro">
             <speaker>Coro</speaker>
-            <l part="I">(Quando parli?)</l>
+            <lg>
+               <l part="I">(Quando parli?)</l>
+            </lg>
             <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
-            <l part="F">(Mo... mmalora!</l>
-            <l>Vi ca vuje cchiù me stonate!)</l>
+            <lg>
+               <l part="F">(Mo... mmalora!</l>
+               <l>Vi ca vuje cchiù me stonate!)</l>
+            </lg>
          </sp>
          <sp who="#ade">
             <speaker>Ade.</speaker>
-            <l rend="indent">&#160;&#160;&#160;Cari amici... oh quanto grate</l>
-            <l>sono a me le vostre<choice>
-               <sic source="#1816">gioje</sic>
-               <corr resp="#cbm">gioie</corr>
-            </choice>!</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Cari amici... oh quanto grate</l>            
+               <l>sono a me le vostre
+                  <choice>
+                     <sic source="#1816">gioje</sic>
+                     <corr resp="#cbm">gioie</corr>
+               </choice>!</l>
+               </lg>
          </sp>         
          <sp who="#coro">
             <speaker>Coro</speaker>
-            <l part="I" rend="indent">&#160;&#160;&#160;(Ora è tempo!)</l>
+            <lg>
+               <l part="I" rend="indent">&#160;&#160;&#160;(Ora è tempo!)</l>
+            </lg>
             <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
-            <l part="F">(Oh benaggioje!</l>
-            <l>Me volite fa pensà?)</l>
+            <lg>
+               <l part="F">(Oh benaggioje!</l>
+               <l>Me volite fa pensà?)</l>
+            </lg>
          </sp>
          <sp who="#ade">
             <speaker>Ade.</speaker>
-            <l part="I" rend="indent">&#160;&#160;&#160;Bonifacio!</l>
-         </sp>
-         <sp who="#bon">
-            <speaker>Bon.</speaker>
-            <l part="F">Oh! Eccellentissimo!</l>
-
-            <l>Tra i Milordi Milordissimo...</l>
-            <l>tra i padroni padronissimo...</l>
-            <l>tra i sguazzoni sguazzonissimo...</l>
-            <l>se... conciosiacosacchè...</l>
-            <l>anzi no... quantunque che...</l>
-            <l>come in<choice>
-               <sic source="#1816">Ciel</sic>
-               <corr resp="#cbm">ciel</corr>
-            </choice> la luna è gonfia</l>
-            <l>di tumori assai benefici...</l>
-            <l>così noi siam tutti gravidi...</l>
-            <l>sissignor... di sensi<choice>
-               <sic source="#1816">Eroici</sic>
-               <corr resp="#cbm">eroici</corr>
-            </choice>,</l>
-            <l>e vorrebbi... anzi vorrebbimo</l>
-            <l>cento lingue per sopprimere</l>
-            <l>quel fedele accesso interno,</l>
-            <l>che ci accende l’accensibile</l>
-            <l>per il vostro microcosimo...</l>
-            <l>e perciò... dicea... cioè...</l>
-            <l>alla rozza mia facondia</l>
-            <l>deh supplite voi per me.</l>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
-            <l rend="indent">&#160;&#160;&#160;Ah! ah! ah! grazioso invero!</l>
-         </sp>
-         <sp who="#coro">
-            <speaker>Coro</speaker>
-            <l rend="indent">&#160;&#160;&#160;Ei del nostro amor sincero</l>
-            <l>fu l’interprete, o signore:</l>
-            <l>ricevete il nostro cuore</l>
-            <l>pegno sol di eterna<choice>
-               <sic source="#1816">fe</sic>
-               <corr resp="#cbm">fé</corr>
-            </choice>.</l>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
-            <l rend="indent">&#160;&#160;&#160;Di mie cure il primo oggetto</l>
-            <l>voi sarete ognor per me.</l>
-            <l>Ma l’amico mio diletto?</l>
-            <l>Ma Salvini... ah dite! ov’è?</l>
+            <lg>
+               <l part="I" rend="indent">&#160;&#160;&#160;Bonifacio!</l>
+            </lg>
          </sp>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
-            <l rend="indent">&#160;&#160;&#160;(Oh mmalora!)<choice>
-               <sic source="#1816">VA</sic>
-               <corr resp="#cbm">Va</corr>
-            </choice> trovanno</l>
-            <l>a’ quà bosco s’è ntanato...</l>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
-            <l rend="indent">&#160;&#160;&#160;Egli è sempre concentrato...</l>
-         </sp>
-         <sp who="#fan #mad">
-            <speaker>Fan. e Mad.</speaker>
-            <l>Melanconico ed astratto....</l>
-         </sp>
-         <sp who="#bon">
-            <speaker>Bon.</speaker>
-            <l rend="indent">&#160;&#160;&#160;Sta facenno lo ritratto</l>
-            <l>de la vava requiescola...</l>
+            <lg>
+               <l part="F">Oh! Eccellentissimo!</l>   
+               <l>Tra i Milordi Milordissimo...</l>
+               <l>tra i padroni padronissimo...</l>
+               <l>tra i sguazzoni sguazzonissimo...</l>
+               <l>se... conciosiacosacchè...</l>
+               <l>anzi no... quantunque che...</l>
+               <l>come in
+                  <choice>
+                     <sic source="#1816">Ciel</sic>
+                     <corr resp="#cbm">ciel</corr>
+                  </choice> la luna è gonfia</l>
+               <l>di tumori assai benefici...</l>
+               <l>così noi siam tutti gravidi...</l>
+               <l>sissignor... di sensi<choice>
+                  <sic source="#1816">Eroici</sic>
+                  <corr resp="#cbm">eroici</corr>
+               </choice>,</l>
+               <l>e vorrebbi... anzi vorrebbimo</l>
+               <l>cento lingue per sopprimere</l>
+               <l>quel fedele accesso interno,</l>
+               <l>che ci accende l’accensibile</l>
+               <l>per il vostro microcosimo...</l>
+               <l>e perciò... dicea... cioè...</l>
+               <l>alla rozza mia facondia</l>
+               <l>deh supplite voi per me.</l>
+            </lg>
          </sp>
          <sp who="#ade">
             <speaker>Ade.</speaker>
-            <l rend="indent">&#160;&#160;&#160;A me voli! il mio contento</l>
-            <l>egli venga a ricolmar!</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Ah! ah! ah! grazioso invero!</l>
+            </lg>
+         </sp>
+         <sp who="#coro">
+            <speaker>Coro</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Ei del nostro amor sincero</l>
+            <l>fu l’interprete, o signore:</l>
+            <l>ricevete il nostro cuore</l>
+            <l>pegno sol di eterna
+               <choice>
+                  <sic source="#1816">fe</sic>
+                  <corr resp="#cbm">fé</corr>
+            </choice>.</l>
+            </lg>
+         </sp>
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;(Me so fatto propio annore!</l>
+               <l>No grann’ommo songo affè!)</l>
+            </lg>
+         </sp>
+         <sp who="#ade">
+            <speaker>Ade.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Di mie cure il primo oggetto</l>
+               <l>voi sarete ognor per me.</l>
+               <l>Ma l’amico mio diletto?</l>
+               <l>Ma Salvini... ah dite! ov’è?</l>
+            </lg>
+         </sp>
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;(Oh mmalora!)
+                  <choice>
+                  <sic source="#1816">VA</sic>
+                  <corr resp="#cbm">Va</corr>
+               </choice> trovanno</l>
+               <l>a’ quà bosco s’è ntanato...</l>
+            </lg>
+         </sp>
+         <sp who="#nel">
+            <speaker>Nel.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Egli è sempre concentrato...</l>
+            </lg>
+         </sp>
+         <sp who="#fan #mad">
+            <speaker>Fan. e Mad.</speaker>
+            <lg>
+               <l>Melanconico ed astratto....</l>
+            </lg>
+         </sp>
+         <sp who="#bon" xml:lang="nap">
+            <speaker>Bon.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Sta facenno lo ritratto</l>
+               <l>de la vava requiescola...</l>
+            </lg>
+         </sp>
+         <sp who="#ade">
+            <speaker>Ade.</speaker>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;A me voli! il mio contento</l>
+               <l>egli venga a ricolmar!</l>
+            </lg>
          </sp>
          
 <!-- Tutti col Coro -->   
@@ -1819,12 +2124,14 @@
          <!-- @who from score = characters onstage -->
          <sp who="#nel #fan #mad #ade #bon #ger #coro">
             <speaker>Tutti col Coro</speaker>
-            <l>Di piacer la voce echeggi!</l>
-            <l>Ne risuoni ogni antro intorno!</l>
-            <l>Goda ognuno! ognun festeggi!</l>
-            <l>così bel desiato giorno!</l>
-            <l>E nel seno della gioia</l>
-            <l>corra ogni alma a giubbilar!</l>
+            <lg>
+               <l rend="indent">&#160;&#160;&#160;Di piacer la voce echeggi!</l>
+               <l>Ne risuoni ogni antro intorno!</l>
+               <l>Goda ognuno! ognun festeggi!</l>
+               <l>così bel desiato giorno!</l>
+               <l>E nel seno della gioia</l>
+               <l>corra ogni alma a giubbilar!</l>
+            </lg>
          </sp>
       </div>
    </div>
