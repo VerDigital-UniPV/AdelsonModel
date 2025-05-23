@@ -91,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <names>
                                 <name>N.1</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero1.xml[width:900]">
+                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/no1_merge.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Main version</name>
                                     <name xml:lang="en">Main version</name>
