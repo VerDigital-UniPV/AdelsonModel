@@ -82,10 +82,13 @@ div.trailer {
 
 span.reg {
     font-style: normal;
-    color:#9e0303
+    color:#9e0303;
+    font-style: small-caps !important;
 }
 
+.roleDesc {
 
+}
 
 [rend="right"] {
     text-align: right;
@@ -100,7 +103,7 @@ span.name {
     font-variant: small-caps;
     font-style: normal;
 }
-div.speaker {
+div.speaker, speaker {
     font-family: Georgia, serif;
     font-variant: small-caps;
     font-size: 1.0rem !important;
@@ -127,7 +130,6 @@ span.small-caps {
 
 span.del {
     text-decoration: line-through;
-    color: hwb(221 31% 10%);
 }
 /* editorial */
 /* default values in apps/Edirom-Online/resources/EdiromOnline-all_01.css */
