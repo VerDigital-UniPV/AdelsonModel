@@ -3,7 +3,6 @@
             type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 
    https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
@@ -30,7 +29,9 @@
             <respStmt>
                <resp>Transcribed by</resp>
                <persName sameAs="#verDigTeam_ms"/>
+               
             </respStmt>
+
          </titleStmt>
          
          <editionStmt>
@@ -47,20 +48,35 @@
             </availability>
             
          </publicationStmt>
-         <seriesStmt> <!-- COMPLETE -->
+         <seriesStmt> <!-- To be COMPLETED -->
             <title>VerDigital Project</title>
             <respStmt>
+            <!-- ROLES -->
+            <!-- TEI does not prescribe a fixed list of role values 
+                  for @role on <persName>, but recommends using a 
+                  controlled vocabulary (see TEI Guidelines: 13.2.3.2). -->
+            <!-- MEI also does not enforce a specific list, 
+                  but recommends using MARC relator codes. -->                  
+            <!--MARC roles: https://www.loc.gov/marc/relators/relaterm.html -->
                <resp>Project Team</resp>
-               <persName xml:id="verDiTeam_cm" role="project_lead" sameAs="#">Candida Mantica</persName>
-               <persName xml:id="verDiTeam_fm" role="researcher" sameAs="#">Francesco Maccarini</persName>
-               <persName xml:id="verDiTeam_gm" role="researcher" sameAs="#">Giovanni Meriani</persName>
-               <persName xml:id="verDiTeam_ms" role="researcher" sameAs="#">Mark Saccomano</persName>
-
-               <persName></persName>
-               <persName></persName>
-            
+               <persName xml:id="verDigTeam_cm" 
+                  role="pdr"
+                  ref="https://orcid.org/0000-0002-6758-5870">Candida Mantica</persName>
+               <persName xml:id="verDigTeam_fm" 
+                  role="res">Francesco Maccarini</persName>
+               <persName xml:id="verDigTeam_gm" 
+                  role="res">Giovanni Meriani</persName>
+               <persName xml:id="verDigTeam_ms" 
+                  role="res"
+                  ref="https://orcid.org/0000-0002-4635-7684">Mark Saccomano</persName>            
             </respStmt>
-
+            <!-- Need to put funder and project number somewhere -
+                  not fitting neatly into TEI -->
+<!--       <funder>
+               <orgName></orgName>
+               <identifier type="projectNumber"></identifier>
+               <corpName auth.uri=""></corpName>
+            </funder>-->
          </seriesStmt>
          <sourceDesc>
 <!-- Enter sources, id = #NA1825 and #A1 +superscript -->            
@@ -150,6 +166,17 @@
    
    
 <!-- scene 6: Check "ah! l'oppresse il dolor!" recitativo? -->
+
+<!-- trying to add facsimiles -->
+
+<!--    <facsimile>
+      <surface xml:id="lib1" n="1">
+         <graphic url="http://localhost:8182/iiif/2/Tottola%2FLo01717_004.jpg"></graphic>
+      </surface>
+      <surface xml:id="lib2" n="2">
+         <graphic url="http://localhost:8182/iiif/2/Tottola%2FLo01717_005.jpg"></graphic>
+      </surface>
+   </facsimile> -->
    
    <text>
       <front>
@@ -207,9 +234,10 @@
 <body xml:lang="it">
 
 <!--         TODO: add #ref to castItem in NAME element-->
-<div n="1" type="act">
+   <pb n="pb1" facs="#lib1"/>
+   <div n="1" type="act">
    <head>ATTO PRIMO</head>
-   <div n="1" type="scene">
+   <div xml:id="act1sc1" n="1" type="scene">
       <head rend="center">SCENA I.</head>
       <stage type="setting"><p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
          è un tempietto: su quello a sinistra vi si legge ⸺ ALL’AMORE, su quello a dritta ⸺
@@ -248,6 +276,7 @@
          <speaker>Mad.</speaker>
          <lg>
             <l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
+            <pb n="pb2" facs="#lib2"/>
             <l n="15">Adelson tornerà.</l>
          </lg>
       </sp>
@@ -402,7 +431,7 @@
 <!-- *************************** SCENE 2 ******************************************************************* -->
 <!-- *************************** SCENE 2 ******************************************************************* -->
 
-   <div n="2" type="scene">
+   <div xml:id="act1sc2" n="2" type="scene">
       <head rend="center">SCENA II.</head>
       <stage type="mixed entrance">Si avvanza <name>Struley</name> in abito da cacciatore con
             fucile alle mani
@@ -523,7 +552,7 @@
    <!-- *************************** SCENE 3 ******************************************************************* -->
    <!-- *************************** SCENE 3 ******************************************************************* -->
 
-   <div type="scene" n="3">
+   <div xml:id="act1sc3" type="scene" n="3">
       <head rend="center">SCENA III.</head>
       <stage type="mixed setting business">
          <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è partito
@@ -651,7 +680,7 @@
    <!-- *************************** SCENE 4 ******************************************************************* -->
    <!-- *************************** SCENE 4 ******************************************************************* -->
 
-   <div n="4" type="scene">
+   <div xml:id="act1sc4" n="4" type="scene">
       <head rend="center">SCENA IV.</head>
       <stage type="mixed setting delivery">
          <p rend="center">
@@ -735,7 +764,7 @@
                This is different in Bellini’s autograph score</note>
             <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>-->
 
-            <l n="33">le crude mie ritorte</l>
+            <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>
             <l n="34">si frangano così.</l>
          </lg>
       </sp>
@@ -935,7 +964,7 @@
    <!-- *************************** SCENE 5 ******************************************************************* -->
    <!-- *************************** SCENE 5 ******************************************************************* -->
 
-   <div type="scene" n="5">
+   <div xml:id="act1sc5" type="scene" n="5">
       <head rend="center">SCENA V.</head>
       <note xml:id="note3-act1sc5"/>
       <stage type="exit" >
@@ -1360,7 +1389,7 @@
    <!-- *************************** SCENE 6 *********************************** -->
    <!-- *************************** SCENE 6 *********************************** -->
    
-   <div type="scene" n="6">
+   <div xml:id="act1sc6" type="scene" n="6">
       <head rend="center">SCENA VI.</head>
       <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
          indicati.</stage>
@@ -2139,7 +2168,7 @@
 </div>
    
 <div type="act" n="2">
-   <div type="scene" n="1"/>
+   <div xml:id="act2sc1" type="scene" n="1"/>
 </div>
 </body>
 </text>
