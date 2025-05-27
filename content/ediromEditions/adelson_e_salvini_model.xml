@@ -144,8 +144,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1825[width:600]">
                             <names>
-                                <name xml:lang="de">Bellini's first version</name>
-                                <name xml:lang="en">Bellini's first version</name>
+                                <name xml:lang="de">Bellini's version</name>
+                                <name xml:lang="en">Bellini's version</name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-5-3" sortNo="3" targets="">

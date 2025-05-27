@@ -363,7 +363,7 @@ let $map :=
         'type': $type,
         'title': 
             if ($version != '') then
-                local:getWindowTitle($doc, $type) || " (Reading " || $version || ")"
+                local:getWindowTitle($doc, $type) || " (" || $version || ")"
             else
                 local:getWindowTitle($doc, $type),
         'doc': $docUri,
