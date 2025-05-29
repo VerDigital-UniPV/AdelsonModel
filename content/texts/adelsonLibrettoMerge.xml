@@ -312,7 +312,7 @@
          </titlePage>
          <pb xml:id="p0004" n="4" facs="#surface_1d48264a-245d-4b1e-a919-8eb7a7f90c17"/>
          <castList>
-            
+            <head>ATTORI</head>
             <!-- 
             Try using MEI
             
@@ -339,6 +339,7 @@
             <castItem>
                <role xml:id="sal">Salvini</role>
                <note type="voice">tenore</note>
+               <note type="desc"> — Friend of Adelson</note>
 <!--               <roleDesc>Friend of Adelson</roleDesc>-->
             </castItem>
             <castItem>
@@ -352,17 +353,17 @@
             <castItem>
                <role xml:id="bon">Bonifacio</role>
                <note type="voice">basso</note>
+               <note type="desc"> — Servant of Salvini</note>
 <!--               <roleDesc>Servant of Salvini</roleDesc>-->
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
                <note type="voice">basso</note>
             </castItem>
-            <castItem>
-               <role xml:id="coro">Coro</role>
-               <note type="editorial">chorus</note>
+            <castItem type="list"><role xml:id="coro">Coro</role>&#160;di&#160;<note type="desc">contandini, pastori, e domestici</note>
             </castItem>
          </castList>
+         <note type="setting">L'azione è in Irlanda, e precisamente in un castello di Adelson.</note>
       </front>
     <body xml:lang="it">
 
@@ -371,7 +372,7 @@
    <div n="1" type="act"> 
    <head>ATTO PRIMO</head>
    <div xml:id="act1sc1" n="1" type="scene">
-      <head rend="center">SCENA I.</head>
+      <head rend="center">SCENA I</head>
       <stage type="setting"><p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
          è un tempietto: su quello a sinistra vi si legge ⸺ ALL’AMORE, su quello a dritta ⸺
          AL DISPIACERE. Un banco di verdura è presso al primo: due cipressi nascondono in
@@ -540,8 +541,7 @@
             non le scrive da qualche settimana: io lo suppongo in viaggio: essa lo crede
             infedele, ed io per consolarla corro a dissipare i suoi ingiusti timori.</p>
       </sp>
-      <stage type="exit" rend="right">(<hi rend="italic">via</hi>&#160;[<hi rend="italic"><add
-               resp="bellini">con Geronio</add></hi>])</stage>
+      <stage type="exit" rend="right">(<hi rend="italic">via</hi><app><rdg source="#1816"/><rdg source="#1825">[<hi rend="italic">con Geronio</hi>]</rdg></app>)</stage>
       <sp who="#fan">
          <speaker>Fan.</speaker>
          <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
@@ -551,7 +551,7 @@
          <rdg source="#1816">
             <sp who="#ger">
                <speaker>Ger.</speaker>
-               <p> Son partite alla fine! non desiderava di meglio! Venisse adesso il
+               <p>Son partite alla fine! non desiderava di meglio! Venisse adesso il
                   Colonnello Struley! eccolo! puntuale all’appuntamento!</p>
             </sp>
          </rdg>
@@ -566,7 +566,7 @@
 <!-- *************************** SCENE 2 ******************************************************************* -->
 
    <div xml:id="act1sc2" n="2" type="scene">
-      <head rend="center">SCENA II.</head>
+      <head rend="center">SCENA II</head>
       <stage type="mixed entrance">Si avvanza <name>Struley</name> in abito da cacciatore con
             fucile alle mani
          <app>
@@ -581,7 +581,6 @@
             <sp who="#stru">
                <speaker rend="addition">Stru.</speaker>
                <lg type="stanza">
-                  <add resp="cbm"/>
                   <l n="36" rend="indent">&#160;&#160;&#160;&lt;Geronio ancor non
                      viene!</l>
                   <l n="37">Ogni indugio m’è peso,</l>
@@ -689,7 +688,7 @@
 
 <pb xml:id="p0009" n="9" facs="#surface_0f1f8b0e-2787-46d5-8a2f-9126608f5d2c"/>
    <div xml:id="act1sc3" type="scene" n="3">
-      <head rend="center">SCENA III.</head>
+      <head rend="center">SCENA III</head>
       <stage type="mixed setting business">
          <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è partito
                <name>Geronio</name>. È incontrato da un portalettere, che per fortuna gli
@@ -819,7 +818,7 @@
    <!-- *************************** SCENE 4 ******************************************************************* -->
 
    <div xml:id="act1sc4" n="4" type="scene">
-      <head rend="center">SCENA IV.</head>
+      <head rend="center">SCENA IV</head>
       <stage type="mixed setting delivery">
          <p rend="center">
             <name>Bonifacio</name> resta in osservazione. <name>Salvini</name> si avvanza
@@ -1108,7 +1107,7 @@
    <!-- *************************** SCENE 5 ******************************************************************* -->
 
    <div xml:id="act1sc5" type="scene" n="5">
-      <head rend="center">SCENA V.</head>
+      <head rend="center">SCENA V</head>
       <note xml:id="note3-act1sc5"/>
       <stage type="exit" >
          <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e
@@ -1537,7 +1536,7 @@
    <!-- *************************** SCENE 6 *********************************** -->
    
    <div xml:id="act1sc6" type="scene" n="6">
-      <head rend="center">SCENA VI.</head>
+      <head rend="center">SCENA VI</head>
       <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
          indicati.</stage>
 <div type="parlato" n="9">

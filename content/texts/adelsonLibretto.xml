@@ -180,7 +180,20 @@
    
    <text>
       <front>
+        
+            <titlePart>Adelson e Salvini</titlePart>
+            <titlePart>Dramma per Musica di</titlePart>
+            <titlePart><name role="librettist">Andrea Leone Tottola</name>(1816)</titlePart>
+            <titlePart>adattato da ?</titlePart>
+            <titlePart>musica di</titlePart>
+            <titlePart><name role="composer">Vincenzo Bellino</name></titlePart>
+            <dateline>Napoli, Tatrino del Conservatorio di S. Sebastiano
+            <lb/>Carnevale 1825</dateline>
+            
+            
+         
          <castList>
+            <head>Personaggi</head>
             <!-- 
             Try using MEI
             
@@ -205,11 +218,13 @@
             <castItem>
                <role xml:id="sal">Salvini</role>
                <note type="voice">tenore</note>
-               <roleDesc>Friend of Adelson</roleDesc>
+<!--               <roleDesc>Friend of Adelson</roleDesc>-->
+               <note> — Friend of Adelson</note>
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
                <note type="voice">baritono</note>
+               
             </castItem>
             <castItem>
                <role xml:id="stru">Struley</role>
@@ -218,19 +233,20 @@
             <castItem>
                <role xml:id="bon">Bonifacio</role>
                <note type="voice">basso</note>
-               <roleDesc>Servant of Salvini</roleDesc>
+               <note> — Servant of Salvini</note>
+               <!--<roleDesc> — Servant of Salvini</roleDesc>-->
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
                <note type="voice">basso</note>
             </castItem>
-            <castItem>
-               <role xml:id="coro">Coro</role>
-               <note type="editorial">chorus</note>
+            <castItem type="list"><role xml:id="coro">Coro</role>&#160;di&#160;<note type="desc">contandini, pastori, e domestici</note>
             </castItem>
          </castList>
+         <note rend="italic" type="setting">L'azione è in Irlanda, e precisamente in un castello di Adelson.</note>
       </front>
-      
+
+     
 <body xml:lang="it">
 
 <!--         TODO: add #ref to castItem in NAME element-->
@@ -406,8 +422,24 @@
             non le scrive da qualche settimana: io lo suppongo in viaggio: essa lo crede
             infedele, ed io per consolarla corro a dissipare i suoi ingiusti timori.</p>
       </sp>
-      <stage type="exit" rend="right">(<hi rend="italic">via</hi>&#160;[<hi rend="italic"><add
-               resp="bellini">con Geronio</add></hi>])</stage>
+   <app>
+      <rdg source="#1816">
+         <stage type="exit" rend="right">(<hi rend="italic">via</hi>)
+         </stage>
+      </rdg>
+      <rdg source="#1825">
+         <stage type="exit" rend="right">
+            (<hi rend="italic">via</hi>&#160;[<hi rend="italic">con Geronio</hi>]
+         )</stage>
+      </rdg>
+   </app>
+<!--   <stage type="exit" rend="right">(<hi rend="italic">via</hi>
+      <app>
+         <rdg source="#1816">&#160;[<hi rend="italic"><add
+            resp="bellini">con Geronio</add></hi>]</rdg>
+         <rdg source="#1825"/>
+      </app>)</stage>-->
+   
       <sp who="#fan">
          <speaker>Fan.</speaker>
          <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
