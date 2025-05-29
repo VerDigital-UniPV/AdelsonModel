@@ -138,29 +138,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </names>
                         <navigatorItem xml:id="navItem-2-5-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/tottola.xml[width:600]">
                             <names>
-                                <name xml:lang="de">Fioravanti's version</name>
-                                <name xml:lang="en">Fioravanti's version</name>
+                                <name xml:lang="de">Fioravanti's version 1816</name>
+                                <name xml:lang="en">Fioravanti's version 1816</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml[width:600]">
+                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibrettoMerge.xml[width:1830]">
                             <names>
-                                <name xml:lang="de">Bellini's first version</name>
-                                <name xml:lang="en">Bellini's first version</name>
+                                <name xml:lang="de">Bellini's version 1825</name>
+                                <name xml:lang="en">Bellini's version 1825</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-3" sortNo="3" targets="">
+<!--                         <navigatorItem xml:id="navItem-2-5-3" sortNo="3" targets="">
                             <names>
                                 <name xml:lang="de">Bellini's second version</name>
                                 <name xml:lang="en">Bellini's second version</name>
                             </names>
-                        </navigatorItem>
+                        </navigatorItem> -->
                     </navigatorCategory>
                 </navigatorCategory>
                 <navigatorCategory xml:id="navCategory-3" sortNo="3">
                     <names>
                         <name xml:lang="de">III. Kritischr Bericht</name>
                         <name xml:lang="en">III. Critical Report</name>
-                        <name xml:lang="it">III. Rapporto critico</name>
                     </names>
                     <navigatorItem xml:id="navItem-3-1" sortNo="1" targets="">
                         <names>
