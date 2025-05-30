@@ -46,7 +46,7 @@
     </path>
     
     <!-- Build the package -->
-    <target name="xar" depends="unzip-saxon">
+    <target name="xar" depends="unzip-saxon" xmlns:groovy="antlib:org.codehaus.groovy.ant">
         <!-- Prepare build directory -->
         <mkdir dir="${build.dir}"/>
 
@@ -72,6 +72,17 @@
             <arg value="output-filename=adelsonLibretto"/>
         </java>
         <delete file="build/content/texts/temp.xml"/>
+
+        <!-- TODO: Automate the way these paths are computed -->
+        <property name="old.path" value="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml"/>
+        <property name="new.paths" value="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto/adelsonLibretto_1816.xml xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto/adelsonLibretto_1825.xml"/>
+
+        <!-- Apply XSLT transformation using the xslt task -->
+        <delete file="build/content/works/edirom_work_adelson.xml"/>
+        <xslt in="content/works/edirom_work_adelson.xml" out="build/content/works/edirom_work_adelson.xml" style="preprocessing/xsl/updateAnnotPlists.xsl">
+            <param name="old.path" expression="${old.path}"/>
+            <param name="new.paths" expression="${new.paths}"/>
+        </xslt>
         
         <!-- TODO: More preprocessing of files that have static alternative versions with XSLT -->
 
