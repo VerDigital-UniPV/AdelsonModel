@@ -38,15 +38,6 @@
                 </perfMedium>
                 <notesStmt>
                     <annot type="criticalCommentary">
-                        <!--
-                        <annot type="editorialComment" xml:id="annot_0000" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note-example">
-                            <title xml:lang="de">Sample Annotation</title>
-                            <title xml:lang="en">Sample Annotation</title>
-                            <p>without articulation; as B and as other instruments</p>
-                            <ptr type="priority" target="#AnnotPrio1"/>
-                            <ptr type="categories" target="#Libretto"/>
-                        </annot>
-                        -->
                         <annot type="editorialComment" xml:id="annot_0001" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note1-act1sc3">
                             <title>«puzzo?»</title>
                             <p>
