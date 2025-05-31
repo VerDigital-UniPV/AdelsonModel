@@ -838,8 +838,8 @@
             <l n="103">&#160;&#160;&#160;Ah no! non fulminarmi</l>
             <l n="104">bella
                <choice>
-                  <corr resp="#cbm">amistà</corr>
                   <sic>amtstà</sic>
+                  <corr resp="#cbm">amistà</corr>
                </choice> tradita, </l>
             <l n="7">ché basta ad annientarmi</l>
             <l n="8">del fallo mio l’orror!</l>
@@ -851,7 +851,7 @@
             <l n="90">(Vi comme se storzella!</l>
             <l n="10">La capo proprio è perza!</l>
             <l n="11">Pè chiesto ce vo Averza...</l>
-            <l n="12"> Ajemmè <!-- CBM: Check Apostrofo --> ! so brutti guaje! </l>
+            <l n="12"> Ajemmè<!-- CBM: Check Apostrofo -->! so brutti guaje! </l>
             <l n="13">Vi quante ce ne faje</l>
             <l n="14">cecato traditor!)</l>
          </lg>
