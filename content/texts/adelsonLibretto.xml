@@ -179,30 +179,30 @@
    </facsimile> -->
    
    <text>
+      <pb xml:id="p0001" n="1" facs="#surface_2e1ad0cf-ae60-45b6-b7d2-84f8842ed87c" />
       <front>
-        
-         <titlePart>Adelson e Salvini</titlePart>
-            <titlePart>Dramma per Musica di</titlePart>
-            <titlePart><name role="librettist">Andrea Leone Tottola</name>(1816)</titlePart>
-            <titlePart>adattato da ?</titlePart>
-            <titlePart>musica di</titlePart>
-            <titlePart><name role="composer">Vincenzo Bellino</name></titlePart>
-            <dateline>Napoli, Tatrino del Conservatorio di S. Sebastiano
-            <lb/>Carnevale 1825</dateline>
+         <titlePage>
+            <titlePart>Adelson e Salvini</titlePart>
+            <titlePart rend="i">Dramma per Musica</titlePart>
+            <titlePart rend="smallCaps">di</titlePart>
+            <titlePart><name>ANDREA LEONE TOTTOLA</name></titlePart>
             
             
-         
+         </titlePage>
+         <pb xml:id="p0004" n="4" facs="#surface_1d48264a-245d-4b1e-a919-8eb7a7f90c17"/>
          <castList>
-            <head>Personaggi</head>
+            <head>ATTORI</head>
             <!-- 
             Try using MEI
             
             <tei:castList>
-                <tei:ptr target="roles.mei"/>
+                <tei:ptr url="roles.mei"/>
             </tei:castList>
             
             -->
             <!-- Reconsider NOTE element here for voice -->
+            <!-- roleDesc  removed for MEC -->
+ 
             <castItem>
                <role xml:id="nel">Nelly</role>
                <note type="voice">soprano</note>
@@ -218,13 +218,12 @@
             <castItem>
                <role xml:id="sal">Salvini</role>
                <note type="voice">tenore</note>
+               <note type="desc"> — Friend of Adelson</note>
 <!--               <roleDesc>Friend of Adelson</roleDesc>-->
-               <note> — Friend of Adelson</note>
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
                <note type="voice">baritono</note>
-               
             </castItem>
             <castItem>
                <role xml:id="stru">Struley</role>
@@ -233,8 +232,8 @@
             <castItem>
                <role xml:id="bon">Bonifacio</role>
                <note type="voice">basso</note>
-               <note> — Servant of Salvini</note>
-               <!--<roleDesc> — Servant of Salvini</roleDesc>-->
+               <note type="desc"> — Servant of Salvini</note>
+<!--               <roleDesc>Servant of Salvini</roleDesc>-->
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
@@ -243,18 +242,16 @@
             <castItem type="list"><role xml:id="coro">Coro</role>&#160;di&#160;<note type="desc">contandini, pastori, e domestici</note>
             </castItem>
          </castList>
-         <note rend="italic" type="setting">L'azione è in Irlanda, e precisamente in un castello di Adelson.</note>
+         <note type="setting">L'azione è in Irlanda, e precisamente in un castello di Adelson.</note>
       </front>
-
-     
-<body xml:lang="it">
+    <body xml:lang="it">
 
 <!--         TODO: add #ref to castItem in NAME element-->
-   <pb n="pb1" facs="#lib1"/>
-   <div n="1" type="act">
+<pb xml:id="p0005" n="5" facs="#surface_9d9e9335-eb74-4662-880c-7da07c898cd5"/>
+   <div n="1" type="act"> 
    <head>ATTO PRIMO</head>
    <div xml:id="act1sc1" n="1" type="scene">
-      <head rend="center">SCENA I.</head>
+      <head rend="center">SCENA I</head>
       <stage type="setting"><p rend="center"> Parco delizioso sparso di folti boschetti. In ciascun de’ due lati
          è un tempietto: su quello a sinistra vi si legge ⸺ ALL’AMORE, su quello a dritta ⸺
          AL DISPIACERE. Un banco di verdura è presso al primo: due cipressi nascondono in
@@ -292,7 +289,7 @@
          <speaker>Mad.</speaker>
          <lg>
             <l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
-            <pb n="pb2" facs="#lib2"/>
+   <pb xml:id="p0006" n="6" facs="#surface_b0d5bd0c-1e84-4d29-81f9-4933bd9526bf" />
             <l n="15">Adelson tornerà.</l>
          </lg>
       </sp>
@@ -376,6 +373,7 @@
             Londra, fosse obbligato a trattenervisi per qualche tempo?</p>
       </sp>
 
+   <pb xml:id="p0007" n="7" facs="#surface_3d979e3c-ec64-43ca-b37b-fdc10d513d42" />
       <sp who="#mad">
          <speaker>Mad.</speaker>
          <p>Non è possibile: ama troppo la sua Nelly. Se fu per costargli la vita la
@@ -422,23 +420,7 @@
             non le scrive da qualche settimana: io lo suppongo in viaggio: essa lo crede
             infedele, ed io per consolarla corro a dissipare i suoi ingiusti timori.</p>
       </sp>
-   <app>
-      <rdg source="#1816">
-         <stage type="exit" rend="right">(<hi rend="italic">via</hi>)
-         </stage>
-      </rdg>
-      <rdg source="#1825">
-         <stage type="exit" rend="right">
-            (<hi rend="italic">via</hi>&#160;[<hi rend="italic">con Geronio</hi>])</stage>
-      </rdg>
-   </app>
-<!--   <stage type="exit" rend="right">(<hi rend="italic">via</hi>
-      <app>
-         <rdg source="#1816">&#160;[<hi rend="italic"><add
-            resp="bellini">con Geronio</add></hi>]</rdg>
-         <rdg source="#1825"/>
-      </app>)</stage>-->
-   
+      <stage type="exit" rend="right">(<hi rend="italic">via</hi><app><rdg source="#1816"/><rdg source="#1825">[<hi rend="italic">con Geronio</hi>]</rdg></app>)</stage>
       <sp who="#fan">
          <speaker>Fan.</speaker>
          <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
@@ -448,7 +430,7 @@
          <rdg source="#1816">
             <sp who="#ger">
                <speaker>Ger.</speaker>
-               <p> Son partite alla fine! non desiderava di meglio! Venisse adesso il
+               <p>Son partite alla fine! non desiderava di meglio! Venisse adesso il
                   Colonnello Struley! eccolo! puntuale all’appuntamento!</p>
             </sp>
          </rdg>
@@ -463,7 +445,7 @@
 <!-- *************************** SCENE 2 ******************************************************************* -->
 
    <div xml:id="act1sc2" n="2" type="scene">
-      <head rend="center">SCENA II.</head>
+      <head rend="center">SCENA II</head>
       <stage type="mixed entrance">Si avvanza <name>Struley</name> in abito da cacciatore con
             fucile alle mani
          <app>
@@ -478,7 +460,6 @@
             <sp who="#stru">
                <speaker rend="addition">Stru.</speaker>
                <lg type="stanza">
-                  <add resp="cbm"/>
                   <l n="36" rend="indent">&#160;&#160;&#160;&lt;Geronio ancor non
                      viene!</l>
                   <l n="37">Ogni indugio m’è peso,</l>
@@ -520,7 +501,8 @@
          <sp who="#stru">
             <speaker>Stru.</speaker>
             <p>Ebbene? avrebbe in me ravvisato un semplice cacciatore: obbligato
-               dall’infanzia a lasciar queste terre, perché piacque così all’ingiusto padre
+               dall’infanzia a lasciar queste terre, perché piacque 
+   <pb xml:id="p0008" n="8" facs="#surface_ae4dbb5f-b626-47f2-85e5-24cf10a9a3b2"/>così all’ingiusto padre
                di Adelson, che fece proscrivere la mia famiglia, io torno la seconda volta
                in Irlanda senza timore di esservi riconosciuto. Ebbene hai tu niente a
                dirmi? è ancora Nelly ritirata nella sua solitudine?</p>
@@ -583,8 +565,9 @@
    <!-- *************************** SCENE 3 ******************************************************************* -->
    <!-- *************************** SCENE 3 ******************************************************************* -->
 
+<pb xml:id="p0009" n="9" facs="#surface_0f1f8b0e-2787-46d5-8a2f-9126608f5d2c"/>
    <div xml:id="act1sc3" type="scene" n="3">
-      <head rend="center">SCENA III.</head>
+      <head rend="center">SCENA III</head>
       <stage type="mixed setting business">
          <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è partito
                <name>Geronio</name>. È incontrato da un portalettere, che per fortuna gli
@@ -644,6 +627,7 @@
                <l n="80"><quote xml:lang="it" corresp="#a1-s3-1-q5">la sensale tutt’i pegni</quote></l>
                <l n="81"><quote xml:lang="it" corresp="#a1-s3-1-q5">vuol far vendere all’incanto:</quote></l>
                <l n="82"><quote xml:lang="it" corresp="#a1-s3-1-q5">fuggi dico, ci son guai,</quote></l>
+   <pb xml:id="p0010" n="10" facs="#surface_5ba37d6c-8fbc-4f8c-aaaf-94aab4ef88f4"/>
                <l n="83"><quote xml:lang="it" corresp="#a1-s3-1-q5">si è saputo dove stai,</quote></l>
                <l n="84"><quote xml:lang="it" corresp="#a1-s3-1-q5">ed io temo, che a quest’ora</quote></l>
                <l n="85"><quote xml:lang="it" corresp="#a1-s3-1-q5">qualche ufficio sia già fuora</quote></l>
@@ -699,7 +683,8 @@
                   <sic source="#1816">Taliano</sic>
                   <corr resp="cbm">taliano</corr>
                </choice> fedele a fianco sujo. Milord, che le vo tanto bene, me paga
-               comme stesse co isso, e a me fratanto attocca de perdere la capo co sto
+               comme stesse co isso, e a me fratanto attocca de perdere la capo
+   <pb xml:id="p0011" n="11" facs="#surface_4a19b8d9-e7d0-48dc-8e7a-3e3c0b7ad8d8"/>co sto
                pazzo nnammorato, che se pasce d’aria! e stammatina la cemmenera ha pigliato
                fuoco addavero, ca tene l’uocchie cchiù sbotate de lo soleto!</p>
          </sp>
@@ -712,7 +697,7 @@
    <!-- *************************** SCENE 4 ******************************************************************* -->
 
    <div xml:id="act1sc4" n="4" type="scene">
-      <head rend="center">SCENA IV.</head>
+      <head rend="center">SCENA IV</head>
       <stage type="mixed setting delivery">
          <p rend="center">
             <name>Bonifacio</name> resta in osservazione. <name>Salvini</name> si avvanza
@@ -774,6 +759,7 @@
             <l n="24">e de schiaffune, e paccare</l>
             <l n="25">me fa no complimento!</l>
             <l n="26">Gnernò, non me la sento:</l>
+   <pb xml:id="p0012" n="12" facs="#surface_ecd6502a-f935-46b5-99dc-6603445631f2"/>
             <l n="27">vedimmo sto mesterio</l>
             <l n="">a che ghiarrà a fenì.)</l>
          </lg>
@@ -890,7 +876,9 @@
 <div type="parlato" n="6">      
    <sp who="#bon" xml:lang="nap">
          <p>Dico io, ccà te ce avessero mannato stammatina cierte galantuommene amice mieje
-            pè farme passà no guajo? fosse scappato da la tiella pè cadè cottico dinto a la
+            pè
+   <pb xml:id="p0013" n="13" facs="#surface_5a3243d5-e395-483e-943c-e096ac76aa9a"/>            
+            farme passà no guajo? fosse scappato da la tiella pè cadè cottico dinto a la
             vrasa? te n’adduone o no, ca lo cerviello te l’aje fritto in agrodolce, e ncapo
             non ce n’aje restato manco na dramma?</p>
       </sp>
@@ -936,7 +924,9 @@
          <speaker>Bon.</speaker>
          <p>Si jammo cchiù nnanze, ce scommetto ca Milord t’avarrà da pagà porzì la
             remessione: vota cocchiero ca la via è pericolosa; sente a me, ca te voglio
-            bene. Nelly è ntingoletto pe la vocca de no Milord, e non già pe li diente
+            bene. Nelly è ntingoletto pe la vocca de no Milord, e 
+   <pb xml:id="p0014" n="14" facs="#surface_f181b53f-f2f7-40ec-b09a-270f3cd27823"/>
+            non già pe li diente
             tuoje... cerca n’auta tavolozza pè spannerce li colure, e lassa sta chella,
             ch’è fatta pè colure cchiù fine... vi ca si niente niente appura Milord ca tu
             lle vuò fa sta zappa, de ste secche carne toje se ne fa no spetillo de
@@ -996,13 +986,13 @@
    <!-- *************************** SCENE 5 ******************************************************************* -->
 
    <div xml:id="act1sc5" type="scene" n="5">
-      <head rend="center">SCENA V.</head>
+      <head rend="center">SCENA V</head>
       <note xml:id="note3-act1sc5"/>
       <stage type="exit" >
          <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e
             <name>FANNY</name>, e <name>detto</name>
       </stage>
-      
+      <!--formatting doesn't work in readings-->
       <app>
          <rdg source="#1816">
          <sp who="#mad">
@@ -1018,8 +1008,10 @@
                <l>mormorando il ruscello risponde:</l>
             </lg>
          </sp>
-         
-         <sp who="#mad #fan">
+   <pb xml:id="p0015" n="15" facs="#surface_12598c81-f8de-49ec-844a-2883964cbe08"/>      
+ 
+            
+            <sp who="#mad #fan">
             <speaker>a 2</speaker>
             <lg>
                <l>qui mia cara goder voi potrete</l>
@@ -1173,7 +1165,7 @@
                <l>che fai sentirmi o Amor!</l>
             </lg>
          </sp>
-         
+            <pb xml:id="p0016" n="16" facs="#surface_8f901800-41a2-4ef8-8101-b7ddf88f75dd"/>        
          <sp who="#mad">
             <speaker>Mad.</speaker>
             <lg>
@@ -1260,7 +1252,8 @@
                più dell’usato agitata. Dimenticaste, che in questo giorno, or son tre anni,
                Adelson dovea essere mio sposo? egli colla sua famiglia riunita in questo
                castello ci attendeva per celebrare sì felice unione... noi partimmo... ah!
-               ch’io li vedo ancora! si offrono tuttavia al mio sguardo quegli uomini
+               ch’io li vedo ancora! si offrono tuttavia al mio sguardo quegli
+               <pb xml:id="p0017" n="17" facs="#surface_c2adf0c2-3c3f-438c-9bb5-a51813c1ab9e"/>uomini
                mascherati! gl’iniqui mi strappano dalle vostre braccia... oh Dio!</p>
          </sp>
 
@@ -1313,7 +1306,7 @@
          </sp>
          <note xml:id="note4-act1sc5"/>
          <stage type="exit" rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
-
+         <pb xml:id="p0018" n="18" facs="#surface_59abf212-5990-4963-ac49-66329037613f"/>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <p>Signò, no la state a sentì troppo a Maddamma, ca tene la superbia dinto a la
@@ -1407,6 +1400,7 @@
             </lg>
          </sp>
       </div>
+      <pb xml:id="p0019" n="19" facs="#surface_dc37a2b6-2ae0-4128-ba90-7d4582a95ed2"/>
       <div type="parlato">
          <sp who="#nel">
             <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, ed ha un
@@ -1421,7 +1415,7 @@
    <!-- *************************** SCENE 6 *********************************** -->
    
    <div xml:id="act1sc6" type="scene" n="6">
-      <head rend="center">SCENA VI.</head>
+      <head rend="center">SCENA VI</head>
       <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come saranno
          indicati.</stage>
 <div type="parlato" n="9">
@@ -1494,6 +1488,7 @@
       <sp who="#nel">
          <speaker>Nel.</speaker>
          <p>Oh fulmine, che mi annienta! ah tutto previdi! dov’è adesso Madama Rivers? o
+   <pb xml:id="p0020" n="20" facs="#surface_ef0d874f-75d9-44fc-8e78-6ab05c1355d8"/>
             traditore Adelson! oh eccesso maggior di ogni perfidia!</p>
          <stage type="business" rend="right">(<hi rend="i">intanto Salvini scorre rapidamente il resto del
                foglio</hi>)</stage>
@@ -1596,6 +1591,7 @@
                <l>Reo destin... quest’alma... oh Dio!</l>
             </lg>
          </sp>
+         <pb xml:id="p0021" n="21" facs="#surface_0316a2b5-5228-425f-af04-76423dca314b"/>
          <sp who="#nel">
             <speaker>Nel.</speaker>
             <lg>
@@ -1724,6 +1720,7 @@
             <stage type="entrance" rend="right">(<name>Bonifacio</name>
                <hi rend="i">vien fuora</hi>)</stage>
          </sp>
+         <pb xml:id="p0022" n="22" facs="#surface_9bf10226-4292-4ac5-b612-ff1383636b96"/>
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <lg>
@@ -1825,7 +1822,7 @@
             <speaker>Sal.</speaker>
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Oh qual crucio! oh gelosia!</l>               
-               <!-- APP -->
+<!-- APP -->
                <note>
                   <add><l>&lt;Il mio cor da duolo oppresso</l>
                      <l>mi tormenta, che in me stesso</l>
@@ -1839,9 +1836,8 @@
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Chisto abbotta! arrassosìa!</l>
                
-               <!-- APP -->
-               
-               
+<!-- APP -->
+
                <note>
                   <add><l>&lt;È mpazzuto e vall’appresso,</l>
                      <l>nce vorria adesso, adesso</l>
@@ -1855,6 +1851,7 @@
             <lg>
                <l>Ah! qual raggio di speranza</l>
                <l>balenando in sen mi va!</l>
+               <pb xml:id="p0023" n="23" facs="#surface_81bffcc4-4722-48f6-9a34-68cb42c6acf7"/>
                <l>Giusto&#160;
                   <choice>
                      <sic source="#1816">Ciel</sic>
@@ -1864,6 +1861,7 @@
             </lg>
             <note><stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage></note>
          </sp>
+         <pb xml:id="p0024" n="24" facs="#surface_c8bd7bce-4836-434c-b80e-ffb9d33c2e62"/>
          <stage type="mixed exit modifier entrance" rend="right">(<name>Salvini</name> via disperato. Dal folto del boschetto
                <name>Madama Rivers</name>, <name>Fanny</name>, <name>Geronio</name>, e
                <name>Coro</name> di Pastori, e <name>Bonifacio</name> è in iscena.)</stage>
@@ -1969,6 +1967,7 @@
                <l>lassate fare a me.</l>
             </lg>
          </sp>
+         <pb xml:id="p0025" n="25" facs="#surface_f2f9ce1d-a35c-4f0c-94d6-01e4192da8ae"/>
          <sp who="#ger #coro">
             <speaker>Ger. e Coro</speaker>
             <lg>
@@ -2095,6 +2094,7 @@
                   <corr resp="#cbm">eroici</corr>
                </choice>,</l>
                <l>e vorrebbi... anzi vorrebbimo</l>
+   <pb xml:id="p0026" n="26" facs="#surface_e46f21f7-e8cb-4a66-92ab-39301493f503"/>
                <l>cento lingue per sopprimere</l>
                <l>quel fedele accesso interno,</l>
                <l>che ci accende l’accensibile</l>
@@ -2197,7 +2197,7 @@
    </div>
    <trailer rend="center">Fine dell'Atto Primo</trailer>
 </div>
-   
+<pb xml:id="p0027" n="27" facs="#surface_891ea51f-f8c7-4c37-9471-fdbb23671b09"/>
 <div type="act" n="2">
    <div xml:id="act2sc1" type="scene" n="1"/>
 </div>

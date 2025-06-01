@@ -720,7 +720,7 @@
             <lg>
       <!-- quoted material. quotation marks « » removed -->
                <l n="66" rend="indent">&#160;&#160;&#160;
-                  <quote xml:lang="it" xml:id="a2-s3-1-q1">Mastro Tammaro Ossoduro...</quote></l>
+                  <quote xml:lang="it" xml:id="a2-s3-1-q1">&#160;&#160;&#160;Mastro Tammaro Ossoduro...</quote></l>
                <stage type="business" rend="right">(<hi rend="italic">legge</hi>)</stage>
                <l n="67">Oh! cainatemo! e che bò?</l>
                <l n="68"><quote xml:lang="it" xml:id="a1-s3-1-q2">Fuggi, e mettiti in sicuro...</quote></l>
@@ -728,8 +728,8 @@
             </lg>
             <lg>
                <l n="70" rend="indent">&#160;&#160;&#160;
-                  <quote xml:lang="it" xml:id="a1-s3-1-q3">Donna Popa vuol l’importo</quote></l>
-               <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela accredenzata...</quote></l>
+                  <quote xml:lang="it" xml:id="a1-s3-1-q3">&#171;Donna Popa vuol l’importo</quote></l>
+               <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela accredenzata...&#187;</quote></l>
                <l n="72">
                   <choice>
                      <sic resp="#1816">Cca</sic>
@@ -763,7 +763,7 @@
                <l n="92">che non paga chi non ha.</l>
             </lg>
             <lg>
-               <l n="93">Che me mettono ngajola,</l>
+               <l n="93" rend="indent">&#160;&#160;&#160;Che me mettono ngajola,</l>
                <l n="94">m’hanno appriesso da campà.</l>
                <l n="95">Mo vedimmo chi se stracqua</l>
                <l n="96">creditori iniqui, e avari:</l>
