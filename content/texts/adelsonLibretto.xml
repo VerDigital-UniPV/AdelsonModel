@@ -150,6 +150,12 @@
 - Character names and abbreviations in small caps
   Line numbers
 
+- speaker element redundant. should be formatted
+from @who attribute
+   BUT: do not repeat when change from 
+   <sg> to <sp> even though new @who. 
+   
+   Name is printed only if @who changes
    
    -->
    
@@ -164,6 +170,10 @@
    
    <!-- line 1739 is spelling tho , a correction "VA" invece di "Va" -->
    
+   <!-- 
+      Scene V Double Check here if this is Nel or Bon interrupting 
+   
+   -->
    
 <!-- scene 6: Check "ah! l'oppresse il dolor!" recitativo? -->
 
@@ -262,8 +272,8 @@
          assicurarsi di non essere sorpresa, indi <name>Madama Rivers</name>, e
             <name>Geronio</name> seguiti da’ contadini</p></stage>
 <div type="lyric" n="1" xml:id="a1-s1-1">
-   <sp who="#fan">
-         <speaker>Fan.</speaker>
+   <sg who="#fan">
+         <singer>Fan.</singer>
          <lg type="stanza">
             <l n="1" rend="indent">&#160;&#160;&#160;Immagine gradita</l>
             <l n="2">del ben che tanto adoro!</l>
@@ -284,40 +294,40 @@
             <l n="12">nemica al mio disegno</l>
             <l n="13">sarai Fortuna ognor!</l>
          </lg>
-      </sp>
-      <sp who="#mad">
-         <speaker>Mad.</speaker>
+      </sg>
+      <sg who="#mad">
+         <singer>Mad.</singer>
          <lg>
             <l n="14" rend="indent">&#160;&#160;&#160;Amici, allegramente!</l>
    <pb xml:id="p0006" n="6" facs="#surface_b0d5bd0c-1e84-4d29-81f9-4933bd9526bf" />
             <l n="15">Adelson tornerà.</l>
          </lg>
-      </sp>
-      <sp who="#ger">
-         <speaker>Ger.</speaker>
+      </sg>
+      <sg who="#ger">
+         <singer>Ger.</singer>
          <lg>
             <l n="16" rend="indent">&#160;&#160;&#160;E a tanta buona gente</l>
             <l n="17">grato si mostrerà.</l>
          </lg>
-      </sp>
-      <sp who="#coro">
-         <speaker>Coro</speaker>
+      </sg>
+      <sg who="#coro">
+         <singer>Coro</singer>
          <lg>
             <l n="18" rend="indent">&#160;&#160;&#160;Geronio! cosa dite?</l>
             <l n="19">Ci basta il suo ritorno:</l>
             <l n="20">ah! così lieto giorno</l>
             <l n="21">quando spuntar saprà!</l>
          </lg>
-      </sp>
-      <sp who="#mad">
-         <speaker>Mad.</speaker>
+      </sg>
+      <sg who="#mad">
+         <singer>Mad.</singer>
          <lg>
             <l rend="indent">&#160;&#160;&#160;E allor per noi sereno</l>
             <l>il ciel risplenderà.</l>
          </lg>
-      </sp>
-      <sp who="#coro">
-         <speaker>Coro</speaker>
+      </sg>
+      <sg who="#coro">
+         <singer>Coro</singer>
          <lg>
             <l rend="indent">&#160;&#160;&#160;Oh fortunati istanti</l>
             <l>deh siate a noi vicini!</l>
@@ -326,26 +336,26 @@
             <l>Il ciel de’ nostri evviva</l>
             <l>ognor risuonerà!</l>
          </lg>
-      </sp>
-      <sp who="#ger">
-         <speaker>Ger.</speaker>
+      </sg>
+      <sg who="#ger">
+         <singer>Ger.</singer>
          <lg>
             <l rend="indent">&#160;&#160;&#160;Ah si, godremo insieme</l>
          </lg>
-      </sp>
-      <sp who="#mad">
-         <speaker>Mad.</speaker>
+      </sg>
+      <sg who="#mad">
+         <singer>Mad.</singer>
          <lg>
             <l rend="indent">&#160;&#160;&#160;Tanta felicità!</l>
          </lg>
-      </sp>
-      <sp who="#fan">
-         <speaker>Fan.</speaker>
+      </sg>
+      <sg who="#fan">
+         <singer>Fan.</singer>
          <lg>
             <l rend="indent">&#160;&#160;&#160;(Solo il mio cor, che geme,</l>
             <l>pace sperar non sa.)</l>
          </lg>
-      </sp>
+      </sg>
 </div>
 <div type="parlato" n="2">      
    <sp who="#mad">
@@ -457,8 +467,8 @@
          <rdg source="#1816"/>
          <rdg source="#1825">
             <div type="lyric" n="a1-s2-1">
-            <sp who="#stru">
-               <speaker rend="addition">Stru.</speaker>
+            <sg who="#stru">
+               <singer rend="addition">Stru.</singer>
                <lg type="stanza">
                   <l n="36" rend="indent">&#160;&#160;&#160;&lt;Geronio ancor non
                      viene!</l>
@@ -484,7 +494,7 @@
                   <l n="52">compir saprò.&gt;</l>
                   <add resp="cbm"/>
                </lg>
-            </sp>
+            </sg>
             <stage type="entrance" rend="right"> [<hi rend="italic">esce GERONIO</hi>] </stage>
             </div>
          </rdg>
@@ -575,8 +585,8 @@
       </stage>
 
       <div type="lyric" n="a1-s3-1">
-         <sp who="#Bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#Bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l n="53" rend="indent">&#160;&#160;&#160;Bonifacio Voccafrolla?</l>
                <l n="54">Lei l’ha in faccia, eccolo ccà.</l>
@@ -649,7 +659,7 @@
                <l n="97">a cercarme vuje danari,</l>
                <l n="98">e io sempe a non pagà.</l>
             </lg>
-         </sp>
+         </sg>
       </div>
       <div type="parlato">
          <sp who="#bon" xml:lang="nap">
@@ -705,8 +715,8 @@
          </p>
       </stage>
    <div type="lyric" n="5" xml:id="a1-s4-1">      
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="99">&#160;&#160;&#160;Speranza seduttrice!</l>
             <l n="100">Fuggi da questo cor.</l>
@@ -723,9 +733,9 @@
             <l n="7">ché basta ad annientarmi</l>
             <l n="8">del fallo mio l’orror!</l>
          </lg>
-      </sp>
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      </sg>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="90">(Vi comme se storzella!</l>
             <l n="10">La capo proprio è perza!</l>
@@ -734,9 +744,9 @@
             <l n="13">Vi quante ce ne faje</l>
             <l n="14">cecato traditor!)</l>
          </lg>
-      </sp>
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      </sg>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="15">Su questo seggio... ah qui</l>
             <stage type="mixed business modifier" rend="right">(<hi rend="i">va astratto a sedere sul banco di
@@ -748,10 +758,10 @@
             <l n="19">di un pertinace affetto</l>
             <l n="20">quest’anima sorbì!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="21">(Vedimmo de spezzarla...</l>
             <l n="22">Oibò! chillo sta nnestrece!</l>
@@ -763,10 +773,10 @@
             <l n="27">vedimmo sto mesterio</l>
             <l n="">a che ghiarrà a fenì.)</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="28">Nelly! che pena! oh Dio!</l>
             <l n="29">Amarti... ah... non degg’io!</l>
@@ -784,38 +794,38 @@
             <l n="33"><note xml:id="note2-act1sc4">le crude mie ritorte</note></l>
             <l n="34">si frangano così.</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="34" rend="indent">&#160;&#160;&#160;Chia! tu che faje? mmalora!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="35" rend="indent">&#160;&#160;&#160;Ah! lascia pur, ch’io mora!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="36" rend="indent">&#160;&#160;&#160;A chì? sì pazzo? lassa...</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="37" rend="indent">&#160;&#160;&#160;Pietà per me crudele!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="38" rend="indent">&#160;&#160;&#160;E pigliatenne scuorno! <!--  <note resp="#Microsoft_Office_User" when="2024-11-04T10:46:00Z">
                      Correggerei il rientro (indicandolo nella codifica)
@@ -828,18 +838,18 @@
             </l>
             <l n="40">pe chi? pe na gonnella?</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="41" rend="indent">&#160;&#160;&#160;Ah! mi è tormento il vivere</l>
             <l n="42">senza la mia Nelly!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="43" rend="indent">&#160;&#160;&#160;Se vede ca sì quicquaro!</l>
             <l n="44">Ce mancano aute femmene</l>
@@ -851,27 +861,27 @@
             <l n="50">e tutte le aute diavole</l>
             <l n="51">co la cadenza in ì!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#sal">
-         <speaker>Sal.</speaker>
+      <sg who="#sal">
+         <singer>Sal.</singer>
          <lg>
             <l n="52">&#160;&#160;&#160;Ah! se a smorzar l’ardore</l>
             <l n="53">forza non ho che basti,</l>
             <l n="54">con questa mano il core</l>
             <l n="55">saprò dal sen strappar!</l>
          </lg>
-      </sp>
+      </sg>
 
-      <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+      <sg who="#bon" xml:lang="nap">
+         <singer>Bon.</singer>
          <lg>
             <l n="56">&#160;&#160;&#160;(Oh povero cerviello!</l>
             <l n="57">Cchiù ncapo non se trova!</l>
             <l n="58">Eppure ste cient’ova</l>
             <l n="59">me l’aggio da abbuscà!)</l>
          </lg>
-      </sp>
+      </sg>
 </div>
 <div type="parlato" n="6">      
    <sp who="#bon" xml:lang="nap">
@@ -937,7 +947,7 @@
          <p>Sai tu quanti ne abbiamo del mese?</p>
       </sp>
       <sp who="#bon" xml:lang="nap">
-         <speaker>Bon.</speaker>
+         <singer>Bon.</singer>
          <p>A proposito de chiuove de carrozza!</p>
       </sp>
       <sp who="#sal">
@@ -949,7 +959,7 @@
          <p>Che aje da pagà lo pesone? n’avimmo quatto de chillo mese, che non piace a
             chille, che so pagate a ghiornate, pecché ce ne so doje meno dell’aute.</p>
       </sp>
-      <sp who="#Sal">
+      <sp who="#sal">
          <speaker>Sal.</speaker>
          <p>(Son già dieci giorni trascorsi, ed oso ancora trattenere in mia mano un
             foglio, che Adelson mi ha inviato, perché lo recassi a Nelly?)</p>
@@ -995,40 +1005,40 @@
       <!--formatting doesn't work in readings-->
       <app>
          <rdg source="#1816">
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l rend="indent">Alle aurette, che spirano chete,</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l>mormorando il ruscello risponde:</l>
             </lg>
-         </sp>
+         </sg>
    <pb xml:id="p0015" n="15" facs="#surface_12598c81-f8de-49ec-844a-2883964cbe08"/>      
  
             
-            <sp who="#mad #fan">
-            <speaker>a 2</speaker>
+            <sg who="#mad #fan">
+            <singer>a 2</singer>
             <lg>
                <l>qui mia cara goder voi potrete</l>
                <l part="I">quella calma...</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
+         <sg who="#nel">
             
-            <speaker>Nel.</speaker>
+            <singer>Nel.</singer>
             <lg>
                <l part="F">Che il cor più non ha.</l>
             </lg>
 
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
 <!-- Double Check here if this is Nel or Bon interrupting -->
             <stage type="delivery">(interrompendole)</stage>
             <lg>
@@ -1037,166 +1047,167 @@
                <l>chillo arriva co molto appetito,</l>
                <l>e non tiene che darle a magnà.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ah! miei cari! quest’aura, quel rio,</l>
                <l>il boschetto, l’amena pendice</l>
                <l>mi rammenta, che un giorno felice</l>
                <l>fu quest’alma, ma più non sarà!</l>
+            </lg>
             <lg>               
                <l rend="indent">&#160;&#160;&#160;>Mi persegue un presagio funesto,</l>
                <l>mille dubbi mi fanno perplessa,</l>
                <l>la ragion ne domando a me stessa,</l>
                <l>ma trovarla il mio core non sa!</l></lg>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ma la cosa è crudele in mia fè!</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l>Lagrimar, singhiozzar tutto il dì!</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad #fan">
-            <speaker>a 2</speaker>
+         <sg who="#mad #fan">
+            <singer>a 2</singer>
             <lg>
                <l>Non conosco, non veggo il perché</l>
                <l>voi dobbiate affannarvi così?</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;E pigliate l’esempio porzì</l>
                <l>di mia mamma che maje picciò:</l>
                <l>ogge tata nsalute morì,</l>
                <l>essa n’auto domani sposò.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent" part="I">&#160;&#160;&#160;Ma novelle di Adelson?</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l part="F">Si avranno.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="I">Ma suoi fogli?..</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l part="F">Quest’oggi verrano.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent" part="I">&#160;&#160;&#160;Tutto nziemo la vide assommà.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent" part="I">&#160;&#160;&#160;E fia vero!</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">Pe me ce scommetto.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>Qual partì tornerà fido amante?</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l>Oh qual dubbio! fedele, costante,</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l>qual fu sempre, per voi tornerà.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>Ah se del mio tesoro</l>
                <l>ancor la fiamma io sono,</l>
                <l>gli affanni ti perdono,</l>
                <l>che fai sentirmi o Amor!</l>
             </lg>
-         </sp>
+         </sg>
             <pb xml:id="p0016" n="16" facs="#surface_8f901800-41a2-4ef8-8101-b7ddf88f75dd"/>        
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l>Non più malinconia,</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l>tornate in allegria,</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad #fan">
-            <speaker>a 2</speaker>
+         <sg who="#mad #fan">
+            <singer>a 2</singer>
             <lg>
                <l>respiri alfin contento</l>
                <l>senza tormento – il cor.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l>Oh quanta Milordielle</l>
                <l>già vedo scapolare!</l>
                <l>farranno pazziare</l>
                <l>la madre, e ‘l genitor!</l>
             </lg>
-         </sp>
+         </sg>
             
          </rdg>
          <rdg source="#1825"/>
@@ -1207,10 +1218,10 @@
             <p>Come siete ingegnosa a fabbricarvi delle pene efimere, e senza sostegno!</p>
          </sp>
 
-         <sp who="#mad">
+         <sg who="#mad">
             <speaker>Mad.</speaker>
             <p>Ed in qual momento, aggiungi pure.</p>
-         </sp>
+         </sg>
 
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
@@ -1304,9 +1315,13 @@
             <speaker>Mad.</speaker>
             <p>Ma questo è troppo! oh quanto poco hai saputo conoscerlo finora!</p>
          </sp>
+         
          <note xml:id="note4-act1sc5"/>
+         
          <stage type="exit" rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
+         
          <pb xml:id="p0018" n="18" facs="#surface_59abf212-5990-4963-ac49-66329037613f"/>
+         
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
             <p>Signò, no la state a sentì troppo a Maddamma, ca tene la superbia dinto a la
@@ -1364,7 +1379,7 @@
          </sp>
       </div>
       <div type="lyric" n="8" xml:id="a1-s5-1">
-         <sp who="#nel">
+         <sg who="#nel">
             <lg type="stanza">
                <l>Dopo l’oscuro nembo</l>
                <l>il
@@ -1398,7 +1413,7 @@
                <l>e a me non sa tornar</l>
                <l>l’amato oggetto!</l>
             </lg>
-         </sp>
+         </sg>
       </div>
       <pb xml:id="p0019" n="19" facs="#surface_dc37a2b6-2ae0-4128-ba90-7d4582a95ed2"/>
       <div type="parlato">
@@ -1448,10 +1463,10 @@
          <p>L’amico di Milord? e non è questo un titolo, per tollerarvi a me vicino anche
             nella sua lontananza?</p>
       </sp>
-      <sp who="#sal">
+      <sg who="#sal">
          <speaker>Sal.</speaker>
          <p>(Ah! crudele compiacenza!)</p>
-      </sp>
+      </sg>
       <sp who="#nel">
          <speaker>Nel.</speaker>
          <p>Vi attesti anzi la mia fiducia la preghiera, che a voi porgo di leggere ciò,
@@ -1505,8 +1520,8 @@
       <stage type="business" rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
 </div>
       <div type="recitativo" n="10">
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l>&#160;&#160;&#160;Ah! l’oppresse il dolor!... no... sventurata</l>
                <l>quanto credi non sei... della sua fede</l>
@@ -1530,93 +1545,93 @@
                <l>or mi facesse almeno</l>
                <l>spirar così del mio tesoro in seno...</l>
             </lg>
-         </sp>
+         </sg>
             <stage type="business" rend="right">(<hi rend="i">mentre si slancia, ed abbraccia Nelly, costei
                   ripiglia l’uso de’ sensi</hi>)</stage>
       </div>
       <div type="lyric" xml:id="a1-s6-1" n="11">
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent" part="I">&#160;&#160;&#160;Ah!</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="M">Rinviene!</l>
             </lg>
             <stage type="modifier" rend="right">(<hi rend="i">vorrebbe, ma non può staccarsi da
                lei</hi>)</stage>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg part="F">
                <l>A trista vita</l>
                <l>chi richiama i sensi miei?</l>
             </lg>
-         </sp>
+         </sg>
 
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="I">Mia Nelly!</l>
             </lg>
-         </sp>
+         </sg>
 
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="F">Salvini! ah! sei</l>
                <l part="I">tu! gran Dio! che fai?</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="F">Ti arresta...</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Che mai tenti? e qual è questa</l>
                <l part="I">folle audacia?</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="F">Ah!... non son’io...</l>
                <l>Reo destin... quest’alma... oh Dio!</l>
             </lg>
-         </sp>
+         </sg>
          <pb xml:id="p0021" n="21" facs="#surface_0316a2b5-5228-425f-af04-76423dca314b"/>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ah! comprendo il mio periglio!</l>
             </lg>
             <stage type="mixed modifier business" rend="right">(<hi rend="i">spaventata fugge dalle braccia di
                   Salvini</hi>)</stage>
-         </sp>
+         </sg>
 
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>Quel pallor... quel torvo ciglio</l>
                <l>ti palesa un traditor.</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Sì, lo sappi... un mostro io sono...</l>
                <l part="I">Ti amo...</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="M">Oh&#160;
                   <choice>
@@ -1625,35 +1640,35 @@
                   </choice>!
                </l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="F">Nelly! perdono...</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="I">&#160;&#160;&#160;Fuggi iniquo!</l>
             </lg>
-         </sp>
+         </sg>
 
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="F">Ah! ferma! ascolta!</l>
             </lg>
-         </sp>
+         </sg>
 
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>&#160;&#160;&#160;Sconoscente! amico ingrato!</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l>&#160;&#160;&#160;Sì... è&#160;
                   <choice>
@@ -1669,99 +1684,99 @@
                <l>non conosce, più non sente</l>
                <l>che l’eccesso dell’amor.</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>&#160;&#160;&#160;Chiudi, o vil, quel labbro insano!</l>
                <l>E non pensi, e non rammenti,</l>
                <l>che a punire i tradimenti</l>
                <l>veglia un Dio fulminator?</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l>&#160;&#160;&#160;Sì... mi annienti un fato rio...</l>
                <l>Così estingua in me l’ardor.</l>
             </lg>
             <stage type="delivery" rend="right">(<hi rend="i">nella massima disperazione</hi>)</stage>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ah! mancava al dolor mio</l>
                <l>un tormento assai maggior!</l>
             </lg>
-         </sp>
+         </sg>
          <stage type="delivery" rend="right">(<hi rend="i">qui da dentro si sente gridare
             Bonifacio</hi>)</stage>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l>Addò site? allegramente?</l>
                <l part="I">Oje Nelly! Maddà!</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="F">Vien gente!</l>
                <l>Ah! nascondi il tuo scompiglio!</l>
                <l>Ah! detesta il grave error!</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Non è in me cangiar consiglio,</l>
                <l>se tu mi hai rapito il cor!</l>
             </lg>
             <stage type="entrance" rend="right">(<name>Bonifacio</name>
                <hi rend="i">vien fuora</hi>)</stage>
-         </sp>
+         </sg>
          <pb xml:id="p0022" n="22" facs="#surface_9bf10226-4292-4ac5-b612-ff1383636b96"/>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Oh Maddà! no paraguanto</l>
                <l>mo dammillo, e che sia gruosso,</l>
                <l>manna a cancaro lo chianto!</l>
                <l>Accommenza a sciascià!</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ah! ti spiega! qual novella?</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="I">Mo ven’isso...</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="F">Chi? favella!</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="I">Isso! chi!</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="M">Ah desso!</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">Disso,</l>
                <l>comme a tutte chille isse,</l>
@@ -1773,22 +1788,22 @@
                <l>vanno a schiera, a battagliune</l>
                <l>lo patrone mo a ncontrà.</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l part="I" rend="indent">&#160;&#160;&#160;Torna Adelson!</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l part="F">(Quale istante!</l>
                <l>Gelo! palpito! pavento!)</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Signorsì... mo no corriero</l>
                <l>ha portato chesta nova...</l>
@@ -1798,16 +1813,16 @@
                </choice> becino isso se trova,</l>
                <l>e mo lesto assommarà.</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ma... dì... forse... colla sposa</l>
                <l part="I">egli vien?</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">Vi che auta cosa!</l>
                <l>Tene ccà sta caramella,</l>
@@ -1817,9 +1832,9 @@
                <l>è bolato comm’auciello,</l>
                <l>pè benirte ad abbraccià.</l>
             </lg>
-         </sp>
-         <sp who="#sal">
-            <speaker>Sal.</speaker>
+         </sg>
+         <sg who="#sal">
+            <singer>Sal.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Oh qual crucio! oh gelosia!</l>               
 <!-- APP -->
@@ -1830,9 +1845,9 @@
                   </add>
                </note>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Chisto abbotta! arrassosìa!</l>
                
@@ -1845,9 +1860,9 @@
                   </add>
                </note>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l>Ah! qual raggio di speranza</l>
                <l>balenando in sen mi va!</l>
@@ -1860,13 +1875,13 @@
                <l>tu corona per pietà!</l>
             </lg>
             <note><stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage></note>
-         </sp>
+         </sg>
          <pb xml:id="p0024" n="24" facs="#surface_c8bd7bce-4836-434c-b80e-ffb9d33c2e62"/>
          <stage type="mixed exit modifier entrance" rend="right">(<name>Salvini</name> via disperato. Dal folto del boschetto
                <name>Madama Rivers</name>, <name>Fanny</name>, <name>Geronio</name>, e
                <name>Coro</name> di Pastori, e <name>Bonifacio</name> è in iscena.)</stage>
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;
                <choice>
@@ -1875,28 +1890,28 @@
                </choice>l'attenderemo,</l>
                <l>or dal boschetto ei viene...</l>
             </lg>
-         </sp>
+         </sg>
 
          <!-- Here it is just 2 voices added, 
            
          but not working to have entire <sp> in <app>
          
          -->
-         <sp who="#fan #ger #bon #coro">
-            <speaker>
+         <sg who="#fan #ger #bon #coro">
+            <singer>
                <app>
                   <rdg source="#1816">Ger., e Coro</rdg>
                   <rdg source="#1825">Fan., Ger., Bon., e Coro</rdg>
                </app>
-            </speaker>
+            </singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Oh qual piacere estremo!</l>
                <l>Andiamlo ad incontrar.</l>
             </lg>
-         </sp>
+         </sg>
          
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Son già molti pastori</l>
                <l>accorsi a fargli onori:</l>
@@ -1905,25 +1920,25 @@
                <l>e un grato complimento</l>
                <l>a lui potrete far.</l>
             </lg>
-         </sp>
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         </sg>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;E poi mentre al suo bene</l>
                <l>rende i primieri amplessi,</l>
                <l>mischiarci non conviene,</l>
                <l>lungi bisogna star.</l>
             </lg>
-         </sp>
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         </sg>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Sta zitta, impertinente!</l>
                <l>Che sai di amplessi tu?</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>            
                <l rend="indent">&#160;&#160;&#160;Se! cridela nnozente!</l>
                <l>Sta capozzella secca</l>
@@ -1931,23 +1946,23 @@
                <l>la Lecca co la Mecca,</l>
                <l>l’America e ‘l Perù!</l>
             </lg>
-         </sp>
+         </sg>
          <app>
             <rdg source="#1816">
-               <sp who="#fan">
-                  <speaker>Fan.</speaker>
+               <sg who="#fan">
+                  <singer>Fan.</singer>
                   <lg>
                      <l rend="indent">&#160;&#160;&#160;<choice>
                      <sic source="#1816">Sguajato</sic>
                      <corr resp="#cbm">Sguaiato</corr>
                   </choice> ci vuol sale!</l>
                   <l>Non mi fai rider più</l></lg>
-               </sp>             
+               </sg>             
             </rdg>
             <rdg source="#1825"/>
          </app>
-         <sp who="#coro">
-            <speaker>Coro</speaker>
+         <sg who="#coro">
+            <singer>Coro</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ma&#160;<choice>
                   <sic source="#1816">quì</sic>
@@ -1958,29 +1973,29 @@
                <l>spiegare al buon padrone</l>
                <l>da alcun di noi si dè.</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
 <!-- Should ce/co correction be silent or footnote? (as per fioravanti_1816.doc) -->
             <lg>
                <l rend="indent">&#160;&#160;&#160;Zitto mo ce pens’io,</l>
                <l>lassate fare a me.</l>
             </lg>
-         </sp>
+         </sg>
          <pb xml:id="p0025" n="25" facs="#surface_f2f9ce1d-a35c-4f0c-94d6-01e4192da8ae"/>
-         <sp who="#ger #coro">
-            <speaker>Ger. e Coro</speaker>
+         <sg who="#ger #coro">
+            <singer>Ger. e Coro</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Oh! Bonifacio! evviva!</l>
                <l>Tutti fidiamo in te.</l>
             </lg>
-         </sp>
+         </sg>
          <stage type="entrance" rend="right">
             <hi rend="i">Arriva <name>Adelson</name> conducendo per mano <name>Nelly</name>, 
                e seguito da altri contadini e servi.</hi>
          </stage>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Obbliarti! abbandonarti!</l>
                   <stage type="delivery" rend="right">(<hi rend="i">a <name>Nelly</name></hi>)</stage>
@@ -1990,30 +2005,30 @@
                <l>Pria lasciar saprei la vita,</l>
                <l>che mancar di fedeltà.</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Cari accenti! Ciel pietoso!</l>
                <l>Voi rendete il cor dubbioso</l>
                <l>alla sua serenità!</l>
             </lg>
-         </sp>
-         <sp who="#mad">
-            <speaker>Mad.</speaker>
+         </sg>
+         <sg who="#mad">
+            <singer>Mad.</singer>
             <lg>
                <l part="I" rend="indent">&#160;&#160;&#160;Ah mio caro!</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l part="F">Oh! voi qui siete!</l>
                <l>Son tenuto al vostro affetto.</l>
             </lg>
-         </sp>
-         <sp who="#ger">
-            <speaker>Ger.</speaker>
+         </sg>
+         <sg who="#ger">
+            <singer>Ger.</singer>
             <lg>
                <l>
                <choice>
@@ -2021,29 +2036,29 @@
                   <corr resp="#cbm">Qui</corr>
                </choice>&#160;Geronio con rispetto...</l>
             </lg>
-         </sp>
-         <sp who="#fan">
-            <speaker>Fan.</speaker>
+         </sg>
+         <sg who="#fan">
+            <singer>Fan.</singer>
             <lg>
                <l>E Fanny s’inchina ancora...</l>
             </lg>
-         </sp>
-         <sp who="#coro">
-            <speaker>Coro</speaker>
+         </sg>
+         <sg who="#coro">
+            <singer>Coro</singer>
             <lg>
                <l part="I">(Quando parli?)</l>
             </lg>
             <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">(Mo... mmalora!</l>
                <l>Vi ca vuje cchiù me stonate!)</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Cari amici... oh quanto grate</l>            
                <l>sono a me le vostre
@@ -2052,29 +2067,29 @@
                      <corr resp="#cbm">gioie</corr>
                </choice>!</l>
                </lg>
-         </sp>         
-         <sp who="#coro">
-            <speaker>Coro</speaker>
+         </sg>         
+         <sg who="#coro">
+            <singer>Coro</singer>
             <lg>
                <l part="I" rend="indent">&#160;&#160;&#160;(Ora è tempo!)</l>
             </lg>
             <stage type="delivery" rend="right">(<hi rend="i">a Bonifacio</hi>)</stage>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">(Oh benaggioje!</l>
                <l>Me volite fa pensà?)</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l part="I" rend="indent">&#160;&#160;&#160;Bonifacio!</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l part="F">Oh! Eccellentissimo!</l>   
                <l>Tra i Milordi Milordissimo...</l>
@@ -2103,15 +2118,15 @@
                <l>alla rozza mia facondia</l>
                <l>deh supplite voi per me.</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ah! ah! ah! grazioso invero!</l>
             </lg>
-         </sp>
-         <sp who="#coro">
-            <speaker>Coro</speaker>
+         </sg>
+         <sg who="#coro">
+            <singer>Coro</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Ei del nostro amor sincero</l>
             <l>fu l’interprete, o signore:</l>
@@ -2122,25 +2137,25 @@
                   <corr resp="#cbm">fé</corr>
             </choice>.</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Me so fatto propio annore!</l>
                <l>No grann’ommo songo affè!)</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Di mie cure il primo oggetto</l>
                <l>voi sarete ognor per me.</l>
                <l>Ma l’amico mio diletto?</l>
                <l>Ma Salvini... ah dite! ov’è?</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;(Oh mmalora!)
                   <choice>
@@ -2149,41 +2164,41 @@
                </choice> trovanno</l>
                <l>a’ quà bosco s’è ntanato...</l>
             </lg>
-         </sp>
-         <sp who="#nel">
-            <speaker>Nel.</speaker>
+         </sg>
+         <sg who="#nel">
+            <singer>Nel.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Egli è sempre concentrato...</l>
             </lg>
-         </sp>
-         <sp who="#fan #mad">
-            <speaker>Fan. e Mad.</speaker>
+         </sg>
+         <sg who="#fan #mad">
+            <singer>Fan. e Mad.</singer>
             <lg>
                <l>Melanconico ed astratto....</l>
             </lg>
-         </sp>
-         <sp who="#bon" xml:lang="nap">
-            <speaker>Bon.</speaker>
+         </sg>
+         <sg who="#bon" xml:lang="nap">
+            <singer>Bon.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Sta facenno lo ritratto</l>
                <l>de la vava requiescola...</l>
             </lg>
-         </sp>
-         <sp who="#ade">
-            <speaker>Ade.</speaker>
+         </sg>
+         <sg who="#ade">
+            <singer>Ade.</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;A me voli! il mio contento</l>
                <l>egli venga a ricolmar!</l>
             </lg>
-         </sp>
+         </sg>
          
 <!-- Tutti col Coro -->   
          <!-- "tutti" rendered in italics, 
-         so different treatment than other <speaker> elements -->
+         so different treatment than other <singer> elements -->
          
          <!-- @who from score = characters onstage -->
-         <sp who="#nel #fan #mad #ade #bon #ger #coro">
-            <speaker>Tutti col Coro</speaker>
+         <sg who="#nel #fan #mad #ade #bon #ger #coro">
+            <singer>Tutti col Coro</singer>
             <lg>
                <l rend="indent">&#160;&#160;&#160;Di piacer la voce echeggi!</l>
                <l>Ne risuoni ogni antro intorno!</l>
@@ -2192,7 +2207,7 @@
                <l>E nel seno della gioia</l>
                <l>corra ogni alma a giubbilar!</l>
             </lg>
-         </sp>
+         </sg>
       </div>
    </div>
    <trailer rend="center">Fine dell'Atto Primo</trailer>
