@@ -999,8 +999,10 @@ from @who attribute
       <head rend="center">SCENA V</head>
       <note xml:id="note3-act1sc5"/>
       <stage type="exit" >
-         <name>NELLY</name> in abito semplice accompagnata da <name>MADAMA RIVERS</name>, e
-            <name>FANNY</name>, e <name>detto</name>
+         <p>
+         <name>Nelly</name> in abito semplice accompagnata da <name>Madama Rivers</name>, e
+            <name>Fanny</name>, e <name>detto</name>
+         </p>
       </stage>
       <!--formatting doesn't work in readings-->
       <app>
@@ -1061,7 +1063,7 @@ from @who attribute
                <l rend="indent">&#160;&#160;&#160;>Mi persegue un presagio funesto,</l>
                <l>mille dubbi mi fanno perplessa,</l>
                <l>la ragion ne domando a me stessa,</l>
-               <l>ma trovarla il mio core non sa!</l></lg>
+               <l>ma trovarla il mio core non sa!</l>
             </lg>
          </sg>
          
@@ -1218,10 +1220,10 @@ from @who attribute
             <p>Come siete ingegnosa a fabbricarvi delle pene efimere, e senza sostegno!</p>
          </sp>
 
-         <sg who="#mad">
+         <sp who="#mad">
             <speaker>Mad.</speaker>
             <p>Ed in qual momento, aggiungi pure.</p>
-         </sg>
+         </sp>
 
          <sp who="#bon" xml:lang="nap">
             <speaker>Bon.</speaker>
@@ -1317,6 +1319,36 @@ from @who attribute
          </sp>
          
          <note xml:id="note4-act1sc5"/>
+         
+<app>
+   <rdg source="#1816">
+         <sg who="#mad">
+            <lg type="stanza">
+               <l>Qual cura ti opprime?</l>
+               <l>Qual tema ti agghiaccia?</l>
+               <l>Un dubbio discaccia</l>
+               <l>indegno di lui,</l>
+               <l>indegno di te.</l>
+            </lg>
+            <lg type="stanza">
+               <l>Adelson, rammenta,</l>
+               <l>che in petto rinchiude</l>
+               <l>i nobili sensi</l>
+               <l>di rara virtude,</l>
+               <l>che pari nel mondo</l>
+               <l>a quello non v’è.</l>
+            </lg>
+            <lg type="stanza">
+               <l>Deh vieni al mio seno,</l>
+               <l>mi stringi, mi abbraccia,</l>
+               <l>e un dubbio discaccia</l>
+               <l>indegno di lui,</l>
+               <l>indegno di te.</l>
+            </lg>
+         </sg>
+   </rdg>
+   <rdg source="#1825"/>
+</app>
          
          <stage type="exit" rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
          
