@@ -102,8 +102,37 @@ span.name {
     font-family: Georgia, serif;
     font-variant: small-caps;
     font-style: normal;
+    font-size: 0.9rem !important;
 }
-div.speaker, speaker {
+div.speaker {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-size: 1.0rem !important;
+    color: #000000;
+    letter-spacing: 0.4px;
+    text-align: left;
+    line-height: 16px;
+    /* margin-top: 5px; */
+    margin-bottom:  10px !important;
+}
+
+div.singer {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-size: 1.0rem !important;
+    color: #000000;
+    letter-spacing: 0.4px;
+    text-align: left;
+    line-height: 16px;
+    /* margin-top: 5px; */
+    margin-top: 1.3em;
+    margin-bottom:  10px !important;
+}
+
+.textViewContent div.singer {
+    text-align:center;
+}
+
     font-family: Georgia, serif;
     font-variant: small-caps;
     font-size: 1.0rem !important;
