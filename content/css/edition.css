@@ -104,6 +104,11 @@ span.name {
     font-style: normal;
     font-size: 0.9rem !important;
 }
+
+.lg .l:first-of-type {
+  text-indent: 2em;
+}
+
 div.speaker {
     font-family: Georgia, serif;
     font-variant: small-caps;
@@ -124,15 +129,12 @@ div.singer {
     letter-spacing: 0.4px;
     text-align: left;
     line-height: 16px;
-    /* margin-top: 5px; */
     margin-top: 1.3em;
     margin-bottom:  10px !important;
 }
 
 .textViewContent div.singer {
-    text-align:center;
-}
-
+    text-align:center !important;
     font-family: Georgia, serif;
     font-variant: small-caps;
     font-size: 1.0rem !important;
@@ -140,7 +142,8 @@ div.singer {
     letter-spacing: 0.4px;
     text-align: left;
     line-height: 16px;
-    margin-top: 5px;
+    width: 24em;
+    margin-top: 1.3em !important;
     margin-bottom:  10px !important;
 }
 span.add {
@@ -171,9 +174,9 @@ span.del {
 }
 .textViewContent h2 {
     font-weight: bold;
-    width: 100%;
+    width: 24em;
     font-family: Verdana, sans-serif;
-    font-size: 0.91406rem !important;
+    font-size: 0.91406rem !important; 
     font-style: normal;
     text-align: center;
     color: #777777;
@@ -348,7 +351,7 @@ table.librettoEdition td.technicalColumnLeft {
     text-align: right;
     padding-bottom: 0; 
 }
-/* adapt width to longest text line of the piece (l-544) */
+/* [open faust: ]adapt width to longest text line of the piece (l-544) */
 table.librettoEdition td.text1Column {
     min-width: 401px !important;
     max-width: 401px !important;
