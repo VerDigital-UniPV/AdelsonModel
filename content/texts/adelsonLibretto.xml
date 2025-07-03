@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../Schema/out/TEI_libretto_custom.rng"
+<?xml-model href="../../../Schema/out/tei_ms.rng"
             type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -106,9 +106,7 @@
                </p>
             </correction>-->
          </editorialDecl>
-         <tagsDecl partial="true">
-            
-         </tagsDecl>
+         <tagsDecl partial="true"> </tagsDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
@@ -196,13 +194,10 @@ from @who attribute
             <titlePart><name>ANDREA LEONE TOTTOLA</name></titlePart>
          </titlePage>
          <pb xml:id="p0004" n="4" facs="#surface_1d48264a-245d-4b1e-a919-8eb7a7f90c17"/>
-
          <head type="castList">ATTORI</head>
          <castList>
-
             <castItem>
                <role xml:id="nel">Nelly</role>
-               <note type="voice">soprano</note>
                <voice>soprano</voice>
             </castItem>
             <castItem>
@@ -210,13 +205,13 @@ from @who attribute
                <voice>contralto</voice>
             </castItem>
             <castItem>
-               <role xml:id="mad">Madame Rivers</role>
+               <role xml:id="mad">Madama Rivers</role>
                <voice>contralto</voice>
             </castItem>
             <castItem>
                <role xml:id="sal">Salvini</role>
-               <roleDesc>Friend of Adelson</roleDesc>
                <voice>tenore</voice>
+               <roleDesc>Friend of Adelson</roleDesc>
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
@@ -228,22 +223,23 @@ from @who attribute
             </castItem>
             <castItem>
                <role xml:id="bon">Bonifacio</role>
-               <roleDesc>Servant of Salvini</roleDesc>
                <voice>basso</voice>
+               <roleDesc>Servant of Salvini</roleDesc>
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
                <voice>basso</voice>
             </castItem>
-            <castItem type="list"><role xml:id="coro">Coro</role>&#160;di&#160;<note type="desc"
-                  >contandini, pastori, e domestici</note>
+            <castItem type="list">
+               <role xml:id="coro">Coro</role>
+               <roleDesc>&#160;di&#160; contandini, pastori, e domestici</roleDesc>
             </castItem>
          </castList>
          <set>
             <p>L'azione è in Irlanda, e precisamente in un castello di Adelson.</p>
          </set>
       </front>
-      
+
       <body xml:lang="it">
          <!--         TODO: add #ref to castItem in NAME element-->
          <pb xml:id="p0005" n="5" facs="#surface_9d9e9335-eb74-4662-880c-7da07c898cd5"/>
@@ -264,6 +260,7 @@ from @who attribute
                <div type="lyric" n="1" xml:id="a1-s1-1">
                   <sg who="#fan">
                      <singer>Fan.</singer>
+                    
                      <lg type="stanza">
                         <l n="1">Immagine gradita</l>
                         <l n="2">del ben che tanto adoro!</l>
@@ -420,9 +417,10 @@ from @who attribute
                         lo crede infedele, ed io per consolarla corro a dissipare i suoi ingiusti
                         timori.</p>
                   </sp>
-                  <stage type="exit" rend="right">(<hi rend="italic">via</hi><app><rdg
-                           source="#1816"/><rdg source="#1825"> [<hi rend="italic">con
-                           Geronio</hi>]</rdg></app>)</stage>
+                  <stage type="exit" rend="right">(<hi rend="italic">via</hi><app>
+                        <rdg source="#1816"/>
+                        <rdg source="#1825"> [<hi rend="italic">con Geronio</hi>]</rdg>
+                     </app>)</stage>
                   <sp who="#fan">
                      <speaker>Fan.</speaker>
                      <p>(Amare, e tacere! oh! è una pena insoffribile!)</p>
@@ -459,10 +457,9 @@ from @who attribute
                   <rdg source="#1825">
                      <div type="lyric" n="a1-s2-1">
                         <sg who="#stru">
-                           <singer rend="addition">Stru.</singer>
+                           <singer>Stru.</singer>
                            <lg type="stanza">
-                              <l n="36">&lt;Geronio ancor non
-                                 viene!</l>
+                              <l n="36">&lt;Geronio ancor non viene!</l>
                               <l n="37">Ogni indugio m’è peso,</l>
                               <l n="38">m’è sagro ogni momento... Ah! sì... vedremo!</l>
                               <l n="39">Furibondo mio cor per poco aspetta:</l>
@@ -483,7 +480,6 @@ from @who attribute
                               <l n="50">riporto il vanto</l>
                               <l n="51">l’idea che m’agita</l>
                               <l n="52">compir saprò.&gt;</l>
-                              <add resp="cbm"/>
                            </lg>
                         </sg>
                         <stage type="entrance" rend="right"> [<hi rend="italic">esce GERONIO</hi>]
@@ -503,10 +499,10 @@ from @who attribute
                   <sp who="#stru">
                      <speaker>Stru.</speaker>
                      <p>Ebbene? avrebbe in me ravvisato un semplice cacciatore: obbligato
-                        dall’infanzia a lasciar queste terre, perché piacque <pb xml:id="p0008"
-                           n="8" facs="#surface_ae4dbb5f-b626-47f2-85e5-24cf10a9a3b2"/>così
-                        all’ingiusto padre di Adelson, che fece proscrivere la mia famiglia, io
-                        torno la seconda volta in Irlanda senza timore di esservi riconosciuto.
+                        dall’infanzia a lasciar queste terre, perché piacque
+      <pb xml:id="p0008" n="8" facs="#surface_ae4dbb5f-b626-47f2-85e5-24cf10a9a3b2"/>
+                        così all’ingiusto padre di Adelson, che fece proscrivere la mia famiglia,
+                        io torno la seconda volta in Irlanda senza timore di esservi riconosciuto.
                         Ebbene hai tu niente a dirmi? è ancora Nelly ritirata nella sua
                         solitudine?</p>
                   </sp>
@@ -589,8 +585,10 @@ from @who attribute
                         <l n="61">a la fine de lo mese</l>
                         <l n="62">te lo pozzo arremmedià.</l>
                      </lg>
-                     <stage type="mixed business exit" rend="right">(<hi rend="italic">il
-                           portalettere segna in un piccolo libro il suo nome, e via</hi>)</stage>
+                     <stage type="mixed business exit" rend="right">
+                        (<hi rend="italic">il portalettere segna in un piccolo libro il suo nome, e via</hi>)
+                     </stage>
+
                      <lg>
                         <l n="63">Manco male! e nzì ad Irlanna</l>
                         <l n="64">chi da Napole me manna</l>
@@ -598,19 +596,19 @@ from @who attribute
                      </lg>
                      <lg>
                         <!-- quoted material. Remove quotation marks « » ? -->
-                        <l n="66"><quote xml:lang="it"
-                           xml:id="a2-s3-1-q1">&#171;Mastro Tammaro Ossoduro...&#187;</quote></l>
+                        <l n="66"><quote xml:lang="it" xml:id="a2-s3-1-q1">&#171;Mastro Tammaro
+                              Ossoduro...&#187;</quote></l>
                         <stage type="business" rend="right">(<hi rend="italic">legge</hi>)</stage>
                         <l n="67">Oh! cainatemo! e che bò?</l>
                         <l n="68"><quote xml:lang="it" xml:id="a1-s3-1-q2">&#171;Fuggi, e mettiti in
-                           sicuro...&#187;</quote></l>
+                              sicuro...&#187;</quote></l>
                         <l n="69">Fujo? pecché? vedimmo mo...</l>
                      </lg>
                      <lg>
-                        <l n="70"><quote xml:lang="it"
-                           xml:id="a1-s3-1-q3">&#171;Donna Popa vuol l’importo</quote></l>
+                        <l n="70"><quote xml:lang="it" xml:id="a1-s3-1-q3">&#171;Donna Popa vuol
+                              l’importo</quote></l>
                         <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela
-                           accredenzata...&#187;</quote></l>
+                              accredenzata...&#187;</quote></l>
                         <l n="72">
                            <choice>
                               <sic resp="#1816">Cca</sic>
@@ -1011,7 +1009,6 @@ from @who attribute
                            <l>Alle aurette, che spirano chete,</l>
                         </lg>
                      </sg>
-
                      <sg who="#fan">
                         <singer>Fan.</singer>
                         <lg>
@@ -1019,8 +1016,6 @@ from @who attribute
                         </lg>
                      </sg>
                      <pb xml:id="p0015" n="15" facs="#surface_12598c81-f8de-49ec-844a-2883964cbe08"/>
-
-
                      <sg who="#mad #fan">
                         <singer>a 2</singer>
                         <lg>
@@ -1028,7 +1023,6 @@ from @who attribute
                            <l part="I">quella calma...</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
 
                         <singer>Nel.</singer>
@@ -1048,12 +1042,10 @@ from @who attribute
                            <l>e non tiene che darle a magnà.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
-                           <l>Ah! miei cari! quest’aura, quel
-                              rio,</l>
+                           <l>Ah! miei cari! quest’aura, quel rio,</l>
                            <l>il boschetto, l’amena pendice</l>
                            <l>mi rammenta, che un giorno felice</l>
                            <l>fu quest’alma, ma più non sarà!</l>
@@ -1065,21 +1057,18 @@ from @who attribute
                            <l>ma trovarla il mio core non sa!</l>
                         </lg>
                      </sg>
-
                      <sg who="#mad">
                         <singer>Mad.</singer>
                         <lg>
                            <l>Ma la cosa è crudele in mia fè!</l>
                         </lg>
                      </sg>
-
                      <sg who="#fan">
                         <singer>Fan.</singer>
                         <lg>
                            <l>Lagrimar, singhiozzar tutto il dì!</l>
                         </lg>
                      </sg>
-
                      <sg who="#mad #fan">
                         <singer>a 2</singer>
                         <lg>
@@ -1087,7 +1076,6 @@ from @who attribute
                            <l>voi dobbiate affannarvi così?</l>
                         </lg>
                      </sg>
-
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
                         <lg>
@@ -1097,78 +1085,66 @@ from @who attribute
                            <l>essa n’auto domani sposò.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
                            <l part="I">Ma novelle di Adelson?</l>
                         </lg>
                      </sg>
-
                      <sg who="#mad">
                         <singer>Mad.</singer>
                         <lg>
                            <l part="F">Si avranno.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
                            <l part="I">Ma suoi fogli?..</l>
                         </lg>
                      </sg>
-
                      <sg who="#fan">
                         <singer>Fan.</singer>
                         <lg>
                            <l part="F">Quest’oggi verrano.</l>
                         </lg>
                      </sg>
-
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
                         <lg>
-                           <l part="I">Tutto nziemo la vide
-                              assommà.</l>
+                           <l part="I">Tutto nziemo la vide assommà.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
                            <l part="I">E fia vero!</l>
                         </lg>
                      </sg>
-
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
                         <lg>
                            <l part="F">Pe me ce scommetto.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
                            <l>Qual partì tornerà fido amante?</l>
                         </lg>
                      </sg>
-
                      <sg who="#mad">
                         <singer>Mad.</singer>
                         <lg>
                            <l>Oh qual dubbio! fedele, costante,</l>
                         </lg>
                      </sg>
-
                      <sg who="#fan">
                         <singer>Fan.</singer>
                         <lg>
                            <l>qual fu sempre, per voi tornerà.</l>
                         </lg>
                      </sg>
-
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
@@ -1185,14 +1161,12 @@ from @who attribute
                            <l>Non più malinconia,</l>
                         </lg>
                      </sg>
-
                      <sg who="#fan">
                         <singer>Fan.</singer>
                         <lg>
                            <l>tornate in allegria,</l>
                         </lg>
                      </sg>
-
                      <sg who="#mad #fan">
                         <singer>a 2</singer>
                         <lg>
@@ -1200,7 +1174,6 @@ from @who attribute
                            <l>senza tormento – il cor.</l>
                         </lg>
                      </sg>
-
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
                         <lg>
@@ -1210,7 +1183,6 @@ from @who attribute
                            <l>la madre, e ‘l genitor!</l>
                         </lg>
                      </sg>
-
                   </rdg>
                   <rdg source="#1825"/>
                </app>
@@ -1873,8 +1845,7 @@ from @who attribute
                      <singer>Bon.</singer>
                      <lg>
                         <l>(Chisto abbotta! arrassosìa!</l>
-
-                        <!-- APP -->
+  <!-- !!!!!!! APP -->
 
                         <note>
                            <add><l>&lt;È mpazzuto e vall’appresso,</l>
@@ -1907,7 +1878,8 @@ from @who attribute
                   <sg who="#mad">
                      <singer>Mad.</singer>
                      <lg>
-                        <l> <choice>
+                        <l>
+                           <choice>
                               <sic source="#1816">Qui, quì</sic>
                               <corr resp="#cbm">Qui qui</corr>
                            </choice>l'attenderemo,</l>
