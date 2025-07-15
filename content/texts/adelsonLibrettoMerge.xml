@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../Schema/BelliniLibrettoSchema.sch" 
-            type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<?xml-model href="../../../Schema/out/tei_ms2.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 
-   https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mei="http://www.music-encoding.org/ns/mei">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -117,6 +115,9 @@
             <language ident="it">Italian</language>
             <language ident="nap">Neapolitan</language>
          </langUsage>
+ <!-- is <particDesc> necessary here???
+ it is in the Corpus module, so maybe that is
+ a different use of participant description-->
          <particDesc>
             <listPerson>
                <person xml:id="tottola" role="librettist">
@@ -137,7 +138,7 @@
       </surface>-->
       <surface xml:id="surface_2e1ad0cf-ae60-45b6-b7d2-84f8842ed87c" n="1" ulx="0" uly="0" lrx="480" lry="730">
          <graphic xml:id="graphic_82c1b9dd-0dfc-4d5b-a7ad-0111c54c8f60" 
-            url="http://localhost:8182/iiif/2/Tottola%2FLo01717_001.jpg" type="facsimile" width="480px" height="730px"/>
+            url="http://localhost:8182/iiif/2/Tottola%2FLo01717_001.jpg" width="480px" height="730px"/>
       </surface>
       <surface xml:id="surface_1d48264a-245d-4b1e-a919-8eb7a7f90c17" n="4" ulx="0" uly="0" lrx="480" lry="730">
          <graphic xml:id="graphic_0dffe5dd-661f-48cf-8f8e-02d70fa22f04" 
@@ -344,23 +345,25 @@
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
-               <note type="voice">baritono</note>
+               <mei:perfRes>baritono</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="stru">Struley</role>
-               <note type="voice">basso</note>
+               <mei:perfRes>basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="bon">Bonifacio</role>
-               <note type="voice">basso</note>
+               <mei:perfRes>basso</mei:perfRes>
                <note type="desc"> — Servant of Salvini</note>
 <!--               <roleDesc>Servant of Salvini</roleDesc>-->
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
-               <note type="voice">basso</note>
+               <mei:perfRes>basso</mei:perfRes>
             </castItem>
-            <castItem type="list"><role xml:id="coro">Coro</role>&#160;di&#160;<note type="desc">contandini, pastori, e domestici</note>
+            <castItem type="list">
+               <role xml:id="coro">Coro</role>&#160;di&#160;
+               <note type="desc">contandini, pastori, e domestici</note>
             </castItem>
          </castList>
          <note type="setting">L'azione è in Irlanda, e precisamente in un castello di Adelson.</note>

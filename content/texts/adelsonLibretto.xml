@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../Schema/out/tei_ms.rng"
+<?xml-model href="../../../Schema/out/tei_ms2.rng"
             type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mei="http://www.music-encoding.org/ns/mei">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -198,37 +198,37 @@ from @who attribute
          <castList>
             <castItem>
                <role xml:id="nel">Nelly</role>
-               <voice>soprano</voice>
+               <mei:perfRes>soprano</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="fan">Fanny</role>
-               <voice>contralto</voice>
+               <mei:perfRes>contralto</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="mad">Madama Rivers</role>
-               <voice>contralto</voice>
+               <mei:perfRes>contralto</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="sal">Salvini</role>
-               <voice>tenore</voice>
                <roleDesc>Friend of Adelson</roleDesc>
+               <mei:perfRes>tenore</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
-               <voice>baritono</voice>
+               <mei:perfRes>baritono</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="stru">Struley</role>
-               <voice>basso</voice>
+               <mei:perfRes>basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="bon">Bonifacio</role>
-               <voice>basso</voice>
                <roleDesc>Servant of Salvini</roleDesc>
+               <mei:perfRes                                                                                                                                                                                                                                                                                                                         >basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
-               <voice>basso</voice>
+               <mei:perfRes>basso</mei:perfRes>
             </castItem>
             <castItem type="list">
                <role xml:id="coro">Coro</role>
@@ -585,6 +585,7 @@ from @who attribute
                         <l n="61">a la fine de lo mese</l>
                         <l n="62">te lo pozzo arremmedià.</l>
                      </lg>
+                     
                      <stage type="mixed business exit" rend="right">
                         (<hi rend="italic">il portalettere segna in un piccolo libro il suo nome, e via</hi>)
                      </stage>
@@ -1024,7 +1025,6 @@ from @who attribute
                         </lg>
                      </sg>
                      <sg who="#nel">
-
                         <singer>Nel.</singer>
                         <lg>
                            <l part="F">Che il cor più non ha.</l>
@@ -1461,10 +1461,10 @@ from @who attribute
                      <p>L’amico di Milord? e non è questo un titolo, per tollerarvi a me vicino
                         anche nella sua lontananza?</p>
                   </sp>
-                  <sg who="#sal">
+                  <sp who="#sal">       
                      <speaker>Sal.</speaker>
                      <p>(Ah! crudele compiacenza!)</p>
-                  </sg>
+                  </sp>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
                      <p>Vi attesti anzi la mia fiducia la preghiera, che a voi porgo di leggere ciò,
@@ -1476,9 +1476,11 @@ from @who attribute
                         esprimere dopo qualche silenzio i sensi del suo cuore.</p>
                      <stage type="business" rend="right">(<hi rend="i">ripigliandosi a stento apre
                            il foglio, e legge</hi>)</stage>
-                     <quote>«Amabile Nelly! <u>(che pena!)</u> Stanca non è la sorte di opporsi a
+                     <p>
+                        <quote>«Amabile Nelly!</quote>(che pena!)<quote>Stanca non è la sorte di opporsi a
                         nostri voti. Milord zio, che col suo pingue retaggio dovrà assicurarmi una
                         immensa fortuna, dimentico del nostro giurato impegno...»</quote>
+                     </p>
                   </sp>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
