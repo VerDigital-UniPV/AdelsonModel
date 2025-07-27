@@ -122,7 +122,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="de">Second version</name>
                                 <name xml:lang="en">Second version</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-2-1" sortNo="1" targets="">
+                            <navigatorItem xml:id="navItem-2-4-2-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sourcesnumero5_bis_ed.xml">
                                 <names>
                                     <name xml:lang="de">N.5</name>
                                     <name xml:lang="en">N.5</name>
@@ -221,7 +221,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="en">N. 4bis</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-2-2" sortNo="2" targets="">
+                        <navigatorItem xml:id="navItem-4-1-2-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sourcesnumero5_bis_ed.xml">
                             <names>
                                 <name xml:lang="de">N. 5bis</name>
                                 <name xml:lang="en">N. 5bis</name>
