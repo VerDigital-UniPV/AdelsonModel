@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../Schema/out/tei_ms2.rng"
+<?xml-model href="../../../Schema/rng/tei-libretto-v0.1.rng"
             type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../Schema/sch/tei-libretto-v0.1.sch" 
+            type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mei="http://www.music-encoding.org/ns/mei">
    <teiHeader>
       <fileDesc>
@@ -224,7 +227,7 @@ from @who attribute
             <castItem>
                <role xml:id="bon">Bonifacio</role>
                <roleDesc>Servant of Salvini</roleDesc>
-               <mei:perfRes                                                                                                                                                                                                                                                                                                                         >basso</mei:perfRes>
+               <mei:perfRes>basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
@@ -247,7 +250,6 @@ from @who attribute
             <head>ATTO PRIMO</head>
             <div xml:id="act1sc1" n="1" type="scene">
                <head rend="center">SCENA I</head>
-               <p> July 3 13:16</p>
                <stage type="setting"><p rend="center"> Parco delizioso sparso di folti boschetti. In
                      ciascun de’ due lati è un tempietto: su quello a sinistra vi si legge ⸺
                      ALL’AMORE, su quello a dritta ⸺ AL DISPIACERE. Un banco di verdura è presso al
@@ -390,7 +392,6 @@ from @who attribute
                      <p>Olà! incauta! quali accenti! essi debbono esserti stranieri e per
                         sempre.</p>
                   </sp>
-
                   <sp who="#fan">
                      <speaker>Fan.</speaker>
                      <p>Perdonate... dir volea... </p>
@@ -481,13 +482,13 @@ from @who attribute
                               <l n="51">l’idea che m’agita</l>
                               <l n="52">compir saprò.&gt;</l>
                            </lg>
+                           
                         </sg>
                         <stage type="entrance" rend="right"> [<hi rend="italic">esce GERONIO</hi>]
                         </stage>
                      </div>
                   </rdg>
                </app>
-
                <div type="parlato">
                   <sp who="#stru">
                      <p>Io era già lì appiattato fin dall’aurora o Geronio.</p>

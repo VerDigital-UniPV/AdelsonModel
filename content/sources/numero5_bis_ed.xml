@@ -5,10 +5,12 @@
    <meiHead xml:id="mt6uihp">
       <fileDesc xml:id="fqk2hyx">
          <titleStmt xml:id="t590egg">
-            <title>La Straniera</title>
+            <title>No. 5bis: Romanza di Nelly</title>
             <respStmt>
                <persName role="composer">Vincenzo Bellini</persName>
                <persName role="arranger">Marco Uvietta</persName>
+   <!-- placeholder for editor additions @resp -->
+               <persName role="editors" xml:id="eds">Editors</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="p8aejys">
@@ -337,11 +339,11 @@ in Fa</label>
                      <dynam xml:id="mqw4qko" place="below" staff="4" tstamp="2" val="36" vgrp="650">
                         <rend xml:id="n1rl8xjg" fontfam="Opus Text">pp</rend>
                      </dynam>
-                     <dir xml:id="pt908ru" place="above" staff="4" tstamp="2" vgrp="2120" resp="eds">[Solo]</dir>
+                     <dir xml:id="pt908ru" place="above" staff="4" tstamp="2" vgrp="2120" resp="#eds">[Solo]</dir>
                      <dynam xml:id="jc2sumi" place="below" staff="5" tstamp="1" val="36" vgrp="650">
                         <rend xml:id="kz9ebkv" fontfam="Opus Text">pp</rend>
                      </dynam>
-                     <dir xml:id="m19o8gi5" place="above" staff="5" tstamp="1" vgrp="2170" resp="eds">[Solo]</dir>
+                     <dir xml:id="m19o8gi5" place="above" staff="5" tstamp="1" vgrp="2170" resp="#eds">[Solo]</dir>
                      <slur xml:id="s2rf97p" startid="#rro4ww7" endid="#xlwxl7f" curvedir="above" />
                      <tempo xml:id="o161qxp" place="above" staff="8" tstamp="1" xml:lang="it" midi.bpm="80">
                         <rend xml:id="pcmqr3s" fontfam="TimesTen Times 10 Bold">Andante flebile</rend>
@@ -355,7 +357,7 @@ in Fa</label>
                         <rend xml:id="syxi3i7" fontfam="Opus Text">pp</rend>
                      </dynam>
                      <slur xml:id="cil7p4k" startid="#a19fi3n6" endid="#d1sn59np" curvedir="below" />
-                     <dynam xml:id="diqijsv" place="below" staff="10" tstamp="4" val="49" vgrp="650" resp="eds">[ <rend xml:id="gsyf2sn" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="diqijsv" place="below" staff="10" tstamp="4" val="49" vgrp="650" resp="#eds">[ <rend xml:id="gsyf2sn" fontfam="Opus Text">pp</rend>
                         <rend xml:id="i1hc0fzb" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="o1onjofh" startid="#n1w3zedn" endid="#r1pvwd2r" curvedir="above" />
                      <dynam xml:id="d17n386e" place="below" staff="11" tstamp="1" val="36" vgrp="650">
@@ -602,7 +604,7 @@ in Fa</label>
                            <mRest xml:id="x14qpay8" />
                         </layer>
                      </staff>
-                     <dynam xml:id="jxcm45c" place="below" staff="1" tstamp="3" val="49" vgrp="730" resp="eds">[ <rend xml:id="m1yjw8gs" fontfam="Opus Text">pp</rend> ]</dynam>
+                     <dynam xml:id="jxcm45c" place="below" staff="1" tstamp="3" val="49" vgrp="730" resp="#eds">[ <rend xml:id="m1yjw8gs" fontfam="Opus Text">pp</rend> ]</dynam>
                      <slur xml:id="v16ks2fq" startid="#t6dhgeo" endid="#w18sh2lb" curvedir="above" />
                      <hairpin xml:id="xhre3g2" staff="1" tstamp="3.375" tstamp2="0m+5" form="cres" opening="2.4vu" place="below" vgrp="690" />
                      <slur xml:id="fqickw3" startid="#e1ymwrr1" endid="#g1a6sbj5" curvedir="above" />
@@ -797,17 +799,17 @@ in Fa</label>
                      <tie xml:id="w17pw5y4" startid="#vamgmf4" endid="#z1gk3daw" />
                      <slur xml:id="bq29wcy" startid="#aazrfg0" endid="#v5yedzb" curvedir="above" />
                      <tie xml:id="g6mjtl2" startid="#f1qkajjn" endid="#i1d3iupf" />
-                     <dir xml:id="d14013yq" place="above" staff="3" tstamp="1" vgrp="2120" resp="eds">[Solo]</dir>
+                     <dir xml:id="d14013yq" place="above" staff="3" tstamp="1" vgrp="2120" resp="#eds">[Solo]</dir>
                      <slur xml:id="j164ay5n" startid="#i98yvkg" endid="#v1ccck7u" curvedir="above" />
-                     <dynam xml:id="nm64276" place="below" staff="3" tstamp="2" val="49" vgrp="790" resp="eds">[ <rend xml:id="q94akwx" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="nm64276" place="below" staff="3" tstamp="2" val="49" vgrp="790" resp="#eds">[ <rend xml:id="q94akwx" fontfam="Opus Text">pp</rend>
                         <rend xml:id="s1xs19s" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dynam xml:id="d1fxxedm" place="below" staff="4" tstamp="3" val="49" vgrp="710" resp="eds">[ <rend xml:id="gghdpfl" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="d1fxxedm" place="below" staff="4" tstamp="3" val="49" vgrp="710" resp="#eds">[ <rend xml:id="gghdpfl" fontfam="Opus Text">pp</rend>
                         <rend xml:id="i1i2i0xw" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <dir xml:id="ofdhk98" place="below" staff="4" tstamp="4" vgrp="440">
                         <rend xml:id="ptljv42" fontfam="Tratteggiate 2 sx">F</rend>
                      </dir>
                      <hairpin xml:id="o77y40t" staff="5" tstamp="1" tstamp2="0m+4" form="dim" opening="2.4vu" place="below" vgrp="600" />
-                     <dynam xml:id="ss5ldrr" place="below" staff="6" tstamp="4" val="49" vgrp="740" resp="eds">[ <rend xml:id="vfjb4sh" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="ss5ldrr" place="below" staff="6" tstamp="4" val="49" vgrp="740" resp="#eds">[ <rend xml:id="vfjb4sh" fontfam="Opus Text">pp</rend>
                         <rend xml:id="xuz1kyv" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <hairpin xml:id="r17sr4yx" staff="8" tstamp="1" tstamp2="0m+3" form="dim" opening="2.4vu" place="below" vgrp="630" />
                      <tie xml:id="u1w4afl1" startid="#t31xi1e" endid="#x12905nx" />
@@ -997,11 +999,11 @@ in Fa</label>
                      <slur xml:id="u1sywfdl" startid="#s1enqls5" endid="#v1xotp3d" curvedir="below" />
                      <slur xml:id="b1nuqqw4" startid="#zlo3xa0" endid="#c1nxgaui" curvedir="below" />
                      <slur xml:id="i16x74e" startid="#g3g17o7" endid="#jr0kmfz" curvedir="below" />
-                     <dynam xml:id="r3bx0df" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="eds">[ <rend xml:id="u1r32lz8" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="r3bx0df" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="#eds">[ <rend xml:id="u1r32lz8" fontfam="Opus Text">pp</rend>
                         <rend xml:id="wscu2st" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dir xml:id="zdd39f4" place="above" staff="11" tstamp="2" vgrp="2280" resp="eds">[pizz.]</dir>
+                     <dir xml:id="zdd39f4" place="above" staff="11" tstamp="2" vgrp="2280" resp="#eds">[pizz.]</dir>
                      <dir xml:id="x76vug6" place="above" staff="12" tstamp="2" vgrp="2280">pizz.</dir>
-                     <dynam xml:id="zc8ar0v" place="below" staff="12" tstamp="2" val="49" vgrp="650" resp="eds">[ <rend xml:id="c1v556jk" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="zc8ar0v" place="below" staff="12" tstamp="2" val="49" vgrp="650" resp="#eds">[ <rend xml:id="c1v556jk" fontfam="Opus Text">pp</rend>
                         <rend xml:id="ep2ujn1" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                   </measure>
                   <sb xml:id="jsegsgr" />
@@ -1290,7 +1292,7 @@ in Fa</label>
                      <slur xml:id="krg4171" startid="#j1crf4xn" endid="#qzyiqil" curvedir="below" />
                      <slur xml:id="m1jtblap" startid="#l19uemec" endid="#s1aly91l" curvedir="below" />
                      <slur xml:id="xi4iat" startid="#w1l41odq" endid="#dv3zc7a" curvedir="below" />
-                     <dynam xml:id="b1x3lt4f" place="below" staff="10" tstamp="1" val="49" vgrp="650" resp="eds">[ <rend xml:id="ehub4rq" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="b1x3lt4f" place="below" staff="10" tstamp="1" val="49" vgrp="650" resp="##eds">[ <rend xml:id="ehub4rq" fontfam="Opus Text">pp</rend>
                         <rend xml:id="g1bj9h7u" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                   </measure>
                   <measure xml:id="ypzace3" n="7">
@@ -2166,9 +2168,9 @@ in Fa</label>
                      <tie xml:id="b9pmsw4" startid="#a13dwz2t" endid="#fxda7hp" />
                      <hairpin xml:id="c170e140" staff="4" tstamp="4" tstamp2="0m+5" form="dim" opening="2.4vu" place="below" vgrp="710" />
                      <slur xml:id="i7jg00p" startid="#g14952hz" endid="#vopiqml" curvedir="above" />
-                     <dynam xml:id="s1qkk9r3" place="below" staff="5" tstamp="1" val="49" vgrp="830" resp="eds">[ <rend xml:id="visexr7" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="s1qkk9r3" place="below" staff="5" tstamp="1" val="49" vgrp="830" resp="#eds">[ <rend xml:id="visexr7" fontfam="Opus Text">pp</rend>
                         <rend xml:id="xq2jn15" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dynam xml:id="yhqhiw7" place="below" staff="6" tstamp="1" val="49" vgrp="650" resp="eds">[ <rend xml:id="b1e8ibcb" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="yhqhiw7" place="below" staff="6" tstamp="1" val="49" vgrp="650" resp="#eds">[ <rend xml:id="b1e8ibcb" fontfam="Opus Text">pp</rend>
                         <rend xml:id="d1sf56o4" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <dir xml:id="g19oo68c" place="above" staff="6" tstamp="1" vgrp="2100">a 2</dir>
                      <slur xml:id="mzemhmm" startid="#l1pp9jwy" endid="#j1k6anx4" curvedir="above" />
@@ -2974,7 +2976,7 @@ in Fa</label>
                      <slur xml:id="xhb48au" startid="#w1hneb8w" endid="#d1086dkt" curvedir="below" />
                      <slur xml:id="d1ukalnx" startid="#b9d97rz" endid="#jaowoer" curvedir="below" />
                      <slur xml:id="owx89gd" startid="#npa00x4" endid="#ui01ejh" curvedir="below" />
-                     <dir xml:id="amarjhb" place="below" staff="10" tstamp="1" vgrp="680" resp="eds">[legate]</dir>
+                     <dir xml:id="amarjhb" place="below" staff="10" tstamp="1" vgrp="680" resp="#eds">[legate]</dir>
                   </measure>
                   <pb xml:id="a1cwi0p0" />
                   <measure xml:id="qjke9mr" n="17">
@@ -3283,7 +3285,7 @@ in Fa</label>
                            <mRest xml:id="f1dz72y" />
                         </layer>
                      </staff>
-                     <dynam xml:id="bvif6gh" place="below" staff="4" tstamp="1" val="49" vgrp="720" resp="eds">[ <rend xml:id="ei7x311" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="bvif6gh" place="below" staff="4" tstamp="1" val="49" vgrp="720" resp="#eds">[ <rend xml:id="ei7x311" fontfam="Opus Text">pp</rend>
                         <rend xml:id="g1eh97m3" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="nqz3sjn" startid="#k1gmvng5" endid="#wukfhpm" curvedir="above" />
                      <slur xml:id="d209b4m" startid="#c1fvm7ek" endid="#k1wqrwnm" curvedir="below" />
@@ -3612,12 +3614,12 @@ in Fa</label>
                            <mRest xml:id="dj0bogm" />
                         </layer>
                      </staff>
-                     <dynam xml:id="nkyn3u1" place="below" staff="1" tstamp="1.75" val="49" vgrp="650" resp="eds">[ <rend xml:id="q1ecn9of" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="nkyn3u1" place="below" staff="1" tstamp="1.75" val="49" vgrp="650" resp="#eds">[ <rend xml:id="q1ecn9of" fontfam="Opus Text">pp</rend>
                         <rend xml:id="s1ix719i" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dynam xml:id="eiv5s9s" place="below" staff="2" tstamp="1.75" val="49" vgrp="650" resp="eds">[ <rend xml:id="h1v97653" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="eiv5s9s" place="below" staff="2" tstamp="1.75" val="49" vgrp="650" resp="#eds">[ <rend xml:id="h1v97653" fontfam="Opus Text">pp</rend>
                         <rend xml:id="jn1z6sk" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <dir xml:id="x15oaacj" place="above" staff="4" tstamp="1.75" vgrp="2100">Solo</dir>
-                     <dynam xml:id="g1bil1qo" place="below" staff="6" tstamp="1" val="49" vgrp="670" resp="eds">[ <rend xml:id="jgwnc37" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="g1bil1qo" place="below" staff="6" tstamp="1" val="49" vgrp="670" resp="#eds">[ <rend xml:id="jgwnc37" fontfam="Opus Text">pp</rend>
                         <rend xml:id="l1q8o1ft" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="w1sfeo0z" startid="#v195s1ed" endid="#c1l1sjxi" curvedir="below" />
                      <slur xml:id="hkn43hm" startid="#g8bxnlz" endid="#o998ymj" curvedir="below" />
@@ -3794,8 +3796,8 @@ in Fa</label>
                      <slur xml:id="q1qbs7h8" startid="#omd44ye" endid="#x16nqnya" curvedir="below" />
                      <slur xml:id="v3fwvsb" startid="#u98xh94" endid="#b14xmjn2" curvedir="below" />
                      <slur xml:id="hrlnbnr" startid="#fpzrsc0" endid="#oy5j3yd" curvedir="below" />
-                     <dir xml:id="a16375zv" place="above" staff="11" tstamp="1" vgrp="2160" resp="eds">[arco]</dir>
-                     <dir xml:id="crqml2a" place="below" staff="11" tstamp="1" vgrp="660" resp="eds">[legate]</dir>
+                     <dir xml:id="a16375zv" place="above" staff="11" tstamp="1" vgrp="2160" resp="#eds">[arco]</dir>
+                     <dir xml:id="crqml2a" place="below" staff="11" tstamp="1" vgrp="660" resp="#eds">[legate]</dir>
                   </measure>
                   <measure xml:id="p3xuovd" n="22">
                      <staff xml:id="ya24c83" n="1">
@@ -4107,9 +4109,9 @@ in Fa</label>
                            <rest xml:id="gl0ht64" dur.ppq="6" dur="4" />
                         </layer>
                      </staff>
-                     <dynam xml:id="wm5qocs" place="below" staff="5" tstamp="1" val="49" vgrp="650" resp="eds">[ <rend xml:id="z1yk2y63" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="wm5qocs" place="below" staff="5" tstamp="1" val="49" vgrp="650" resp="#eds">[ <rend xml:id="z1yk2y63" fontfam="Opus Text">pp</rend>
                         <rend xml:id="b1moouap" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dir xml:id="eynu71w" place="above" staff="5" tstamp="1" vgrp="2100" resp="eds">[Solo]</dir>
+                     <dir xml:id="eynu71w" place="above" staff="5" tstamp="1" vgrp="2100" resp="#eds">[Solo]</dir>
                      <slur xml:id="k7v1ry0" startid="#i1l0d8rh" endid="#l7nahrc" curvedir="above" />
                      <slur xml:id="o1c5g62i" startid="#nl7jban" endid="#r1gpcaqw" curvedir="below" />
                      <slur xml:id="z19cxtx7" startid="#y1d2ccps" endid="#g17jzw2u" curvedir="below" />
@@ -4311,14 +4313,14 @@ in Fa</label>
                            <rest xml:id="z5b4ndn" dur.ppq="6" dur="4" />
                         </layer>
                      </staff>
-                     <dynam xml:id="x159mecp" place="below" staff="3" tstamp="1.75" val="49" vgrp="820" resp="eds">[ <rend xml:id="aaswclr" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="x159mecp" place="below" staff="3" tstamp="1.75" val="49" vgrp="820" resp="#eds">[ <rend xml:id="aaswclr" fontfam="Opus Text">pp</rend>
                         <rend xml:id="cuvhs87" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <dir xml:id="j1mis3go" place="above" staff="6" tstamp="1.75" vgrp="2080">Solo</dir>
                      <slur xml:id="lg76548" startid="#k1j2fixs" endid="#s1jlw77k" curvedir="below" />
                      <slur xml:id="z19jyb8w" startid="#x1j4h8am" endid="#hsrqk3f" curvedir="below" />
                      <slur xml:id="c1ovr542" startid="#b16rdfvo" endid="#jhln8i0" curvedir="below" />
                      <slur xml:id="qf0hnmf" startid="#o1p82yc3" endid="#yyz0qjr" curvedir="below" />
-                     <dir xml:id="aq8lsqv" place="above" staff="11" tstamp="3" vgrp="2140" resp="eds">[pizz.]</dir>
+                     <dir xml:id="aq8lsqv" place="above" staff="11" tstamp="3" vgrp="2140" resp="#eds">[pizz.]</dir>
                   </measure>
                   <pb xml:id="t5qcgw1" />
                   <measure xml:id="j1cdaabj" n="25">
@@ -4873,20 +4875,20 @@ in Fa</label>
                            <mRest xml:id="jsit0ob" />
                         </layer>
                      </staff>
-                     <dynam xml:id="t1q4acc1" place="below" staff="8" tstamp="1.3333" val="49" vgrp="790" resp="eds">[ <rend xml:id="w17r0un5" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="t1q4acc1" place="below" staff="8" tstamp="1.3333" val="49" vgrp="790" resp="#eds">[ <rend xml:id="w17r0un5" fontfam="Opus Text">pp</rend>
                         <rend xml:id="y7zk52p" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="d1coafm0" startid="#c16uxpsx" endid="#e2z5a88" curvedir="below" />
                      <slur xml:id="k1xb9uua" startid="#i1lkwx9d" endid="#l1ehsflx" curvedir="below" />
                      <slur xml:id="rhh77ti" startid="#p14jmgkc" endid="#s3qhmci" curvedir="below" />
                      <slur xml:id="y1vv45vj" startid="#wked0kh" endid="#ztivjd0" curvedir="below" />
-                     <dynam xml:id="k8adnbj" place="below" staff="9" tstamp="1.3333" val="49" vgrp="790" resp="eds">[ <rend xml:id="njyzsvo" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="k8adnbj" place="below" staff="9" tstamp="1.3333" val="49" vgrp="790" resp="#eds">[ <rend xml:id="njyzsvo" fontfam="Opus Text">pp</rend>
                         <rend xml:id="p1b8snmi" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="ubsdsiv" startid="#t1aed9ed" endid="#v1r44uoq" curvedir="below" />
                      <slur xml:id="b1v8uog" startid="#zjbdo84" endid="#c18jo6iw" curvedir="below" />
                      <slur xml:id="iucz8f4" startid="#g1cy9lq1" endid="#j7aad0o" curvedir="below" />
                      <slur xml:id="p1sb4fh9" startid="#n1x8dw5t" endid="#qyh1xhu" curvedir="below" />
                      <dir xml:id="f1hih2tm" place="above" staff="11" tstamp="2" vgrp="2280">pizz.</dir>
-                     <dynam xml:id="h4tk0wi" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="eds">[ <rend xml:id="k12swdap" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="h4tk0wi" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="#eds">[ <rend xml:id="k12swdap" fontfam="Opus Text">pp</rend>
                         <rend xml:id="m1wa2f0r" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                   </measure>
                   <measure xml:id="yf0albi" n="28">
@@ -5569,7 +5571,7 @@ in Fa</label>
                      <slur xml:id="gv7e0t1" startid="#fu7is0a" endid="#m15yfmfq" curvedir="below" />
                      <slur xml:id="mulqove" startid="#klziyin" endid="#s132wgd2" curvedir="below" />
                      <slur xml:id="x1qecx6r" startid="#w1vu13ea" endid="#d1747ye0" curvedir="below" />
-                     <dir xml:id="k1qeri5z" place="below" staff="10" tstamp="1" vgrp="690" resp="eds">[legate]</dir>
+                     <dir xml:id="k1qeri5z" place="below" staff="10" tstamp="1" vgrp="690" resp="#eds">[legate]</dir>
                   </measure>
                   <pb xml:id="fn4g6ox" />
                   <measure xml:id="vuayspr" n="32">
@@ -6210,12 +6212,12 @@ in Fa</label>
                            <rest xml:id="g180rxbe" dur.ppq="6" dur="4" />
                         </layer>
                      </staff>
-                     <dynam xml:id="t1yognsv" place="below" staff="1" tstamp="1.75" val="49" vgrp="650" resp="eds">[ <rend xml:id="w17q3vpp" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="t1yognsv" place="below" staff="1" tstamp="1.75" val="49" vgrp="650" resp="#eds">[ <rend xml:id="w17q3vpp" fontfam="Opus Text">pp</rend>
                         <rend xml:id="y1r5jyed" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dynam xml:id="z1j7iqcf" place="below" staff="2" tstamp="1.75" val="49" vgrp="650" resp="eds">[ <rend xml:id="c7gyrqc" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="z1j7iqcf" place="below" staff="2" tstamp="1.75" val="49" vgrp="650" resp="#eds">[ <rend xml:id="c7gyrqc" fontfam="Opus Text">pp</rend>
                         <rend xml:id="err7llu" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <dir xml:id="g1fr44sb" place="above" staff="4" tstamp="1.75" vgrp="2090">Solo</dir>
-                     <dynam xml:id="iy23a8" place="below" staff="6" tstamp="1" val="49" vgrp="670" resp="eds">[ <rend xml:id="l129il75" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="iy23a8" place="below" staff="6" tstamp="1" val="49" vgrp="670" resp="#eds">[ <rend xml:id="l129il75" fontfam="Opus Text">pp</rend>
                         <rend xml:id="n1r6p6m6" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="f1k23o9d" startid="#epe1qkw" endid="#lnsjhqo" curvedir="below" />
                      <slur xml:id="q1uvfnbv" startid="#p1e2js4y" endid="#xepj6r7" curvedir="below" />
@@ -6388,8 +6390,8 @@ in Fa</label>
                      <slur xml:id="z9gxb0k" startid="#x13cpwa6" endid="#g1qbnv85" curvedir="below" />
                      <slur xml:id="eodz48n" startid="#d10w9qv2" endid="#ks7h4v3" curvedir="below" />
                      <slur xml:id="qvl7z80" startid="#o1dn5052" endid="#xiwhyod" curvedir="below" />
-                     <dir xml:id="yeczgti" place="above" staff="11" tstamp="1" vgrp="2130" resp="eds">[arco]</dir>
-                     <dir xml:id="a1jy00dt" place="below" staff="11" tstamp="1" vgrp="650" resp="eds">[legate]</dir>
+                     <dir xml:id="yeczgti" place="above" staff="11" tstamp="1" vgrp="2130" resp="#eds">[arco]</dir>
+                     <dir xml:id="a1jy00dt" place="below" staff="11" tstamp="1" vgrp="650" resp="#eds">[legate]</dir>
                   </measure>
                   <measure xml:id="u1ighnad" n="37">
                      <staff xml:id="dp9w0th" n="1">
@@ -6711,9 +6713,9 @@ in Fa</label>
                            <rest xml:id="k1vvcznh" dur.ppq="6" dur="4" />
                         </layer>
                      </staff>
-                     <dynam xml:id="nah47dt" place="below" staff="5" tstamp="1" val="49" vgrp="650" resp="eds">[ <rend xml:id="q1c065mo" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="nah47dt" place="below" staff="5" tstamp="1" val="49" vgrp="650" resp="#eds">[ <rend xml:id="q1c065mo" fontfam="Opus Text">pp</rend>
                         <rend xml:id="s1u22vrf" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
-                     <dir xml:id="vumoqjt" place="above" staff="5" tstamp="1" vgrp="2110" resp="eds">[Solo]</dir>
+                     <dir xml:id="vumoqjt" place="above" staff="5" tstamp="1" vgrp="2110" resp="#eds">[Solo]</dir>
                      <slur xml:id="m1fol9ui" startid="#kq4afh" endid="#n1th7615" curvedir="above" />
                      <slur xml:id="q1bcmlrk" startid="#p1vgzgw4" endid="#t1976nm4" curvedir="below" />
      <!--                <tie xml:id="v1p2is98" startid="#r185nz0e" endid="#l15nl06i" /> -->
@@ -6944,7 +6946,7 @@ in Fa</label>
                      <slur xml:id="i4zby9c" startid="#g19eziz9" endid="#q1kbvkkv" curvedir="below" />
                      <slur xml:id="l1q1mjw6" startid="#k1rs4d3o" endid="#s47cb1u" curvedir="below" />
                      <slur xml:id="zl4hn20" startid="#x1or6ifv" endid="#hrf8cvw" curvedir="below" />
-                     <dir xml:id="b7j35xy" place="above" staff="11" tstamp="3" vgrp="2140" resp="eds">[pizz.]</dir>
+                     <dir xml:id="b7j35xy" place="above" staff="11" tstamp="3" vgrp="2140" resp="#eds">[pizz.]</dir>
                   </measure>
                   <measure xml:id="z1r3w739" n="40">
                      <staff xml:id="ibsvw1a" n="1">
@@ -7159,7 +7161,7 @@ in Fa</label>
                         </layer>
                      </staff>
                      <tie xml:id="nonf2k3" startid="#l1xsqemq" endid="#q3yygtf" />
-                     <dir xml:id="w1d7lzvq" place="above" staff="4" tstamp="1.75" vgrp="2110" resp="eds">[Solo]</dir>
+                     <dir xml:id="w1d7lzvq" place="above" staff="4" tstamp="1.75" vgrp="2110" resp="#eds">[Solo]</dir>
                      <tie xml:id="h113vx1k" startid="#g1kgs1mn" endid="#k1pteit9" />
                      <dir xml:id="haw8vov" place="above" staff="5" tstamp="2" vgrp="2130">Solo</dir>
                      <slur xml:id="r1gqkz39" startid="#prk1nqt" endid="#ibws5dc" curvedir="above" />
@@ -7520,20 +7522,20 @@ in Fa</label>
                            <mRest xml:id="t18ap0h9" />
                         </layer>
                      </staff>
-                     <dynam xml:id="cibvsns" place="below" staff="8" tstamp="1.3333" val="49" vgrp="810" resp="eds">[ <rend xml:id="foesvg7" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="cibvsns" place="below" staff="8" tstamp="1.3333" val="49" vgrp="810" resp="#eds">[ <rend xml:id="foesvg7" fontfam="Opus Text">pp</rend>
                         <rend xml:id="hphrzpt" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="muf3kmv" startid="#l12fq9lx" endid="#n19a6bt9" curvedir="below" />
                      <slur xml:id="tz5ti42" startid="#rspy652" endid="#u1virspy" curvedir="below" />
                      <slur xml:id="achpswc" startid="#y19a5w72" endid="#b14m6e12" curvedir="below" />
                      <slur xml:id="hom0txt" startid="#ffdkrl9" endid="#ip1y52n" curvedir="below" />
-                     <dynam xml:id="tivsut3" place="below" staff="9" tstamp="1.3333" val="49" vgrp="810" resp="eds">[ <rend xml:id="w19q0w2r" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="tivsut3" place="below" staff="9" tstamp="1.3333" val="49" vgrp="810" resp="#eds">[ <rend xml:id="w19q0w2r" fontfam="Opus Text">pp</rend>
                         <rend xml:id="y1rs88ay" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                      <slur xml:id="dnf4j9o" startid="#cy16zxf" endid="#eth0soz" curvedir="below" />
                      <slur xml:id="k173h612" startid="#i1q8yknj" endid="#lvxlepp" curvedir="below" />
                      <slur xml:id="r15sc8w" startid="#pq3nfa1" endid="#st2y9xl" curvedir="below" />
                      <slur xml:id="ytxx7e9" startid="#w14shfs9" endid="#zeaw4d5" curvedir="below" />
                      <dir xml:id="cjvs1sn" place="above" staff="11" tstamp="2" vgrp="2270">pizz.</dir>
-                     <dynam xml:id="e1xz24zb" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="eds">[ <rend xml:id="h10sam44" fontfam="Opus Text">pp</rend>
+                     <dynam xml:id="e1xz24zb" place="below" staff="11" tstamp="2" val="49" vgrp="650" resp="#eds">[ <rend xml:id="h10sam44" fontfam="Opus Text">pp</rend>
                         <rend xml:id="jtloanr" fontfam="TimesTen Times 10 Roman"> </rend>]</dynam>
                   </measure>
                   <measure xml:id="o11wn225" n="43">
@@ -8188,7 +8190,7 @@ in Fa</label>
                      <slur xml:id="n1381j5e" startid="#mw4rw9q" endid="#t1uwkp3t" curvedir="below" />
                      <slur xml:id="t1m2w3xq" startid="#s47612f" endid="#zldqmtx" curvedir="below" />
                      <slur xml:id="e17pef1w" startid="#dt0obr6" endid="#k181ujt8" curvedir="below" />
-                     <dir xml:id="u1p8onrf" place="below" staff="10" tstamp="1" vgrp="680" resp="eds">[legate]</dir>
+                     <dir xml:id="u1p8onrf" place="below" staff="10" tstamp="1" vgrp="680" resp="#eds">[legate]</dir>
                   </measure>
                   <sb xml:id="v13padt6" />
                   <measure xml:id="ln75fv9" n="47">
@@ -8802,7 +8804,7 @@ in Fa</label>
                            <mRest xml:id="l17ha1u0" />
                         </layer>
                      </staff>
-                     <dir xml:id="x6qqkjb" place="below" staff="4" tstamp="1" vgrp="690" resp="eds">[legate]</dir>
+                     <dir xml:id="x6qqkjb" place="below" staff="4" tstamp="1" vgrp="690" resp="#eds">[legate]</dir>
                      <slur xml:id="n1glyrgs" startid="#l137b1kv" endid="#t2i4de3" curvedir="below" />
                      <slur xml:id="yma0gjk" startid="#x1wtsabn" endid="#g1ixemb3" curvedir="below" />
                      <slur xml:id="eg7p6oq" startid="#c117x810" endid="#k1qnyver" curvedir="below" />
@@ -9995,7 +9997,7 @@ in Fa</label>
                      <dynam xml:id="nkehb5j" place="below" staff="6" tstamp="1" val="36" vgrp="650">
                         <rend xml:id="o1sswc1m" fontfam="Opus Text">pp</rend>
                      </dynam>
-                     <dir xml:id="q1yl5kbk" place="above" staff="6" tstamp="1" vgrp="2130" resp="eds">[Solo]</dir>
+                     <dir xml:id="q1yl5kbk" place="above" staff="6" tstamp="1" vgrp="2130" resp="#eds">[Solo]</dir>
                      <tie xml:id="u27x5g9" startid="#t5tq6lt" endid="#v1v7rlvq" />
                      <tie xml:id="kkhuqbt" startid="#f4aaco7" />
                      <tie xml:id="z15mtb4t" startid="#x1l03nab" endid="#a13n0kq5" />
@@ -10184,11 +10186,11 @@ in Fa</label>
                      <dynam xml:id="x19ilma9" place="below" staff="3" tstamp="2" val="36" vgrp="600">
                         <rend xml:id="y1btjnqs" fontfam="Opus Text">pp</rend>
                      </dynam>
-                     <dir xml:id="azxil71" place="above" staff="3" tstamp="2" vgrp="2130" resp="eds">[Solo]</dir>
+                     <dir xml:id="azxil71" place="above" staff="3" tstamp="2" vgrp="2130" resp="#eds">[Solo]</dir>
                      <dynam xml:id="s16bjxxd" place="below" staff="4" tstamp="2" val="36" vgrp="810">
                         <rend xml:id="thuqffx" fontfam="Opus Text">pp</rend>
                      </dynam>
-                     <dir xml:id="vboe0k6" place="above" staff="4" tstamp="2" vgrp="2110" resp="eds">[Solo]</dir>
+                     <dir xml:id="vboe0k6" place="above" staff="4" tstamp="2" vgrp="2110" resp="#eds">[Solo]</dir>
                      <tie xml:id="b1cpvv7c" startid="#z1cdx6tl" endid="#e19tkwjm" />
                      <slur xml:id="b1i9x7b2" startid="#agamhnp" endid="#cmrugf" curvedir="below" />
                      <slur xml:id="jt6ls06" startid="#h1fvlqzx" endid="#k86emdq" curvedir="below" />

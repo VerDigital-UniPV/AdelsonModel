@@ -51,15 +51,20 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
     /* color: rgb(0, 0, 0) */
 }
 
+blockquote.roleDesc {
+
+}
 hi {
     font-style: italic;
+    padding-left: 1em;
 }
 
-/* 
-hi[rend="bold"] {
-    font-weight: bold;
-    font-style: normal;
+span.set p {
+    font-style: italic;
+    padding-top: 1em;
+    padding-left: 2em !important
 }
+
 
 hi sup {
     vertical-align: super;
