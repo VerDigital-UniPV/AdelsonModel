@@ -29,7 +29,7 @@
                   lrx="1000"
                   lry="750">
             <graphic xml:id="graphic_45ba1090-644a-474a-aa8a-62ce672208ac"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0040.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -65,7 +65,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_2edf6929-6552-429d-99ee-2537da843fbf"
-                     target="http://localhost:8182%sFiiif%sF2%sFAdelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0041.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0041.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -167,7 +167,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_fab80211-7773-4a7a-ae11-f7a0b389c965"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0041.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0041.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -275,7 +275,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_fa847282-16da-4bdc-ab09-3183663ca957"
-               target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0034."
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0034.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -323,7 +323,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_442a9e56-37b1-45b4-a980-957153f75dda"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/MM-1.159-1_0040.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -383,7 +383,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_2fe40d97-f06e-473f-86ce-9f23249e52c1"
-               target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0034.jpg"
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2f2fMM-1.159-1_0034.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -437,7 +437,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_c8e4fab1-c054-4e30-8931-bf9187d7ac0f"
-               target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0040.tif"
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -485,7 +485,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_d0eb8f81-621c-4c3b-a167-5e476cbf68e6"
-               target="http://localhost:8182/iiif/2/Adelson_Autograph_N3%2FAdelson_N3_HiRes%2F"
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2f"
                      type="facsimile"
                      width="2048"
                      height="1536"/>
@@ -533,7 +533,7 @@
                   lrx="2048"
                   lry="1536">
             <graphic xml:id="graphic_1c559e45-dc41-4bb6-b409-5cb70dc23496"
-               target="http://localhost:8182%2Fiiif%F2s%2FAdelson_Autograph_N3%sFAdelson_N3_HiRes%2FMM-1.159-1_0040.tif"
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
                      type="facsimile"
                      width="2048"
                      height="1536"/>

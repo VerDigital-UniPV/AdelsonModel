@@ -33,7 +33,7 @@
                   lrx="7019"
                   lry="5285">
             <graphic xml:id="graphic_eb40dec9-9482-4cbf-8ffc-6c5f0e66d05d"
-               target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0003.tif"
+               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0003.tif"
                      type="facsimile"
                      width="7019"
                      height="5285"/>
@@ -93,7 +93,7 @@
                   lrx="7169"
                   lry="5457">
             <graphic xml:id="graphic_65630076-59a4-4791-834e-eb63f0e56168"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0004.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0004.tif"
                      type="facsimile"
                      width="7169"
                      height="5457"/>
@@ -123,7 +123,7 @@
                   lrx="6826"
                   lry="5285">
             <graphic xml:id="graphic_767014be-53b8-4775-9f2e-60510a1411f1"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0005.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0005.tif"
                      type="facsimile"
                      width="6826"
                      height="5285"/>
@@ -177,7 +177,7 @@
                   lrx="7244"
                   lry="5457">
             <graphic xml:id="graphic_5a0072d1-7f2c-4b16-ac64-3db14797eb50"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0006.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0006.tif"
                      type="facsimile"
                      width="7244"
                      height="5457"/>
@@ -231,7 +231,7 @@
                   lrx="6826"
                   lry="5285">
             <graphic xml:id="graphic_d7d35a37-a3cc-421c-884e-8ff99d0f6667"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0007.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0007.tif"
                      type="facsimile"
                      width="6826"
                      height="5285"/>
@@ -285,7 +285,7 @@
                   lrx="7308"
                   lry="5457">
             <graphic xml:id="graphic_eb380158-91c1-4e89-a2e8-43422779141d"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0008.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0008.tif"
                      type="facsimile"
                      width="7308"
                      height="5457"/>
@@ -333,7 +333,7 @@
                   lrx="6858"
                   lry="5275">
             <graphic xml:id="graphic_b2429c0e-da37-4425-a7bd-962a98a8fd72"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0009.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0009.tif"
                      type="facsimile"
                      width="6858"
                      height="5275"/>
@@ -381,7 +381,7 @@
                   lrx="7415"
                   lry="5489">
             <graphic xml:id="graphic_e283bd6b-a308-4472-9f88-574f83dbde2d"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0010.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0010.tif"
                      type="facsimile"
                      width="7415"
                      height="5489"/>
@@ -423,7 +423,7 @@
                   lrx="6794"
                   lry="5296">
             <graphic xml:id="graphic_9299668c-b4eb-45fa-8b50-a667928dff8f"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0011.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0011.tif"
                      type="facsimile"
                      width="6794"
                      height="5296"/>
@@ -477,7 +477,7 @@
                   lrx="7447"
                   lry="5489">
             <graphic xml:id="graphic_23cfe25d-6dd4-4604-8e59-31f9aca278cd"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0012.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0012.tif"
                      type="facsimile"
                      width="7447"
                      height="5489"/>
@@ -537,7 +537,7 @@
                   lrx="6794"
                   lry="5296">
             <graphic xml:id="graphic_dfd7c1e5-7b80-458e-8380-f320b5ce3822"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0013.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0013.tif"
                      type="facsimile"
                      width="6794"
                      height="5296"/>
@@ -609,7 +609,7 @@
                   lrx="7211"
                   lry="5489">
             <graphic xml:id="graphic_1bc8cda0-b26e-4b2f-aa37-1d65d1615a92"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N1%2FAdelson_N1_HiRes%2FMM-1.159-1_0014.tif"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0014.tif"
                      type="facsimile"
                      width="7211"
                      height="5489"/>
@@ -41425,5 +41425,3 @@
       </body>
    </music>
 </mei>
-
-
