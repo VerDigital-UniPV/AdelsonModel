@@ -9,10 +9,10 @@
       </fileDesc>
       <encodingDesc>
          <appInfo>
-            <application xml:id="application_0bf47424-78f9-4d7b-8687-9114928399b6"
-                         isodate="2025-01-17">
+            <application xml:id="application_b1510f78-9326-4cd7-aba7-23db6a0aeb53"
+                         isodate="2025-08-05">
                <name>Vertaktoid v4.0.0</name>
-               <ptr target="https://github.com/cemfi/vertaktoid/releases/tag/v4.0.0"/>
+               <ptr target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fhttps://github.com/cemfi/vertaktoid/releases/tag/v4.0.0"/>
             </application>
          </appInfo>
       </encodingDesc>
@@ -22,975 +22,999 @@
    </meiHead>
    <music>
       <facsimile>
-         <surface xml:id="surface_0c20aefa-f459-4175-8a72-5a089ea51965"
+         <surface xml:id="surface_b6b5e460-7044-4c33-89e4-d555094ef71e"
                   n="1"
                   ulx="0"
                   uly="0"
-                  lrx="1000"
-                  lry="750">
-            <graphic xml:id="graphic_45ba1090-644a-474a-aa8a-62ce672208ac"
-                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
+                  lrx="7169"
+                  lry="5435">
+            <graphic xml:id="graphic_be81a5ab-6d53-4a16-91ee-9c90df2eb962"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fFMM-1.159-1_0034.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_1e96e1c3-507d-4f7e-b3cb-ddf73c0a69aa"
+                     width="7169"
+                     height="5435"/>
+            <zone xml:id="zone_93dff719-88ca-4cf3-9275-b00d3fd95fb8"
                   type="measure"
-                  ulx="281"
-                  uly="134"
-                  lrx="900"
-                  lry="1402"/>
-            <zone xml:id="zone_c20b5c42-bfad-4b0f-b45c-ce828d0da0d1"
+                  ulx="976"
+                  uly="288"
+                  lrx="3440"
+                  lry="5084"/>
+            <zone xml:id="zone_dfd1aa9b-9e6a-40cf-aa86-7b95e5c09400"
                   type="measure"
-                  ulx="818"
-                  uly="135"
-                  lrx="1129"
-                  lry="1378"/>
-            <zone xml:id="zone_381365d8-b81a-4c7a-8a73-c65e36e2bcf4"
+                  ulx="3124"
+                  uly="312"
+                  lrx="4224"
+                  lry="5052"/>
+            <zone xml:id="zone_73f7d76c-9545-400d-850f-a90ce3ea1c9f"
                   type="measure"
-                  ulx="1047"
-                  uly="131"
-                  lrx="1362"
-                  lry="1356"/>
-            <zone xml:id="zone_8ee8dab2-9a71-43aa-a098-b3f1c1190d16"
+                  ulx="4036"
+                  uly="356"
+                  lrx="5120"
+                  lry="4984"/>
+            <zone xml:id="zone_10e3a93b-a646-45d4-8bb3-800bc9bdd58b"
                   type="measure"
-                  ulx="1275"
-                  uly="117"
-                  lrx="1655"
-                  lry="1352"/>
+                  ulx="4892"
+                  uly="340"
+                  lrx="6180"
+                  lry="4976"/>
          </surface>
-         <surface xml:id="surface_58a3d9e3-a044-44fd-8cfe-b2d70697c4c3"
+         <surface xml:id="surface_b0918ca4-3311-4bd5-8daa-aebb5605417d"
                   n="2"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_2edf6929-6552-429d-99ee-2537da843fbf"
-                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0041.tif"
+                  lrx="6816"
+                  lry="5307">
+            <graphic xml:id="graphic_ff8e2088-cfe9-4592-a308-128227df9601"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0035.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_613a3178-9a31-4735-9109-4fa4ea60efe2"
+                     width="6816"
+                     height="5307"/>
+            <zone xml:id="zone_868abbea-a97a-4378-9ab7-4cb68f667618"
                   type="measure"
-                  ulx="203"
-                  uly="117"
-                  lrx="481"
-                  lry="1321"/>
-            <zone xml:id="zone_e7e459d8-f1e6-44ba-97dc-c5ba8b0919c7"
-                  type="measure"
-                  ulx="416"
-                  uly="109"
-                  lrx="661"
-                  lry="1317"/>
-            <zone xml:id="zone_5b77da0a-e45c-4233-af60-d94278340fc1"
-                  type="measure"
-                  ulx="598"
-                  uly="101"
-                  lrx="888"
-                  lry="1321"/>
-            <zone xml:id="zone_9b5d8201-28fb-4cf4-b456-742808456487"
-                  type="measure"
-                  ulx="826"
-                  uly="94"
-                  lrx="1110"
-                  lry="1327"/>
-            <zone xml:id="zone_af019775-b8e2-4a00-84b2-5493db22d6b2"
-                  type="measure"
-                  ulx="1051"
-                  uly="99"
-                  lrx="1308"
-                  lry="1314"/>
-            <zone xml:id="zone_f36a609a-e568-46a1-9dd1-abb2f3b5682f"
+                  ulx="420"
+                  uly="226"
+                  lrx="1398"
+                  lry="4694"/>
+            <zone xml:id="zone_e7c3f104-2609-48b1-bf38-5ce61e5f696f"
                   type="measure"
                   ulx="1234"
-                  uly="116"
-                  lrx="1516"
-                  lry="1292"/>
-            <zone xml:id="zone_63da1636-9972-4b8b-9d54-7a972d58ad3c"
+                  uly="182"
+                  lrx="2068"
+                  lry="4702"/>
+            <zone xml:id="zone_5cc54de1-00ac-454c-9ab3-08b276e421ec"
                   type="measure"
-                  ulx="1423"
-                  uly="98"
-                  lrx="1754"
-                  lry="1303"/>
+                  ulx="1914"
+                  uly="130"
+                  lrx="2922"
+                  lry="4762"/>
+            <zone xml:id="zone_9c368a95-9612-4a6d-914c-e89014073e09"
+                  type="measure"
+                  ulx="2778"
+                  uly="136"
+                  lrx="3788"
+                  lry="4758"/>
+            <zone xml:id="zone_c606ea63-80cd-44b6-af4c-26c0ddd5ce14"
+                  type="measure"
+                  ulx="3642"
+                  uly="140"
+                  lrx="4504"
+                  lry="4738"/>
+            <zone xml:id="zone_5ea55f34-b377-44b4-9807-dcb166635031"
+                  type="measure"
+                  ulx="4352"
+                  uly="184"
+                  lrx="5300"
+                  lry="4696"/>
+            <zone xml:id="zone_ee1a68be-fd90-4914-916d-8766788c5781"
+                  type="measure"
+                  ulx="5062"
+                  uly="146"
+                  lrx="6202"
+                  lry="4718"/>
          </surface>
-         <surface xml:id="surface_edf77710-f006-4170-ac79-4e61a1ccda6e"
+         <surface xml:id="surface_d55bddc1-6a66-4116-ab2c-9050a1d886cb"
                   n="3"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_a3bdc751-2aa0-4210-8e09-0c25a3559e0c"
-               target="http://localhost:8182%2Fiiif%2F2%2FAdelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0040.tif"
+                  lrx="7233"
+                  lry="5435">
+            <graphic xml:id="graphic_7c9d703b-a8c7-4e13-b7d8-a3df633b1970"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0036.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_f59543d3-f916-4ec0-83f6-edd492b1b840"
+                     width="7233"
+                     height="5435"/>
+            <zone xml:id="zone_8ba61607-33cc-42e0-ba28-4d05ac20601b"
                   type="measure"
-                  ulx="210"
-                  uly="134"
-                  lrx="578"
-                  lry="1338"/>
-            <zone xml:id="zone_4ff9d7c4-adee-4629-809c-33498133fb14"
+                  ulx="904"
+                  uly="236"
+                  lrx="2176"
+                  lry="4976"/>
+            <zone xml:id="zone_0c9271cc-41d8-4c68-b215-2a6e82a6ee8f"
                   type="measure"
-                  ulx="488"
-                  uly="113"
-                  lrx="782"
-                  lry="1332"/>
-            <zone xml:id="zone_dc8cfdd9-73b2-4ba9-9fcb-c3b46c7c5741"
+                  ulx="1960"
+                  uly="204"
+                  lrx="2964"
+                  lry="4952"/>
+            <zone xml:id="zone_2031099e-1eef-4c1a-b8c2-c54bc17d585d"
                   type="measure"
-                  ulx="694"
-                  uly="116"
-                  lrx="986"
-                  lry="1317"/>
-            <zone xml:id="zone_d2b2fb16-8904-4873-8113-f4be0f38bd86"
+                  ulx="2760"
+                  uly="228"
+                  lrx="3748"
+                  lry="4908"/>
+            <zone xml:id="zone_d1570809-8d62-47c7-a0a9-59bf80800771"
                   type="measure"
-                  ulx="906"
-                  uly="111"
-                  lrx="1261"
-                  lry="1309"/>
-            <zone xml:id="zone_0cadbfdc-4c0b-4ab2-bd8e-6e5849a6eb86"
+                  ulx="3584"
+                  uly="272"
+                  lrx="4816"
+                  lry="4872"/>
+            <zone xml:id="zone_5d97cd11-a3ed-4074-927f-360c3cab97f9"
                   type="measure"
-                  ulx="1161"
-                  uly="97"
-                  lrx="1525"
-                  lry="1319"/>
-            <zone xml:id="zone_70431667-662d-4710-b98e-376aa9589ca6"
+                  ulx="4564"
+                  uly="264"
+                  lrx="5816"
+                  lry="4868"/>
+            <zone xml:id="zone_874afc98-e6ae-4e34-b24f-222d174efe97"
                   type="measure"
-                  ulx="1393"
-                  uly="81"
-                  lrx="1829"
-                  lry="1339"/>
+                  ulx="5504"
+                  uly="284"
+                  lrx="6932"
+                  lry="4868"/>
          </surface>
-         <surface xml:id="surface_24c8e052-35c3-4f88-a23a-b8edde5e07f1"
+         <surface xml:id="surface_1e7e1396-8c3c-448a-a7af-411783a95c58"
                   n="4"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_fab80211-7773-4a7a-ae11-f7a0b389c965"
-                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0041.tif"
+                  lrx="6751"
+                  lry="5307">
+            <graphic xml:id="graphic_aeaaadea-84fb-443c-beac-3e145e12224f"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0037.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_8ecf6fc9-23da-4882-9462-3e85f4d96590"
+                     width="6751"
+                     height="5307"/>
+            <zone xml:id="zone_161e6aa2-8eec-4f48-91ac-ddebbfabd0a6"
                   type="measure"
-                  ulx="227"
-                  uly="124"
-                  lrx="522"
-                  lry="1353"/>
-            <zone xml:id="zone_1791024e-bdf4-445d-9133-7f88e1b43603"
+                  ulx="396"
+                  uly="206"
+                  lrx="1494"
+                  lry="4808"/>
+            <zone xml:id="zone_e434c7f7-48b2-4fab-b64e-30116a2feb0a"
                   type="measure"
-                  ulx="467"
-                  uly="135"
-                  lrx="661"
-                  lry="1344"/>
-            <zone xml:id="zone_980cdeb0-26c7-4216-8dfb-42f43814584d"
+                  ulx="1314"
+                  uly="200"
+                  lrx="1994"
+                  lry="4776"/>
+            <zone xml:id="zone_154dbc85-ef92-4e7b-892a-c98ba06ec250"
                   type="measure"
-                  ulx="596"
-                  uly="136"
-                  lrx="793"
-                  lry="1341"/>
-            <zone xml:id="zone_aadb4471-48f3-4b5b-8e42-f4d05bff6bf5"
+                  ulx="1786"
+                  uly="230"
+                  lrx="2504"
+                  lry="4712"/>
+            <zone xml:id="zone_2d6be71b-8973-4ed2-ab4e-809d31952795"
                   type="measure"
-                  ulx="714"
-                  uly="125"
-                  lrx="1039"
-                  lry="1332"/>
-            <zone xml:id="zone_3352d448-fdd3-48a3-b1b1-1349407954ee"
+                  ulx="2234"
+                  uly="182"
+                  lrx="3446"
+                  lry="4682"/>
+            <zone xml:id="zone_2d1cf3b8-6203-409b-8d3c-b9eea2bffb60"
                   type="measure"
-                  ulx="992"
-                  uly="128"
-                  lrx="1247"
-                  lry="1325"/>
-            <zone xml:id="zone_28fd03c5-6c95-4bb5-a1d5-aa8dff3e55a7"
+                  ulx="3294"
+                  uly="194"
+                  lrx="4210"
+                  lry="4700"/>
+            <zone xml:id="zone_de060e60-83b9-4e2a-b578-17261aa1758b"
                   type="measure"
-                  ulx="1196"
-                  uly="141"
-                  lrx="1521"
-                  lry="1320"/>
-            <zone xml:id="zone_741f50ad-0635-4dd3-9846-017d5400a2d1"
+                  ulx="4084"
+                  uly="260"
+                  lrx="5240"
+                  lry="4728"/>
+            <zone xml:id="zone_09110781-2af2-4b9d-8224-81811bac02cf"
                   type="measure"
-                  ulx="1453"
-                  uly="121"
-                  lrx="1788"
-                  lry="1326"/>
+                  ulx="5068"
+                  uly="176"
+                  lrx="6286"
+                  lry="4702"/>
          </surface>
-         <surface xml:id="surface_ca16a7c4-4aaa-455e-b576-1cf1bce432a4"
+         <surface xml:id="surface_03a2d747-9159-408c-803a-aa437e391ac6"
                   n="5"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_a63ab697-0b93-4f13-b71f-3d66a5334641"
-               target="http://localhost:8182%2Fiiif%2F2%2FAdelson_Autograph_N3%2FAdelson_N3_HiRes%2FMM-1.159-1_0040.tif"
+                  lrx="7137"
+                  lry="5435">
+            <graphic xml:id="graphic_f54d7123-73f2-4455-834c-fbc89752b316"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0038.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_35d59498-6f23-44b5-93ff-b7da607c4476"
+                     width="7137"
+                     height="5435"/>
+            <zone xml:id="zone_c9aa5ba1-c633-4fe0-9d35-9482134047e4"
                   type="measure"
-                  ulx="222"
-                  uly="144"
-                  lrx="663"
-                  lry="1336"/>
-            <zone xml:id="zone_77306d7d-3dfc-4764-951f-91420054c439"
+                  ulx="860"
+                  uly="280"
+                  lrx="2408"
+                  lry="4900"/>
+            <zone xml:id="zone_414aca3e-b31a-459e-a6a3-24b67aebd5c3"
                   type="measure"
-                  ulx="555"
-                  uly="129"
-                  lrx="935"
-                  lry="1329"/>
-            <zone xml:id="zone_acf9f7be-5ed0-4081-83d2-04136f8d9efc"
+                  ulx="2120"
+                  uly="268"
+                  lrx="3444"
+                  lry="4940"/>
+            <zone xml:id="zone_7ed4acd6-40b8-4673-b7e2-f9796866a864"
                   type="measure"
-                  ulx="825"
-                  uly="118"
-                  lrx="1191"
-                  lry="1320"/>
-            <zone xml:id="zone_5cdc0e51-aedf-4fae-bcd3-f252bb8b8208"
+                  ulx="3172"
+                  uly="280"
+                  lrx="4448"
+                  lry="4900"/>
+            <zone xml:id="zone_9e728802-87d0-4279-bcb6-c46ffb648ee8"
                   type="measure"
-                  ulx="1084"
-                  uly="107"
-                  lrx="1374"
-                  lry="1311"/>
-            <zone xml:id="zone_5aa9e600-d43e-4d2e-9aad-ac07aa287755"
+                  ulx="4168"
+                  uly="284"
+                  lrx="5148"
+                  lry="4840"/>
+            <zone xml:id="zone_7e8b796d-9bcd-4121-88c2-31aa2fd9c3ce"
                   type="measure"
-                  ulx="1277"
-                  uly="96"
-                  lrx="1527"
-                  lry="1304"/>
-            <zone xml:id="zone_ab71a07c-5eab-4962-b5c5-75bb25f64264"
+                  ulx="4920"
+                  uly="276"
+                  lrx="5740"
+                  lry="4792"/>
+            <zone xml:id="zone_0fd33bbc-b1e9-4999-84d1-9c6ef65cb8a5"
                   type="measure"
-                  ulx="1418"
-                  uly="83"
-                  lrx="1668"
-                  lry="1305"/>
-            <zone xml:id="zone_fdf48c61-6cb1-429d-a085-55ec7e469956"
+                  ulx="5464"
+                  uly="264"
+                  lrx="6272"
+                  lry="4788"/>
+            <zone xml:id="zone_6b4cd48b-d1dc-49ee-be52-8096a3f4d770"
                   type="measure"
-                  ulx="1541"
-                  uly="73"
-                  lrx="1851"
-                  lry="1307"/>
+                  ulx="5960"
+                  uly="280"
+                  lrx="6948"
+                  lry="4760"/>
          </surface>
-         <surface xml:id="surface_9a57a2cf-310f-4bd8-b211-b5716dca0f26"
+         <surface xml:id="surface_83434f5d-b44d-4068-9d84-bea5da3e40d6"
                   n="6"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_fa847282-16da-4bdc-ab09-3183663ca957"
-               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0034.tif"
+                  lrx="6751"
+                  lry="5307">
+            <graphic xml:id="graphic_5c94e191-f3b1-465c-a4b1-1ddaeb259beb"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0039.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_447d3691-22b3-4610-8aaf-3493649e2bc6"
+                     width="6751"
+                     height="5307"/>
+            <zone xml:id="zone_2fc4468b-656f-41e9-86ee-32f2d6545b32"
                   type="measure"
-                  ulx="217"
-                  uly="119"
-                  lrx="496"
-                  lry="1332"/>
-            <zone xml:id="zone_d1739066-5ce6-4652-89a1-c9d98af5f2ef"
+                  ulx="344"
+                  uly="224"
+                  lrx="1366"
+                  lry="4696"/>
+            <zone xml:id="zone_f2613952-a8fc-4e8e-b626-fbe0b60ce06c"
                   type="measure"
-                  ulx="439"
-                  uly="131"
-                  lrx="752"
-                  lry="1317"/>
-            <zone xml:id="zone_aba86679-7e77-44eb-90b9-728f864be2bb"
+                  ulx="1206"
+                  uly="228"
+                  lrx="2314"
+                  lry="4630"/>
+            <zone xml:id="zone_ce17fba0-3ba4-4e3a-ae21-476f56a4b60e"
                   type="measure"
-                  ulx="674"
-                  uly="137"
-                  lrx="978"
-                  lry="1318"/>
-            <zone xml:id="zone_56073633-f89c-459a-bd69-eb8bfcd05178"
+                  ulx="2072"
+                  uly="236"
+                  lrx="3176"
+                  lry="4664"/>
+            <zone xml:id="zone_80a483b6-d05f-4f30-acdc-08190e933624"
                   type="measure"
-                  ulx="897"
-                  uly="125"
-                  lrx="1278"
-                  lry="1329"/>
-            <zone xml:id="zone_3f2b914e-553a-4acd-9cd1-482771d05f74"
+                  ulx="2922"
+                  uly="214"
+                  lrx="4300"
+                  lry="4710"/>
+            <zone xml:id="zone_8101b859-a408-44a3-a505-995e3f508489"
                   type="measure"
-                  ulx="1160"
-                  uly="108"
-                  lrx="1525"
-                  lry="1352"/>
-            <zone xml:id="zone_b5190e74-69cd-42b2-8f03-e0ea8edc1e6d"
+                  ulx="3942"
+                  uly="178"
+                  lrx="5222"
+                  lry="4744"/>
+            <zone xml:id="zone_74553f00-7763-4e50-bc72-1d3f2dd3314a"
                   type="measure"
-                  ulx="1429"
-                  uly="130"
-                  lrx="1794"
-                  lry="1372"/>
+                  ulx="4952"
+                  uly="212"
+                  lrx="6272"
+                  lry="4890"/>
          </surface>
-         <surface xml:id="surface_6f472122-79fc-4e26-a5b1-c2f7f02bedba"
+         <surface xml:id="surface_dd99327f-ae16-4e2e-81e8-0745da397993"
                   n="7"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_442a9e56-37b1-45b4-a980-957153f75dda"
-                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
+                  lrx="7147"
+                  lry="5371">
+            <graphic xml:id="graphic_7aa86718-bb4a-467e-b364-87da0ca1c432"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_4cba6a9a-bdce-43f0-9fae-33b503323a77"
+                     width="7147"
+                     height="5371"/>
+            <zone xml:id="zone_62667c14-05d4-4319-81bc-e7b5c73482d5"
                   type="measure"
-                  ulx="240"
-                  uly="112"
-                  lrx="502"
-                  lry="1311"/>
-            <zone xml:id="zone_ea41ff9e-5a2f-41d7-b07c-3a27136340f2"
+                  ulx="852"
+                  uly="154"
+                  lrx="1780"
+                  lry="4864"/>
+            <zone xml:id="zone_3e6e21be-e019-4470-b171-3e459dc3706a"
                   type="measure"
-                  ulx="435"
-                  uly="127"
-                  lrx="714"
-                  lry="1284"/>
-            <zone xml:id="zone_d4a25cdb-195e-4a94-a75c-cca14c0b5870"
+                  ulx="1630"
+                  uly="196"
+                  lrx="2608"
+                  lry="4784"/>
+            <zone xml:id="zone_fd6173e5-cd11-4722-9776-7b8ef4293d0d"
                   type="measure"
-                  ulx="655"
-                  uly="122"
-                  lrx="915"
-                  lry="1289"/>
-            <zone xml:id="zone_d6761a94-a7fe-4bfc-9dab-8caff6286460"
+                  ulx="2442"
+                  uly="218"
+                  lrx="3390"
+                  lry="4764"/>
+            <zone xml:id="zone_72e25ca6-cb6b-45c9-8df2-236c82e5c048"
                   type="measure"
-                  ulx="851"
-                  uly="116"
-                  lrx="1081"
-                  lry="1294"/>
-            <zone xml:id="zone_56b5189c-b942-4b6e-96b0-e2c96fd146ff"
+                  ulx="3202"
+                  uly="216"
+                  lrx="4070"
+                  lry="4742"/>
+            <zone xml:id="zone_d65a5cc6-1c9e-4ad3-84ba-b265ac95d13e"
                   type="measure"
-                  ulx="1013"
-                  uly="103"
-                  lrx="1298"
-                  lry="1302"/>
-            <zone xml:id="zone_de267ab8-b451-4ff4-9e6e-6c8dbe7599bd"
+                  ulx="3820"
+                  uly="208"
+                  lrx="4860"
+                  lry="4768"/>
+            <zone xml:id="zone_a0ad9e79-4517-41e5-96e5-3e705308b9b9"
                   type="measure"
-                  ulx="1220"
-                  uly="78"
-                  lrx="1466"
-                  lry="1328"/>
-            <zone xml:id="zone_8189c304-bc69-4dd1-9a12-2089f0249141"
+                  ulx="4692"
+                  uly="152"
+                  lrx="5494"
+                  lry="4820"/>
+            <zone xml:id="zone_e9eb2626-2349-4b05-bfb3-274b1e54d053"
                   type="measure"
-                  ulx="1381"
-                  uly="76"
-                  lrx="1671"
-                  lry="1327"/>
-            <zone xml:id="zone_3dc4ff38-b1f2-4a6f-9d27-288f9ddf885f"
+                  ulx="5338"
+                  uly="198"
+                  lrx="6276"
+                  lry="4796"/>
+            <zone xml:id="zone_e88a2042-2344-4a44-aa7b-da7e08c6b67b"
                   type="measure"
-                  ulx="1570"
-                  uly="69"
-                  lrx="1846"
-                  lry="1324"/>
+                  ulx="6054"
+                  uly="200"
+                  lrx="6950"
+                  lry="4778"/>
          </surface>
-         <surface xml:id="surface_3d2a505d-ef2b-4048-8c39-247c621046c6"
+         <surface xml:id="surface_8d67a0d3-18d7-47f5-aaec-39b6b17ec1bd"
                   n="8"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_2fe40d97-f06e-473f-86ce-9f23249e52c1"
-               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2f2fMM-1.159-1_0034.tif"
+                  lrx="6773"
+                  lry="5307">
+            <graphic xml:id="graphic_f9abd56e-f808-487b-bca9-9d11335ec8fc"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0041.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_3f1a641e-0ca3-4917-9fe5-88f3b67641d8"
+                     width="6773"
+                     height="5307"/>
+            <zone xml:id="zone_f8b63327-12a2-4db3-ae6e-1d7f0fee418e"
                   type="measure"
-                  ulx="186"
-                  uly="133"
-                  lrx="446"
-                  lry="1327"/>
-            <zone xml:id="zone_eb174a76-7ff9-4cee-96b2-2623a114185f"
+                  ulx="230"
+                  uly="220"
+                  lrx="1194"
+                  lry="4702"/>
+            <zone xml:id="zone_3527be63-204a-41aa-8d49-4da8ae000a35"
                   type="measure"
-                  ulx="388"
-                  uly="143"
-                  lrx="668"
-                  lry="1312"/>
-            <zone xml:id="zone_5f604086-b20a-4d72-a5ab-3d16ca86a6c3"
+                  ulx="1014"
+                  uly="186"
+                  lrx="1994"
+                  lry="4682"/>
+            <zone xml:id="zone_1d87c075-4798-4d21-8444-131af6ae6918"
                   type="measure"
-                  ulx="614"
-                  uly="137"
-                  lrx="852"
-                  lry="1322"/>
-            <zone xml:id="zone_1e7488d1-7884-4e3e-9d96-b830cad8f146"
+                  ulx="1838"
+                  uly="178"
+                  lrx="2724"
+                  lry="4716"/>
+            <zone xml:id="zone_ac0f1fde-f51f-4d09-b33d-5b2fc6fbdb5b"
                   type="measure"
-                  ulx="803"
-                  uly="143"
-                  lrx="1079"
-                  lry="1324"/>
-            <zone xml:id="zone_0bc3a03d-1a97-485e-9065-6522483988a4"
+                  ulx="2560"
+                  uly="174"
+                  lrx="3582"
+                  lry="4728"/>
+            <zone xml:id="zone_fed9e415-2e30-4bc2-acd9-cea2e6dba8d1"
                   type="measure"
-                  ulx="1022"
-                  uly="149"
-                  lrx="1399"
-                  lry="1318"/>
-            <zone xml:id="zone_0b5aee91-dcc1-4ae4-8226-e93bbb38fb14"
+                  ulx="3386"
+                  uly="214"
+                  lrx="4808"
+                  lry="4646"/>
+            <zone xml:id="zone_46659543-3f20-4476-a5a4-fe64fc22275a"
                   type="measure"
-                  ulx="1329"
+                  ulx="4554"
+                  uly="180"
+                  lrx="5458"
+                  lry="4656"/>
+            <zone xml:id="zone_73d34581-152c-416c-9de9-2f5ea6e5984a"
+                  type="measure"
+                  ulx="5242"
                   uly="152"
-                  lrx="1574"
-                  lry="1322"/>
-            <zone xml:id="zone_a19f9b60-aa8e-4978-b7b6-0d90a7af9878"
-                  type="measure"
-                  ulx="1509"
-                  uly="134"
-                  lrx="1829"
-                  lry="1331"/>
+                  lrx="6432"
+                  lry="4690"/>
          </surface>
-         <surface xml:id="surface_a8eea752-13d8-42b3-bd6c-b5ae07fc179f"
+         <surface xml:id="surface_dc3ce89f-b1f3-4cca-87e3-99d6b5265174"
                   n="9"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_c8e4fab1-c054-4e30-8931-bf9187d7ac0f"
-               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
+                  lrx="7233"
+                  lry="5392">
+            <graphic xml:id="graphic_c30f4e18-374e-4357-be86-778ebe154a15"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0042.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_215a0d3f-d271-42a1-b222-3ba7f929b459"
+                     width="7233"
+                     height="5392"/>
+            <zone xml:id="zone_a2e28d4a-73a0-4ef6-b2a8-0377627837ee"
                   type="measure"
-                  ulx="266"
-                  uly="134"
-                  lrx="565"
-                  lry="1277"/>
-            <zone xml:id="zone_d57c20d8-57fa-4109-b918-16b799647946"
+                  ulx="1036"
+                  uly="220"
+                  lrx="2144"
+                  lry="4818"/>
+            <zone xml:id="zone_cb4a7554-c17f-44bf-b01c-fb1e8344d029"
                   type="measure"
-                  ulx="505"
-                  uly="129"
-                  lrx="790"
-                  lry="1277"/>
-            <zone xml:id="zone_1226d998-79fa-4c4d-9d44-cbefed18686a"
+                  ulx="1944"
+                  uly="248"
+                  lrx="3010"
+                  lry="4764"/>
+            <zone xml:id="zone_0f660360-5b86-41db-92e8-88f2b5536112"
                   type="measure"
-                  ulx="717"
-                  uly="129"
-                  lrx="999"
-                  lry="1275"/>
-            <zone xml:id="zone_69e552c0-51ae-4aec-92d7-54fc59cba110"
+                  ulx="2786"
+                  uly="232"
+                  lrx="3836"
+                  lry="4806"/>
+            <zone xml:id="zone_3518c936-8901-459f-ac77-85ab8078a431"
                   type="measure"
-                  ulx="931"
-                  uly="129"
-                  lrx="1294"
-                  lry="1293"/>
-            <zone xml:id="zone_b57ec578-f464-43bb-88a0-4b9c904f6e17"
+                  ulx="3600"
+                  uly="254"
+                  lrx="4942"
+                  lry="4844"/>
+            <zone xml:id="zone_a53ff569-c52d-44b0-ac30-c2e7a735ecff"
                   type="measure"
-                  ulx="1207"
-                  uly="106"
-                  lrx="1583"
-                  lry="1313"/>
-            <zone xml:id="zone_0bb7d2d4-58f1-44d8-a462-eed9ecb31c75"
+                  ulx="4728"
+                  uly="284"
+                  lrx="6008"
+                  lry="4856"/>
+            <zone xml:id="zone_c3a4ad44-c04e-4a0d-92a1-e4dce939da25"
                   type="measure"
-                  ulx="1481"
-                  uly="93"
-                  lrx="1856"
-                  lry="1314"/>
+                  ulx="5824"
+                  uly="302"
+                  lrx="7004"
+                  lry="4838"/>
          </surface>
-         <surface xml:id="surface_ad7ab6de-fd93-4a35-98d6-40264d956f84"
+         <surface xml:id="surface_f3e9cf4e-111b-4e67-976f-abcd8a4a4efb"
                   n="10"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_d0eb8f81-621c-4c3b-a167-5e476cbf68e6"
-               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2f"
+                  lrx="6805"
+                  lry="5307">
+            <graphic xml:id="graphic_9cece6a2-1767-4b93-a268-6721729c8bf4"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0043.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_a122abb0-65a4-4e1a-9973-bc39f9d8310f"
+                     width="6805"
+                     height="5307"/>
+            <zone xml:id="zone_2705e850-7eec-41ba-b91b-dcc2fb62934d"
                   type="measure"
-                  ulx="194"
-                  uly="132"
-                  lrx="435"
-                  lry="1328"/>
-            <zone xml:id="zone_5786f63c-2c02-4a5a-a7bd-ee86539ea827"
+                  ulx="240"
+                  uly="216"
+                  lrx="1174"
+                  lry="4690"/>
+            <zone xml:id="zone_0d7e2a2a-974e-47af-ade7-1a9467f60198"
                   type="measure"
-                  ulx="387"
-                  uly="132"
-                  lrx="688"
-                  lry="1319"/>
-            <zone xml:id="zone_dcb8daa6-b6e9-42f5-8c83-0208a70ed3c8"
+                  ulx="1026"
+                  uly="170"
+                  lrx="2118"
+                  lry="4632"/>
+            <zone xml:id="zone_99cabd29-2430-42dd-bf94-720acd5499ec"
                   type="measure"
-                  ulx="630"
-                  uly="134"
-                  lrx="981"
-                  lry="1310"/>
-            <zone xml:id="zone_3c505172-81b9-46c3-a464-b45f09d15422"
+                  ulx="1930"
+                  uly="190"
+                  lrx="3238"
+                  lry="4616"/>
+            <zone xml:id="zone_db1e0da0-a4eb-4dcf-b490-3f8d8ba477ca"
                   type="measure"
-                  ulx="910"
-                  uly="143"
-                  lrx="1226"
-                  lry="1303"/>
-            <zone xml:id="zone_4189a38e-05d9-4013-b408-7b19589ba697"
+                  ulx="2986"
+                  uly="184"
+                  lrx="4162"
+                  lry="4626"/>
+            <zone xml:id="zone_f733974c-c90e-4363-9feb-e16e94d33feb"
                   type="measure"
-                  ulx="1161"
-                  uly="143"
-                  lrx="1552"
-                  lry="1312"/>
-            <zone xml:id="zone_2351ec05-2f16-4a1f-9061-cbd45433ee57"
+                  ulx="3944"
+                  uly="182"
+                  lrx="5396"
+                  lry="4680"/>
+            <zone xml:id="zone_6f757743-f9df-44e5-bfe7-555953cad79a"
                   type="measure"
-                  ulx="1470"
-                  uly="148"
-                  lrx="1794"
-                  lry="1318"/>
+                  ulx="5102"
+                  uly="204"
+                  lrx="6332"
+                  lry="4690"/>
          </surface>
-         <surface xml:id="surface_a7ecb9a2-f3c0-47b1-8c7b-df3be4f74bca"
+         <surface xml:id="surface_877500e0-f6c9-45d2-a7b6-416072599602"
                   n="11"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_1c559e45-dc41-4bb6-b409-5cb70dc23496"
-               target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0040.tif"
+                  lrx="7233"
+                  lry="5392">
+            <graphic xml:id="graphic_5c7f0c88-260f-4e42-8d5f-2b5d5f6c7abb"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0044.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_90a99b4f-9182-4452-8aff-7e5495c1fb8e"
+                     width="7233"
+                     height="5392"/>
+            <zone xml:id="zone_48a5a17a-7ac3-48d4-9509-29916413ae68"
                   type="measure"
-                  ulx="270"
-                  uly="148"
-                  lrx="618"
-                  lry="1360"/>
-            <zone xml:id="zone_acedf917-54f2-430c-8335-2fe8e4fb4dde"
+                  ulx="1090"
+                  uly="280"
+                  lrx="2324"
+                  lry="4974"/>
+            <zone xml:id="zone_22f907c4-2afa-4b10-a693-60737f1e2fcf"
                   type="measure"
-                  ulx="536"
-                  uly="133"
-                  lrx="871"
-                  lry="1320"/>
-            <zone xml:id="zone_b4a28f7a-3ac8-4200-9823-93c1bad49e80"
+                  ulx="2090"
+                  uly="264"
+                  lrx="3308"
+                  lry="4882"/>
+            <zone xml:id="zone_4d170c7d-f070-44c0-9851-680da38bfe34"
                   type="measure"
-                  ulx="777"
-                  uly="131"
-                  lrx="1100"
-                  lry="1306"/>
-            <zone xml:id="zone_e714ce93-35f2-4f1f-9936-d5aeae052bf7"
+                  ulx="3020"
+                  uly="264"
+                  lrx="4198"
+                  lry="4852"/>
+            <zone xml:id="zone_154ad144-7428-4672-9261-849a7c318457"
                   type="measure"
-                  ulx="1009"
-                  uly="135"
-                  lrx="1268"
-                  lry="1319"/>
-            <zone xml:id="zone_635d7340-ee34-4f2a-a750-8a02b312729c"
+                  ulx="3932"
+                  uly="294"
+                  lrx="4818"
+                  lry="4894"/>
+            <zone xml:id="zone_5dd14374-a519-4020-a98e-2e002306ed0f"
                   type="measure"
-                  ulx="1186"
-                  uly="111"
-                  lrx="1483"
-                  lry="1321"/>
-            <zone xml:id="zone_8b0fd809-f790-4666-87a7-20654a1e0fa0"
+                  ulx="4648"
+                  uly="282"
+                  lrx="5612"
+                  lry="4846"/>
+            <zone xml:id="zone_7b61e212-137d-4edc-8fa0-6980facdeb79"
                   type="measure"
-                  ulx="1381"
-                  uly="91"
-                  lrx="1832"
-                  lry="1310"/>
+                  ulx="5450"
+                  uly="274"
+                  lrx="6932"
+                  lry="4818"/>
          </surface>
-         <surface xml:id="surface_e32be78e-e482-4ce7-8ca1-a5df618716a2"
+         <surface xml:id="surface_fb396831-e99d-400a-a9bd-aaffbcd7eb8d"
                   n="12"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_cf42040e-4a0d-4576-969e-53439a64cf0f"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0043"
+                  lrx="6805"
+                  lry="5307">
+            <graphic xml:id="graphic_903ae444-ffd1-4938-b7d6-6f81847e28ec"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0045.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_42c26457-7407-4914-aa79-ba424f0fbe27"
+                     width="6805"
+                     height="5307"/>
+            <zone xml:id="zone_fb018629-e6c2-4139-8548-77a8f40dd8ac"
                   type="measure"
-                  ulx="219"
-                  uly="140"
-                  lrx="558"
-                  lry="1340"/>
-            <zone xml:id="zone_95a8b7e0-c086-4c1c-b655-d1d6bc5acada"
+                  ulx="412"
+                  uly="214"
+                  lrx="1646"
+                  lry="4768"/>
+            <zone xml:id="zone_2380191c-5dac-465a-bff5-26b9e424a46f"
                   type="measure"
-                  ulx="504"
-                  uly="136"
-                  lrx="783"
-                  lry="1331"/>
-            <zone xml:id="zone_aeff3b65-0d04-4aec-8795-e68aaae94da3"
+                  ulx="1482"
+                  uly="240"
+                  lrx="2488"
+                  lry="4702"/>
+            <zone xml:id="zone_a79f433e-f2ef-464e-8cd2-018f9ce4869f"
                   type="measure"
-                  ulx="727"
-                  uly="136"
-                  lrx="1045"
-                  lry="1330"/>
-            <zone xml:id="zone_8bc18d73-0c8e-4a5b-b44b-dc067942dd9a"
+                  ulx="2324"
+                  uly="188"
+                  lrx="3468"
+                  lry="4764"/>
+            <zone xml:id="zone_460e3d55-6cc2-4119-b459-56bbaec96440"
                   type="measure"
-                  ulx="982"
-                  uly="156"
-                  lrx="1289"
-                  lry="1335"/>
-            <zone xml:id="zone_19f239f7-ce07-4b67-8a0e-750eca37c090"
+                  ulx="3298"
+                  uly="248"
+                  lrx="4392"
+                  lry="4774"/>
+            <zone xml:id="zone_9d3fdadc-a3b9-41b3-b99d-bb0afa8390a2"
                   type="measure"
-                  ulx="1225"
-                  uly="158"
-                  lrx="1573"
-                  lry="1329"/>
-            <zone xml:id="zone_56b989a0-1e9b-4df7-9e15-3b536943ab44"
+                  ulx="4222"
+                  uly="250"
+                  lrx="5468"
+                  lry="4792"/>
+            <zone xml:id="zone_95e182ee-6f1a-4c5c-8125-3ab3b1ebb920"
                   type="measure"
-                  ulx="1487"
-                  uly="153"
-                  lrx="1845"
-                  lry="1345"/>
+                  ulx="5218"
+                  uly="280"
+                  lrx="6462"
+                  lry="4846"/>
          </surface>
-         <surface xml:id="surface_af3781ad-ca1d-4682-8cfa-945dfd8dfd89"
+         <surface xml:id="surface_508756bb-5237-40ea-8f68-fc07a31b4eea"
                   n="13"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_bcb55ead-16b3-446a-a3b1-b4b46d4dd42e"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0044"
+                  lrx="7308"
+                  lry="5424">
+            <graphic xml:id="graphic_21721292-16e3-439c-b9a0-86a2ee35409e"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0046.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_a12fb11a-c270-404c-9906-a4395eeae25c"
+                     width="7308"
+                     height="5424"/>
+            <zone xml:id="zone_a4e523e7-18f1-4195-bdc8-256b93703125"
                   type="measure"
-                  ulx="244"
-                  uly="147"
-                  lrx="629"
-                  lry="1323"/>
-            <zone xml:id="zone_01cb7ea6-eda0-4049-95c3-fa595decac4b"
+                  ulx="1080"
+                  uly="308"
+                  lrx="2476"
+                  lry="4972"/>
+            <zone xml:id="zone_bc3b9090-12ae-46ab-ae9e-ec5abbcfd7fe"
                   type="measure"
-                  ulx="538"
-                  uly="119"
-                  lrx="904"
-                  lry="1323"/>
-            <zone xml:id="zone_144627d1-1d6c-46b9-9cc3-d3aaec264b34"
+                  ulx="2192"
+                  uly="292"
+                  lrx="3532"
+                  lry="4944"/>
+            <zone xml:id="zone_f9f275d6-a690-4eec-940c-b60150caa914"
                   type="measure"
-                  ulx="798"
-                  uly="121"
-                  lrx="1081"
-                  lry="1334"/>
-            <zone xml:id="zone_f866dda1-ba03-4c50-88ea-c8368cfba111"
+                  ulx="3212"
+                  uly="308"
+                  lrx="4228"
+                  lry="4988"/>
+            <zone xml:id="zone_c2cc8773-2cf9-49e2-9538-2d7acc429d81"
                   type="measure"
-                  ulx="986"
-                  uly="104"
-                  lrx="1306"
-                  lry="1353"/>
-            <zone xml:id="zone_03a21c72-8e73-4fd3-a71a-4aa49ecd16c4"
+                  ulx="3940"
+                  uly="264"
+                  lrx="5076"
+                  lry="5040"/>
+            <zone xml:id="zone_eb634f67-9a68-46fa-8894-5e4b70d888f4"
                   type="measure"
-                  ulx="1188"
-                  uly="114"
-                  lrx="1560"
-                  lry="1349"/>
-            <zone xml:id="zone_495ae697-6417-4a78-91e9-ca0a440c4f3c"
+                  ulx="4732"
+                  uly="340"
+                  lrx="6064"
+                  lry="4996"/>
+            <zone xml:id="zone_304ba0b4-68d6-483c-8c05-a928513aef64"
                   type="measure"
-                  ulx="1406"
-                  uly="82"
-                  lrx="1837"
-                  lry="1356"/>
+                  ulx="5576"
+                  uly="304"
+                  lrx="7080"
+                  lry="4988"/>
          </surface>
-         <surface xml:id="surface_f1be1b24-a478-44b3-ad5a-c28514a3f554"
+         <surface xml:id="surface_5dc0cf58-f684-4cb2-843b-025b1a47fe70"
                   n="14"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_5fc025e8-6959-471a-a8e4-cc8bba3b4316"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0045"
+                  lrx="6805"
+                  lry="5307">
+            <graphic xml:id="graphic_31971355-491f-45b9-b945-58e4a95d7599"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0047.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_b90026b1-2b5c-454b-84f8-1f0d28dbbd50"
+                     width="6805"
+                     height="5307"/>
+            <zone xml:id="zone_2cec879e-f3b5-4608-9a3d-b149e1d3446d"
                   type="measure"
-                  ulx="243"
-                  uly="133"
-                  lrx="630"
-                  lry="1354"/>
-            <zone xml:id="zone_429121a5-ef27-4e12-99c2-a8d8cc8eae22"
+                  ulx="466"
+                  uly="218"
+                  lrx="1922"
+                  lry="4788"/>
+            <zone xml:id="zone_037b9f6c-a1f0-437c-a567-3aae802aab8f"
                   type="measure"
-                  ulx="550"
-                  uly="141"
-                  lrx="733"
-                  lry="1337"/>
-            <zone xml:id="zone_c1067cd4-82d9-4378-acfa-3a4676c05fa4"
+                  ulx="1626"
+                  uly="222"
+                  lrx="2302"
+                  lry="4754"/>
+            <zone xml:id="zone_b5d6b3a9-3efd-48f1-89c6-9e628c82d589"
                   type="measure"
-                  ulx="674"
-                  uly="158"
-                  lrx="831"
-                  lry="1327"/>
-            <zone xml:id="zone_a0beae39-d405-4204-b277-b53344bdd6d4"
+                  ulx="2104"
+                  uly="254"
+                  lrx="2674"
+                  lry="4700"/>
+            <zone xml:id="zone_9284b870-2d57-4433-ab48-47213f1f4719"
                   type="measure"
-                  ulx="779"
-                  uly="160"
-                  lrx="973"
-                  lry="1331"/>
-            <zone xml:id="zone_786108b8-72d6-43f7-ab6e-8ef377da2ef7"
+                  ulx="2498"
+                  uly="284"
+                  lrx="3202"
+                  lry="4750"/>
+            <zone xml:id="zone_44f454aa-56c7-40b9-9f08-5a722686c8d5"
                   type="measure"
-                  ulx="921"
-                  uly="165"
-                  lrx="1100"
-                  lry="1334"/>
-            <zone xml:id="zone_cac96e57-91f1-48be-a231-921649667f76"
+                  ulx="3048"
+                  uly="290"
+                  lrx="3684"
+                  lry="4752"/>
+            <zone xml:id="zone_398de3b4-6691-4378-a26a-eb3ea3a0f373"
                   type="measure"
-                  ulx="1047"
-                  uly="161"
-                  lrx="1219"
-                  lry="1340"/>
-            <zone xml:id="zone_a4df8421-4b81-453e-8325-ebf3d862ee4a"
+                  ulx="3536"
+                  uly="298"
+                  lrx="4134"
+                  lry="4756"/>
+            <zone xml:id="zone_fb88a14c-dca8-4b3f-b410-d4038ef28801"
                   type="measure"
-                  ulx="1155"
-                  uly="164"
-                  lrx="1299"
-                  lry="1337"/>
-            <zone xml:id="zone_0b7005fc-e79f-4ab2-8b79-5564ae932a13"
+                  ulx="3940"
+                  uly="284"
+                  lrx="4428"
+                  lry="4748"/>
+            <zone xml:id="zone_e41fe4c7-d283-4969-8980-7b3fe5360cfb"
                   type="measure"
-                  ulx="1238"
-                  uly="160"
-                  lrx="1433"
-                  lry="1334"/>
-            <zone xml:id="zone_b176cc02-436f-4a94-bd29-a299a68a0766"
+                  ulx="4254"
+                  uly="256"
+                  lrx="4930"
+                  lry="4760"/>
+            <zone xml:id="zone_2e0f5a34-fb40-4e97-b69a-77b57302aa0a"
                   type="measure"
-                  ulx="1377"
-                  uly="157"
-                  lrx="1586"
-                  lry="1340"/>
-            <zone xml:id="zone_ace3c970-5802-438a-8e1c-6d627763eafb"
+                  ulx="4776"
+                  uly="294"
+                  lrx="5522"
+                  lry="4728"/>
+            <zone xml:id="zone_7afd6bbd-3935-40f3-b1ca-87c3b32e17e2"
                   type="measure"
-                  ulx="1517"
-                  uly="163"
-                  lrx="1704"
-                  lry="1337"/>
-            <zone xml:id="zone_d61c4f99-bb3c-4463-8072-8ed5307db02a"
+                  ulx="5294"
+                  uly="274"
+                  lrx="5968"
+                  lry="4748"/>
+            <zone xml:id="zone_65566f35-4138-4134-a5ff-163d7f5085dc"
                   type="measure"
-                  ulx="1637"
-                  uly="153"
-                  lrx="1852"
-                  lry="1346"/>
+                  ulx="5754"
+                  uly="296"
+                  lrx="6546"
+                  lry="4754"/>
          </surface>
-         <surface xml:id="surface_7a1bbbe9-16d8-4bc4-9940-3977790a30b2"
+         <surface xml:id="surface_139e5062-89fd-480a-9f48-2a3b3312ba63"
                   n="15"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_30a12f57-c5ba-4ed1-92e6-a0ad63099166"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0046"
+                  lrx="7351"
+                  lry="5424">
+            <graphic xml:id="graphic_3f94b381-0c16-44e8-a320-da4f2988771a"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0048.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_0889547e-c59a-44c8-b51d-1b3bb56fe8c1"
+                     width="7351"
+                     height="5424"/>
+            <zone xml:id="zone_8afee4ca-b042-46d5-9069-1b3ca340fac0"
                   type="measure"
-                  ulx="198"
-                  uly="148"
-                  lrx="435"
-                  lry="1334"/>
-            <zone xml:id="zone_e6356195-b289-4ec5-82de-bdd93095b37d"
+                  ulx="960"
+                  uly="296"
+                  lrx="1752"
+                  lry="4884"/>
+            <zone xml:id="zone_46e501a3-eeba-4317-9127-27c91c5a6bd4"
                   type="measure"
-                  ulx="356"
-                  uly="142"
-                  lrx="624"
-                  lry="1322"/>
-            <zone xml:id="zone_7527a180-661c-4697-94b1-376c007062ba"
+                  ulx="1556"
+                  uly="332"
+                  lrx="2484"
+                  lry="4836"/>
+            <zone xml:id="zone_43d1b04b-9250-4ba0-b63f-6e3748eb1cac"
                   type="measure"
-                  ulx="514"
-                  uly="150"
-                  lrx="750"
-                  lry="1316"/>
-            <zone xml:id="zone_24c699c1-5740-4b0d-a498-a7586bb4d57b"
+                  ulx="2148"
+                  uly="348"
+                  lrx="2984"
+                  lry="4840"/>
+            <zone xml:id="zone_5900b7c5-2096-4dd9-8798-157429331c43"
                   type="measure"
-                  ulx="651"
-                  uly="153"
-                  lrx="899"
-                  lry="1309"/>
-            <zone xml:id="zone_66225146-8175-469a-b6f7-ccfeb5689e35"
+                  ulx="2680"
+                  uly="356"
+                  lrx="3556"
+                  lry="4840"/>
+            <zone xml:id="zone_77b4ffb3-f927-4290-91c4-3da2546fd49b"
                   type="measure"
-                  ulx="793"
-                  uly="148"
-                  lrx="1043"
-                  lry="1305"/>
-            <zone xml:id="zone_d8186a01-daea-46bf-9b9e-54b0d30fdb6c"
+                  ulx="3244"
+                  uly="336"
+                  lrx="4108"
+                  lry="4844"/>
+            <zone xml:id="zone_7944259f-1186-49fb-8ab0-2502b20f9503"
                   type="measure"
-                  ulx="953"
-                  uly="137"
-                  lrx="1235"
-                  lry="1304"/>
-            <zone xml:id="zone_64bc10e8-f9b8-4144-928a-ade3e72a6a9f"
+                  ulx="3852"
+                  uly="340"
+                  lrx="4844"
+                  lry="4832"/>
+            <zone xml:id="zone_5658198f-04d9-42ca-a447-30e920401cce"
                   type="measure"
-                  ulx="1111"
-                  uly="111"
-                  lrx="1490"
-                  lry="1310"/>
-            <zone xml:id="zone_932271fb-0d56-4f66-ad7c-374137cc8f71"
+                  ulx="4472"
+                  uly="272"
+                  lrx="5848"
+                  lry="4864"/>
+            <zone xml:id="zone_bd1d95fe-95bd-4f57-a319-b45e9cf2ba69"
                   type="measure"
-                  ulx="1370"
-                  uly="78"
-                  lrx="1831"
-                  lry="1320"/>
+                  ulx="5508"
+                  uly="232"
+                  lrx="7092"
+                  lry="4868"/>
          </surface>
-         <surface xml:id="surface_2b14da7f-c4d4-4dda-b65b-973d06ccc967"
+         <surface xml:id="surface_9443e90b-2924-4e89-9b25-66cb3ebe594d"
                   n="16"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_34095f9a-3710-43c5-a238-565e73d9ebf4"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0047"
+                  lrx="6773"
+                  lry="5307">
+            <graphic xml:id="graphic_165ade71-12e5-4935-9ff0-b684bc044061"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0049.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_4d14176c-7961-4414-a2a0-2f1ff8dc7ba1"
+                     width="6773"
+                     height="5307"/>
+            <zone xml:id="zone_7c632bdf-33e3-4fa7-bff4-cc32c2b9d03d"
                   type="measure"
-                  ulx="209"
-                  uly="114"
-                  lrx="590"
-                  lry="1338"/>
-            <zone xml:id="zone_f9bd4fe8-2b61-4159-a8d4-fbb10f19a0dc"
+                  ulx="344"
+                  uly="164"
+                  lrx="1746"
+                  lry="4774"/>
+            <zone xml:id="zone_cdf26b58-986b-4d9c-829f-c014a8f2417a"
                   type="measure"
-                  ulx="509"
-                  uly="121"
-                  lrx="891"
-                  lry="1337"/>
-            <zone xml:id="zone_3906bcef-e8f7-45a5-9d60-992a379dd52f"
+                  ulx="1468"
+                  uly="152"
+                  lrx="2882"
+                  lry="4774"/>
+            <zone xml:id="zone_03e76640-4dae-4560-81b8-c9e799d5fe8e"
                   type="measure"
-                  ulx="791"
-                  uly="129"
-                  lrx="1156"
-                  lry="1331"/>
-            <zone xml:id="zone_7f11098b-b787-49b4-b9fb-5be4d8ce4d51"
+                  ulx="2514"
+                  uly="154"
+                  lrx="3896"
+                  lry="4766"/>
+            <zone xml:id="zone_d6a83c14-bf50-4bdd-bb82-71f564eacd1a"
                   type="measure"
-                  ulx="1051"
-                  uly="129"
-                  lrx="1430"
-                  lry="1333"/>
-            <zone xml:id="zone_ceec1a41-f42d-4c7a-9dd5-afdfe9fe8878"
+                  ulx="3506"
+                  uly="164"
+                  lrx="4960"
+                  lry="4764"/>
+            <zone xml:id="zone_36624bff-8050-4b05-bd74-f5a36b48ff09"
                   type="measure"
-                  ulx="1315"
-                  uly="121"
-                  lrx="1702"
-                  lry="1344"/>
-            <zone xml:id="zone_bed49f44-8f05-4830-b091-7d5a8e2b8dd4"
+                  ulx="344"
+                  uly="164"
+                  lrx="1746"
+                  lry="4774"/>
+            <zone xml:id="zone_3fa79849-a85f-4ec4-b29f-c43dd306dcae"
                   type="measure"
-                  ulx="1610"
-                  uly="130"
-                  lrx="1878"
-                  lry="1339"/>
+                  ulx="1468"
+                  uly="152"
+                  lrx="2882"
+                  lry="4774"/>
+            <zone xml:id="zone_20048946-e7d7-46cd-a8f0-d1a5f38f19e1"
+                  type="measure"
+                  ulx="2514"
+                  uly="154"
+                  lrx="3896"
+                  lry="4766"/>
+            <zone xml:id="zone_54a8376f-5021-415a-8225-07dc98757711"
+                  type="measure"
+                  ulx="3506"
+                  uly="164"
+                  lrx="4960"
+                  lry="4764"/>
+            <zone xml:id="zone_b86f71fe-ae51-4442-bf37-1a316a0dc218"
+                  type="measure"
+                  ulx="4528"
+                  uly="118"
+                  lrx="5936"
+                  lry="4766"/>
+            <zone xml:id="zone_e979f8a3-d952-4466-bfab-e6126d5d6fbe"
+                  type="measure"
+                  ulx="5703"
+                  uly="164"
+                  lrx="6561"
+                  lry="4800"/>
          </surface>
-         <surface xml:id="surface_71391817-545e-4c89-83d0-8cbcdf0d4f5f"
+         <surface xml:id="surface_6e9d8b35-f714-4623-91e0-c9590b36a29a"
                   n="17"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_eb851100-5dc7-473c-a68d-83d63a94b200"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0048"
+                  lrx="7351"
+                  lry="5424">
+            <graphic xml:id="graphic_c0b2aa3a-b334-4cba-a69a-83a74c364823"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0050.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_8760fa78-a240-4f16-9aae-06b337b39442"
+                     width="7351"
+                     height="5424"/>
+            <zone xml:id="zone_bde85f02-7ebd-41ed-9fc5-821b3c065248"
                   type="measure"
-                  ulx="181"
-                  uly="144"
-                  lrx="392"
-                  lry="1341"/>
-            <zone xml:id="zone_3b74d803-411e-484c-ad8a-92f3b2a02200"
+                  ulx="952"
+                  uly="244"
+                  lrx="1676"
+                  lry="5056"/>
+            <zone xml:id="zone_b860f480-ceec-440e-ab1a-17de6f349c99"
                   type="measure"
-                  ulx="313"
-                  uly="136"
-                  lrx="659"
-                  lry="1328"/>
-            <zone xml:id="zone_2a3304c3-087b-4629-849b-a32c5f0eda61"
+                  ulx="1436"
+                  uly="220"
+                  lrx="2692"
+                  lry="5016"/>
+            <zone xml:id="zone_5e3db93a-fabe-4509-a7f5-b03a66eee220"
                   type="measure"
-                  ulx="569"
-                  uly="125"
-                  lrx="953"
-                  lry="1319"/>
-            <zone xml:id="zone_c4fd1b37-114a-4d1d-9a9e-919e5f175dd0"
+                  ulx="2424"
+                  uly="232"
+                  lrx="3796"
+                  lry="4976"/>
+            <zone xml:id="zone_b00e65f4-f26d-4bea-a28e-462e51b948d3"
                   type="measure"
-                  ulx="871"
-                  uly="123"
-                  lrx="1226"
-                  lry="1315"/>
-            <zone xml:id="zone_8d610162-acff-4274-b822-1f7f3a393f0f"
+                  ulx="3596"
+                  uly="268"
+                  lrx="4844"
+                  lry="4940"/>
+            <zone xml:id="zone_42c8960b-cff4-41ce-b20d-79b92203c906"
                   type="measure"
-                  ulx="1132"
-                  uly="109"
-                  lrx="1509"
-                  lry="1319"/>
-            <zone xml:id="zone_e0b3e9f3-1558-44e7-828c-b52cb10ba03d"
+                  ulx="4604"
+                  uly="240"
+                  lrx="5916"
+                  lry="4928"/>
+            <zone xml:id="zone_65935d4f-a36a-4adf-96a4-4c930cd23f52"
                   type="measure"
-                  ulx="1413"
-                  uly="80"
-                  lrx="1819"
-                  lry="1343"/>
+                  ulx="5676"
+                  uly="200"
+                  lrx="7060"
+                  lry="4960"/>
          </surface>
-         <surface xml:id="surface_1c508c6c-da11-4385-a3ef-0ed16ff0a8aa"
+         <surface xml:id="surface_672026e1-e825-4251-944f-590b9de7cb92"
                   n="18"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_d6982d0b-6a94-4ad9-bd88-6518bd4e53ff"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0049"
+                  lrx="6805"
+                  lry="5307">
+            <graphic xml:id="graphic_bf985f40-ae72-451e-bcb7-f4822887d94e"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0051.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_54ada950-6565-45f5-ad6f-8ccf9f88960e"
+                     width="6805"
+                     height="5307"/>
+            <zone xml:id="zone_c6378c56-51bf-43b4-a098-1cd4b789503b"
                   type="measure"
-                  ulx="203"
-                  uly="135"
-                  lrx="536"
-                  lry="1357"/>
-            <zone xml:id="zone_c4d256fb-a55d-4aca-b0ab-4051b9af05d7"
+                  ulx="322"
+                  uly="192"
+                  lrx="1530"
+                  lry="4800"/>
+            <zone xml:id="zone_801d38c1-10ba-426a-854c-34dc61a22ea5"
                   type="measure"
-                  ulx="475"
-                  uly="129"
-                  lrx="769"
-                  lry="1343"/>
-            <zone xml:id="zone_ef16c9e0-e3d9-4b0c-be9c-d7e1612b4095"
+                  ulx="1356"
+                  uly="152"
+                  lrx="2416"
+                  lry="4792"/>
+            <zone xml:id="zone_035b8729-dbb7-4b6b-92ff-892ebb88ac87"
                   type="measure"
-                  ulx="709"
-                  uly="128"
-                  lrx="1023"
-                  lry="1325"/>
-            <zone xml:id="zone_a7422651-21f0-4ae6-9969-fabdfb3abff8"
+                  ulx="2224"
+                  uly="182"
+                  lrx="3390"
+                  lry="4688"/>
+            <zone xml:id="zone_1f4fc9e1-5c25-4b65-ab17-c295fab0fc1f"
                   type="measure"
-                  ulx="963"
-                  uly="136"
-                  lrx="1283"
-                  lry="1326"/>
-            <zone xml:id="zone_6612402c-061d-44b8-9800-48b302713e04"
+                  ulx="3190"
+                  uly="178"
+                  lrx="4368"
+                  lry="4706"/>
+            <zone xml:id="zone_68e7da3f-c8bf-4216-b489-41bec5f8968b"
                   type="measure"
-                  ulx="1208"
-                  uly="132"
-                  lrx="1538"
-                  lry="1320"/>
-            <zone xml:id="zone_7ecc7588-73ff-4f17-abae-1c7087eec2aa"
+                  ulx="4124"
+                  uly="170"
+                  lrx="5354"
+                  lry="4686"/>
+            <zone xml:id="zone_e788dd43-4399-4645-bbb6-d5862dbbe5ef"
                   type="measure"
-                  ulx="1437"
-                  uly="139"
-                  lrx="1863"
-                  lry="1333"/>
+                  ulx="4998"
+                  uly="148"
+                  lrx="6564"
+                  lry="4726"/>
          </surface>
-         <surface xml:id="surface_3e3feebf-2e9b-41ab-9be7-bde4bcd50cae"
+         <surface xml:id="surface_3da168a1-2e27-4441-9133-84a32faff9a9"
                   n="19"
                   ulx="0"
                   uly="0"
-                  lrx="2048"
-                  lry="1536">
-            <graphic xml:id="graphic_667e8206-650b-43ec-ad53-1df44a950d7a"
-                     target="http://localhost:8182/iiif/2/Adelson_Autograph_N3/Adelson_N3_HiRes/c0050"
+                  lrx="7169"
+                  lry="5382">
+            <graphic xml:id="graphic_82dc95bf-8921-42a1-94ee-d94b92c915f6"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0052.jpg"
                      type="facsimile"
-                     width="2048"
-                     height="1536"/>
-            <zone xml:id="zone_a3214dfb-1e16-497b-a959-cf301e1899f7"
+                     width="7169"
+                     height="5382"/>
+            <zone xml:id="zone_079f30d7-9ad1-4981-8ac5-461e74ac04f2"
                   type="measure"
-                  ulx="226"
-                  uly="134"
-                  lrx="511"
-                  lry="1326"/>
-            <zone xml:id="zone_014acde4-7997-4f9d-ace5-7b40dc536399"
+                  ulx="898"
+                  uly="164"
+                  lrx="1912"
+                  lry="4864"/>
+            <zone xml:id="zone_33a82e07-016d-4038-bf69-1a6a2a95e2bf"
                   type="measure"
-                  ulx="428"
-                  uly="135"
-                  lrx="719"
-                  lry="1311"/>
-            <zone xml:id="zone_59c03133-9620-4e08-bbd6-49b392ca6f83"
+                  ulx="1694"
+                  uly="172"
+                  lrx="2718"
+                  lry="4844"/>
+            <zone xml:id="zone_f3e2d0f1-4214-4396-816c-2b37191a6c39"
                   type="measure"
-                  ulx="625"
-                  uly="120"
-                  lrx="928"
-                  lry="1318"/>
-            <zone xml:id="zone_32cdcb54-02b4-4611-bafb-26336d0b3165"
+                  ulx="2460"
+                  uly="174"
+                  lrx="3536"
+                  lry="4874"/>
+            <zone xml:id="zone_bcffd37e-e926-4ba9-b1bd-9391e88524dc"
                   type="measure"
-                  ulx="827"
-                  uly="117"
-                  lrx="1108"
-                  lry="1342"/>
+                  ulx="3258"
+                  uly="230"
+                  lrx="4198"
+                  lry="4910"/>
          </surface>
       </facsimile>
       <body>
-         <mdiv xml:id="page_1ff47407-e835-4a5d-a29e-8f985265388e" n="1" label="">
+         <mdiv xml:id="page_1fa7ce8c-9fa4-483f-a6ad-5590784f8e3c" n="1" label="">
             <score>
                <scoreDef xml:id="s1cekjvh">
                   <pgHead xml:id="pv63cpe">
@@ -1156,7 +1180,7 @@
                   </staffGrp>
                </scoreDef>
                <section>
-                  <measure facs="#zone_1e96e1c3-507d-4f7e-b3cb-ddf73c0a69aa"
+                  <measure facs="#zone_93dff719-88ca-4cf3-9275-b00d3fd95fb8"
                            xml:id="m1chm7wx"
                            n="1">
                      <staff xml:id="srjcrb3" n="1">
@@ -1413,7 +1437,7 @@
                         <rend xml:id="r1fjsvgw" fontfam="Opus Text">pp</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_c20b5c42-bfad-4b0f-b45c-ce828d0da0d1"
+                  <measure facs="#zone_dfd1aa9b-9e6a-40cf-aa86-7b95e5c09400"
                            xml:id="m1v7j0hz"
                            n="2">
                      <staff xml:id="s1ad71em" n="1">
@@ -1649,7 +1673,7 @@
                            endid="#npr1b27"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_381365d8-b81a-4c7a-8a73-c65e36e2bcf4"
+                  <measure facs="#zone_73f7d76c-9545-400d-850f-a90ce3ea1c9f"
                            xml:id="msqlxga"
                            n="3">
                      <staff xml:id="sebvqp8" n="1">
@@ -1874,7 +1898,7 @@
                               place="below"
                               vgrp="600"/>
                   </measure>
-                  <measure facs="#zone_8ee8dab2-9a71-43aa-a098-b3f1c1190d16"
+                  <measure facs="#zone_10e3a93b-a646-45d4-8bb3-800bc9bdd58b"
                            xml:id="m1bw53jn"
                            n="4">
                      <staff xml:id="s86fl6q" n="1">
@@ -2221,7 +2245,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_613a3178-9a31-4735-9109-4fa4ea60efe2"
+                  <measure facs="#zone_868abbea-a97a-4378-9ab7-4cb68f667618"
                            xml:id="moh7ja5"
                            n="5">
                      <staff xml:id="s14dnnw9" n="1">
@@ -2463,7 +2487,7 @@
                            endid="#n10cm8ia"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_e7e459d8-f1e6-44ba-97dc-c5ba8b0919c7"
+                  <measure facs="#zone_e7c3f104-2609-48b1-bf38-5ce61e5f696f"
                            xml:id="m1snbawh"
                            n="6">
                      <staff xml:id="s1oiyitd" n="1">
@@ -2691,7 +2715,7 @@
                               place="below"
                               vgrp="600"/>
                   </measure>
-                  <measure facs="#zone_5b77da0a-e45c-4233-af60-d94278340fc1"
+                  <measure facs="#zone_5cc54de1-00ac-454c-9ab3-08b276e421ec"
                            xml:id="m1e6nkz"
                            n="7">
                      <staff xml:id="sw7tm4i" n="1">
@@ -2985,7 +3009,7 @@
                             tstamp="1"
                             vgrp="425">cresc.</dynam>
                   </measure>
-                  <measure facs="#zone_9b5d8201-28fb-4cf4-b456-742808456487"
+                  <measure facs="#zone_9c368a95-9612-4a6d-914c-e89014073e09"
                            xml:id="mqie2ay"
                            n="8">
                      <staff xml:id="s1dafbnl" n="1">
@@ -3455,7 +3479,7 @@
                         <rend xml:id="r1vua0u1" fontfam="Opus Text">f</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_af019775-b8e2-4a00-84b2-5493db22d6b2"
+                  <measure facs="#zone_c606ea63-80cd-44b6-af4c-26c0ddd5ce14"
                            xml:id="m5znx18"
                            n="9">
                      <staff xml:id="s1d0edma" n="1">
@@ -3751,7 +3775,7 @@
                         <rend xml:id="rkkwt2f" fontfam="Opus Text">ff</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_f36a609a-e568-46a1-9dd1-abb2f3b5682f"
+                  <measure facs="#zone_5ea55f34-b377-44b4-9807-dcb166635031"
                            xml:id="m1bl1cpz"
                            n="10">
                      <staff xml:id="sppaz6y" n="1">
@@ -3937,7 +3961,7 @@
                           vgrp="425">[ <rend xml:id="rq0hvm" fontfam="Opus Text">pp</rend>
                         <rend xml:id="rqm8t0m" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_63da1636-9972-4b8b-9d54-7a972d58ad3c"
+                  <measure facs="#zone_ee1a68be-fd90-4914-916d-8766788c5781"
                            xml:id="m7of8rg"
                            n="11">
                      <staff xml:id="smicxz7" n="1">
@@ -4294,7 +4318,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_f59543d3-f916-4ec0-83f6-edd492b1b840"
+                  <measure facs="#zone_8ba61607-33cc-42e0-ba28-4d05ac20601b"
                            xml:id="m1wmjwz0"
                            n="12">
                      <staff xml:id="s1ene1a9" n="1">
@@ -4582,7 +4606,7 @@
                            endid="#nfkkiqs"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_4ff9d7c4-adee-4629-809c-33498133fb14"
+                  <measure facs="#zone_0c9271cc-41d8-4c68-b215-2a6e82a6ee8f"
                            xml:id="md5lr7f"
                            n="13">
                      <staff xml:id="s1n0mmx7" n="1">
@@ -4860,7 +4884,7 @@
                               place="below"
                               vgrp="600"/>
                   </measure>
-                  <measure facs="#zone_dc8cfdd9-73b2-4ba9-9fcb-c3b46c7c5741"
+                  <measure facs="#zone_2031099e-1eef-4c1a-b8c2-c54bc17d585d"
                            xml:id="m1m4qbna"
                            n="14">
                      <staff xml:id="s1r1hxyv" n="1">
@@ -5268,7 +5292,7 @@
                            endid="#neqew6k"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_d2b2fb16-8904-4873-8113-f4be0f38bd86"
+                  <measure facs="#zone_d1570809-8d62-47c7-a0a9-59bf80800771"
                            xml:id="m1sbyg3f"
                            n="15">
                      <staff xml:id="s1w3hn9x" n="1">
@@ -5536,7 +5560,7 @@
                            endid="#n15op2j7"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_0cadbfdc-4c0b-4ab2-bd8e-6e5849a6eb86"
+                  <measure facs="#zone_5d97cd11-a3ed-4074-927f-360c3cab97f9"
                            xml:id="mawvnu7"
                            n="16">
                      <staff xml:id="s11uwcuv" n="1">
@@ -5796,7 +5820,7 @@
                         <rend xml:id="r47y9j" fontfam="Opus Text">pp</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_70431667-662d-4710-b98e-376aa9589ca6"
+                  <measure facs="#zone_874afc98-e6ae-4e34-b24f-222d174efe97"
                            xml:id="m1r2jm6l"
                            n="17">
                      <staff xml:id="s11zkrgn" n="1">
@@ -6230,7 +6254,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_8ecf6fc9-23da-4882-9462-3e85f4d96590"
+                  <measure facs="#zone_161e6aa2-8eec-4f48-91ac-ddebbfabd0a6"
                            xml:id="m114qb1o"
                            n="18">
                      <staff xml:id="s1xs7poz" n="1">
@@ -6544,7 +6568,7 @@
                            endid="#nesr42s"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_1791024e-bdf4-445d-9133-7f88e1b43603"
+                  <measure facs="#zone_e434c7f7-48b2-4fab-b64e-30116a2feb0a"
                            xml:id="m9ngtxn"
                            n="19">
                      <staff xml:id="sa8gwn" n="1">
@@ -6850,7 +6874,7 @@
                               place="below"
                               vgrp="600"/>
                   </measure>
-                  <measure facs="#zone_980cdeb0-26c7-4216-8dfb-42f43814584d"
+                  <measure facs="#zone_154dbc85-ef92-4e7b-892a-c98ba06ec250"
                            xml:id="m1rk51b5"
                            n="20">
                      <staff xml:id="s1lfnvzu" n="1">
@@ -7249,7 +7273,7 @@
                            endid="#nv7vhzz"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_aadb4471-48f3-4b5b-8e42-f4d05bff6bf5"
+                  <measure facs="#zone_2d6be71b-8973-4ed2-ab4e-809d31952795"
                            xml:id="mtn1gda"
                            n="21">
                      <staff xml:id="sibk4v0" n="1">
@@ -8151,7 +8175,7 @@
                         <rend xml:id="ra6j87z" fontfam="Opus Text">ff</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_3352d448-fdd3-48a3-b1b1-1349407954ee"
+                  <measure facs="#zone_2d1cf3b8-6203-409b-8d3c-b9eea2bffb60"
                            xml:id="m1h221im"
                            n="22">
                      <staff xml:id="s5uag4t" n="1">
@@ -8497,7 +8521,7 @@
                            endid="#nl503zl"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_28fd03c5-6c95-4bb5-a1d5-aa8dff3e55a7"
+                  <measure facs="#zone_de060e60-83b9-4e2a-b578-17261aa1758b"
                            xml:id="m10fe6r4"
                            n="23">
                      <staff xml:id="s1rwsjvg" n="1">
@@ -8770,7 +8794,7 @@
                         <rend xml:id="r19b52s9" fontfam="Legature di valore">t</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_741f50ad-0635-4dd3-9846-017d5400a2d1"
+                  <measure facs="#zone_09110781-2af2-4b9d-8224-81811bac02cf"
                            xml:id="mpmh1yv"
                            n="24">
                      <staff xml:id="s1h7qg3k" n="1">
@@ -9148,7 +9172,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_35d59498-6f23-44b5-93ff-b7da607c4476"
+                  <measure facs="#zone_c9aa5ba1-c633-4fe0-9d35-9482134047e4"
                            xml:id="mvcfimb"
                            n="25">
                      <staff xml:id="s9n9irp" n="1">
@@ -9596,7 +9620,7 @@
                            endid="#nvuy41w"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_77306d7d-3dfc-4764-951f-91420054c439"
+                  <measure facs="#zone_414aca3e-b31a-459e-a6a3-24b67aebd5c3"
                            xml:id="m1obvk8w"
                            n="26">
                      <staff xml:id="sa41hxp" n="1">
@@ -10185,7 +10209,7 @@
                         <rend xml:id="r1rkj60" fontfam="Opus Text">rf</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_acf9f7be-5ed0-4081-83d2-04136f8d9efc"
+                  <measure facs="#zone_7ed4acd6-40b8-4673-b7e2-f9796866a864"
                            xml:id="m1j2u3my"
                            n="27">
                      <staff xml:id="s1nqthq3" n="1">
@@ -10802,7 +10826,7 @@
                         <rend xml:id="r1u694y1" fontfam="Opus Text">f</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_5cdc0e51-aedf-4fae-bcd3-f252bb8b8208"
+                  <measure facs="#zone_9e728802-87d0-4279-bcb6-c46ffb648ee8"
                            xml:id="m1bfrduk"
                            n="28">
                      <staff xml:id="s11fho1u" n="1">
@@ -11000,7 +11024,7 @@
                            endid="#nedw39d"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_5aa9e600-d43e-4d2e-9aad-ac07aa287755"
+                  <measure facs="#zone_7e8b796d-9bcd-4121-88c2-31aa2fd9c3ce"
                            xml:id="m1rk8r6z"
                            n="29">
                      <staff xml:id="s1dcqccy" n="1">
@@ -11245,7 +11269,7 @@
                            endid="#nuppsf9"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_ab71a07c-5eab-4962-b5c5-75bb25f64264"
+                  <measure facs="#zone_0fd33bbc-b1e9-4999-84d1-9c6ef65cb8a5"
                            xml:id="m11qedpc"
                            n="30">
                      <staff xml:id="s14k7n8q" n="1">
@@ -11468,7 +11492,7 @@
                            endid="#n1t9aka3"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_fdf48c61-6cb1-429d-a085-55ec7e469956"
+                  <measure facs="#zone_6b4cd48b-d1dc-49ee-be52-8096a3f4d770"
                            xml:id="m1qg5op"
                            n="31">
                      <staff xml:id="s17ahsub" n="1">
@@ -11736,7 +11760,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_447d3691-22b3-4610-8aaf-3493649e2bc6"
+                  <measure facs="#zone_2fc4468b-656f-41e9-86ee-32f2d6545b32"
                            xml:id="m1d808uv"
                            n="32">
                      <staff xml:id="s1ra5d4w" n="1">
@@ -12015,7 +12039,7 @@
                           vgrp="425">[ <rend xml:id="r1cx4emx" fontfam="Opus Text">pp</rend>
                         <rend xml:id="r1fudz25" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_d1739066-5ce6-4652-89a1-c9d98af5f2ef"
+                  <measure facs="#zone_f2613952-a8fc-4e8e-b626-fbe0b60ce06c"
                            xml:id="m1e7kde1"
                            n="33">
                      <staff xml:id="s8cww8s" n="1">
@@ -12285,7 +12309,7 @@
                            endid="#n1byiyna"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_aba86679-7e77-44eb-90b9-728f864be2bb"
+                  <measure facs="#zone_ce17fba0-3ba4-4e3a-ae21-476f56a4b60e"
                            xml:id="mruk70a"
                            n="34">
                      <staff xml:id="s1qx4820" n="1">
@@ -12553,7 +12577,7 @@
                           tstamp="1.5"
                           vgrp="855">**</dir>
                   </measure>
-                  <measure facs="#zone_56073633-f89c-459a-bd69-eb8bfcd05178"
+                  <measure facs="#zone_80a483b6-d05f-4f30-acdc-08190e933624"
                            xml:id="mluuawx"
                            n="35">
                      <staff xml:id="sy4pvjx" n="1">
@@ -12867,7 +12891,7 @@
                            endid="#nh76kl4"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_3f2b914e-553a-4acd-9cd1-482771d05f74"
+                  <measure facs="#zone_8101b859-a408-44a3-a505-995e3f508489"
                            xml:id="mnc4lnl"
                            n="36">
                      <staff xml:id="s17nk78t" n="1">
@@ -13019,7 +13043,7 @@
                           tstamp="1.875"
                           vgrp="795">«Mastro Tammaro Ossoduro…»</dir>
                   </measure>
-                  <measure facs="#zone_b5190e74-69cd-42b2-8f03-e0ea8edc1e6d"
+                  <measure facs="#zone_74553f00-7763-4e50-bc72-1d3f2dd3314a"
                            xml:id="mt8c6un"
                            n="37">
                      <staff xml:id="sb7g11y" n="1">
@@ -13187,7 +13211,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_4cba6a9a-bdce-43f0-9fae-33b503323a77"
+                  <measure facs="#zone_62667c14-05d4-4319-81bc-e7b5c73482d5"
                            xml:id="m1fbty2o"
                            n="38">
                      <staff xml:id="s146keuk" n="1">
@@ -13419,7 +13443,7 @@
                         <rend xml:id="r1ke0akl" fontfam="Opus Text">ff</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_ea41ff9e-5a2f-41d7-b07c-3a27136340f2"
+                  <measure facs="#zone_3e6e21be-e019-4470-b171-3e459dc3706a"
                            xml:id="m1jig8ld"
                            n="39">
                      <staff xml:id="s14d1lob" n="1">
@@ -13661,7 +13685,7 @@
                         <rend xml:id="r8wiktv" fontfam="Opus Text">pp</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_d4a25cdb-195e-4a94-a75c-cca14c0b5870"
+                  <measure facs="#zone_fd6173e5-cd11-4722-9776-7b8ef4293d0d"
                            xml:id="m10leycp"
                            n="40">
                      <staff xml:id="swj4osg" n="1">
@@ -13890,7 +13914,7 @@
                            endid="#nt68iog"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_d6761a94-a7fe-4bfc-9dab-8caff6286460"
+                  <measure facs="#zone_72e25ca6-cb6b-45c9-8df2-236c82e5c048"
                            xml:id="mdvrl3j"
                            n="41">
                      <staff xml:id="s12glhvg" n="1">
@@ -14102,7 +14126,7 @@
                               place="below"
                               vgrp="630"/>
                   </measure>
-                  <measure facs="#zone_56b5189c-b942-4b6e-96b0-e2c96fd146ff"
+                  <measure facs="#zone_d65a5cc6-1c9e-4ad3-84ba-b265ac95d13e"
                            xml:id="m1bz8f24"
                            n="42">
                      <staff xml:id="s169l2ad" n="1">
@@ -14357,7 +14381,7 @@
                            endid="#nz9wks0"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_de267ab8-b451-4ff4-9e6e-6c8dbe7599bd"
+                  <measure facs="#zone_a0ad9e79-4517-41e5-96e5-3e705308b9b9"
                            xml:id="m1md7dy0"
                            n="43">
                      <staff xml:id="sfbsedl" n="1">
@@ -14567,7 +14591,7 @@
                         <rend xml:id="r1qziut8" fontfam="TimesTen Times 10 Bold">colla parte</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_8189c304-bc69-4dd1-9a12-2089f0249141"
+                  <measure facs="#zone_e9eb2626-2349-4b05-bfb3-274b1e54d053"
                            xml:id="m1b4re23"
                            n="44">
                      <staff xml:id="s1vq5n0x" n="1">
@@ -14785,7 +14809,7 @@
                            endid="#n1bc096z"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_3dc4ff38-b1f2-4a6f-9d27-288f9ddf885f"
+                  <measure facs="#zone_e88a2042-2344-4a44-aa7b-da7e08c6b67b"
                            xml:id="m1od7ykj"
                            n="45">
                      <staff xml:id="s1qderm5" n="1">
@@ -15087,7 +15111,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_3f1a641e-0ca3-4917-9fe5-88f3b67641d8"
+                  <measure facs="#zone_f8b63327-12a2-4db3-ae6e-1d7f0fee418e"
                            xml:id="mde14uj"
                            n="46">
                      <staff xml:id="s1r8wvaz" n="1">
@@ -15329,7 +15353,7 @@
                            endid="#n1cklern"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_eb174a76-7ff9-4cee-96b2-2623a114185f"
+                  <measure facs="#zone_3527be63-204a-41aa-8d49-4da8ae000a35"
                            xml:id="m23pack"
                            n="47">
                      <staff xml:id="s7s3nat" n="1">
@@ -15569,7 +15593,7 @@
                               place="below"
                               vgrp="630"/>
                   </measure>
-                  <measure facs="#zone_5f604086-b20a-4d72-a5ab-3d16ca86a6c3"
+                  <measure facs="#zone_1d87c075-4798-4d21-8444-131af6ae6918"
                            xml:id="m1myv64t"
                            n="48">
                      <staff xml:id="s182b14z" n="1">
@@ -15851,7 +15875,7 @@
                            endid="#nhs84vs"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_1e7488d1-7884-4e3e-9d96-b830cad8f146"
+                  <measure facs="#zone_ac0f1fde-f51f-4d09-b33d-5b2fc6fbdb5b"
                            xml:id="m1ukgma1"
                            n="49">
                      <staff xml:id="soem5ft" n="1">
@@ -16215,7 +16239,7 @@
                            endid="#ng6heyq"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_0bc3a03d-1a97-485e-9065-6522483988a4"
+                  <measure facs="#zone_fed9e415-2e30-4bc2-acd9-cea2e6dba8d1"
                            xml:id="miwzzwc"
                            n="50">
                      <staff xml:id="s13mfbi7" n="1">
@@ -16499,7 +16523,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_0b5aee91-dcc1-4ae4-8226-e93bbb38fb14"
+                  <measure facs="#zone_46659543-3f20-4476-a5a4-fe64fc22275a"
                            xml:id="mvlxv2y"
                            n="51">
                      <staff xml:id="s89r8cd" n="1">
@@ -16866,7 +16890,7 @@
                            endid="#n1kjwfqi"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_a19f9b60-aa8e-4978-b7b6-0d90a7af9878"
+                  <measure facs="#zone_73d34581-152c-416c-9de9-2f5ea6e5984a"
                            xml:id="m1kbvg4a"
                            n="52">
                      <staff xml:id="s1q8rik1" n="1">
@@ -17271,7 +17295,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_215a0d3f-d271-42a1-b222-3ba7f929b459"
+                  <measure facs="#zone_a2e28d4a-73a0-4ef6-b2a8-0377627837ee"
                            xml:id="mm4qqj0"
                            n="53">
                      <staff xml:id="sj2hyb9" n="1">
@@ -17622,7 +17646,7 @@
                            endid="#n1mizwoo"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_d57c20d8-57fa-4109-b918-16b799647946"
+                  <measure facs="#zone_cb4a7554-c17f-44bf-b01c-fb1e8344d029"
                            xml:id="m19vdo9h"
                            n="54">
                      <staff xml:id="s1ts97rn" n="1">
@@ -17965,7 +17989,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_1226d998-79fa-4c4d-9d44-cbefed18686a"
+                  <measure facs="#zone_0f660360-5b86-41db-92e8-88f2b5536112"
                            xml:id="m12lsiao"
                            n="55">
                      <staff xml:id="sjdp6t5" n="1">
@@ -18383,7 +18407,7 @@
                            endid="#n1y2prcv"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_69e552c0-51ae-4aec-92d7-54fc59cba110"
+                  <measure facs="#zone_3518c936-8901-459f-ac77-85ab8078a431"
                            xml:id="m1jvl3in"
                            n="56">
                      <staff xml:id="s1wj046c" n="1">
@@ -18693,7 +18717,7 @@
                            endid="#n273h18"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_b57ec578-f464-43bb-88a0-4b9c904f6e17"
+                  <measure facs="#zone_a53ff569-c52d-44b0-ac30-c2e7a735ecff"
                            xml:id="m1i4hdy6"
                            n="57">
                      <staff xml:id="siv1b2q" n="1">
@@ -18957,7 +18981,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_0bb7d2d4-58f1-44d8-a462-eed9ecb31c75"
+                  <measure facs="#zone_c3a4ad44-c04e-4a0d-92a1-e4dce939da25"
                            xml:id="ms7velw"
                            n="58">
                      <staff xml:id="s15b3fxk" n="1">
@@ -19246,7 +19270,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_a122abb0-65a4-4e1a-9973-bc39f9d8310f"
+                  <measure facs="#zone_2705e850-7eec-41ba-b91b-dcc2fb62934d"
                            xml:id="m16qfk5y"
                            n="59">
                      <staff xml:id="sj1egm6" n="1">
@@ -19612,7 +19636,7 @@
                             val="96"
                             vgrp="2095">f</dynam>
                   </measure>
-                  <measure facs="#zone_5786f63c-2c02-4a5a-a7bd-ee86539ea827"
+                  <measure facs="#zone_0d7e2a2a-974e-47af-ade7-1a9467f60198"
                            xml:id="m1wkp9c3"
                            n="60">
                      <staff xml:id="spgxlgw" n="1">
@@ -19962,7 +19986,7 @@
                           vgrp="425">[ <rend xml:id="r1ci5dx" fontfam="Opus Text">pp</rend>
                         <rend xml:id="r1k94t3u" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_dcb8daa6-b6e9-42f5-8c83-0208a70ed3c8"
+                  <measure facs="#zone_99cabd29-2430-42dd-bf94-720acd5499ec"
                            xml:id="mfxj4na"
                            n="61">
                      <staff xml:id="s1qg110s" n="1">
@@ -20231,7 +20255,7 @@
                            endid="#n1p0168x"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_3c505172-81b9-46c3-a464-b45f09d15422"
+                  <measure facs="#zone_db1e0da0-a4eb-4dcf-b490-3f8d8ba477ca"
                            xml:id="m17ltpdj"
                            n="62">
                      <staff xml:id="s2dzqdg" n="1">
@@ -20493,7 +20517,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_4189a38e-05d9-4013-b408-7b19589ba697"
+                  <measure facs="#zone_f733974c-c90e-4363-9feb-e16e94d33feb"
                            xml:id="m4tmt39"
                            n="63">
                      <staff xml:id="sub0xra" n="1">
@@ -20800,7 +20824,7 @@
                            endid="#n10hhpah"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_2351ec05-2f16-4a1f-9061-cbd45433ee57"
+                  <measure facs="#zone_6f757743-f9df-44e5-bfe7-555953cad79a"
                            xml:id="m208y3"
                            n="64">
                      <staff xml:id="s1omo72w" n="1">
@@ -21081,7 +21105,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_90a99b4f-9182-4452-8aff-7e5495c1fb8e"
+                  <measure facs="#zone_48a5a17a-7ac3-48d4-9509-29916413ae68"
                            xml:id="m1h8tq00"
                            n="65">
                      <staff xml:id="s15w4uhl" n="1">
@@ -21517,7 +21541,7 @@
                            endid="#n1g7wcmr"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_acedf917-54f2-430c-8335-2fe8e4fb4dde"
+                  <measure facs="#zone_22f907c4-2afa-4b10-a693-60737f1e2fcf"
                            xml:id="m19nfq5i"
                            n="66">
                      <staff xml:id="s1mzlx2r" n="1">
@@ -21891,7 +21915,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_b4a28f7a-3ac8-4200-9823-93c1bad49e80"
+                  <measure facs="#zone_4d170c7d-f070-44c0-9851-680da38bfe34"
                            xml:id="m1lw9tul"
                            n="67">
                      <staff xml:id="so088bz" n="1">
@@ -22298,7 +22322,7 @@
                            endid="#n9sqvd"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_e714ce93-35f2-4f1f-9936-d5aeae052bf7"
+                  <measure facs="#zone_154ad144-7428-4672-9261-849a7c318457"
                            xml:id="m5avlqz"
                            n="68">
                      <staff xml:id="s1jv9r1o" n="1">
@@ -22647,7 +22671,7 @@
                               place="below"
                               vgrp="600"/>
                   </measure>
-                  <measure facs="#zone_635d7340-ee34-4f2a-a750-8a02b312729c"
+                  <measure facs="#zone_5dd14374-a519-4020-a98e-2e002306ed0f"
                            xml:id="mm99ts"
                            n="69">
                      <staff xml:id="s12jsjxd" n="1">
@@ -22981,7 +23005,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_8b0fd809-f790-4666-87a7-20654a1e0fa0"
+                  <measure facs="#zone_7b61e212-137d-4edc-8fa0-6980facdeb79"
                            xml:id="mp1w61h"
                            n="70">
                      <staff xml:id="s1gyd0wp" n="1">
@@ -23524,7 +23548,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_42c26457-7407-4914-aa79-ba424f0fbe27"
+                  <measure facs="#zone_fb018629-e6c2-4139-8548-77a8f40dd8ac"
                            xml:id="m8fp25"
                            n="71">
                      <staff xml:id="s16hilfl" n="1">
@@ -24023,7 +24047,7 @@
                            endid="#n1h687lo"
                            curvedir="above"/>
                   </measure>
-                  <measure facs="#zone_95a8b7e0-c086-4c1c-b655-d1d6bc5acada"
+                  <measure facs="#zone_2380191c-5dac-465a-bff5-26b9e424a46f"
                            xml:id="m1p0v0r"
                            n="72">
                      <staff xml:id="s3x8vl1" n="1">
@@ -24232,7 +24256,7 @@
                         <rend xml:id="r1rpceco" fontfam="Opus Text">f</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_aeff3b65-0d04-4aec-8795-e68aaae94da3"
+                  <measure facs="#zone_a79f433e-f2ef-464e-8cd2-018f9ce4869f"
                            xml:id="m1d3ck4x"
                            n="73">
                      <staff xml:id="sbym85k" n="1">
@@ -24491,7 +24515,7 @@
                         <rend xml:id="r1qvflcn" fontfam="Opus Text">pp</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_8bc18d73-0c8e-4a5b-b44b-dc067942dd9a"
+                  <measure facs="#zone_460e3d55-6cc2-4119-b459-56bbaec96440"
                            xml:id="mw554ky"
                            n="74">
                      <staff xml:id="s6wdoyz" n="1">
@@ -24727,7 +24751,7 @@
                         <rend xml:id="rtwyqlo" fontweight="bold">più lento</rend>
                      </tempo>
                   </measure>
-                  <measure facs="#zone_19f239f7-ce07-4b67-8a0e-750eca37c090"
+                  <measure facs="#zone_9d3fdadc-a3b9-41b3-b99d-bb0afa8390a2"
                            xml:id="m1qgo920"
                            n="75">
                      <staff xml:id="szi3x83" n="1">
@@ -24957,7 +24981,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_56b989a0-1e9b-4df7-9e15-3b536943ab44"
+                  <measure facs="#zone_95e182ee-6f1a-4c5c-8125-3ab3b1ebb920"
                            xml:id="mbuy7i9"
                            n="76">
                      <staff xml:id="s1go1smm" n="1">
@@ -25200,7 +25224,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_a12fb11a-c270-404c-9906-a4395eeae25c"
+                  <measure facs="#zone_a4e523e7-18f1-4195-bdc8-256b93703125"
                            xml:id="m1akech5"
                            n="77">
                      <staff xml:id="s1lwr5mo" n="1">
@@ -25379,7 +25403,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_01cb7ea6-eda0-4049-95c3-fa595decac4b"
+                  <measure facs="#zone_bc3b9090-12ae-46ab-ae9e-ec5abbcfd7fe"
                            xml:id="m1rwr0rd"
                            n="78">
                      <staff xml:id="s1mg6jol" n="1">
@@ -25565,7 +25589,7 @@
                           tstamp="4"
                           vgrp="2010">in tempo</dir>
                   </measure>
-                  <measure facs="#zone_144627d1-1d6c-46b9-9cc3-d3aaec264b34"
+                  <measure facs="#zone_f9f275d6-a690-4eec-940c-b60150caa914"
                            xml:id="m1byx4wy"
                            n="79">
                      <staff xml:id="s1pqvv3p" n="1">
@@ -25669,7 +25693,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_f866dda1-ba03-4c50-88ea-c8368cfba111"
+                  <measure facs="#zone_c2cc8773-2cf9-49e2-9538-2d7acc429d81"
                            xml:id="m1kw5d7"
                            n="80">
                      <staff xml:id="s1xntyl3" n="1">
@@ -25940,7 +25964,7 @@
                           vgrp="425">[ <rend xml:id="rndi49v" fontfam="Opus Text">pp</rend>
                         <rend xml:id="r1xs6741" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_03a21c72-8e73-4fd3-a71a-4aa49ecd16c4"
+                  <measure facs="#zone_eb634f67-9a68-46fa-8894-5e4b70d888f4"
                            xml:id="m12jdcur"
                            n="81">
                      <staff xml:id="s16q8xly" n="1">
@@ -26156,7 +26180,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_495ae697-6417-4a78-91e9-ca0a440c4f3c"
+                  <measure facs="#zone_304ba0b4-68d6-483c-8c05-a928513aef64"
                            xml:id="m1whq6we"
                            n="82">
                      <staff xml:id="s1ysgvdi" n="1">
@@ -26457,7 +26481,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_b90026b1-2b5c-454b-84f8-1f0d28dbbd50"
+                  <measure facs="#zone_2cec879e-f3b5-4608-9a3d-b149e1d3446d"
                            xml:id="m1vgunb"
                            n="83">
                      <staff xml:id="snj7o79" n="1">
@@ -26768,7 +26792,7 @@
                         <rend xml:id="r1fnvx9o" fontfam="Opus Text">f</rend>
                      </dir>
                   </measure>
-                  <measure facs="#zone_429121a5-ef27-4e12-99c2-a8d8cc8eae22"
+                  <measure facs="#zone_037b9f6c-a1f0-437c-a567-3aae802aab8f"
                            xml:id="m4r7y4r"
                            n="84">
                      <staff xml:id="smtu5gp" n="1">
@@ -27083,7 +27107,7 @@
                           vgrp="425">[ <rend xml:id="rp946rv" fontfam="Opus Text">pp</rend>
                         <rend xml:id="rp8eq5e" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_c1067cd4-82d9-4378-acfa-3a4676c05fa4"
+                  <measure facs="#zone_b5d6b3a9-3efd-48f1-89c6-9e628c82d589"
                            xml:id="m1ayqydd"
                            n="85">
                      <staff xml:id="s1qrnwcb" n="1">
@@ -27332,7 +27356,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_a0beae39-d405-4204-b277-b53344bdd6d4"
+                  <measure facs="#zone_9284b870-2d57-4433-ab48-47213f1f4719"
                            xml:id="mmvn1g0"
                            n="86">
                      <staff xml:id="swtgf5f" n="1">
@@ -27668,7 +27692,7 @@
                            endid="#nqz3wpu"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_786108b8-72d6-43f7-ab6e-8ef377da2ef7"
+                  <measure facs="#zone_44f454aa-56c7-40b9-9f08-5a722686c8d5"
                            xml:id="m1kvqa1f"
                            n="87">
                      <staff xml:id="sx7kdq9" n="1">
@@ -28058,7 +28082,7 @@
                            endid="#n7mtj5a"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_cac96e57-91f1-48be-a231-921649667f76"
+                  <measure facs="#zone_398de3b4-6691-4378-a26a-eb3ea3a0f373"
                            xml:id="mcv6phz"
                            n="88">
                      <staff xml:id="stokfog" n="1">
@@ -28377,7 +28401,7 @@
                            endid="#n14kubz5"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_a4df8421-4b81-453e-8325-ebf3d862ee4a"
+                  <measure facs="#zone_fb88a14c-dca8-4b3f-b410-d4038ef28801"
                            xml:id="m1q0j2xz"
                            n="89">
                      <staff xml:id="spuenen" n="1">
@@ -28636,7 +28660,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_0b7005fc-e79f-4ab2-8b79-5564ae932a13"
+                  <measure facs="#zone_e41fe4c7-d283-4969-8980-7b3fe5360cfb"
                            xml:id="mxzwcwp"
                            n="90">
                      <staff xml:id="s1jh6lv0" n="1">
@@ -28974,7 +28998,7 @@
                            endid="#n1rrzlr8"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_b176cc02-436f-4a94-bd29-a299a68a0766"
+                  <measure facs="#zone_2e0f5a34-fb40-4e97-b69a-77b57302aa0a"
                            xml:id="mh9l5u6"
                            n="91">
                      <staff xml:id="s1ai7ovs" n="1">
@@ -29372,7 +29396,7 @@
                            endid="#nd96cog"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_ace3c970-5802-438a-8e1c-6d627763eafb"
+                  <measure facs="#zone_7afd6bbd-3935-40f3-b1ca-87c3b32e17e2"
                            xml:id="m1v4jsfz"
                            n="92">
                      <staff xml:id="syd71id" n="1">
@@ -29800,7 +29824,7 @@
                           vgrp="425">[ <rend xml:id="r10b6lg0" fontfam="Opus Text">p</rend>
                         <rend xml:id="r18e2r7y" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_d61c4f99-bb3c-4463-8072-8ed5307db02a"
+                  <measure facs="#zone_65566f35-4138-4134-a5ff-163d7f5085dc"
                            xml:id="m9rggul"
                            n="93">
                      <staff xml:id="s1wccj7t" n="1">
@@ -30122,7 +30146,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_0889547e-c59a-44c8-b51d-1b3bb56fe8c1"
+                  <measure facs="#zone_8afee4ca-b042-46d5-9069-1b3ca340fac0"
                            xml:id="m9hzm3x"
                            n="94">
                      <staff xml:id="silm9b7" n="1">
@@ -30498,7 +30522,7 @@
                            endid="#n11iuvcj"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_e6356195-b289-4ec5-82de-bdd93095b37d"
+                  <measure facs="#zone_46e501a3-eeba-4317-9127-27c91c5a6bd4"
                            xml:id="m1wdr56m"
                            n="95">
                      <staff xml:id="swoc1px" n="1">
@@ -30942,7 +30966,7 @@
                            endid="#ndufcy8"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_7527a180-661c-4697-94b1-376c007062ba"
+                  <measure facs="#zone_43d1b04b-9250-4ba0-b63f-6e3748eb1cac"
                            xml:id="mhowqvp"
                            n="96">
                      <staff xml:id="s16rr3xe" n="1">
@@ -31323,7 +31347,7 @@
                            endid="#nj0wwv0"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_24c699c1-5740-4b0d-a498-a7586bb4d57b"
+                  <measure facs="#zone_5900b7c5-2096-4dd9-8798-157429331c43"
                            xml:id="m1rspcez"
                            n="97">
                      <staff xml:id="syuxrzd" n="1">
@@ -31656,7 +31680,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_66225146-8175-469a-b6f7-ccfeb5689e35"
+                  <measure facs="#zone_77b4ffb3-f927-4290-91c4-3da2546fd49b"
                            xml:id="m16ptuxr"
                            n="98">
                      <staff xml:id="syyr60s" n="1">
@@ -32043,7 +32067,7 @@
                            endid="#n16iw64c"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_d8186a01-daea-46bf-9b9e-54b0d30fdb6c"
+                  <measure facs="#zone_7944259f-1186-49fb-8ab0-2502b20f9503"
                            xml:id="m1puchqy"
                            n="99">
                      <staff xml:id="sk110o4" n="1">
@@ -32484,7 +32508,7 @@
                            endid="#n1ym7yog"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_64bc10e8-f9b8-4144-928a-ade3e72a6a9f"
+                  <measure facs="#zone_5658198f-04d9-42ca-a447-30e920401cce"
                            xml:id="mmzjmw5"
                            n="100">
                      <staff xml:id="s1t1xm87" n="1">
@@ -32869,7 +32893,7 @@
                           tstamp="1"
                           vgrp="425">[cresc.]</dir>
                   </measure>
-                  <measure facs="#zone_932271fb-0d56-4f66-ad7c-374137cc8f71"
+                  <measure facs="#zone_bd1d95fe-95bd-4f57-a319-b45e9cf2ba69"
                            xml:id="m1k54l96"
                            n="101">
                      <staff xml:id="s86hfgs" n="1">
@@ -33277,7 +33301,7 @@
                   </measure>
                   <sb/>
                   <pb/>
-                  <measure facs="#zone_4d14176c-7961-4414-a2a0-2f1ff8dc7ba1"
+                  <measure facs="#zone_7c632bdf-33e3-4fa7-bff4-cc32c2b9d03d"
                            xml:id="mj683e4"
                            n="102">
                      <staff xml:id="se2kwgg" n="1">
@@ -33668,7 +33692,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_f9bd4fe8-2b61-4159-a8d4-fbb10f19a0dc"
+                  <measure facs="#zone_36624bff-8050-4b05-bd74-f5a36b48ff09"
                            xml:id="mtt5ss5"
                            n="103">
                      <staff xml:id="sel2u9z" n="1">
@@ -34066,7 +34090,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_3906bcef-e8f7-45a5-9d60-992a379dd52f"
+                  <measure facs="#zone_cdf26b58-986b-4d9c-829f-c014a8f2417a"
                            xml:id="m1y9ifim"
                            n="104">
                      <staff xml:id="s68134r" n="1">
@@ -34438,7 +34462,7 @@
                           vgrp="425">[ <rend xml:id="r1h253ui" fontfam="Opus Text">ff</rend>
                         <rend xml:id="r1fmlc9g" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_7f11098b-b787-49b4-b9fb-5be4d8ce4d51"
+                  <measure facs="#zone_3fa79849-a85f-4ec4-b29f-c43dd306dcae"
                            xml:id="m1vpl26r"
                            n="105">
                      <staff xml:id="s8g7lil" n="1">
@@ -34756,7 +34780,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_ceec1a41-f42d-4c7a-9dd5-afdfe9fe8878"
+                  <measure facs="#zone_03e76640-4dae-4560-81b8-c9e799d5fe8e"
                            xml:id="m1mahsdl"
                            n="106">
                      <staff xml:id="s1kfnbt8" n="1">
@@ -35064,7 +35088,7 @@
                           vgrp="425">[ <rend xml:id="r1marc2" fontfam="Opus Text">pp</rend>
                         <rend xml:id="rgrz89y" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_bed49f44-8f05-4830-b091-7d5a8e2b8dd4"
+                  <measure facs="#zone_20048946-e7d7-46cd-a8f0-d1a5f38f19e1"
                            xml:id="m191t4gf"
                            n="107">
                      <staff xml:id="sux1484" n="1">
@@ -35313,9 +35337,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb/>
-                  <pb/>
-                  <measure facs="#zone_8760fa78-a240-4f16-9aae-06b337b39442"
+                  <measure facs="#zone_d6a83c14-bf50-4bdd-bb82-71f564eacd1a"
                            xml:id="m3c6dl7"
                            n="108">
                      <staff xml:id="s1w14i70" n="1">
@@ -35654,7 +35676,7 @@
                            endid="#nyx71m5"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_3b74d803-411e-484c-ad8a-92f3b2a02200"
+                  <measure facs="#zone_54a8376f-5021-415a-8225-07dc98757711"
                            xml:id="m1mjx5tt"
                            n="109">
                      <staff xml:id="s1bx5gfk" n="1">
@@ -36044,7 +36066,7 @@
                            endid="#nga0t3p"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_2a3304c3-087b-4629-849b-a32c5f0eda61"
+                  <measure facs="#zone_b86f71fe-ae51-4442-bf37-1a316a0dc218"
                            xml:id="m9jnyp0"
                            n="110">
                      <staff xml:id="s1l17z5n" n="1">
@@ -36363,7 +36385,7 @@
                            endid="#ngtse73"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_c4fd1b37-114a-4d1d-9a9e-919e5f175dd0"
+                  <measure facs="#zone_e979f8a3-d952-4466-bfab-e6126d5d6fbe"
                            xml:id="m1gxbrp2"
                            n="111">
                      <staff xml:id="sndlcr4" n="1">
@@ -36622,7 +36644,268 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_8d610162-acff-4274-b822-1f7f3a393f0f"
+                  <sb/>
+                  <pb/>
+                  <measure facs="#zone_bde85f02-7ebd-41ed-9fc5-821b3c065248"
+                           xml:id="m1gxbrp2"
+                           n="111">
+                     <staff xml:id="sndlcr4" n="1">
+                        <layer xml:id="l1i6veb4" n="1">
+                           <note xml:id="n1jkvxvq"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="5"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <beam xml:id="bitq8q0">
+                              <note xml:id="n1fkfkco"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="ndyysei"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="b18bnjbh">
+                              <note xml:id="n134s5di"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="nczmyv2"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="n110auyj"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="nc32c0n"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s12ef0cj" n="2">
+                        <layer xml:id="l1p4tiio" n="1">
+                           <mRest xml:id="m11xj41u"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="syddnjd" n="3">
+                        <layer xml:id="l12q4mqm" n="1">
+                           <mRest xml:id="m6sa4pr"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1tsamd7" n="4">
+                        <layer xml:id="lt3omoz" n="1">
+                           <rest xml:id="rx9vp56" dur.ppq="8" dur="4"/>
+                           <note xml:id="n85jtp2"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <rest xml:id="r13hvi7n" dur.ppq="8" dur="4"/>
+                           <note xml:id="n8woh3q"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1o56jgd" n="5">
+                        <layer xml:id="l17di2ya" n="1">
+                           <rest xml:id="r1qzdatb" dur.ppq="8" dur="4"/>
+                           <chord xml:id="cz821f3" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1pdxc6f" oct="4" pname="g"/>
+                              <note xml:id="nw9t0mk" oct="5" pname="d"/>
+                           </chord>
+                           <rest xml:id="rfxs3vh" dur.ppq="8" dur="4"/>
+                           <chord xml:id="crvf2w3" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nuqo94p" oct="4" pname="g"/>
+                              <note xml:id="n12z8gda" oct="5" pname="d"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sccycbd" n="6">
+                        <layer xml:id="lqcblt5" n="1">
+                           <mRest xml:id="myqsp1q"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s70gxe9" n="7">
+                        <layer xml:id="l1qbkvzo" n="1">
+                           <note xml:id="n1yckcm2"
+                                 dur.ppq="0"
+                                 dur="8"
+                                 oct="4"
+                                 pname="d"
+                                 grace="acc"
+                                 stem.dir="up"/>
+                           <note xml:id="n1umy2b9"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v19u5qur" n="1">
+                                 <syl xml:id="sdhnz5h" con="d" wordpos="m">dim</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="noiegqr"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v1w03tmo" n="1">
+                                 <syl xml:id="sxhoxhp" con="s" wordpos="t">mo</syl>
+                              </verse>
+                           </note>
+                           <rest xml:id="r1ggrwwn" dur.ppq="8" dur="4"/>
+                           <note xml:id="nstjzbc"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v1bo7gw0" n="1">
+                                 <syl xml:id="s13emcu5" con="s" wordpos="s">chi</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1h2c9ci"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vajccuo" n="1">
+                                 <syl xml:id="s1bqoct9" con="s" wordpos="s">se</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sasujl9" n="8">
+                        <layer xml:id="l14rutq1" n="1">
+                           <note xml:id="n145whjx"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="up"/>
+                           <beam xml:id="b9ss5qc">
+                              <note xml:id="nfqa9bz"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                              <note xml:id="nmvyvfg"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"/>
+                           </beam>
+                           <beam xml:id="btb49dy">
+                              <note xml:id="ngeviu7"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="n7qrwzv"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="njhwx7n"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="n1jnlxf8"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s19b0ib8" n="9">
+                        <layer xml:id="l14n4vdo" n="1">
+                           <mRest xml:id="m1kx05el"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1j5asai" n="10">
+                        <layer xml:id="l3nn5zd" n="1">
+                           <note xml:id="nzy44px"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <rest xml:id="rcdq58w" dur.ppq="8" dur="4"/>
+                           <note xml:id="n1mjyn39"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <rest xml:id="r19ydflx" dur.ppq="8" dur="4"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1q848jz" n="11">
+                        <layer xml:id="l8eyq9b" n="1">
+                           <mRest xml:id="m17v9sxr"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s6hhvbq" n="12">
+                        <layer xml:id="l1p8imsd" n="1">
+                           <note xml:id="nd69qjm"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                           <rest xml:id="rdku6be" dur.ppq="8" dur="4"/>
+                           <note xml:id="n1buiz5r"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                           <rest xml:id="rwkzbzp" dur.ppq="8" dur="4"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure facs="#zone_b860f480-ceec-440e-ab1a-17de6f349c99"
                            xml:id="m1maxe0x"
                            n="112">
                      <staff xml:id="s1nq0uy0" n="1">
@@ -36960,7 +37243,7 @@
                            endid="#nvtz3t3"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_e0b3e9f3-1558-44e7-828c-b52cb10ba03d"
+                  <measure facs="#zone_5e3db93a-fabe-4509-a7f5-b03a66eee220"
                            xml:id="m1r31y6l"
                            n="113">
                      <staff xml:id="svolzw3" n="1">
@@ -37358,9 +37641,7 @@
                            endid="#ntu4m31"
                            curvedir="below"/>
                   </measure>
-                  <sb/>
-                  <pb/>
-                  <measure facs="#zone_54ada950-6565-45f5-ad6f-8ccf9f88960e"
+                  <measure facs="#zone_b00e65f4-f26d-4bea-a28e-462e51b948d3"
                            xml:id="mc3n25j"
                            n="114">
                      <staff xml:id="s1hjo19g" n="1">
@@ -37785,7 +38066,7 @@
                           vgrp="425">[ <rend xml:id="r1v47i14" fontfam="Opus Text">p</rend>
                         <rend xml:id="rvxzkzo" fontfam="TimesTen Times 10 Roman"> </rend>]</dir>
                   </measure>
-                  <measure facs="#zone_c4d256fb-a55d-4aca-b0ab-4051b9af05d7"
+                  <measure facs="#zone_42c8960b-cff4-41ce-b20d-79b92203c906"
                            xml:id="md2he4"
                            n="115">
                      <staff xml:id="s1dkoubp" n="1">
@@ -38112,7 +38393,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure facs="#zone_ef16c9e0-e3d9-4b0c-be9c-d7e1612b4095"
+                  <measure facs="#zone_65935d4f-a36a-4adf-96a4-4c930cd23f52"
                            xml:id="mak16ia"
                            n="116">
                      <staff xml:id="sd4dz7a" n="1">
@@ -38495,7 +38776,9 @@
                            endid="#noig58y"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_a7422651-21f0-4ae6-9969-fabdfb3abff8"
+                  <sb/>
+                  <pb/>
+                  <measure facs="#zone_c6378c56-51bf-43b4-a098-1cd4b789503b"
                            xml:id="m1dfgia"
                            n="117">
                      <staff xml:id="s1y3zb69" n="1">
@@ -38942,7 +39225,7 @@
                            endid="#n1in747g"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_6612402c-061d-44b8-9800-48b302713e04"
+                  <measure facs="#zone_801d38c1-10ba-426a-854c-34dc61a22ea5"
                            xml:id="myzgmt8"
                            n="118">
                      <staff xml:id="s1e3a6y1" n="1">
@@ -39323,7 +39606,7 @@
                            endid="#n1dyq9ph"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_7ecc7588-73ff-4f17-abae-1c7087eec2aa"
+                  <measure facs="#zone_035b8729-dbb7-4b6b-92ff-892ebb88ac87"
                            xml:id="ma2msw6"
                            n="119">
                      <staff xml:id="s1mpba20" n="1">
@@ -39649,9 +39932,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb/>
-                  <pb/>
-                  <measure facs="#zone_a3214dfb-1e16-497b-a959-cf301e1899f7"
+                  <measure facs="#zone_1f4fc9e1-5c25-4b65-ab17-c295fab0fc1f"
                            xml:id="mcjh7ru"
                            n="120">
                      <staff xml:id="s15ht44x" n="1">
@@ -40031,7 +40312,7 @@
                            endid="#n1rsioi8"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_014acde4-7997-4f9d-ace5-7b40dc536399"
+                  <measure facs="#zone_68e7da3f-c8bf-4216-b489-41bec5f8968b"
                            xml:id="m1qverqc"
                            n="121">
                      <staff xml:id="sgqv5t5" n="1">
@@ -40472,7 +40753,7 @@
                            endid="#n12opdwr"
                            curvedir="below"/>
                   </measure>
-                  <measure facs="#zone_59c03133-9620-4e08-bbd6-49b392ca6f83"
+                  <measure facs="#zone_e788dd43-4399-4645-bbb6-d5862dbbe5ef"
                            xml:id="mywtnsq"
                            n="122">
                      <staff xml:id="s1srmt9m" n="1">
@@ -40854,7 +41135,9 @@
                           tstamp="1"
                           vgrp="425">[cresc.]</dir>
                   </measure>
-                  <measure facs="#zone_32cdcb54-02b4-4611-bafb-26336d0b3165"
+                  <sb/>
+                  <pb/>
+                  <measure facs="#zone_079f30d7-9ad1-4981-8ac5-461e74ac04f2"
                            xml:id="mi6th0m"
                            n="123">
                      <staff xml:id="suvzfac" n="1">
@@ -41259,6 +41542,1211 @@
                           staff="3"
                           tstamp="1.5"
                           vgrp="2010">Solo</dir>
+                  </measure>
+                  <measure facs="#zone_33a82e07-016d-4038-bf69-1a6a2a95e2bf"
+                           xml:id="mafsls"
+                           n="124">
+                     <staff xml:id="sz3jm21" n="1">
+                        <layer xml:id="l1ltze22" n="1">
+                           <mRest xml:id="mxyprj8"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s19pflen" n="2">
+                        <layer xml:id="l1apa4yr" n="1">
+                           <rest xml:id="r1jlsu52" dur.ppq="8" dur="4"/>
+                           <chord xml:id="c5207ym" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nuu9g7j" oct="5" pname="c"/>
+                              <note xml:id="n96hf05" oct="6" pname="c"/>
+                           </chord>
+                           <rest xml:id="r1nl14bt" dur.ppq="8" dur="4"/>
+                           <chord xml:id="cvc2z1j" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1u3hpqf" oct="5" pname="c"/>
+                              <note xml:id="nmrf2g" oct="6" pname="c"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1q5s7ux" n="3">
+                        <layer xml:id="l1bvc9ie" n="1">
+                           <beam xml:id="bqa1he9">
+                              <note xml:id="n19saqbb"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"/>
+                              <note xml:id="n1dit0x0"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="6"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="ng0nl94"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="ntorvb2"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="br0vfpf">
+                              <note xml:id="nw3dkam"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                              <note xml:id="nsoots0"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="n1q1frua"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"/>
+                              <note xml:id="n16zmcg3"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1yyg9gg" n="4">
+                        <layer xml:id="l1kaciqc" n="1">
+                           <note xml:id="n1aotn8s"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="npgibb8"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <note xml:id="n5u02jf"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="n1puw4sj"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1di3k8i" n="5">
+                        <layer xml:id="lpeidmc" n="1">
+                           <chord xml:id="c6qpsm" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1fj8f2q" oct="5" pname="c"/>
+                              <note xml:id="n55oi4b" oct="5" pname="e"/>
+                           </chord>
+                           <chord xml:id="ciuzwtx" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="ny5alwq" oct="5" pname="c"/>
+                              <note xml:id="nr2n32" oct="5" pname="e"/>
+                           </chord>
+                           <chord xml:id="c1pbx0zi" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n138d48p" oct="4" pname="g"/>
+                              <note xml:id="n7f3vnz" oct="5" pname="d"/>
+                           </chord>
+                           <chord xml:id="c1dxqg27" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n17ne8oo" oct="4" pname="g"/>
+                              <note xml:id="n1jh9fl9" oct="5" pname="d"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1go1ak4" n="6">
+                        <layer xml:id="lrydzfq" n="1">
+                           <mRest xml:id="m1eaislk"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s73jzuw" n="7">
+                        <layer xml:id="l1osj4jg" n="1">
+                           <note xml:id="n1869xxq"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vtnx9zh" n="1">
+                                 <syl xml:id="sw8wumr" con="d" wordpos="m">va</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1pgejwh"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vkd04zc" n="1">
+                                 <syl xml:id="svf26zj" con="s" wordpos="t">ri,</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nw17n2l"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v7ctqoa" n="1">
+                                 <syl xml:id="s8d9p0z" con="s" wordpos="s">a</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1npzdba"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vj7n3yx" n="1">
+                                 <syl xml:id="s92s5wk" con="d" wordpos="i">cer</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="nehicdk"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="vx9xw8c" n="1">
+                                 <syl xml:id="s1nb141s" con="d" wordpos="m">car</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1nqs30z"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="vngc0av" n="1">
+                                 <syl xml:id="sw8xs9d" con="s" wordpos="t">me</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n14u693q"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v77jzcb" n="1">
+                                 <syl xml:id="st9m90e" con="s" wordpos="s">vuje</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1ny024q"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="v1tm9tw7" n="1">
+                                 <syl xml:id="s187hhnf" con="d" wordpos="i">da</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s12j5bf3" n="8">
+                        <layer xml:id="lvcwyqf" n="1">
+                           <note xml:id="n1atnify"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="5"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <beam xml:id="bz3u4la">
+                              <note xml:id="n1py512j"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="ny5dswu"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="n17iyf39"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="bpxt1bh">
+                              <note xml:id="n1r1f8h7"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="n1dzpvfv"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="n14gft5a"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"/>
+                              <note xml:id="n1avzs62"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sj3bvb2" n="9">
+                        <layer xml:id="l14bmczh" n="1">
+                           <note xml:id="nkhwqzt"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="up"/>
+                           <beam xml:id="bu02q5s">
+                              <note xml:id="nr77elp"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                              <note xml:id="njpfvt"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"/>
+                              <note xml:id="n1tjv76g"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="c"
+                                    stem.dir="up"/>
+                           </beam>
+                           <beam xml:id="bwrkdy9">
+                              <note xml:id="naumfsj"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="d"
+                                    stem.dir="up"/>
+                              <note xml:id="n1dwr4o"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="e"
+                                    stem.dir="up"/>
+                              <note xml:id="n1mzgs1v"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="f"
+                                    stem.dir="up"/>
+                              <note xml:id="n1bbw8g6"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1seh3qa" n="10">
+                        <layer xml:id="l1jk1hq8" n="1">
+                           <note xml:id="n12zwkkh"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1x8j7u3"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <note xml:id="nz8uifk"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="n1c4ep07"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s2nqqtc" n="11">
+                        <layer xml:id="la1ryhx" n="1">
+                           <mRest xml:id="m1bsrh4s"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1kn9vdc" n="12">
+                        <layer xml:id="lpmtve4" n="1">
+                           <note xml:id="n1aoga9o"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="nlw1524"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                           <note xml:id="n1u20j5b"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="n15amr75"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure facs="#zone_f3e2d0f1-4214-4396-816c-2b37191a6c39"
+                           xml:id="m15gxgb1"
+                           n="125">
+                     <staff xml:id="s1g9hb9b" n="1">
+                        <layer xml:id="l14a1mlr" n="1">
+                           <mRest xml:id="mw6ec90"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sbv2t4p" n="2">
+                        <layer xml:id="l1qolje2" n="1">
+                           <rest xml:id="rbywb3p" dur.ppq="8" dur="4"/>
+                           <chord xml:id="c1y3voye" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nfxj7uu" oct="5" pname="c"/>
+                              <note xml:id="nmzlfhk" oct="6" pname="c"/>
+                           </chord>
+                           <rest xml:id="rorc0ym" dur.ppq="8" dur="4"/>
+                           <chord xml:id="c18d1etv" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nkr235g" oct="5" pname="c"/>
+                              <note xml:id="n10ch2nd" oct="6" pname="c"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1c069cu" n="3">
+                        <layer xml:id="l1j1s0nh" n="1">
+                           <note xml:id="n1b35ozt"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="5"
+                                 pname="g"
+                                 stem.dir="down"/>
+                           <beam xml:id="bn9w321">
+                              <note xml:id="n1j0l2hw"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"/>
+                              <note xml:id="n16awkwy"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="n1nf5xl"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="d"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="bilktzo">
+                              <note xml:id="n1bqah9f"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="e"
+                                    stem.dir="down"/>
+                              <note xml:id="n1pannv8"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="f"
+                                    stem.dir="down"
+                                    accid.ges="s"/>
+                              <note xml:id="n284s3b"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="nf77b31"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sm2geqz" n="4">
+                        <layer xml:id="l1uojvrq" n="1">
+                           <note xml:id="n17atqn0"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="nnxdkdf"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <note xml:id="n1iofrk3"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <note xml:id="n1u42jq3"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1esju32" n="5">
+                        <layer xml:id="l1u21hcs" n="1">
+                           <chord xml:id="c4tq2qc" dur.ppq="8" dur="4" stem.dir="up">
+                              <note xml:id="nsozmgc" oct="4" pname="e"/>
+                              <note xml:id="ng4omao" oct="5" pname="c"/>
+                           </chord>
+                           <chord xml:id="c1un7it5" dur.ppq="8" dur="4" stem.dir="up">
+                              <note xml:id="n1l9vfvv" oct="4" pname="e"/>
+                              <note xml:id="n1vm2vfl" oct="5" pname="c"/>
+                           </chord>
+                           <chord xml:id="cxr06qk" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n10tf6qh" oct="4" pname="g"/>
+                              <note xml:id="nmfox29" oct="5" pname="d"/>
+                           </chord>
+                           <chord xml:id="cv2a89h" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n3pzrgv" oct="4" pname="g"/>
+                              <note xml:id="n1ujx6t1" oct="5" pname="d"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s6ocjoq" n="6">
+                        <layer xml:id="l1n2voib" n="1">
+                           <mRest xml:id="m17uuq5w"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="szategg" n="7">
+                        <layer xml:id="liejrgj" n="1">
+                           <note xml:id="nyft7yn"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vl6rle3" n="1">
+                                 <syl xml:id="s1oa0ibw" con="d" wordpos="m">na</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1rocraw"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vlbeoum" n="1">
+                                 <syl xml:id="s12wdsdk" con="s" wordpos="t">ri,</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n4o9519"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vnlp9e" n="1">
+                                 <syl xml:id="s1lmziov" con="s" wordpos="s">ed</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n18quf3b"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vykmjwu" n="1">
+                                 <syl xml:id="s11bf8kt" con="s" wordpos="s">io</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1k451cr"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="v1dyshjc" n="1">
+                                 <syl xml:id="sj6c37q" con="d" wordpos="i">sem</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1kc108b"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="v1b8fuvs" n="1">
+                                 <syl xml:id="s1bfc7b2" con="s" wordpos="s">pe a</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="navt9yf"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vv45kkl" n="1">
+                                 <syl xml:id="sh6d6zt" con="s" wordpos="s">non</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1hspqh2"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down">
+                              <verse xml:id="vm52biw" n="1">
+                                 <syl xml:id="s1kr148c" con="d" wordpos="i">pa</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1yivj6j" n="8">
+                        <layer xml:id="l1aows4" n="1">
+                           <beam xml:id="br2836f">
+                              <note xml:id="nlvdi1n"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                              <note xml:id="nvdxn5q"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="6"
+                                    pname="c"
+                                    stem.dir="down"/>
+                              <note xml:id="n13l6dp7"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="nxj1tut"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                           </beam>
+                           <beam xml:id="b192vagi">
+                              <note xml:id="n1gz8z0d"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                              <note xml:id="n1f1x5rl"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="b"
+                                    stem.dir="down"
+                                    accid.ges="f"/>
+                              <note xml:id="ni7cw8j"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="a"
+                                    stem.dir="down"/>
+                              <note xml:id="n23vet7"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="g"
+                                    stem.dir="down"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1qz8cts" n="9">
+                        <layer xml:id="l9a7r0n" n="1">
+                           <beam xml:id="b9pewxa">
+                              <note xml:id="n18gp22e"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"/>
+                              <note xml:id="n18oz78t"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="5"
+                                    pname="c"
+                                    stem.dir="up"/>
+                              <note xml:id="nrls84a"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                              <note xml:id="nk19kky"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"/>
+                           </beam>
+                           <beam xml:id="b3c06kg">
+                              <note xml:id="nxm2vd1"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                              <note xml:id="n1h5g20p"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="b"
+                                    stem.dir="up"
+                                    accid.ges="f"/>
+                              <note xml:id="n79r7zy"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="a"
+                                    stem.dir="up"/>
+                              <note xml:id="n1a3f5jn"
+                                    dur.ppq="4"
+                                    dur="8"
+                                    oct="4"
+                                    pname="g"
+                                    stem.dir="up"/>
+                           </beam>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s8ejtc2" n="10">
+                        <layer xml:id="l1h7jgp6" n="1">
+                           <note xml:id="nhid8mr"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1o3kqrk"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                           <note xml:id="n5xcdkm"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="n1f1f3rq"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="4"
+                                 pname="c"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s12o0s3a" n="11">
+                        <layer xml:id="l18ngvzs" n="1">
+                           <mRest xml:id="m16rqr64"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sk9z8kd" n="12">
+                        <layer xml:id="l1qak8vg" n="1">
+                           <note xml:id="n18x0ki"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1fr8qg2"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                           <note xml:id="n9453nf"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="e"
+                                 stem.dir="down"/>
+                           <note xml:id="n13zo8qt"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="c"
+                                 stem.dir="up"/>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure facs="#zone_bcffd37e-e926-4ba9-b1bd-9391e88524dc"
+                           xml:id="mv1m0m8"
+                           n="126">
+                     <staff xml:id="sf1askz" n="1">
+                        <layer xml:id="lg9qfdp" n="1">
+                           <note xml:id="nhunz4w"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="6"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="ntcnd7d"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="6"
+                                 pname="a"
+                                 stem.dir="down"/>
+                           <note xml:id="n1oai32x"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="6"
+                                 pname="g"
+                                 stem.dir="down"/>
+                           <note xml:id="n1lmkw9t"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="6"
+                                 pname="g"
+                                 stem.dir="down"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="srphovz" n="2">
+                        <layer xml:id="l11kadyt" n="1">
+                           <chord xml:id="ce8te67" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nhy8fex" oct="5" pname="a"/>
+                              <note xml:id="n19qxv1" oct="6" pname="c"/>
+                           </chord>
+                           <chord xml:id="cm6r1wa" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n66ib8j" oct="5" pname="a"/>
+                              <note xml:id="n1363hm8" oct="6" pname="c"/>
+                           </chord>
+                           <chord xml:id="cy67rxe" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="no8wuz3" oct="5" pname="g"/>
+                              <note xml:id="n1pvtlp0" oct="5" pname="b" accid.ges="f"/>
+                           </chord>
+                           <chord xml:id="chx10n3" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n17q92h4" oct="5" pname="g"/>
+                              <note xml:id="n1qotyli" oct="5" pname="b" accid.ges="f"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sv3msbz" n="3">
+                        <layer xml:id="lnbo0vs" n="1">
+                           <chord xml:id="c8p2yx4" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n9b86yv" oct="5" pname="d"/>
+                              <note xml:id="no2thje" oct="5" pname="b"/>
+                           </chord>
+                           <chord xml:id="c1tzj7kz" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nxwdxbb" oct="5" pname="d"/>
+                              <note xml:id="nwpblpw" oct="5" pname="b"/>
+                           </chord>
+                           <chord xml:id="cca1p9d" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n82xg0m" oct="5" pname="c"/>
+                              <note xml:id="nvczjop" oct="5" pname="a"/>
+                           </chord>
+                           <chord xml:id="cakpft1" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n5n1rnn" oct="5" pname="c"/>
+                              <note xml:id="n3czsdn" oct="5" pname="a"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1i73a8z" n="4">
+                        <layer xml:id="l1pizegu" n="1">
+                           <note xml:id="n1d1xb71"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1cdwlgb"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1b51m9m"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <note xml:id="ndu6pdb"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s186phod" n="5">
+                        <layer xml:id="lwntzj0" n="1">
+                           <chord xml:id="c1g6wja9" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nksbmzq" oct="5" pname="c"/>
+                              <note xml:id="nhnackw" oct="5" pname="e"/>
+                           </chord>
+                           <chord xml:id="c1xmb9u7" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n143v30i" oct="5" pname="c"/>
+                              <note xml:id="n1ppju7" oct="5" pname="e"/>
+                           </chord>
+                           <chord xml:id="c1opql9r" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1mi0w6l" oct="5" pname="d"/>
+                              <note xml:id="npb0foq" oct="5" pname="f"/>
+                           </chord>
+                           <chord xml:id="c1sxhac" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="ni5x5uz" oct="5" pname="d"/>
+                              <note xml:id="n1duejbr" oct="5" pname="f"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1w16tjy" n="6">
+                        <layer xml:id="l1n6hd7u" n="1">
+                           <mRest xml:id="m4yob5r"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1k1sgru" n="7">
+                        <layer xml:id="l1sp2cl" n="1">
+                           <note xml:id="n12898jr"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vsv6znq" n="1">
+                                 <syl xml:id="s1u6lrx" con="s" wordpos="t">gà,</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n13vnv8z"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="v1vctt0g" n="1">
+                                 <syl xml:id="sslm7e5" con="s" wordpos="s">a</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1bwkmrd"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="a"
+                                 stem.dir="down">
+                              <verse xml:id="vthc8vc" n="1">
+                                 <syl xml:id="s1rhnm3" con="d" wordpos="i">cer</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1bob3g3"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="v2sfaqw" n="1">
+                                 <syl xml:id="s1mgjkz0" con="d" wordpos="m">car</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1fn9r6q"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="vak9wbe" n="1">
+                                 <syl xml:id="ske3mm9" con="s" wordpos="t">me</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n8wluuo"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="vbcds53" n="1">
+                                 <syl xml:id="s8o7xk3" con="s" wordpos="s">vuje</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="n1gd71na"
+                                 dur.ppq="4"
+                                 dur="8"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f">
+                              <verse xml:id="v1kar71q" n="1">
+                                 <syl xml:id="sjnsfmc" con="d" wordpos="i">da</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s1s62qpi" n="8">
+                        <layer xml:id="l1wb0mho" n="1">
+                           <chord xml:id="c166c4rt" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1sp856o" oct="4" pname="f"/>
+                              <note xml:id="n1nd4ppv" oct="4" pname="a"/>
+                              <note xml:id="n468nvd" oct="5" pname="f"/>
+                           </chord>
+                           <chord xml:id="c15qqh6v" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nabqiee" oct="4" pname="f"/>
+                              <note xml:id="ntfzi8j" oct="4" pname="a"/>
+                              <note xml:id="n1b4m70g" oct="5" pname="f"/>
+                           </chord>
+                           <chord xml:id="cxbsk3t" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n84u0qr" oct="4" pname="d"/>
+                              <note xml:id="ngt1suk" oct="4" pname="b" accid.ges="f"/>
+                              <note xml:id="nauf8ve" oct="5" pname="g"/>
+                           </chord>
+                           <chord xml:id="cf0112c" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1mh4oeb" oct="4" pname="d"/>
+                              <note xml:id="n1s0k478" oct="4" pname="b" accid.ges="f"/>
+                              <note xml:id="n1m1wpuz" oct="5" pname="g"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sthtw3c" n="9">
+                        <layer xml:id="lgtp5lc" n="1">
+                           <chord xml:id="c1cx3amy" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="njfp0kg" oct="4" pname="f"/>
+                              <note xml:id="nwfyzhq" oct="4" pname="a"/>
+                              <note xml:id="n1l5ahx6" oct="5" pname="f"/>
+                           </chord>
+                           <chord xml:id="czsuki9" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="nmcfekm" oct="4" pname="f"/>
+                              <note xml:id="n1ahmkl8" oct="4" pname="a"/>
+                              <note xml:id="nmn1ucq" oct="5" pname="f"/>
+                           </chord>
+                           <chord xml:id="cjxkib9" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="ng4cabw" oct="4" pname="d"/>
+                              <note xml:id="nnad1ne" oct="4" pname="b" accid.ges="f"/>
+                              <note xml:id="n1rnbmkz" oct="5" pname="g"/>
+                           </chord>
+                           <chord xml:id="cm6r011" dur.ppq="8" dur="4" stem.dir="down">
+                              <note xml:id="n1b7ae2y" oct="4" pname="d"/>
+                              <note xml:id="ngeivzr" oct="4" pname="b" accid.ges="f"/>
+                              <note xml:id="n1q4ewyi" oct="5" pname="g"/>
+                           </chord>
+                        </layer>
+                     </staff>
+                     <staff xml:id="svv49f9" n="10">
+                        <layer xml:id="lxsuitf" n="1">
+                           <note xml:id="n17gowky"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="up"/>
+                           <note xml:id="nrattzb"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="up"/>
+                           <note xml:id="n1122g7u"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                           <note xml:id="n1i7ii9a"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="up"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="sgvckq7" n="11">
+                        <layer xml:id="l17qfk3t" n="1">
+                           <note xml:id="n2i7oig"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="nsinmjb"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="n1p4y4oc"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <note xml:id="nlvbafz"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <staff xml:id="s402cox" n="12">
+                        <layer xml:id="l1lubtq" n="1">
+                           <bTrem xml:id="bkfx680" form="meas">
+                              <note xml:id="ng0wnob"
+                                    dur.ppq="8"
+                                    dur="4"
+                                    oct="3"
+                                    pname="f"
+                                    stem.dir="down"
+                                    stem.mod="2slash"/>
+                           </bTrem>
+                           <note xml:id="n12ffkd7"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="f"
+                                 stem.dir="down"/>
+                           <note xml:id="nws09cs"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                           <note xml:id="nsa3t4d"
+                                 dur.ppq="8"
+                                 dur="4"
+                                 oct="3"
+                                 pname="b"
+                                 stem.dir="down"
+                                 accid.ges="f"/>
+                        </layer>
+                     </staff>
+                     <dir xml:id="dun4il6"
+                          place="below"
+                          staff="1"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="rdpgl04" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d10ov5ps"
+                          place="below"
+                          staff="2"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="rcr4lte" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="djqq4r1"
+                          place="below"
+                          staff="3"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="r14r558" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d1032hl4"
+                          place="below"
+                          staff="4"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="rky4hx" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d1ia4yec"
+                          place="below"
+                          staff="5"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="r1jl1ox9" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="dbkfkfu"
+                          place="below"
+                          staff="8"
+                          tstamp="1"
+                          vgrp="545">
+                        <rend xml:id="rqe98fj" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d16qh4p4"
+                          place="below"
+                          staff="9"
+                          tstamp="1"
+                          vgrp="545">
+                        <rend xml:id="r1qfg8ho" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d1l0tuah"
+                          place="below"
+                          staff="10"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="rhhskdd" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d1b0aovy"
+                          place="below"
+                          staff="11"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="r56meso" fontfam="Opus Text">ff</rend>
+                     </dir>
+                     <dir xml:id="d1yx7d1c"
+                          place="below"
+                          staff="12"
+                          tstamp="1"
+                          vgrp="425">
+                        <rend xml:id="roqscg1" fontfam="Opus Text">ff</rend>
+                     </dir>
                   </measure>
                   <sb/>
                   <pb/>
