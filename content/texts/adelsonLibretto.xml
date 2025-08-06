@@ -254,7 +254,7 @@ from @who attribute
                      ciascun de’ due lati è un tempietto: su quello a sinistra vi si legge ⸺
                      ALL’AMORE, su quello a dritta ⸺ AL DISPIACERE. Un banco di verdura è presso al
                      primo: due cipressi nascondono in parte l’ingresso del secondo</p></stage>
-               <stage type="mixed business entrance"><p rend="center">
+               <stage type="business entrance"><p rend="center">
                      <name>Fanny</name> è profondamente occupata a disegnare seduta sul poggiuolo di
                      verdura. Slancia di quando in quando il suo furtivo sguardo d’intorno, per
                      assicurarsi di non essere sorpresa, indi <name>Madama Rivers</name>, e
@@ -447,7 +447,7 @@ from @who attribute
 
             <div xml:id="act1sc2" n="2" type="scene">
                <head rend="center">SCENA II</head>
-               <stage type="mixed entrance">Si avvanza <name>Struley</name> in abito da cacciatore
+               <stage type="entrance">Si avvanza <name>Struley</name> in abito da cacciatore
                   con fucile alle mani <app>
                      <rdg source="#1816">, e <name>detto</name></rdg>
                      <rdg source="#1825"/>
@@ -565,7 +565,7 @@ from @who attribute
             <pb xml:id="p0009" n="9" facs="#surface_0f1f8b0e-2787-46d5-8a2f-9126608f5d2c"/>
             <div xml:id="act1sc3" type="scene" n="3">
                <head rend="center">SCENA III</head>
-               <stage type="mixed setting business">
+               <stage type="setting business">
                   <p rend="center"><name>Bonifacio</name> dal lato opposto a quello dond’è partito
                         <name>Geronio</name>. È incontrato da un portalettere, che per fortuna gli
                      domanda del suo nome medesimo: egli risponde</p>
@@ -587,7 +587,7 @@ from @who attribute
                         <l n="62">te lo pozzo arremmedià.</l>
                      </lg>
                      
-                     <stage type="mixed business exit" rend="right">
+                     <stage type="business exit" rend="right">
                         (<hi rend="italic">il portalettere segna in un piccolo libro il suo nome, e via</hi>)
                      </stage>
 
@@ -710,7 +710,7 @@ from @who attribute
 
             <div xml:id="act1sc4" n="4" type="scene">
                <head rend="center">SCENA IV</head>
-               <stage type="mixed setting delivery">
+               <stage type="setting delivery">
                   <p rend="center">
                      <name>Bonifacio</name> resta in osservazione. <name>Salvini</name> si avvanza
                      concentrato, dà alcuni passi ineguali, indi in un risalto di spavento esclama
@@ -750,7 +750,7 @@ from @who attribute
                      <singer>Sal.</singer>
                      <lg>
                         <l n="15">Su questo seggio... ah qui</l>
-                        <stage type="mixed business modifier" rend="right">(<hi rend="i">va astratto
+                        <stage type="business modifier" rend="right">(<hi rend="i">va astratto
                               a sedere sul banco di verdura</hi>)</stage>
                         <l n="16">la vidi, e n’arsi un dì!</l>
                         <l n="17">Il fortunato amico essa stringea nel seno...</l>
@@ -1420,7 +1420,7 @@ from @who attribute
                      <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, ed ha un
                         foglio tra le mani... Salvini! quel foglio... ah forse....</p>
                   </sp>
-                  <stage type="mixed business modifier" rend="right">(<hi rend="italic"
+                  <stage type="business modifier" rend="right">(<hi rend="italic"
                         >incontrandolo premurosa</hi>)</stage>
                </div>
             </div>
@@ -1613,7 +1613,7 @@ from @who attribute
                      <lg>
                         <l>Ah! comprendo il mio periglio!</l>
                      </lg>
-                     <stage type="mixed modifier business" rend="right">(<hi rend="i">spaventata
+                     <stage type="modifier business" rend="right">(<hi rend="i">spaventata
                            fugge dalle braccia di Salvini</hi>)</stage>
                   </sg>
 
@@ -1874,7 +1874,7 @@ from @who attribute
                      <note><stage type="exit" rend="right">(<hi rend="i">via</hi>)</stage></note>
                   </sg>
                   <pb xml:id="p0024" n="24" facs="#surface_c8bd7bce-4836-434c-b80e-ffb9d33c2e62"/>
-                  <stage type="mixed exit modifier entrance" rend="right">(<name>Salvini</name> via
+                  <stage type="exit modifier entrance" rend="right">(<name>Salvini</name> via
                      disperato. Dal folto del boschetto <name>Madama Rivers</name>,
                         <name>Fanny</name>, <name>Geronio</name>, e <name>Coro</name> di Pastori, e
                         <name>Bonifacio</name> è in iscena.)</stage>
