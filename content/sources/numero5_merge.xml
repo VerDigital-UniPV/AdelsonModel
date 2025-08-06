@@ -29,7 +29,7 @@
                   lrx="6901"
                   lry="5243">
             <graphic xml:id="graphic_91e1b44a-4bd9-4b4c-827d-38265daf2264"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0093"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0093.tif"
                      type="facsimile"
                      width="6901"
                      height="5243"/>
@@ -65,7 +65,7 @@
                   lrx="7639"
                   lry="5414">
             <graphic xml:id="graphic_5fa67f2d-56b0-41e2-91b8-7add88479d67"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0094"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0094.tif"
                      type="facsimile"
                      width="7639"
                      height="5414"/>
@@ -107,7 +107,7 @@
                   lrx="6901"
                   lry="5243">
             <graphic xml:id="graphic_8b8dcbf8-0018-4eff-b56a-40a85a338226"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0095"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0095.tif"
                      type="facsimile"
                      width="6901"
                      height="5243"/>
@@ -149,7 +149,7 @@
                   lrx="7672"
                   lry="5360">
             <graphic xml:id="graphic_d267b046-698b-4604-aea8-44f2e2b0eb3c"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0096"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0096.tif"
                      type="facsimile"
                      width="7672"
                      height="5360"/>
@@ -191,7 +191,7 @@
                   lrx="6901"
                   lry="5264">
             <graphic xml:id="graphic_d20414d4-af96-4869-8de2-98003a6fc432"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0097"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0097.tif"
                      type="facsimile"
                      width="6901"
                      height="5264"/>
@@ -233,7 +233,7 @@
                   lrx="7746"
                   lry="5360">
             <graphic xml:id="graphic_44659c5f-9289-4009-9727-4cdbd2ea2cfc"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0098"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0098.tif"
                      type="facsimile"
                      width="7746"
                      height="5360"/>
@@ -281,7 +281,7 @@
                   lrx="6848"
                   lry="5264">
             <graphic xml:id="graphic_bc7195f3-201b-429a-9aae-041748ace4ff"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0099"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0099.tif"
                      type="facsimile"
                      width="6848"
                      height="5264"/>
@@ -341,7 +341,7 @@
                   lrx="7746"
                   lry="5360">
             <graphic xml:id="graphic_c5c4b6b4-3358-4e3c-84c6-f03475ab7e2f"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0100"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0100.tif"
                      type="facsimile"
                      width="7746"
                      height="5360"/>
@@ -389,7 +389,7 @@
                   lrx="6837"
                   lry="5264">
             <graphic xml:id="graphic_4412d185-d669-476e-b169-9caa09a5a2ba"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0101"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0101.tif"
                      type="facsimile"
                      width="6837"
                      height="5264"/>
@@ -431,7 +431,7 @@
                   lrx="7746"
                   lry="5360">
             <graphic xml:id="graphic_2106dca8-db7b-43b9-b1bb-fe50f1982be2"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0102"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0102.tif"
                      type="facsimile"
                      width="7746"
                      height="5360"/>
@@ -503,7 +503,7 @@
                   lrx="6837"
                   lry="5264">
             <graphic xml:id="graphic_f0ef4c01-4e53-4f68-8245-6e53219e0836"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0103"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0103.tif"
                      type="facsimile"
                      width="6837"
                      height="5264"/>
@@ -569,7 +569,7 @@
                   lrx="7821"
                   lry="5360">
             <graphic xml:id="graphic_aa37729b-29d2-46a5-9c67-e0a384c081fe"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0104"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0104.tif"
                      type="facsimile"
                      width="7821"
                      height="5360"/>
@@ -629,7 +629,7 @@
                   lrx="6794"
                   lry="5264">
             <graphic xml:id="graphic_11c5cf81-345b-4cbf-ac13-4533dd6680b6"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0105"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0105.tif"
                      type="facsimile"
                      width="6794"
                      height="5264"/>
@@ -701,7 +701,7 @@
                   lrx="7821"
                   lry="5360">
             <graphic xml:id="graphic_dba553cc-c0c2-4569-8983-5a4783fb6147"
-                     target="http://localhost:8182/iiif/2/MM-1.159-1_0106"
+                     target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-manuscript%2fMM-1.159-1_0106.tif"
                      type="facsimile"
                      width="7821"
                      height="5360"/>
