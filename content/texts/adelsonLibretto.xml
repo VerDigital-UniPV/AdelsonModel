@@ -598,19 +598,18 @@ from @who attribute
                      </lg>
                      <lg>
                         <!-- quoted material. Remove quotation marks « » ? -->
-                        <l n="66"><quote xml:lang="it" xml:id="a2-s3-1-q1">&#171;Mastro Tammaro
-                              Ossoduro...&#187;</quote></l>
+                        <l n="66"><quote xml:lang="it" xml:id="a1-s3-1-q1">&#171;
+                           Mastro Tammaro Ossoduro...&#187;</quote></l>
                         <stage type="business" rend="right">(<hi rend="italic">legge</hi>)</stage>
                         <l n="67">Oh! cainatemo! e che bò?</l>
-                        <l n="68"><quote xml:lang="it" xml:id="a1-s3-1-q2">&#171;Fuggi, e mettiti in
-                              sicuro...&#187;</quote></l>
+                        <l n="68"><quote xml:lang="it" xml:id="a1-s3-1-q2">&#171;
+                           Fuggi, e mettiti in sicuro...&#187;</quote></l>
                         <l n="69">Fujo? pecché? vedimmo mo...</l>
                      </lg>
                      <lg>
-                        <l n="70"><quote xml:lang="it" xml:id="a1-s3-1-q3">&#171;Donna Popa vuol
-                              l’importo</quote></l>
-                        <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela
-                              accredenzata...&#187;</quote></l>
+                        <l n="70"><quote xml:lang="it" xml:id="a1-s3-1-q3">&#171;
+                           Donna Popa vuol l’importo</quote></l>
+                        <l n="71"><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela accredenzata...&#187;</quote></l>
                         <l n="72">
                            <choice>
                               <sic resp="#1816">Cca</sic>
@@ -626,7 +625,7 @@ from @who attribute
                               pigione...&#187;</quote></l>
                         <l n="76">Le lassaje la casa a spasso,</l>
                         <l n="77">e che bò st’animalone?</l>
-                        <l n="78"><quote xml:lang="it" corresp="#a1-s3-1-q5">&#171;Fa rumore il
+                        <l n="78"><quote xml:lang="it" xml:id="a1-s3-1-q5">&#171;Fa rumore il
                               macellaio,</quote></l>
                         <l n="79"><quote xml:lang="it" corresp="#a1-s3-1-q5">grida, e insiste il
                               calzolaio,</quote></l>
@@ -667,7 +666,7 @@ from @who attribute
                      </lg>
                   </sg>
                </div>
-               <div type="parlato">
+               <div type="parlato" xml:id="a1-s3-2">
                   <sp who="#bon" xml:lang="nap">
                      <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la
                         digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe
