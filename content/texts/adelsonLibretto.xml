@@ -180,17 +180,26 @@ from @who attribute
    -->
 
    <!-- scene 6: Check "ah! l'oppresse il dolor!" recitativo? -->
-
-   <!-- trying to add facsimiles -->
-
-   <!--    <facsimile>
-      <surface xml:id="lib1" n="1">
-         <graphic url="http://localhost:8182/iiif/2/Tottola%2FLo01717_004.jpg"></graphic>
-      </surface>
-      <surface xml:id="lib2" n="2">
-         <graphic url="http://localhost:8182/iiif/2/Tottola%2FLo01717_005.jpg"></graphic>
-      </surface>
-   </facsimile> -->
+   
+<!-- 
+   Instead of just regular 
+   
+   <div> 
+   
+   with @type= 'act' or 'scene' or 'lyric', 'recitativo', 'parlato', 
+   better and clearer to use:
+   
+   <div1> <div2> <div3> 
+   
+   (keeping the @type attribute)
+   
+   - Currently using <div> to avoid formatting problems in edirom with <div3>
+   
+   NB: TEI allows only numbered div scheme (i.e., <div1>/<div2>/<div3>)
+   or <div> + @type model. 
+   Cannot combine <div> with <div1>/<div2>/<div3> in same document
+   -->
+   <!-- <sg> = "song" (or "sung text"); analagous with TEI <sp> = "speech" -->
 
    <text>
       <pb xml:id="p0001" n="1" facs="#surface_2e1ad0cf-ae60-45b6-b7d2-84f8842ed87c"/>
@@ -206,44 +215,45 @@ from @who attribute
          <castList>
             <castItem>
                <role xml:id="nel">Nelly</role>
-               <mei:perfRes>soprano</mei:perfRes>
+               <mei:perfRes>- soprano</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="fan">Fanny</role>
-               <mei:perfRes>contralto</mei:perfRes>
+               <mei:perfRes>- contralto</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="mad">Madama Rivers</role>
-               <mei:perfRes>contralto</mei:perfRes>
+               <mei:perfRes>- contralto</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="sal">Salvini</role>
-               <roleDesc>Friend of Adelson</roleDesc>
-               <mei:perfRes>tenore</mei:perfRes>
+               <roleDesc>- Friend of Adelson</roleDesc>
+               <mei:perfRes>- tenore</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="ade">Lord Adelson</role>
-               <mei:perfRes>baritono</mei:perfRes>
+               <mei:perfRes>- baritono</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="stru">Struley</role>
-               <mei:perfRes>basso</mei:perfRes>
+               <mei:perfRes>- basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="bon">Bonifacio</role>
-               <roleDesc>Servant of Salvini</roleDesc>
-               <mei:perfRes>basso</mei:perfRes>
+               <roleDesc>- Servant of Salvini</roleDesc>
+               <mei:perfRes>- basso</mei:perfRes>
             </castItem>
             <castItem>
                <role xml:id="ger">Geronio</role>
-               <mei:perfRes>basso</mei:perfRes>
+               <mei:perfRes>- basso</mei:perfRes>
             </castItem>
             <castItem type="list">
                <role xml:id="coro">Coro</role>
-               <roleDesc>&#160;di&#160; contandini, pastori, e domestici</roleDesc>
+               <roleDesc>di contandini, pastori, e domestici</roleDesc>
             </castItem>
          </castList>
          <set>
+         <p/>
             <p>L'azione è in Irlanda, e precisamente in un castello di Adelson.</p>
          </set>
       </front>
@@ -270,7 +280,7 @@ from @who attribute
                      verdura. Slancia di quando in quando il suo furtivo sguardo d’intorno, per
                      assicurarsi di non essere sorpresa, indi <name>Madama Rivers</name>, e
                         <name>Geronio</name> seguiti da’ contadini</p></stage>
-               <div type="lyric" n="1" xml:id="a1-s1-1">
+               <div type="lyric" n="1" xml:id="a1-s1-d1">
                   <sg who="#fan">
                      <singer>Fan.</singer>
                      <lg type="stanza" n="1" xml:id="a1-s1-d1-lg01">
@@ -353,7 +363,7 @@ from @who attribute
                         <l xml:id="a1-s1-d1-lg04-li02">
                            <lb ed="#1816" n="15"/>
                            <lb ed="#1825" n="15"/>
-                           Adelson tornerà.</l>
+                              Adelson tornerà.</l>
                      </lg>
                   </sg>
                   <sg who="#ger">
@@ -391,7 +401,7 @@ from @who attribute
                      </lg>
                   </sg>
                   <sg who="#fan">
-                     <singer>FAN.</singer>	     
+                     <singer>Fan.</singer>	     
                      <lg type="stanza" n="7" xml:id="a1-s1-d1-lg07">
                         <l xml:id="a1-s1-d1-lg07-li01">
                            <lb ed="#1816" n="22"/>
@@ -458,8 +468,8 @@ from @who attribute
                      <singer>Mad.</singer>
                      <lg type="stanza" n="10" xml:id="a1-s1-d1-lg11" part="F">
                         <l xml:id="a1-s1-d1-lg11-li01">
-                           <lb ed="#1816" n="32"/>
-                           <lb ed="#1825" n="32"/>
+                           <lb ed="#1816" n="33"/>
+                           <lb ed="#1825" n="33"/>
                               Tanta felicità!</l>
                      </lg>
                   </sg>
@@ -467,12 +477,12 @@ from @who attribute
                      <singer>Fan.</singer>
                      <lg type="stanza" n="11" xml:id="a1-s1-d1-lg12">
                         <l xml:id="a1-s1-d1-lg12-li01">
-                           <lb ed="#1816" n="33"/>
-                           <lb ed="#1825" n="33"/>
-                              (Solo il mio cor, che geme,</l>
-                        <l xml:id="a1-s1-d1-lg12-li02">
                            <lb ed="#1816" n="34"/>
                            <lb ed="#1825" n="34"/>
+                              (Solo il mio cor, che geme,</l>
+                        <l xml:id="a1-s1-d1-lg12-li02">
+                           <lb ed="#1816" n="35"/>
+                           <lb ed="#1825" n="35"/>
                               pace sperar non sa.)</l>
                      </lg>
                   </sg>
@@ -580,52 +590,95 @@ from @who attribute
                <head rend="center">SCENA II</head>
                <stage type="entrance">Si avvanza <name>Struley</name> in abito da cacciatore
                   con fucile alle mani <app>
+  <!-- remove space that gets added after "mani" -->
                      <rdg source="#1816">, e <name>detto</name></rdg>
                      <rdg source="#1825"/>
                   </app>
                </stage>
+
                <app>
-                  <rdg source="#1816">
-                  <sp who="#stru">
-                     <speaker>Stru.</speaker>
-                     <p/>
-                  </sp>
-                  </rdg>              
-                  <rdg source="#1825">
-                     <div type="lyric" n="1" xml:id="a1-s2-1">
+                     <rdg source="#1816"/>
+                     <rdg source="#1825">
+                        <div type="recitativo" n="3" xml:id="a1-s2-d1">
                         <sg who="#stru">
                            <singer>Stru.</singer>
-                           <lg type="stanza">
-                              <l>&lt;Geronio ancor non viene!</l>
-                              <l>Ogni indugio m’è peso,</l>
-                              <l>m’è sagro ogni momento... Ah! sì... vedremo!</l>
-                              <l>Furibondo mio cor per poco aspetta:</l>
-                              <l>sarai contento appieno! Avrai vendetta!</l>
+
+                           <lg type="stanza" n="1" xml:id="a1-s2-d1-lg1">
+                              <l xml:id="a1-s2-d1-lg1-li01">
+                                 <!-- &lt; (angle bracket indicating Bellini addition) -->
+                                 <lb ed="#1825" n="36"/>
+                                    Geronio ancor non viene!</l>
+                              <l xml:id="a1-s2-d1-lg1-li02">
+                                 <lb ed="#1825" n="37"/>
+                                    Ogni indugio m’è peso,</l>
+                              <l xml:id="a1-s2-d1-lg1-li03">
+                                 <lb ed="#1825" n="38"/>
+                                    m’è sagro ogni momento... Ah! sì... vedremo!</l>
+                              <l xml:id="a1-s2-d1-lg1-li04">
+                                 <lb ed="#1825" n="39"/>
+                                    Furibondo mio cor per poco aspetta:</l>
+                              <l xml:id="a1-s2-d1-lg1-li05">
+                                 <lb ed="#1825" n="40"/>
+                                    sarai contento appieno! Avrai vendetta!</l>
                            </lg>
-                           <lg type="stanza">
-                              <l>Tu provi un palpito</l>
-                              <l>per la dimora;</l>
-                              <l>io sento un aspide</l>
-                              <l>che mi divora,</l>
-                              <l>ma le tue smanie</l>
-                              <l>finir vedrò.</l>
-                           </lg>
-                           <lg type="stanza">
-                              <l>Se tu insensibile</l>
-                              <l>ti mostri al pianto,</l>
-                              <l>se sovra i gemiti</l>
-                              <l>riporto il vanto</l>
-                              <l>l’idea che m’agita</l>
-                              <l>compir saprò.&gt;</l>
-                           </lg>
-                           
                         </sg>
+                       </div>
+                        <div type="lyric" n="4" xml:id="a1-s2-d2">
+                           <sg who="#stru">
+                           <lg type="stanza" n="1" xml:id="a1-s2-d2-lg1">
+                              <l xml:id="a1-s2-d2-lg1-li01">
+                                 <lb ed="#1825" n="41"/>
+                                    Tu provi un palpito</l>
+                              <l xml:id="a1-s2-d2-lg1-li02">
+                                 <lb ed="#1825" n="42"/>
+                                    per la dimora;</l>
+                              <l xml:id="a1-s2-d2-lg1-li03">
+                                 <lb ed="#1825" n="43"/>
+                                    io sento un aspide</l>
+                              <l xml:id="a1-s2-d2-lg1-li04">
+                                 <lb ed="#1825" n="44"/>
+                                    che mi divora,</l>
+                              <l xml:id="a1-s2-d2-lg1-li05">
+                                 <lb ed="#1825" n="45"/>
+                                    ma le tue smanie</l>
+                              <l xml:id="a1-s2-d2-lg1-li06">
+                                 <lb ed="#1825" n="46"/>
+                                    finir vedrò.</l>
+                           </lg>
+                              <lg type="stanza" n="2" xml:id="a1-s2-d2-lg2">
+                                 <l xml:id="a1-s2-d2-lg2-li01">
+                                    <lb ed="#1825" n="47"/>
+                                    Se tu insensibile
+                                 </l>
+                                 <l xml:id="a1-s2-d2-lg2-li02">
+                                    <lb ed="#1825" n="48"/>
+                                    ti mostri al pianto,
+                                 </l>
+                                 <l xml:id="a1-s2-d2-lg2-li03">
+                                    <lb ed="#1825" n="49"/>
+                                    se sovra i gemiti
+                                 </l>
+                                 <l xml:id="a1-s2-d2-lg2-li04">
+                                    <lb ed="#1825" n="50"/>
+                                    riporto il vanto
+                                 </l>
+                                 <l xml:id="a1-s2-d2-lg2-li05">
+                                    <lb ed="#1825" n="51"/>
+                                    l’idea che m’agita
+                                 </l>
+                                 <l xml:id="a1-s2-d2-lg2-li06">
+                                    <lb ed="#1825" n="52"/>
+                                    compir saprò.<!-- &gt; -->
+                                 </l>
+                              </lg>                             
+                           </sg>
+                        </div>
                         <stage type="entrance" rend="right"> [<hi rend="italic">esce GERONIO</hi>]
                         </stage>
-                     </div>
                   </rdg>
                </app>
-               <div type="parlato" n="2" xml:id="a1-s2-2">
+               
+               <div type="parlato" n="4" xml:id="a1-s2-d3">
                   <sp who="#stru">
                      <p>Io era già lì appiattato fin dall’aurora o Geronio.</p>
                   </sp>
@@ -707,7 +760,7 @@ from @who attribute
                      domanda del suo nome medesimo: egli risponde</p>
                </stage>
 
-               <div type="lyric" n="1" xml:id="a1-s3-1">
+               <div type="lyric" n="6" xml:id="a1-s3-d1">
                   <sg who="#Bon" xml:lang="nap">
                      <singer>Bon.</singer>
                      <lg>
@@ -802,7 +855,7 @@ from @who attribute
                      </lg>
                   </sg>
                </div>
-               <div type="parlato" n="2" xml:id="a1-s3-2">
+               <div type="parlato" n="7" xml:id="a1-s3-d2">
                   <sp who="#bon" xml:lang="nap">
                      <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la
                         digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe
@@ -851,7 +904,7 @@ from @who attribute
                      concentrato, dà alcuni passi ineguali, indi in un risalto di spavento esclama
                   </p>
                </stage>
-               <div type="lyric" xml:id="a1-s4-1">
+               <div type="lyric" n="8" xml:id="a1-s4-d1">
                   <sg who="#sal">
                      <singer>Sal.</singer>
                      <lg>
@@ -1023,7 +1076,7 @@ from @who attribute
                      </lg>
                   </sg>
                </div>
-               <div type="parlato" n="6">
+               <div type="parlato" n="9" xml:id="a1-s4-d2">
                   <sp who="#bon" xml:lang="nap">
                      <p>Dico io, ccà te ce avessero mannato stammatina cierte galantuommene amice
                         mieje pè <pb xml:id="p0013" n="13"
@@ -1131,7 +1184,7 @@ from @who attribute
             <div xml:id="act1sc5" type="scene" n="5">
                <head rend="center">SCENA V</head>
                <note xml:id="note3-act1sc5"/>
-               <stage type="">
+               <stage type="entrance modifier">
                   <p>
                      <name>Nelly</name> in abito semplice accompagnata da <name>Madama
                      Rivers</name>, e <name>Fanny</name>, e <name>detto</name>
@@ -1140,7 +1193,7 @@ from @who attribute
                <!--formatting doesn't work in readings-->
                <app>
                   <rdg source="#1816">
-                     <div type="recitativo" xml:id="a1-s5-d1">
+                     <div type="recitativo" n="10" xml:id="a1-s5-d1">
                      <sg who="#mad">
                         <singer>Mad.</singer>
                         <lg type="stanza" n="1" xml:id="a1-s5-d1-lg01" part="I">
@@ -1314,7 +1367,7 @@ from @who attribute
                         </lg>
                      </sg>
                      </div>
-                     <div type="lyric" xml:id="a1-s5-d2">
+                     <div type="lyric" n="11" xml:id="a1-s5-d2">
                      <sg who="#nel">
                         <singer>Nel.</singer>
                         <lg>
@@ -1358,8 +1411,7 @@ from @who attribute
                   <rdg source="#1825"/>
                </app>
                
-               <div type="parlato" n="7">
-                  
+               <div type="parlato" n="12" xml:id="a1-s5-d3" next="#a1-s5-d5" corresp="#a1-s5-d5">
                   <sp who="#fan">
                      <speaker>Fan.</speaker>
                      <p>Come siete ingegnosa a fabbricarvi delle pene efimere, e senza sostegno!</p>
@@ -1465,7 +1517,7 @@ from @who attribute
              <note xml:id="note4-act1sc5"/>
                   <app>
                      <rdg source="#1816">
-                        <div type="lyric" n="">
+                        <div type="lyric" n="13" xml:id="a1-s5-d4">
                         <sg who="#mad">
                            <lg type="stanza">
                               <l>Qual cura ti opprime?</l>
@@ -1494,11 +1546,14 @@ from @who attribute
                      </rdg>
                      <rdg source="#1825"/>
                   </app>
-
+               <div corresp="#a1-s5-d3" prev="a1-s5-d3" n="14" xml:id="a1-s5-d5">
                   <stage type="exit" rend="right">(<hi rend="i">via con Fanny</hi>)</stage>
-
+               </div>
                   <pb xml:id="p0018" n="18" facs="#surface_59abf212-5990-4963-ac49-66329037613f"/>
-            <div>
+              <!-- Here, Bellini's cut of the aria means that below is a continuation
+              of the same "parlato" <div>, rather than a new "parlato" div. --> 
+               
+               <div type="parlato" n="15" xml:id="a1-s5-d6">
                   <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
                      <p>Signò, no la state a sentì troppo a Maddamma, ca tene la superbia dinto a la
@@ -1553,7 +1608,7 @@ from @who attribute
                         bene!</p>
                   </sp>
                </div>
-               <div type="lyric" n="8" xml:id="a1-s5-1">
+               <div type="lyric" n="16" xml:id="a1-s5-d7">
                   <sg who="#nel">
                      <lg type="stanza">
                         <l>Dopo l’oscuro nembo</l>
@@ -1590,13 +1645,12 @@ from @who attribute
                   </sg>
                </div>
                <pb xml:id="p0019" n="19" facs="#surface_dc37a2b6-2ae0-4128-ba90-7d4582a95ed2"/>
-               <div type="parlato">
+               <div type="parlato" n="17" xml:id="a1-s5-d8">
                   <sp who="#nel">
                      <p>Ma non è quegli Salvini, l’amico di Milord? si avvanza frettoloso, ed ha un
                         foglio tra le mani... Salvini! quel foglio... ah forse....</p>
                   </sp>
-                  <stage type="business modifier" rend="right">(<hi rend="italic"
-                        >incontrandolo premurosa</hi>)</stage>
+                        <stage type="business modifier" rend="right">(<hi rend="italic">incontrandolo premurosa</hi>)</stage>
                </div>
             </div>
 
@@ -1606,9 +1660,10 @@ from @who attribute
 
             <div xml:id="act1sc6" type="scene" n="6">
                <head rend="center">SCENA VI</head>
-               <stage type="setting"><name>Salvini</name> e <name>detta</name>; indi tutti come
+               <stage type="setting">
+                  <name>Salvini</name> e <name>detta</name>; indi tutti come
                   saranno indicati.</stage>
-               <div type="parlato" n="9">
+               <div type="parlato" n="14" xml:id="a1-s6-d1">
                   <sp who="#sal">
                      <speaker>Sal.</speaker>
                      <p>È il vostro cuore presago, o bella Nelly... (coraggio!)</p>
@@ -2383,9 +2438,12 @@ from @who attribute
                </div>
             </div>
             <trailer rend="center">Fine dell'Atto Primo</trailer>
-         </div>
          <pb xml:id="p0027" n="27" facs="#surface_891ea51f-f8c7-4c37-9471-fdbb23671b09"/>
-         <div type="act" n="2">
+         </div>
+            
+            <!-- *************************** ACT II ******************************************************************* -->           
+                       
+         <div type="act" n="2" xml:id="act2">
             <div xml:id="act2sc1" type="scene" n="1"/>
          </div>
       </body>
