@@ -85,15 +85,20 @@ div.trailer {
     font-size: 1.2em
 }
 
+/* 
 span.reg {
     font-style: normal;
     color:#9e0303;
     font-style: small-caps !important;
 }
+*/
 
+
+/* 
 .roleDesc {
 
-}
+} 
+*/
 
 [rend="right"] {
     text-align: right;
@@ -168,6 +173,22 @@ span.small-caps {
 span.del {
     text-decoration: line-through;
 }
+blockquote.roleDesc {
+  display: inline !important;     
+}
+
+blockquote.roleDesc p {
+  display: inline !important;     
+}
+
+div.lg[type="lyric"] .l {
+  margin-left: 8em !important;
+}
+
+/* p {
+  display: inline !important;
+} */
+
 /* editorial */
 /* default values in apps/Edirom-Online/resources/EdiromOnline-all_01.css */
 .textViewContent h1 {
