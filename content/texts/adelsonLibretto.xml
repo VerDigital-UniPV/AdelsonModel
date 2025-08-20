@@ -493,8 +493,8 @@ from @who attribute
                      <p>Andate pure o miei cari: i voti, che vi anima sul labbro un affetto sincero,
                         e che sapranno impetrare dal
                         <choice>
-                           <sic source="#na1816">Cielo</sic>
-                           <corr resp="#cbm">cielo</corr>
+                           <orig source="#na1816">Cielo</orig>
+                           <reg resp="#cbm">cielo</reg>
                         </choice> il pronto ritorno di Milord, saranno pel suo cuore grato, e
                         benefico tanti altri teneri oggetti, onde sempre più interessarlo a vostro
                         vantaggio.</p>
@@ -514,12 +514,14 @@ from @who attribute
                   </sp>
 
                   <pb xml:id="p0007" n="7" facs="#surface_3d979e3c-ec64-43ca-b37b-fdc10d513d42"/>
+                  
                   <sp who="#mad">
                      <speaker>Mad.</speaker>
                      <p>Non è possibile: ama troppo la sua Nelly. Se fu per costargli la vita la
-                        impreveduta perdita di lei, ora che un <choice>
-                           <sic source="#na1816">Nume</sic>
-                           <corr resp="#cbm">nume</corr>
+                        impreveduta perdita di lei, ora che un
+                        <choice>
+                           <orig source="#na1816">Nume</orig>
+                           <reg resp="#cbm">nume</reg>
                         </choice> amico la rese a’ voti suoi, saprà egli troncare ogni ostacolo, che
                         per poco potesse prolungargli il di lei sospirato possesso.</p>
                   </sp>
@@ -542,9 +544,10 @@ from @who attribute
                      <speaker>Mad.</speaker>
                      <p>Che l’unica tua cura debba esser quella di apprendere le tue lezioni, e
                         proffittare delle amichevoli premure del tuo maestro Salvini, senza punto
-                        divagarti in frasi così <choice>
-                           <sic source="#na1816">leggiere</sic>
-                           <corr resp="#cbm">leggere</corr>
+                        divagarti in frasi così
+                        <choice>
+                           <orig source="#na1816">leggiere</orig>
+                           <reg resp="#cbm">leggere</reg>
                         </choice>, e voluttuose.</p>
                   </sp>
 
@@ -589,8 +592,8 @@ from @who attribute
             <div xml:id="act1sc2" n="2" type="scene">
                <head rend="center">SCENA II</head>
                <stage type="entrance">Si avvanza <name>Struley</name> in abito da cacciatore
-                  con fucile alle mani <app>
-  <!-- remove space that gets added after "mani" -->
+                  con fucile alle mani
+                  <app>
                      <rdg source="#1816">, e <name>detto</name></rdg>
                      <rdg source="#1825"/>
                   </app>
@@ -703,9 +706,10 @@ from @who attribute
                   <sp who="#stru">
                      <speaker>Stru.</speaker>
                      <p>Questa ingrata nipote a me appartiene: i vincoli della natura mi dichiarano
-                        suo tutore: invano Adelson ha proccurato ottenerne dal <choice>
-                           <sic source="#1816">Magistrato</sic>
-                           <corr resp="#cbm">magistrato</corr>
+                        suo tutore: invano Adelson ha proccurato ottenerne dal
+                        <choice>
+                           <orig source="#1816">Magistrato</orig>
+                           <reg resp="#cbm">magistrato</reg>
                         </choice> la tutela, dopo avermene fatto dichiarare indegno, perché esule:
                         ah! la feci una volta rapire, e seppe essa sedurre il suo custode per
                         tornare a Milord, proffittando della mia assenza! ma ora non fuggirà per la
@@ -713,9 +717,10 @@ from @who attribute
                   </sp>
                   <sp who="#ger">
                      <speaker>Ger.</speaker>
-                     <p>Nol voglia il <choice>
-                           <sic source="#1816">Cielo</sic>
-                           <corr resp="#cbm"/>
+                     <p>Nol voglia il
+                        <choice>
+                           <orig source="#1816">Cielo</orig><!-- FIX -->
+                           <reg resp="#cbm">cielo</reg>
                         </choice>sareste allora la vittima de’ domestici di Milord.</p>
                   </sp>
                   <sp who="#stru">
@@ -763,95 +768,229 @@ from @who attribute
                <div type="lyric" n="6" xml:id="a1-s3-d1">
                   <sg who="#Bon" xml:lang="nap">
                      <singer>Bon.</singer>
-                     <lg>
-                        <l>Bonifacio Voccafrolla?</l>
-                        <l>Lei l’ha in faccia, eccolo ccà.</l>
-                        <l>C’è na lettera? uscia molla...</l>
-                        <l>Comme dice? ho da sborzà?</l>
-                        <l>No la voglio, tienetella...</l>
-                        <l>Sei scelline? e afforza? oh bella!</l>
-                        <l>Ca tu strille pierde il fiato!</l>
-                        <l>Lo vorzillo sta scopato,</l>
-                        <l>a la fine de lo mese</l>
-                        <l>te lo pozzo arremmedià.</l>
+                     <lg type="stanza" n="1" xml:id="a1-s3-d1-lg1">
+                        <l xml:id="a1-s3-d1-lg1-li01">
+                           <lb ed="#1816" n="36"/>
+                           <lb ed="#1825" n="53"/>
+                              Bonifacio Voccafrolla?</l>
+                        <l xml:id="a1-s3-d1-lg1-li02">
+                           <lb ed="#1816" n="37"/>
+                           <lb ed="#1825" n="54"/>
+                              Lei l’ha in faccia, eccolo ccà.</l>
+                        <l xml:id="a1-s3-d1-lg1-li03">
+                           <lb ed="#1816" n="38"/>
+                           <lb ed="#1825" n="55"/>
+                              C’è na lettera? uscia molla...</l>
+                        <l xml:id="a1-s3-d1-lg1-li04">
+                           <lb ed="#1816" n="39"/>
+                           <lb ed="#1825" n="56"/>
+                              Comme dice? ho da sborzà?</l>
+                        <l xml:id="a1-s3-d1-lg1-li05">
+                           <lb ed="#1816" n="40"/>
+                           <lb ed="#1825" n="57"/>
+                              No la voglio, tienetella...</l>
+                        <l xml:id="a1-s3-d1-lg1-li06">
+                           <lb ed="#1816" n="41"/>
+                           <lb ed="#1825" n="58"/>
+                              Sei scelline? e afforza? oh bella!</l>
+                        <l xml:id="a1-s3-d1-lg1-li07">
+                           <lb ed="#1816" n="42"/>
+                           <lb ed="#1825" n="59"/>
+                              Ca tu strille pierde il fiato!</l>
+                        <l xml:id="a1-s3-d1-lg1-li08">
+                           <lb ed="#1816" n="43"/>
+                           <lb ed="#1825" n="60"/>
+                              Lo vorzillo sta scopato,</l>
+                        <l xml:id="a1-s3-d1-lg1-li09">
+                           <lb ed="#1816" n="44"/>
+                           <lb ed="#1825" n="61"/>
+                              a la fine de lo mese</l>
+                        <l xml:id="a1-s3-d1-lg1-li10">
+                           <lb ed="#1816" n="45"/>
+                           <lb ed="#1825" n="62"/>
+                              te lo pozzo arremmedià.</l>
                      </lg>
                      
                      <stage type="business exit" rend="right">
                         (<hi rend="italic">il portalettere segna in un piccolo libro il suo nome, e via</hi>)
                      </stage>
 
-                     <lg>
-                        <l>Manco male! e nzì ad Irlanna</l>
-                        <l>chi da Napole me manna</l>
-                        <l>le cervella a nfracetà?</l>
-                     </lg>
-                     <lg>
-                        <!-- quoted material. Remove quotation marks « » ? -->
-                        <l><quote xml:lang="it" xml:id="a1-s3-1-q1">&#171;
-                           Mastro Tammaro Ossoduro...&#187;</quote></l>
+                     <lg type="stanza" n="2" xml:id="a1-s3-d1-lg2">
+                        <l xml:id="a1-s3-d1-lg2-li01">
+                           <lb ed="#1816" n="46"/>
+                           <lb ed="#1825" n="63"/>
+                              Manco male! e nzì ad Irlanna</l>
+                        <l xml:id="a1-s3-d1-lg2-li02">
+                           <lb ed="#1816" n="47"/>
+                           <lb ed="#1825" n="64"/>
+                              chi da Napole me manna</l>
+                           <lb ed="#1816" n="48"/>
+                           <lb ed="#1825" n="65"/>
+                        <l xml:id="a1-s3-d1-lg2-li03">
+                              le cervella a nfracetà?</l>
+                     </lg>                     
+                     <lg type="stanza" n="3" xml:id="a1-s3-d1-lg3">
+                        <l xml:id="a1-s3-d1-lg3-li01">
+                           <lb ed="#1816" n="49"/>
+                           <lb ed="#1825" n="66"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q1">
+                              &#171;Mastro Tammaro Ossoduro...&#187;</quote></l>
                         <stage type="business" rend="right">(<hi rend="italic">legge</hi>)</stage>
-                        <l>Oh! cainatemo! e che bò?</l>
-                        <l><quote xml:lang="it" xml:id="a1-s3-1-q2">&#171;
-                           Fuggi, e mettiti in sicuro...&#187;</quote></l>
-                        <l>Fujo? pecché? vedimmo mo...</l>
+                        <l xml:id="a1-s3-d1-lg3-li02">
+                           <lb ed="#1816" n="50"/>
+                           <lb ed="#1825" n="67"/>
+                              Oh! cainatemo! e che bò?</l>
+                        <l xml:id="a1-s3-d1-lg3-li03">
+                           <lb ed="#1816" n="51"/>
+                           <lb ed="#1825" n="68"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q2">
+                              &#171;Fuggi, e mettiti in sicuro...&#187;</quote></l>
+                        <l xml:id="a1-s3-d1-lg3-li04">
+                           <lb ed="#1816" n="52" />
+                           <lb ed="#1825" n="69"/>
+                              Fujo? pecché? vedimmo mo...</l>
                      </lg>
-                     <lg>
-                        <l><quote xml:lang="it" xml:id="a1-s3-1-q3">&#171;
-                           Donna Popa vuol l’importo</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q3">della tela accredenzata...&#187;</quote></l>
+                     <lg type="stanza" n="4" xml:id="a1-s3-d1-lg4">
+                        <l xml:id="a1-s3-d1-lg4-li01">
+                           <lb ed="#1816" n="53"/>
+                           <lb ed="#1825" n="70"/>                           
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q3">
+                              &#171;Donna Popa vuol l’importo</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li02">
+                           <lb ed="#1816" n="54"/>
+                           <lb ed="#1825" n="71"/>
+                           <quote xml:lang="it" corresp="#a1-s3-d1-q3" xml:id="a1-s3-d1-q4">
+                              della tela accredenzata...&#187;</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li03">
+                           <lb ed="#1816" n="55"/>
+                           <lb ed="#1825" n="72"/>
+                              <choice>
+                                 <orig resp="#1816">Cca</orig>
+                                 <reg resp="tbc">Ccà</reg>
+                              </choice>
+                              ce manca l’ommo muorto</l>
+                        <l xml:id="a1-s3-d1-lg4-li04">
+                           <lb ed="#1816" n="56"/>
+                           <lb ed="#1825" n="73"/>
+                              si la tela è consumata!</l>
+                        <l xml:id="a1-s3-d1-lg4-li05">
+                           <lb ed="#1816" n="57"/>
+                           <lb ed="#1825" n="74"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q5">
+                              &#171;Donn’Orazio fa fracasso</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li06">
+                           <lb ed="#1816" n="58"/>
+                           <lb ed="#1825" n="75"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q6" corresp="#a1-s3-d1-q4">
+                              pel danar della pigione...&#187;</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li07">
+                           <lb ed="#1816" n="59"/>
+                           <lb ed="#1825" n="76"/>
+                              Le lassaje la casa a spasso,</l>
+                        <l xml:id="a1-s3-d1-lg4-li08">
+                           <lb ed="#1816" n="60"/>
+                           <lb ed="#1825" n="77"/>
+                              e che bò st’animalone?</l>
+                        <l xml:id="a1-s3-d1-lg4-li09">
+                           <lb ed="#1816" n="61"/>
+                           <lb ed="#1825" n="78"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q7" >
+                              &#171;Fa rumore il macellaio,</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li10">
+                           <lb ed="#1816" n="62"/>
+                           <lb ed="#1825" n="79"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q8" corresp="#a1-s3-d1-q7">
+                              grida, e insiste il calzolaio,</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li11">
+                           <lb ed="#1816" n="63"/>
+                           <lb ed="#1825" n="80"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q9" corresp="#a1-s3-1-q7">
+                              la sensale tutt’i pegni</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li12">
+                           <lb ed="#1816" n="64"/>
+                           <lb ed="#1825" n="81"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q10" corresp="#a1-s3-1-q7">
+                              vuol far vendere all’incanto:</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li13">
+                           <lb ed="#1816" n="65"/>
+                           <lb ed="#1825" n="82"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q11" corresp="#a1-s3-1-q7">
+                              fuggi dico, ci son guai,</quote></l>
+                        <pb xml:id="p0010" n="10" facs="#surface_5ba37d6c-8fbc-4f8c-aaaf-94aab4ef88f4"/>
+                        <l xml:id="a1-s3-d1-lg4-li14">
+                           <lb ed="#1816" n="66"/>
+                           <lb ed="#1825" n="83"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q12" corresp="#a1-s3-1-q7">
+                              si è saputo dove stai,</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li15">
+                           <lb ed="#1816" n="67"/>
+                           <lb ed="#1825" n="84"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q13" corresp="#a1-s3-1-q7">
+                              ed io temo, che a quest’ora</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li16">
+                           <lb ed="#1816" n="68"/>
+                           <lb ed="#1825" n="85"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q14" corresp="#a1-s3-1-q7">
+                              qualche ufficio sia giàfuora</quote></l>
+                        <l xml:id="a1-s3-d1-lg4-li17">
+                           <lb ed="#1816" n="69"/>
+                           <lb ed="#1825" n="86"/>
+                           <quote xml:lang="it" xml:id="a1-s3-d1-q15" corresp="#a1-s3-1-q7">
+                              per poterti imprigionar.&#187;</quote></l>                                                
+                     </lg>
+                     <lg type="stanza" n="5" xml:id="a1-s3-d1-lg5">
                         <l>
-                           <choice>
-                              <sic resp="#1816">Cca</sic>
-                              <corr resp="tbc">Ccà</corr>
-
-                              <!-- resp = TBC ?? From Bellini_1825 doc -->
-
-                           </choice>ce manca l’ommo muorto</l>
-                        <l>si la tela è consumata!</l>
-                        <l><quote xml:lang="it" xml:id="a1-s3-1-q4">&#171;Donn’Orazio fa
-                              fracasso</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q4">pel danar della
-                              pigione...&#187;</quote></l>
-                        <l>Le lassaje la casa a spasso,</l>
-                        <l>e che bò st’animalone?</l>
-                        <l><quote xml:lang="it" xml:id="a1-s3-1-q5">&#171;Fa rumore il
-                              macellaio,</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">grida, e insiste il
-                              calzolaio,</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">la sensale tutt’i
-                              pegni</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">vuol far vendere
-                              all’incanto:</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">fuggi dico, ci son
-                              guai,</quote></l>
-                        <pb xml:id="p0010" n="10"
-                           facs="#surface_5ba37d6c-8fbc-4f8c-aaaf-94aab4ef88f4"/>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">si è saputo dove
-                              stai,</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">ed io temo, che a
-                              quest’ora</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">qualche ufficio sia già
-                              fuora</quote></l>
-                        <l><quote xml:lang="it" corresp="#a1-s3-1-q5">per poterti
-                              imprigionar.&#187;</quote></l>
+                           <lb ed="#1816" n="70"/>
+                           <lb ed="#1825" n="87"/>
+                              Ma che anime indiscrete!</l>
+                        <l>
+                           <lb ed="#1816" n="71"/>
+                           <lb ed="#1825" n="88"/>
+                              Vonno zuco da le prete!</l>
+                        <l>
+                           <lb ed="#1816" n="72"/>
+                           <lb ed="#1825" n="89"/>
+                              E non sanno, che a lo munno</l>
+                        <l>
+                           <lb ed="#1816" n="73"/>
+                           <lb ed="#1825" n="90"/>
+                              da che il debito c’è stato,</l>
+                        <l>
+                           <lb ed="#1816" n="74"/>
+                           <lb ed="#1825" n="91"/>
+                              sempre il mutto ha trionfato,</l>
+                        <l>
+                           <lb ed="#1816" n="75"/>
+                           <lb ed="#1825" n="92"/>
+                              che non paga chi non ha.</l>
                      </lg>
-                     <lg>
-                        <l>Ma che anime indiscrete!</l>
-                        <l>Vonno zuco da le prete!</l>
-                        <l>E non sanno, che a lo munno</l>
-                        <l>da che il debito c’è stato,</l>
-                        <l>sempre il mutto ha trionfato,</l>
-                        <l>che non paga chi non ha.</l>
+                     <lg type="stanza" n="6" xml:id="a1-s3-d1-lg6">
+                        <l>
+                           <lb ed="#1816" n="76"/>
+                           <lb ed="#1825" n="93"/>
+                              Che me mettono ngajola,</l>
+                        <l>
+                           <lb ed="#1816" n="77"/>
+                           <lb ed="#1825" n="94"/>
+                              m’hanno appriesso da campà.</l>
                      </lg>
-                     <lg>
-                        <l>Che me mettono ngajola,</l>
-                        <l>m’hanno appriesso da campà.</l>
-                     </lg>
-                     <lg>
-                        <l>Mo vedimmo chi se stracqua</l>
-                        <l>creditori iniqui, e avari:</l>
-                        <l>a cercarme vuje danari,</l>
-                        <l>e io sempe a non pagà.</l>
+                     <lg type="stanza" n="7" xml:id="a1-s3-d1-lg7">
+                        <l>
+                           <lb ed="#1816" n="78"/>
+                           <lb ed="#1825" n="95"/>
+                              Mo vedimmo chi se stracqua</l>
+                        <l>
+                           <lb ed="#1816" n="79"/>
+                           <lb ed="#1825" n="96"/>
+                              creditori iniqui, e avari:</l>
+                        <l>
+                           <lb ed="#1816" n="80"/>
+                           <lb ed="#1825" n="97"/>
+                              a cercarme vuje danari,</l>
+                        <l>
+                           <lb ed="#1816" n="81"/>
+                           <lb ed="#1825" n="98"/>
+                              e io sempe a non pagà.</l>
                      </lg>
                   </sg>
                </div>
@@ -860,27 +999,32 @@ from @who attribute
                      <p>Ora a me a Napole lo debeto me l’ordinaje lo miedeco, pè ajutà la
                         digestione: e sa che bella ginnastica aveva da fa pè scanzarme sempe
                         dagl’immancabili appostatori! ahù! Don Bonifà? mercante de salumme abbascio
-                        a la <choice>
-                           <sic source="#1816">Dogana</sic>
-                           <corr resp="#cbm">dogana</corr>
-                        </choice>! curribule, e capriolè da <choice>
-                           <sic source="#1816">cca</sic>
-                           <corr resp="#cbm">ccà</corr>
+                        a la
+                        <choice>
+                           <orig source="#1816">Dogana</orig>
+                           <reg resp="#cbm">dogana</reg>
+                        </choice>! curribule, e capriolè da
+                        <choice>
+                           <orig source="#1816">cca</orig>
+                           <reg resp="#cbm">ccà</reg>
                         </choice>, fratielle smesteture, e gnore traseticce da llà... e tu sempe
                         sbenave? ciuccio! te credive, ch’era <note xml:id="note1-act1sc3"
                            >pazzo?</note> e schiatta mo si vaje fujenno, e faje lo settescorza... mo
                         che torna Milord lo patrone, le conto li guaje mieje: o isso, ch’è tanto
                         sbenneto, me sarva da sta piccola bagattella, o attacco la mia muta a doje
-                        gamme, e me ne scappo Nsiberia. Llà po’ c’è lo <choice>
-                           <sic source="#1816">Maresciallo</sic>
-                           <corr resp="#cbm">maresciallo</corr>
+                        gamme, e me ne scappo Nsiberia. Llà po’ c’è lo
+                        <choice>
+                           <orig source="#1816">Maresciallo</orig>
+                           <reg resp="#cbm">maresciallo</reg>
                         </choice> Jelo, che ne caccia tutte li crediture: ma vecco lo pittore! e pè
-                        la fine dell’opera chisto m’ha strascenato da Romma nzì a <choice>
-                           <sic source="#1816">cca</sic>
-                           <corr resp="#cbm">ccà</corr>
-                        </choice> co isso p’avè no<choice>
-                           <sic source="#1816">Taliano</sic>
-                           <corr resp="cbm">taliano</corr>
+                        la fine dell’opera chisto m’ha strascenato da Romma nzì a
+                        <choice>
+                           <orig source="#1816">cca</orig>
+                           <reg resp="#cbm">ccà</reg>
+                        </choice> co isso p’avè no
+                        <choice>
+                           <orig source="#1816">Taliano</orig>
+                           <reg resp="cbm">taliano</reg>
                         </choice> fedele a fianco sujo. Milord, che le vo tanto bene, me paga comme
                         stesse co isso, e a me fratanto attocca de perdere la capo <pb
                            xml:id="p0011" n="11"
@@ -915,8 +1059,9 @@ from @who attribute
                      </lg>
                      <lg>
                         <l>Ah no! non fulminarmi</l>
-                        <l>bella <choice>
-                              <sic>amtstà</sic>
+                        <l>bella
+                           <choice>
+                              <sic source="#na1816">amtstà</sic>
                               <corr resp="#cbm">amistà</corr>
                            </choice> tradita, </l>
                         <l>ché basta ad annientarmi</l>
@@ -1087,16 +1232,18 @@ from @who attribute
                   </sp>
                   <sp who="#Sal">
                      <speaker>Sal.</speaker>
-                     <p>Ah! l’avverso destino mi fece imbatter teco! senza il tuo <choice>
-                           <sic source="#1816">ajuto</sic>
-                           <corr resp="#cmb">aiuto</corr>
+                     <p>Ah! l’avverso destino mi fece imbatter teco! senza il tuo
+                        <choice>
+                           <orig source="#1816">ajuto</orig>
+                           <reg resp="#cmb">aiuto</reg>
                         </choice>importuno Salvini no più non penerebbe a quest’ora?</p>
                   </sp>
                   <sp who="#bon" xml:lang="nap">
                      <speaker>Bon.</speaker>
-                     <p>E avrisse fatta l’urdema bestialità cchiù grossa de quante n’aje fatte <choice>
-                           <sic source="#1816">nzi</sic>
-                           <corr resp="cbm">nzì</corr>
+                     <p>E avrisse fatta l’urdema bestialità cchiù grossa de quante n’aje fatte
+                        <choice>
+                           <orig source="#1816">nzi</orig>
+                           <reg resp="cbm">nzì</reg>
 
                         </choice> a mo, che non so poche! non c’è che ddì! chi lava la capo
                         all’aseno, ce perde lo sapone! te n’aggio fatto avertemiente, e scorreziune,
@@ -1112,9 +1259,10 @@ from @who attribute
                         del nobil desìo di emulare i primi pennelli, i più fioriti ingegni d’Italia?
                         tu grato a me, ed alla vecchia mia genitrice, che premurosi de’ tuoi giorni,
                         ti traemmo dagli artigli di morte, ove ti avea abbandonato un fatale malore,
-                        hai creduto colmarmi di <choice>
-                           <sic source="#1816">benefizj</sic>
-                           <corr resp="#cbm">benefizi</corr>
+                        hai creduto colmarmi di
+                        <choice>
+                           <orig source="#1816">benefizj</orig>
+                           <reg resp="#cbm">benefizi</reg>
                         </choice>, teco conducendomi, ed assicurandomi qui una vita agiata, e
                         felice; e non sai, che, tu stesso hai così fomentata la tua, e la mia
                         sventura?</p>
@@ -1135,7 +1283,7 @@ from @who attribute
                      <p>Sai tu quanti ne abbiamo del mese?</p>
                   </sp>
                   <sp who="#bon" xml:lang="nap">
-                     <singer>Bon.</singer>
+                     <speaker>Bon.</speaker>
                      <p>A proposito de chiuove de carrozza!</p>
                   </sp>
                   <sp who="#sal">
@@ -1168,9 +1316,10 @@ from @who attribute
                      <p>E bì che carrera! eh! la costata va piglianno de fummo! aggio paura, che
                         Milord non manna lo pittore a pittà la gallaria de Minosse! ma s’accosta
                         Nelly, Maddamma, e la nepote: si me vene a taglio, la voglio mpignà pe lo
-                        fatto mio appriesso a Milord... e pè sto piezzo de caicco qua <choice>
-                           <sic source="#1816">Iodece</sic>
-                           <corr resp="#cbm">iodece</corr>
+                        fatto mio appriesso a Milord... e pè sto piezzo de caicco qua
+                        <choice>
+                           <orig source="#1816">Iodece</orig>
+                           <reg resp="#cbm">iodece</reg>
                         </choice> pò ascì co non est loco petitta?</p>
                   </sp>
                </div>
@@ -1487,11 +1636,12 @@ from @who attribute
                      <speaker>Mad.</speaker>
                      <p>E se il 
                         <choice>
-                           <sic source="#1816">Cielo</sic>
-                           <corr resp="#cbm">cielo</corr>
-                        </choice> ti trasse da quel periglio, il <choice>
-                           <sic source="#1816">Cielo</sic>
-                           <corr resp="#cbm">cielo</corr>
+                           <orig source="#1816">Cielo</orig>
+                           <reg resp="#cbm">cielo</reg>
+                        </choice> ti trasse da quel periglio, il
+                        <choice>
+                           <orig source="#1816">Cielo</orig>
+                           <reg resp="#cbm">cielo</reg>
                         </choice> istesso a coronar le tue brame invierà Milord nelle tue
                         braccia.</p>
                   </sp>
@@ -1499,15 +1649,13 @@ from @who attribute
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
                      <p>Non ne son persuasa: il suo silenzio di più settimane è il testimonio della
-                        sua indifferenza... lo splendor della <choice>
-                           <sic source="#1816">Corte</sic>
-                           <corr resp="#cbm">corte</corr>
-                        </choice>, le seducenti bellezze della <choice>
-                           <sic source="#1816">Capitale</sic>
-                           <corr resp="#cbm"/>
-                        </choice> lo avranno involato alla sventurata Nelly!</p>
+                        sua indifferenza... lo splendor della
+                        <choice>
+                           <orig source="#1816">Corte</orig>
+                           <reg resp="#cbm">corte</reg>
+                        </choice>, le seducenti bellezze della capitale 
+                        lo avranno involato alla sventurata Nelly!</p>
                   </sp>
-
                   <sp who="#mad">
                      <speaker>Mad.</speaker>
                      <p>Ma questo è troppo! oh quanto poco hai saputo conoscerlo finora!</p>
@@ -1585,9 +1733,10 @@ from @who attribute
 
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
-                     <p>Ma sei troppo <choice>
-                           <sic source="#1816">nojoso</sic>
-                           <corr resp="#cbm">noioso</corr>
+                     <p>Ma sei troppo
+                        <choice>
+                           <orig source="#1816">nojoso</orig>
+                           <reg resp="#cbm">noioso</reg>
                         </choice>! vanne ti ho detto!</p>
                   </sp>
 
@@ -1600,9 +1749,11 @@ from @who attribute
 
                   <sp who="#Nel">
                      <speaker>Nel.</speaker>
-                     <p>Respiro! son sola alfine! uscite o miei sospiri dal profondo del cuore, e se <choice>
-                           <sic source="#1816">un'importuno</sic>
-                           <corr resp="#cbm">un importuno</corr>
+                     <p>Respiro! son sola alfine! uscite o miei sospiri dal profondo del cuore, e se
+                        <choice>
+                     <!-- Can also be interpreted as a mistake -CBM  -->   
+                           <orig source="#1816">un'importuno</orig>
+                           <reg resp="#cbm">un importuno</reg>
                         </choice> riguardo vi ha trattenuti finora all’altrui presenza, liberi
                         adesso confondetevi con queste aure felici, che un tempo respirai col mio
                         bene!</p>
@@ -1612,9 +1763,10 @@ from @who attribute
                   <sg who="#nel">
                      <lg type="stanza">
                         <l>Dopo l’oscuro nembo</l>
-                        <l>il <choice>
-                              <sic source="#1816">Ciel</sic>
-                              <corr resp="#cbm">ciel</corr>
+                        <l>il
+                           <choice>
+                              <orig source="#1816">Ciel</orig>
+                              <reg resp="#cbm">ciel</reg>
                            </choice> sperai seren,</l>
                         <l>e al mio tesoro in sen</l>
                         <l>goder la calma.</l>
@@ -1627,9 +1779,10 @@ from @who attribute
                      </lg>
                      <note xml:id="note5-act1sc5">
                         <lg type="stanza">
-                           <l>Al comparir di<choice>
-                                 <sic source="#1816">Aprile</sic>
-                                 <corr resp="#cbm">aprile</corr>
+                           <l>Al comparir di
+                              <choice>
+                                 <orig source="#1816">Aprile</orig>
+                                 <reg resp="#cbm">aprile</reg>
                               </choice></l>
                            <l>germoglia il prato, il fior;</l>
                            <l>rinnova al suo pastor</l>
@@ -1670,9 +1823,10 @@ from @who attribute
                   </sp>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
-                     <p>È Milord, che mi scrive? oh <choice>
-                           <sic source="#1816">gioja</sic>
-                           <corr resp="#cbm">gioia</corr>
+                     <p>È Milord, che mi scrive? oh
+                        <choice>
+                           <orig source="#1816">gioja</orig>
+                           <reg resp="#cbm">gioia</reg>
                         </choice> inaspettata!</p>
                   </sp>
                   <sp who="#sal">
@@ -1715,18 +1869,23 @@ from @who attribute
                   </sp>
                   <sp who="#nel">
                      <speaker>Nel.</speaker>
-                     <p>Oh&#160; <choice>
-                           <sic source="#1816">Cielo</sic>
-                           <corr resp="#cbm">cielo</corr>
-                        </choice>! <stage type="delivery" rend="right">(<hi rend="i">dà un
-                              grido</hi>)</stage></p>
+                     <p>Oh
+                        <choice>
+                           <orig source="#1816">Cielo</orig>
+                           <reg resp="#cbm">cielo</reg>
+                        </choice>!
+                        <stage type="delivery" rend="right">
+                           (<hi rend="i">dà un grido</hi>)
+                        </stage>
+                     </p>
                   </sp>
                   <sp who="#sal">
                      <speaker>Sal.</speaker>
                      <p>
-                        <quote>e per mai più allontanarmi dalla<choice>
-                              <sic source="#1816">Corte</sic>
-                              <corr resp="#cbm">corte</corr>
+                        <quote>e per mai più allontanarmi dalla
+                           <choice>
+                              <orig source="#1816">Corte</orig>
+                              <reg resp="#cbm">corte</reg>
                            </choice> mi obbliga ad ogni costo ad impalmare la figlia di Lord
                            Duca.</quote>
                      </p>
@@ -1761,17 +1920,19 @@ from @who attribute
                         <l>Me sol persegue avverso fato! io solo</l>
                         <l>deggio... e sempre penar!... perché più bella,</l>
                         <l>or che pallido vel sue guance ha smorte,</l>
-                        <l>tu la rendi <choice>
-                              <sic source="#1816">a</sic>
-                              <corr resp="#cbm">a’</corr>
+                        <l>tu la rendi
+                           <choice>
+                              <orig source="#1816">a</orig>
+                              <reg resp="#cbm">a’</reg>
                            </choice> miei sguardi o iniqua sorte?</l>
                         <l>Ah! si fugga... si corra</l>
                         <l>fra inospiti deserti... almen potessi</l>
                         <l>abbracciarla, e partir... felice istante!</l>
                         <l>All’avido desìo, che il cor mi accende,</l>
-                        <l>sei tu, che porgi un facil mezzo... ah! il<choice>
-                              <sic source="#1816">Cielo</sic>
-                              <corr resp="#cbm">cielo</corr>
+                        <l>sei tu, che porgi un facil mezzo... ah! il
+                           <choice>
+                              <orig source="#1816">Cielo</orig>
+                              <reg resp="#cbm">cielo</reg>
                            </choice></l>
                         <l>or mi facesse almeno</l>
                         <l>spirar così del mio tesoro in seno...</l>
@@ -1864,9 +2025,10 @@ from @who attribute
                   <sg who="#nel">
                      <singer>Nel.</singer>
                      <lg>
-                        <l part="M">Oh&#160; <choice>
-                              <sic source="#1816">Ciel</sic>
-                              <corr resp="#cbm">ciel</corr>
+                        <l part="M">Oh
+                           <choice>
+                              <orig source="#1816">Ciel</orig>
+                              <reg resp="#cbm">ciel</reg>
                            </choice>! </l>
                      </lg>
                   </sg>
@@ -1899,10 +2061,12 @@ from @who attribute
                   <sg who="#sal">
                      <singer>Sal.</singer>
                      <lg>
-                        <l>Sì... è&#160; <choice>
-                              <sic source="#1816">un'amore</sic>
-                              <corr resp="#cbm">un amore</corr>
-                           </choice>forsennato, </l>
+                        <l>Sì... è
+                           <choice>
+                        <!-- Can also be interpreted as a mistake -CBM -->
+                              <orig source="#1816">un'amore</orig>
+                              <reg resp="#cbm">un amore</reg>
+                           </choice> forsennato, </l>
                         <l>che mi toglie alla ragione...</l>
                         <l>Grida invano... invan si oppone</l>
                         <l>di amistà la voce irata...</l>
@@ -2035,9 +2199,10 @@ from @who attribute
                      <lg>
                         <l>Signorsì... mo no corriero</l>
                         <l>ha portato chesta nova...</l>
-                        <l><choice>
-                              <sic source="#1816">Cca</sic>
-                              <corr resp="#tbc">Ccà</corr>
+                        <l>
+                           <choice>
+                              <orig source="#1816">Cca</orig>
+                              <reg resp="#tbc">Ccà</reg>
                            </choice> becino isso se trova,</l>
                         <l>e mo lesto assommarà.</l>
                      </lg>
@@ -2095,9 +2260,10 @@ from @who attribute
                         <l>balenando in sen mi va!</l>
                         <pb xml:id="p0023" n="23"
                            facs="#surface_81bffcc4-4722-48f6-9a34-68cb42c6acf7"/>
-                        <l>Giusto&#160; <choice>
-                              <sic source="#1816">Ciel</sic>
-                              <corr resp="#cbm">ciel</corr>
+                        <l>Giusto
+                           <choice>
+                              <orig source="#1816">Ciel</orig>
+                              <reg resp="#cbm">ciel</reg>
                            </choice>! la mia costanza</l>
                         <l>tu corona per pietà!</l>
                      </lg>
@@ -2113,9 +2279,9 @@ from @who attribute
                      <lg>
                         <l>
                            <choice>
-                              <sic source="#1816">Qui, quì</sic>
-                              <corr resp="#cbm">Qui qui</corr>
-                           </choice>l'attenderemo,</l>
+                              <orig source="#1816">Qui, quì</orig>
+                              <reg resp="#cbm">Qui, qui</reg>
+                           </choice> l'attenderemo,</l>
                         <l>or dal boschetto ei viene...</l>
                      </lg>
                   </sg>
@@ -2180,9 +2346,10 @@ from @who attribute
                         <sg who="#fan">
                            <singer>Fan.</singer>
                            <lg>
-                              <l><choice>
-                                    <sic source="#1816">Sguajato</sic>
-                                    <corr resp="#cbm">Sguaiato</corr>
+                              <l>
+                                 <choice>
+                                    <orig source="#1816">Sguajato</orig>
+                                    <reg resp="#cbm">Sguaiato</reg>
                                  </choice> ci vuol sale!</l>
                               <l>Non mi fai rider più</l>
                            </lg>
@@ -2193,9 +2360,10 @@ from @who attribute
                   <sg who="#coro">
                      <singer>Coro</singer>
                      <lg>
-                        <l>Ma&#160;<choice>
-                              <sic source="#1816">quì</sic>
-                              <corr resp="#cbm">qui</corr>
+                        <l>Ma
+                           <choice>
+                              <orig source="#1816">quì</orig>
+                              <reg resp="#cbm">qui</reg>
                            </choice> garrir non vale...</l>
                         <l>Pensiamo in qual maniera</l>
                         <l>la nostra fè leale</l>
@@ -2262,9 +2430,10 @@ from @who attribute
                      <lg>
                         <l>
                            <choice>
-                              <sic source="#1816">Quì</sic>
-                              <corr resp="#cbm">Qui</corr>
-                           </choice>&#160;Geronio con rispetto...</l>
+                              <orig source="#1816">Quì</orig>
+                              <reg resp="#cbm">Qui</reg>
+                           </choice>
+                           Geronio con rispetto...</l>
                      </lg>
                   </sg>
                   <sg who="#fan">
@@ -2291,9 +2460,10 @@ from @who attribute
                      <singer>Ade.</singer>
                      <lg>
                         <l>Cari amici... oh quanto grate</l>
-                        <l>sono a me le vostre <choice>
-                              <sic source="#1816">gioje</sic>
-                              <corr resp="#cbm">gioie</corr>
+                        <l>sono a me le vostre
+                           <choice>
+                              <orig source="#1816">gioje</orig>
+                              <reg resp="#cbm">gioie</reg>
                            </choice>!</l>
                      </lg>
                   </sg>
@@ -2326,15 +2496,17 @@ from @who attribute
                         <l>tra i sguazzoni sguazzonissimo...</l>
                         <l>se... conciosiacosacchè...</l>
                         <l>anzi no... quantunque che...</l>
-                        <l>come in <choice>
-                              <sic source="#1816">Ciel</sic>
-                              <corr resp="#cbm">ciel</corr>
+                        <l>come in
+                           <choice>
+                              <orig source="#1816">Ciel</orig>
+                              <reg resp="#cbm">ciel</reg>
                            </choice> la luna è gonfia</l>
                         <l>di tumori assai benefici...</l>
                         <l>così noi siam tutti gravidi...</l>
-                        <l>sissignor... di sensi<choice>
-                              <sic source="#1816">Eroici</sic>
-                              <corr resp="#cbm">eroici</corr>
+                        <l>sissignor... di sensi
+                           <choice>
+                              <orig source="#1816">Eroici</orig>
+                              <reg resp="#cbm">eroici</reg>
                            </choice>,</l>
                         <l>e vorrebbi... anzi vorrebbimo</l>
                         <pb xml:id="p0026" n="26"
@@ -2360,9 +2532,10 @@ from @who attribute
                         <l>Ei del nostro amor sincero</l>
                         <l>fu l’interprete, o signore:</l>
                         <l>ricevete il nostro cuore</l>
-                        <l>pegno sol di eterna <choice>
-                              <sic source="#1816">fe</sic>
-                              <corr resp="#cbm">fé</corr>
+                        <l>pegno sol di eterna
+                           <choice>
+                              <orig source="#1816">fe</orig>
+                              <reg resp="#cbm">fé</reg>
                            </choice>.</l>
                      </lg>
                   </sg>
@@ -2385,7 +2558,8 @@ from @who attribute
                   <sg who="#bon" xml:lang="nap">
                      <singer>Bon.</singer>
                      <lg>
-                        <l>(Oh mmalora!) <choice>
+                        <l>(Oh mmalora!)
+                           <choice>
                               <sic source="#1816">VA</sic>
                               <corr resp="#cbm">Va</corr>
                            </choice> trovanno</l>
