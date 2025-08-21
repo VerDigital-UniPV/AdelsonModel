@@ -44,5 +44,25 @@
         <xsl:apply-templates select="$selectedRdg/node()" mode="bySource">
             <xsl:with-param name="sourceID" select="$sourceID"/>
         </xsl:apply-templates>
-    </xsl:template>    
+    </xsl:template>
+
+    <!-- Add the line number to l by selecting it from the right source lb -->
+    <xsl:template match="tei:l" mode="bySource">
+        <xsl:param name="sourceID"/>
+        <xsl:variable name="lineNumber" select="tei:lb[@ed = $sourceID]/@n"/>
+        <xsl:message><xsl:value-of select="$lineNumber"/></xsl:message>
+        <xsl:copy>
+            <xsl:attribute name="n">
+                <xsl:value-of select="$lineNumber"/>
+            </xsl:attribute>
+            <xsl:apply-templates select="@*|node()" mode="bySource">
+                <xsl:with-param name="sourceID" select="$sourceID"/>
+            </xsl:apply-templates>
+        </xsl:copy>
+    </xsl:template>
+
+    <!-- Avoid copying lb -->
+    <xsl:template match="tei:lb" mode="bySource">
+        <xsl:param name="sourceID"/>
+    </xsl:template>
 </xsl:stylesheet>
