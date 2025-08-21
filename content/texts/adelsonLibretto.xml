@@ -10,6 +10,8 @@
             type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+<?xml-stylesheet type="text/xsl" href="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/xsl/Transformation.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mei="http://www.music-encoding.org/ns/mei">
    <teiHeader>
       <fileDesc>
