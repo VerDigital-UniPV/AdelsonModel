@@ -29,6 +29,8 @@
         <entry key="image_prefix" value=""/>
         <entry key="edition_path" value="/db/apps/edirom/adelson_e_salvini_model/content/"/>
         <entry key="additional_css_path" value="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/css/edition.css"/>
+
         <entry key="data/xql/getText.xql" value="/exist/apps/edirom/adelson_e_salvini_model/content/xql/getText.xql"/>
+
     </entries>
 </prefs>

@@ -51,19 +51,54 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form
     /* color: rgb(0, 0, 0) */
 }
 
+blockquote.roleDesc {
+
+}
 hi {
     font-style: italic;
+    padding-left: 1em;
 }
+
+span.set p {
+    font-style: italic;
+    padding-top: 1em;
+    padding-left: 2em !important
+}
+
+
+hi sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+*/
 
 div.lg {
     display: block;
     padding-left: 4em
 }
 
+div.trailer {
+    margin-top: 1.5em;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.2em
+}
+
+/* 
 span.reg {
     font-style: normal;
-    color:#9e0303
+    color:#9e0303;
+    font-style: small-caps !important;
 }
+*/
+
+
+/* 
+.roleDesc {
+
+} 
+*/
 
 [rend="right"] {
     text-align: right;
@@ -77,7 +112,13 @@ span.name {
     font-family: Georgia, serif;
     font-variant: small-caps;
     font-style: normal;
+    font-size: 0.9rem !important;
 }
+
+.lg .l:first-of-type {
+  text-indent: 2em;
+}
+
 div.speaker {
     font-family: Georgia, serif;
     font-variant: small-caps;
@@ -86,12 +127,37 @@ div.speaker {
     letter-spacing: 0.4px;
     text-align: left;
     line-height: 16px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    margin-bottom:  10px !important;
+}
+
+div.singer {
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-size: 1.0rem !important;
+    color: #000000;
+    letter-spacing: 0.4px;
+    text-align: left;
+    line-height: 16px;
+    margin-top: 1.3em;
+    margin-bottom:  10px !important;
+}
+
+.textViewContent div.singer {
+    text-align:center !important;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    font-size: 1.0rem !important;
+    color: #000000;
+    letter-spacing: 0.4px;
+    text-align: left;
+    line-height: 16px;
+    width: 24em;
+    margin-top: 1.3em !important;
     margin-bottom:  10px !important;
 }
 span.add {
     font-style: italic;
-    font-weight: bold;
     color: #9e0303;
 }
 
@@ -99,10 +165,30 @@ span.it {
     font-style: italic;
 }
 
+span.small-caps {
+    font-variant: small-caps;
+}
+
+
 span.del {
     text-decoration: line-through;
-    color: hwb(221 31% 10%);
 }
+blockquote.roleDesc {
+  display: inline !important;     
+}
+
+blockquote.roleDesc p {
+  display: inline !important;     
+}
+
+div.lg[type="lyric"] .l {
+  margin-left: 8em !important;
+}
+
+/* p {
+  display: inline !important;
+} */
+
 /* editorial */
 /* default values in apps/Edirom-Online/resources/EdiromOnline-all_01.css */
 .textViewContent h1 {
@@ -114,9 +200,9 @@ span.del {
 }
 .textViewContent h2 {
     font-weight: bold;
-    width: 100%;
+    width: 22em;
     font-family: Verdana, sans-serif;
-    font-size: 0.91406rem !important;
+    font-size: 0.91406rem !important; 
     font-style: normal;
     text-align: center;
     color: #777777;
@@ -291,7 +377,7 @@ table.librettoEdition td.technicalColumnLeft {
     text-align: right;
     padding-bottom: 0; 
 }
-/* adapt width to longest text line of the piece (l-544) */
+/* [open faust: ]adapt width to longest text line of the piece (l-544) */
 table.librettoEdition td.text1Column {
     min-width: 401px !important;
     max-width: 401px !important;
