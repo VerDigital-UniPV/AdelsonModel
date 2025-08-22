@@ -50,7 +50,6 @@
     <xsl:template match="tei:l" mode="bySource">
         <xsl:param name="sourceID"/>
         <xsl:variable name="lineNumber" select="tei:lb[@ed = $sourceID]/@n"/>
-        <xsl:message><xsl:value-of select="$lineNumber"/></xsl:message>
         <xsl:copy>
             <xsl:attribute name="n">
                 <xsl:value-of select="$lineNumber"/>
