@@ -344,7 +344,7 @@ from @who attribute
                            <lb ed="#1825" n="12"/>
                            nemica al mio disegno
                         </l>
-                        <l xml:id="a1-s1-d1-lg3-li04">
+                        <l xml:id="a1-s1-d1-lg03-li04">
                            <lb ed="#1816" n="13"/>
                            <lb ed="#1825" n="13"/>
                            sarai Fortuna ognor!
@@ -1141,19 +1141,19 @@ from @who attribute
                <sg who="#sal">
                   <singer>Sal.</singer>
                   <lg type="stanza" n="4" xml:id="a1-s4-d1-lg04">
-                     <l xml:id="a1-s4-d1-lg4-li01">
+                     <l xml:id="a1-s4-d1-lg04-li01">
                         <lb ed="#1816" n="96"/>
                         <lb ed="#1825" n="113"/>
                         Su questo seggio... ah qui
                      </l>
                      <stage type="business modifier" rend="right">(<hi rend="i">va astratto
                         a sedere sul banco di verdura</hi>)</stage>
-                     <l xml:id="a1-s4-d1-lg4-li02">
+                     <l xml:id="a1-s4-d1-lg04-li02">
                         <lb ed="#1816" n="97"/>
                         <lb ed="#1825" n="114"/>
                         la vidi, e n’arsi un dì!
                      </l>
-                     <l xml:id="a1-s4-d1-lg4-li03">
+                     <l xml:id="a1-s4-d1-lg04-li03">
                         <lb ed="#1816" n="98"/>
                         <lb ed="#1825" n="115"/>
                         Il fortunato amico 
@@ -1354,39 +1354,39 @@ from @who attribute
                <sg who="#bon" xml:lang="nap">
                   <singer>Bon.</singer>
                   <lg type="stanza" n="13" xml:id="a1-s4-d1-lg13">
-                     <l xml:id="a1-s4-d1-lg13-01">
+                     <l xml:id="a1-s4-d1-lg13-li01">
                         <lb ed="#1816" n="127"/>
                         <lb ed="#1825" n="144"/>
                            Se vede ca sì quicquaro!</l>
-                     <l xml:id="a1-s4-d1-lg13-02">
+                     <l xml:id="a1-s4-d1-lg13-li02">
                         <lb ed="#1816" n="128"/>
                         <lb ed="#1825" n="145"/>
                            Ce mancano aute femmene</l>
-                     <l xml:id="a1-s4-d1-lg13-03">
+                     <l xml:id="a1-s4-d1-lg13-li03">
                         <lb ed="#1816" n="129"/>
                         <lb ed="#1825" n="146"/>
                            cchiù belle, e cchiù majateche?</l>
-                     <l xml:id="a1-s4-d1-lg13-04">
+                     <l xml:id="a1-s4-d1-lg13-li04">
                         <lb ed="#1816" n="130"/>
                         <lb ed="#1825" n="147"/>
                            Si non sarà Nelly,</l>
-                     <l xml:id="a1-s4-d1-lg13-05">
+                     <l xml:id="a1-s4-d1-lg13-li05">
                         <lb ed="#1816" n="131"/>
                         <lb ed="#1825" n="148"/>
                            sarrà Mariannì,</l>
-                     <l xml:id="a1-s4-d1-lg13-06">
+                     <l xml:id="a1-s4-d1-lg13-li06">
                         <lb ed="#1816" n="132"/>
                         <lb ed="#1825" n="149"/>
                            Rosì, Checchì, Peppì,</l>
-                     <l xml:id="a1-s4-d1-lg13-07">
+                     <l xml:id="a1-s4-d1-lg13-li07">
                         <lb ed="#1816" n="133"/>
                         <lb ed="#1825" n="150"/>
                            Fannì, e Carolì,</l>
-                     <l xml:id="a1-s4-d1-lg13-08">
+                     <l xml:id="a1-s4-d1-lg13-li08">
                         <lb ed="#1816" n="134"/>
                         <lb ed="#1825" n="151"/>
                            e tutte le aute diavole</l>
-                     <l xml:id="a1-s4-d1-lg13-09">
+                     <l xml:id="a1-s4-d1-lg13-li09">
                         <lb ed="#1816" n="135"/>
                         <lb ed="#1825" n="152"/>
                            co la cadenza in ì!</l>
@@ -1646,7 +1646,7 @@ from @who attribute
                         </sg>
                      <sg who="#mad">
                         <singer>Mad.</singer>
-                        <lg type="stanza" xml:id="a1-s5-d1-lg08">
+                        <lg type="stanza" n="5" xml:id="a1-s5-d1-lg08">
                            <l xml:id="a1-s5-d1-lg08-li01">
                               <lb ed="#1816" n="160"/>
                               Ma la cosa è crudele in mia fè!</l>
@@ -1654,7 +1654,8 @@ from @who attribute
                      </sg>
                      <sg who="#fan">
                      <singer>Fan.</singer>
-                        <lg type="stanza" xml:id="a1-s5-d1-lg09">
+                        <lg type="stanza" n="5" 
+                           corresp="#a1-s5-d1-lg08" prev="#a1-s5-d1-lg08" xml:id="a1-s5-d1-lg09">
                            <l xml:id="a1-s5-d1-lg09-li01">
                               <lb ed="#1816" n="161"/>
                               Lagrimar, singhiozzar tutto il dì!</l>
@@ -1662,7 +1663,8 @@ from @who attribute
                      </sg>
                      <sg who="#mad #fan">
                         <singer>a 2</singer>
-                        <lg type="stanza" xml:id="a1-s5-d1-lg10">
+                        <lg type="stanza" n="5" 
+                           corresp="a1-s5-d1-lg08" prev="a1-s5-d1-lg09" xml:id="a1-s5-d1-lg10">
                            <l xml:id="a1-s5-d1-lg10-li01">
                               <lb ed="#1816" n="162"/>
                               Non conosco, non veggo il perché</l>
@@ -1673,7 +1675,7 @@ from @who attribute
                      </sg>
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
-                        <lg type="stanza" xml:id="a1-s5-d1-lg11">
+                        <lg type="stanza" n="6" xml:id="a1-s5-d1-lg11">
                            <l xml:id="a1-s5-d1-lg10-li03">
                               <lb ed="#1816" n="164"/>
                                  E pigliate l’esempio porzì</l>
@@ -1690,7 +1692,7 @@ from @who attribute
                      </sg>
                      <sg who="#nel">
                         <singer>Nel.</singer>
-                        <lg xml:id="a1-s5-d1-lg12">
+                        <lg type="stanza" n="7" xml:id="a1-s5-d1-lg12" next="#a1-s5-d1-lg13" part="I">
                            <l part="I" xml:id="a1-s5-d1-lg12-li01" next="#a1-s5-d1-lg12-li02">
                               <lb ed="#1816" n="168"/>
                                  Ma novelle di Adelson?</l>
@@ -1698,71 +1700,74 @@ from @who attribute
                      </sg>
                      <sg who="#mad">
                         <singer>Mad.</singer>
-                        <lg type="stanza" xml:id="a1-s5-d1-lg13">
+                        <lg type="stanza" n="7" corresp="#a1-s5-d1-lg12" 
+                           prev="#a1-s5-d1-lg12" next="#a1-s5-d1-lg14" xml:id="a1-s5-d1-lg13" part="M">
                            <l part="F" corresp="#a1-s5-d1-lg12-li01" prev="#a1-s5-d1-lg12-li01" xml:id="a1-s5-d1-lg11-li02">
                                  Si avranno.</l>
                         </lg>
                      </sg>
                      <sg who="#nel">
                         <singer>Nel.</singer>
-                        <lg >
-                           <l part="I" xml:id="a1-s5-d1-lg13-li01">
+                        <lg type="stanza" n="7" corresp="#a1-s5-d1-lg12" 
+                           prev="#a1-s5-d1-lg13" next="#a1-s5-d1-lg15" xml:id="a1-s5-d1-lg14" part="M">
+                           <l part="I" xml:id="a1-s5-d1-lg14-li02" next="#a1-s5-d1-lg15-li03">
                               <lb ed="#1816" n="169"/>
                                  Ma suoi fogli?..</l>
                         </lg>
                      </sg>
                      <sg who="#fan">
                         <singer>Fan.</singer>
-                        <lg>
-                           <l part="F">
-                              <lb ed="#1816" n="169"/>
+                        <lg type="stanza" n="7" corresp="#a1-s5-d1-lg12" 
+                           prev="#a1-s5-d1-lg14" xml:id="a1-s5-d1-lg15" part="F">
+                           <l part="F" prev="a1-s5-d1-lg14-li02" xml:id="a1-s5-d1-lg15-li03">
                                  Quest’oggi verrano.</l>
                         </lg>
                      </sg>
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
-                        <lg type="stanza">
-                           <l>
+                        <lg type="stanza" n="8" xml:id="a1-s5-d1-lg16">
+                           <l xml:id="a1-s5-d1-lg16-li01">
                               <lb ed="#1816" n="170"/>
                                  Tutto nziemo la vide assommà.</l>
                         </lg>
                      </sg>
                      <sg who="#nel">
                         <singer>Nel.</singer>
-                        <lg type="stanza">
-                           <l part="I">
+                        <lg type="stanza" n="9" part="I" next="#a1-s5-d1-lg18" xml:id="a1-s5-d1-lg17">
+                           <l part="I" xml:id="a1-s5-d1-lg17-li01">
                               <lb ed="#1816" n="171"/>
                                  E fia vero!</l>
                         </lg>
                      </sg>
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
-                        <lg>
-                           <l part="F">
-                              <lb ed="#1816" n="171"/>
+                        <lg type="stanza" n="9" part="M" 
+                           corresp="#a1-s5-d1-lg17" prev="#a1-s5-d1-lg17" next="#a1-s5-d1-lg19" xml:id="a1-s5-d1-lg18">
+                           <l part="F" corresp="#a1-s5-d1-lg17-li01" prev="#a1-s5-d1-lg17-li01" xml:id="a1-s5-d1-lg17-li02">
                                  Pe me ce scommetto.</l>
                         </lg>
                      </sg>
                      <sg who="#nel">
                         <singer>Nel.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="9" part="F" corresp="#a1-s5-d1-lg17" prev="#a1-s5-d1-lg18" xml:id="a1-s5-d1-lg19">
+                           <l xml:id="a1-s5-d1-li03">
                               <lb ed="#1816" n="172"/>
                                  Qual partì tornerà fido amante?</l>
                         </lg>
                      </sg>
                      <sg who="#mad">
                         <singer>Mad.</singer>
-                        <lg type="stanza">
-                           <l>
+                        <lg type="stanza" n="10" part="I" next="#a1-s5-d1-lg21" xml:id="a1-s5-d1-lg20">
+                           <l xml:id="a1-s5-d1-lg20-li01">
                               <lb ed="#1816" n="173"/>
                               Oh qual dubbio! fedele, costante,</l>
                         </lg>
                      </sg>
                      <sg who="#fan">
                         <singer>Fan.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="10" part="F" 
+                           corresp="#a1-s5-d1-lg20" prev="#a1-s5-d1-lg20" xml:id="a1-s5-d1-lg21">
+                           <l xml:id="a1-s5-d1-lg20-li02">
                               <lb ed="#1816" n="174"/>
                                  qual fu sempre, per voi tornerà.</l>
                         </lg>
@@ -1772,17 +1777,17 @@ from @who attribute
                      <sg who="#nel" >
 <!-- should this also say "A2"? in 1816 doc -->
                         <singer>Nel.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="1" xml:id="a1-s5-d2-lg01">
+                           <l xml:id="a1-s5-d2-lg01-li01">
                               <lb ed="#1816" n="175"/>
                                  Ah se del mio tesoro</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg01-li02">
                               <lb ed="#1816" n="176"/>
                                  ancor la fiamma io sono,</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg01-li03">
                               <lb ed="#1816" n="177"/>
                                  gli affanni ti perdono,</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg01-li04">
                               <lb ed="#1816" n="178"/>
                                  che fai sentirmi o Amor!</l>
                         </lg>
@@ -1790,44 +1795,46 @@ from @who attribute
    <pb xml:id="p0016" n="16" facs="#surface_8f901800-41a2-4ef8-8101-b7ddf88f75dd"/>
                      <sg who="#mad">
                         <singer>Mad.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="2" part="I" next="#a1-s5-d2-lg03" xml:id="a1-s5-d2-lg02">
+                           <l xml:id="a1-s5-d2-lg02-li01">
                               <lb ed="#1816" n="179"/>
                                  Non più malinconia,</l>
                         </lg>
                      </sg>
                      <sg who="#fan">
                         <singer>Fan.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="2" part="M" 
+                           corresp="#a1-s5-d2-lg02" prev="#a1-s5-d2-lg02" next="a1-s5-d2-lg04" xml:id="a1-s5-d2-lg03">
+                           <l xml:id="a1-s5-d2-lg03-li01">
                               <lb ed="#1816" n="180"/>
                                  tornate in allegria,</l>
                         </lg>
                      </sg>
                      <sg who="#mad #fan">
                         <singer>a 2</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="2" part="F" 
+                           corresp="#a1-s5-d2-lg02" prev="#a1-s5-d2-lg03"  xml:id="a1-s5-d2-lg04">
+                           <l xml:id="a1-s5-d2-lg04-li01">
                               <lb ed="#1816" n="181"/>
                                  respiri alfin contento</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg04-li02">
                               <lb ed="#1816" n="182"/>
                                  senza tormento – il cor.</l>
                         </lg>
                      </sg>
                      <sg who="#bon" xml:lang="nap">
                         <singer>Bon.</singer>
-                        <lg>
-                           <l>
+                        <lg type="stanza" n="3" xml:id="a1-s5-d2-lg05">
+                           <l xml:id="a1-s5-d2-lg05-li01">
                               <lb ed="#1816" n="183"/>
                                  Oh quanta Milordielle</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg05-li02">
                               <lb ed="#1816" n="184"/>
                                  già vedo scapolare!</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg05-li03">
                               <lb ed="#1816" n="185"/>
                                  farranno pazziare</l>
-                           <l>
+                           <l xml:id="a1-s5-d2-lg05-li04">
                               <lb ed="#1816" n="186"/>
                                  la madre, e ‘l genitor!</l>
                         </lg>
@@ -2173,7 +2180,7 @@ from @who attribute
                <stage type="setting">
                   <name>Salvini</name> e <name>detta</name>; indi tutti come
                   saranno indicati.</stage>
-               <div type="parlato" n="14" xml:id="a1-s6-d1">
+               <div type="parlato" n="18" xml:id="a1-s6-d1">
                   <sp who="#sal">
                      <speaker>Sal.</speaker>
                      <p>È il vostro cuore presago, o bella Nelly... (coraggio!)</p>
@@ -2267,11 +2274,14 @@ from @who attribute
                   </sp>
                   <stage type="business" rend="right">(<hi rend="i">cade svenuta</hi>)</stage>
                </div>
-               <div type="recitativo" n="10">
+               <div type="recitativo" n="19">
                   <sg who="#sal">
                      <singer>Sal.</singer>
-                     <lg>
-                        <l>Ah! l’oppresse il dolor!... no... sventurata</l>
+                     <lg type="stanza" n="1" xml:id="a1-s6-d19-lg01">
+                        <l xml:id="a1-s6-d19-lg01-li01">
+                           <lb/>
+                           <lb/>
+                              Ah! l’oppresse il dolor!... no... sventurata</l>
                         <l>quanto credi non sei... della sua fede</l>
                         <l>Adelson ti assicura in questo foglio...</l>
                         <l>Me sol persegue avverso fato! io solo</l>
