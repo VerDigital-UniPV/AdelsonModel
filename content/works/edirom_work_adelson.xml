@@ -41,10 +41,10 @@
                     <titleStmt>
                         <title>N.1</title>
                     </titleStmt>
-                    <relation xml:id="work-mv1-main" rel="hasVersion" target="numero01_merge_vMain.mei">
+                    <relation xml:id="work-mv1-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vMain.xml">
                         <desc>Main version</desc>
                     </relation>
-                    <relation xml:id="work-mv1-alt" rel="hasVersion" target="numero01_merge_vAlt.mei">
+                    <relation xml:id="work-mv1-alt" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vAlt.mei">
                         <desc>Alternative version</desc>
                     </relation>
                 </work>
@@ -53,7 +53,7 @@
                     <titleStmt>
                         <title>N.3</title>
                     </titleStmt>
-                    <relation xml:id="work-mv3-main" rel="hasVersion" target="numero03_merge.mei">
+                    <relation xml:id="work-mv3-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero03_merge.mei">
                         <desc>Version</desc>
                     </relation>
                 </work>
@@ -62,10 +62,10 @@
                     <titleStmt>
                         <title>N.5</title>
                     </titleStmt>
-                    <relation xml:id="work-mv5-first" rel="hasVersion" target="numero05_merge_vFirst.mei">
+                    <relation xml:id="work-mv5-first" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.mei">
                         <desc>First version</desc>
                     </relation>
-                    <relation xml:id="work-mv5-second" rel="hasVersion" target="numero05_vBis.mei">
+                    <relation xml:id="work-mv5-second" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vBis.mei">
                         <desc>Second version</desc>
                     </relation>
                 </work>
