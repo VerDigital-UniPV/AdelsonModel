@@ -36,6 +36,39 @@
                         <perfRes count="1">Klavier</perfRes>
                     </perfResList>
                 </perfMedium>
+                <!-- Movement 1 -->
+                <work xml:id="work-mv1">
+                    <titleStmt>
+                        <title>N.1</title>
+                    </titleStmt>
+                    <relation xml:id="work-mv1-main" rel="hasVersion" target="numero01_merge_vMain.mei">
+                        <desc>Main version</desc>
+                    </relation>
+                    <relation xml:id="work-mv1-alt" rel="hasVersion" target="numero01_merge_vAlt.mei">
+                        <desc>Alternative version</desc>
+                    </relation>
+                </work>
+                <!-- Movement 3 -->
+                <work xml:id="work-mv3">
+                    <titleStmt>
+                        <title>N.3</title>
+                    </titleStmt>
+                    <relation xml:id="work-mv3-main" rel="hasVersion" target="numero03_merge.mei">
+                        <desc>Version</desc>
+                    </relation>
+                </work>
+                <!-- Movement 5 -->
+                <work xml:id="work-mv5">
+                    <titleStmt>
+                        <title>N.5</title>
+                    </titleStmt>
+                    <relation xml:id="work-mv5-first" rel="hasVersion" target="numero05_merge_vFirst.mei">
+                        <desc>First version</desc>
+                    </relation>
+                    <relation xml:id="work-mv5-second" rel="hasVersion" target="numero05_vBis.mei">
+                        <desc>Second version</desc>
+                    </relation>
+                </work>
                 <notesStmt>
                     <annot type="criticalCommentary">
                         <annot type="editorialComment" xml:id="annot_0001" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml#note1-act1sc3">
