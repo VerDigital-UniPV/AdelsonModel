@@ -110,12 +110,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="en">N.3</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-4-1-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.xml[width:900]">
+                        <navigatorCategory xml:id="navCategory-2-4-1-3" sortNo="3">
                             <names>
                                 <name xml:lang="de">N.5</name>
                                 <name xml:lang="en">N.5</name>
                             </names>
-                        </navigatorItem>
+                            <navigatorItem xml:id="navItem-2-4-1-3-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.xml[width:900]">
+                                <names>
+                                    <name xml:lang="de">Main version</name>
+                                    <name xml:lang="en">Main version</name>
+                                </names>
+                            </navigatorItem>
+                            <navigatorItem xml:id="navItem-2-4-1-3-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vApp1.xml[width:900]">
+                                <names>
+                                    <name xml:lang="de">Appendix 1 version</name>
+                                    <name xml:lang="en">Appendix 1 version</name>
+                                </names>
+                            </navigatorItem>
+                        </navigatorCategory>
                     </navigatorCategory>
                         <navigatorCategory xml:id="navCategory-2-4-2" sortNo="2">
                             <names>
