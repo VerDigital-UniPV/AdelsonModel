@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>No. 5: Romanza di Nelly</title>
-         </titleStmt>/>
+         </titleStmt>
          <pubStmt/>
       </fileDesc>
       <encodingDesc>
@@ -18,9 +18,9 @@
             </application>
          </appInfo>
       </encodingDesc>
-      <work xmlns="">
+<!--      <work xmlns="">
          <notesStmt/>
-      </work>
+      </work>-->
    </meiHead>
    <music>
       <facsimile>
@@ -2153,7 +2153,8 @@
                           vgrp="2110">*</dir>
                      <hairpin xml:id="h15brmbi"
                               staff="2"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4.67"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -2179,7 +2180,8 @@
                            curvedir="above"/>
                      <hairpin xml:id="hhn5qy6"
                               staff="7"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="930"/>
@@ -2190,7 +2192,8 @@
                            curvedir="above"/>
                      <hairpin xml:id="hn07pf"
                               staff="8"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="740"/>
@@ -2200,7 +2203,8 @@
                            curvedir="below"/>
                      <hairpin xml:id="hqhiqe1"
                               staff="9"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="790"/>
@@ -2210,7 +2214,8 @@
                            curvedir="below"/>
                      <hairpin xml:id="ho6lc3j"
                               staff="10"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -5335,6 +5340,7 @@
                      <hairpin xml:id="hh9l5sk"
                               staff="1"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -5349,6 +5355,7 @@
                      <hairpin xml:id="htstcf0"
                               staff="3"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="below"
                               vgrp="630"/>
@@ -21416,6 +21423,7 @@
                      <hairpin xml:id="h17mluqg"
                               staff="6"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="above"
                               vgrp="2240"/>
@@ -22675,7 +22683,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tie xml:id="t153ebwj" startid="#n1dhbdh3"/>
+                     <tie xml:id="t153ebwj" startid="#n1dhbdh3" endid="#nqdt0f9"/>
                      <tie xml:id="t1jlt1bd" startid="#n14nz9v2" endid="#nib0xv2"/>
                      <tie xml:id="t1255xxf" startid="#ndum3xt" endid="#nk3afua"/>
                      <tie xml:id="t1t6mk9s" startid="#nok0rxx" endid="#ni44uq3"/>
@@ -22800,10 +22808,6 @@
                      </dir>
                   </measure>
                   <measure n="58"
-                           label="59"
-                           xml:id="measure_9a4ad188-d16c-4835-8593-7011bb1b4897"
-                           facs="#zone_f89bce4b-b15b-495b-bfab-224718d6db11"/>
-                  <measure n="59"
                            label="59"
                            xml:id="measure_9a4ad188-d16c-4835-8593-7011bb1b4897"
                            facs="#zone_f89bce4b-b15b-495b-bfab-224718d6db11"/>
