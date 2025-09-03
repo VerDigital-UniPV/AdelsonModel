@@ -65,7 +65,7 @@
                     <relation xml:id="work-mv5-first" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.xml">
                         <desc>First version</desc>
                     </relation>
-                    <relation xml:id="work-mv5-first" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vApp1.xml">
+                    <relation xml:id="work-mv5-app1" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vApp1.xml">
                         <desc>Appendix 1 version</desc>
                     </relation>
                     <relation xml:id="work-mv5-second" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vBis.xml">
