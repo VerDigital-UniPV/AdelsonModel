@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>No. 5: Romanza di Nelly</title>
-         </titleStmt>/>
+         </titleStmt>
          <pubStmt/>
       </fileDesc>
       <encodingDesc>
@@ -16,9 +18,9 @@
             </application>
          </appInfo>
       </encodingDesc>
-      <work xmlns="">
+<!--      <work xmlns="">
          <notesStmt/>
-      </work>
+      </work>-->
    </meiHead>
    <music>
       <facsimile>
@@ -441,18 +443,6 @@
                   uly="268"
                   lrx="2574"
                   lry="4944"/>
-            <zone xml:id="zone_04c94daa-0d9c-4b8c-a00e-301fc7b4b676"
-                  type="measure"
-                  ulx="1332"
-                  uly="268"
-                  lrx="2574"
-                  lry="4944"/>
-            <zone xml:id="zone_f1855909-d855-452a-9603-230d4fd9b020"
-                  type="measure"
-                  ulx="2278"
-                  uly="362"
-                  lrx="3474"
-                  lry="4892"/>
             <zone xml:id="zone_f1855909-d855-452a-9603-230d4fd9b020"
                   type="measure"
                   ulx="2278"
@@ -465,30 +455,12 @@
                   uly="376"
                   lrx="4248"
                   lry="4876"/>
-            <zone xml:id="zone_d48375ef-3f9f-4232-989d-5a6ab67a18f3"
-                  type="measure"
-                  ulx="3144"
-                  uly="376"
-                  lrx="4248"
-                  lry="4876"/>
             <zone xml:id="zone_f6f6cedc-a078-46c9-b48b-374fa9c06944"
                   type="measure"
                   ulx="4006"
                   uly="360"
                   lrx="5986"
                   lry="4916"/>
-            <zone xml:id="zone_f6f6cedc-a078-46c9-b48b-374fa9c06944"
-                  type="measure"
-                  ulx="4006"
-                  uly="360"
-                  lrx="5986"
-                  lry="4916"/>
-            <zone xml:id="zone_141d61bb-e95f-45ee-8d80-61338ef80bc1"
-                  type="measure"
-                  ulx="5642"
-                  uly="368"
-                  lrx="7300"
-                  lry="4898"/>
             <zone xml:id="zone_141d61bb-e95f-45ee-8d80-61338ef80bc1"
                   type="measure"
                   ulx="5642"
@@ -513,18 +485,6 @@
                   uly="316"
                   lrx="1420"
                   lry="4826"/>
-            <zone xml:id="zone_8357cbf3-67bf-423c-bf7a-b425d3db2e7a"
-                  type="measure"
-                  ulx="246"
-                  uly="316"
-                  lrx="1420"
-                  lry="4826"/>
-            <zone xml:id="zone_e1ac67ce-0db0-4394-836f-98e52395416c"
-                  type="measure"
-                  ulx="1212"
-                  uly="294"
-                  lrx="2440"
-                  lry="4776"/>
             <zone xml:id="zone_e1ac67ce-0db0-4394-836f-98e52395416c"
                   type="measure"
                   ulx="1212"
@@ -537,18 +497,6 @@
                   uly="248"
                   lrx="3578"
                   lry="4774"/>
-            <zone xml:id="zone_ee9adde0-5930-4b62-bd73-74e1460ee6a9"
-                  type="measure"
-                  ulx="2234"
-                  uly="248"
-                  lrx="3578"
-                  lry="4774"/>
-            <zone xml:id="zone_f89bce4b-b15b-495b-bfab-224718d6db11"
-                  type="measure"
-                  ulx="3362"
-                  uly="262"
-                  lrx="4686"
-                  lry="4838"/>
             <zone xml:id="zone_f89bce4b-b15b-495b-bfab-224718d6db11"
                   type="measure"
                   ulx="3362"
@@ -579,30 +527,12 @@
                   uly="258"
                   lrx="3608"
                   lry="4978"/>
-            <zone xml:id="zone_fdb0af74-158c-4a53-9fb4-f48fea5c3c36"
-                  type="measure"
-                  ulx="1674"
-                  uly="258"
-                  lrx="3608"
-                  lry="4978"/>
             <zone xml:id="zone_cd29ce80-039d-4057-acc1-c678f44479cc"
                   type="measure"
                   ulx="3410"
                   uly="362"
                   lrx="5108"
                   lry="4906"/>
-            <zone xml:id="zone_cd29ce80-039d-4057-acc1-c678f44479cc"
-                  type="measure"
-                  ulx="3410"
-                  uly="362"
-                  lrx="5108"
-                  lry="4906"/>
-            <zone xml:id="zone_5aa40341-fd80-46e8-8425-66c8545fbc78"
-                  type="measure"
-                  ulx="4932"
-                  uly="402"
-                  lrx="6080"
-                  lry="4904"/>
             <zone xml:id="zone_5aa40341-fd80-46e8-8425-66c8545fbc78"
                   type="measure"
                   ulx="4932"
@@ -639,18 +569,6 @@
                   uly="284"
                   lrx="1688"
                   lry="4766"/>
-            <zone xml:id="zone_258843b5-f49a-4494-bd28-d694779ababa"
-                  type="measure"
-                  ulx="300"
-                  uly="284"
-                  lrx="1688"
-                  lry="4766"/>
-            <zone xml:id="zone_5245dd10-1891-410c-badb-6198406cf8a2"
-                  type="measure"
-                  ulx="1470"
-                  uly="290"
-                  lrx="3300"
-                  lry="4772"/>
             <zone xml:id="zone_5245dd10-1891-410c-badb-6198406cf8a2"
                   type="measure"
                   ulx="1470"
@@ -663,30 +581,12 @@
                   uly="256"
                   lrx="4458"
                   lry="4800"/>
-            <zone xml:id="zone_ade7bae9-d122-4c99-b698-27a2c1550ba8"
-                  type="measure"
-                  ulx="2958"
-                  uly="256"
-                  lrx="4458"
-                  lry="4800"/>
             <zone xml:id="zone_230fca8d-c676-4cef-ace6-78c4b7b9a6db"
                   type="measure"
                   ulx="4242"
                   uly="256"
                   lrx="5424"
                   lry="4800"/>
-            <zone xml:id="zone_230fca8d-c676-4cef-ace6-78c4b7b9a6db"
-                  type="measure"
-                  ulx="4242"
-                  uly="256"
-                  lrx="5424"
-                  lry="4800"/>
-            <zone xml:id="zone_589f6e48-2eb5-4c4e-b9dc-ea2c056413fe"
-                  type="measure"
-                  ulx="5212"
-                  uly="254"
-                  lrx="6492"
-                  lry="4798"/>
             <zone xml:id="zone_589f6e48-2eb5-4c4e-b9dc-ea2c056413fe"
                   type="measure"
                   ulx="5212"
@@ -711,30 +611,12 @@
                   uly="174"
                   lrx="3118"
                   lry="4926"/>
-            <zone xml:id="zone_6cb6748a-690a-42e5-a42f-d6a0588f2a3a"
-                  type="measure"
-                  ulx="1618"
-                  uly="174"
-                  lrx="3118"
-                  lry="4926"/>
             <zone xml:id="zone_d732288a-5528-4e07-8deb-1990ba435718"
                   type="measure"
                   ulx="2884"
                   uly="246"
                   lrx="4154"
                   lry="4884"/>
-            <zone xml:id="zone_d732288a-5528-4e07-8deb-1990ba435718"
-                  type="measure"
-                  ulx="2884"
-                  uly="246"
-                  lrx="4154"
-                  lry="4884"/>
-            <zone xml:id="zone_e1a075c9-ee76-4565-a30b-840489713ce6"
-                  type="measure"
-                  ulx="3912"
-                  uly="270"
-                  lrx="5242"
-                  lry="4880"/>
             <zone xml:id="zone_e1a075c9-ee76-4565-a30b-840489713ce6"
                   type="measure"
                   ulx="3912"
@@ -2271,7 +2153,8 @@
                           vgrp="2110">*</dir>
                      <hairpin xml:id="h15brmbi"
                               staff="2"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4.67"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -2297,7 +2180,8 @@
                            curvedir="above"/>
                      <hairpin xml:id="hhn5qy6"
                               staff="7"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="930"/>
@@ -2308,7 +2192,8 @@
                            curvedir="above"/>
                      <hairpin xml:id="hn07pf"
                               staff="8"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="740"/>
@@ -2318,7 +2203,8 @@
                            curvedir="below"/>
                      <hairpin xml:id="hqhiqe1"
                               staff="9"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="790"/>
@@ -2328,7 +2214,8 @@
                            curvedir="below"/>
                      <hairpin xml:id="ho6lc3j"
                               staff="10"
-                              tstamp="1"
+                              tstamp="2"
+                              tstamp2="4"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -5453,6 +5340,7 @@
                      <hairpin xml:id="hh9l5sk"
                               staff="1"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="below"
                               vgrp="600"/>
@@ -5467,6 +5355,7 @@
                      <hairpin xml:id="htstcf0"
                               staff="3"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="below"
                               vgrp="630"/>
@@ -21534,6 +21423,7 @@
                      <hairpin xml:id="h17mluqg"
                               staff="6"
                               tstamp="1"
+                              tstamp2="3"
                               form="cres"
                               place="above"
                               vgrp="2240"/>
@@ -22793,7 +22683,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tie xml:id="t153ebwj" startid="#n1dhbdh3"/>
+                     <tie xml:id="t153ebwj" startid="#n1dhbdh3" endid="#nqdt0f9"/>
                      <tie xml:id="t1jlt1bd" startid="#n14nz9v2" endid="#nib0xv2"/>
                      <tie xml:id="t1255xxf" startid="#ndum3xt" endid="#nk3afua"/>
                      <tie xml:id="t1t6mk9s" startid="#nok0rxx" endid="#ni44uq3"/>
@@ -22918,10 +22808,6 @@
                      </dir>
                   </measure>
                   <measure n="58"
-                           label="59"
-                           xml:id="measure_9a4ad188-d16c-4835-8593-7011bb1b4897"
-                           facs="#zone_f89bce4b-b15b-495b-bfab-224718d6db11"/>
-                  <measure n="59"
                            label="59"
                            xml:id="measure_9a4ad188-d16c-4835-8593-7011bb1b4897"
                            facs="#zone_f89bce4b-b15b-495b-bfab-224718d6db11"/>
