@@ -115,7 +115,7 @@ span.name {
     font-size: 0.9rem !important;
 }
 
-.lg .l:first-of-type {
+.lg .l .l-content.first-line {
   text-indent: 2em;
 }
 
