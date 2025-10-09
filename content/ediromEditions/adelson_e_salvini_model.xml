@@ -107,20 +107,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <names>
                                 <name>N.1</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vMain.xml[width:900]">
+                            <navigatorItem xml:id="navItem-2-4-1-1-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/deprecated/numero01_merge_vMain.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Main version</name>
                                     <name xml:lang="en">Main version</name>
                                 </names>
                             </navigatorItem>
-                            <navigatorItem xml:id="navItem-2-4-1-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vAlt.xml[width:900]">
+                            <navigatorItem xml:id="navItem-2-4-1-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/deprecated/numero01_merge_vAlt.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Alternative version</name>
                                     <name xml:lang="en">Alternative version</name>
                                 </names>
                             </navigatorItem>
                         </navigatorCategory>
-                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero03_merge.xml[width:900]">
+                        <navigatorItem xml:id="navItem-2-4-1-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/deprecated/numero03_merge.xml[width:900]">
                             <names>
                                 <name xml:lang="de">N.3</name>
                                 <name xml:lang="en">N.3</name>
@@ -131,13 +131,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="de">N.5</name>
                                 <name xml:lang="en">N.5</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-1-3-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.xml[width:900]">
+                            <navigatorItem xml:id="navItem-2-4-1-3-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/deprecated/numero05_merge_vFirst.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Main version</name>
                                     <name xml:lang="en">Main version</name>
                                 </names>
                             </navigatorItem>
-                            <navigatorItem xml:id="navItem-2-4-1-3-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vApp1.xml[width:900]">
+                            <navigatorItem xml:id="navItem-2-4-1-3-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero05_vApp1.xml[width:900]">
                                 <names>
                                     <name xml:lang="de">Appendix 1 version</name>
                                     <name xml:lang="en">Appendix 1 version</name>
@@ -150,7 +150,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <name xml:lang="de">Second version</name>
                                 <name xml:lang="en">Second version</name>
                             </names>
-                            <navigatorItem xml:id="navItem-2-4-2-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vBis.xml">
+                            <navigatorItem xml:id="navItem-2-4-2-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero05_vBis.xml">
                                 <names>
                                     <name xml:lang="de">N.5</name>
                                     <name xml:lang="en">N.5</name>
