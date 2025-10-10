@@ -164,22 +164,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <name xml:lang="en">Libretto</name>
                             <name xml:lang="it">Libretto</name>
                         </names>
-                        <navigatorItem xml:id="navItem-2-5-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1816[width:600]">
+                        <navigatorItem xml:id="navItem-2-5-1" sortNo="1" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1816[width:1150]">
                             <names>
                                 <name xml:lang="de">Fioravanti's version 1816</name>
                                 <name xml:lang="en">Fioravanti's version 1816</name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1825[width:600]">
+                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto.xml?version=1825[width:1150]">
                             <names>
                                 <name xml:lang="de">Bellini's version 1825</name>
                                 <name xml:lang="en">Bellini's version 1825</name>
-                            </names>
-                        </navigatorItem>
-                         <navigatorItem xml:id="navItem-2-5-3" sortNo="3" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/texts/adelsonLibretto_merge.xml[width:1150]">
-                            <names>
-                                <name xml:lang="de">Combined view</name>
-                                <name xml:lang="en">Combined view</name>
                             </names>
                         </navigatorItem>
                     </navigatorCategory>
