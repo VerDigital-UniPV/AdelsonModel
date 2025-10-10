@@ -20,76 +20,76 @@
     <music>
         <facsimile>
             <surface xml:id="surface_d3443034-342b-4468-bf32-144806a1233d" n="1" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_cb25b7d8-55ff-4080-a026-4add0895aae2" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_001.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_cb25b7d8-55ff-4080-a026-4add0895aae2" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_001.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_fdca25ca-fd96-4dd1-bf4a-38943da1981e" type="measure" ulx="575" uly="19" lrx="1134" lry="800"/>
             </surface>
             <surface xml:id="surface_2e1ad0cf-ae60-45b6-b7d2-84f8842ed87c" n="2" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_82c1b9dd-0dfc-4d5b-a7ad-0111c54c8f60" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_004.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_82c1b9dd-0dfc-4d5b-a7ad-0111c54c8f60" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_004.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_f2597665-f1ff-445b-8f52-79d3019a353b" type="measure" ulx="93" uly="17" lrx="654" lry="800"/>
                 <zone xml:id="zone_b22c251d-085d-4fe5-b6e1-a9ee46b290f6" type="measure" ulx="558" uly="28" lrx="1116" lry="797"/>
             </surface>
             <surface xml:id="surface_272f3ee2-0064-46a0-8b9e-20c9f31d225b" n="3" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_d9732ac0-7d67-4dc2-99ac-64625ffb58ed" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_005.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_d9732ac0-7d67-4dc2-99ac-64625ffb58ed" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_005.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_43c7c1a6-76da-4426-bad5-b466ab3ee84d" type="measure" ulx="179" uly="45" lrx="702" lry="795"/>
                 <zone xml:id="zone_e23149cc-4179-4f70-aae2-e8f916f1319f" type="measure" ulx="597" uly="27" lrx="1089" lry="788"/>
             </surface>
             <surface xml:id="surface_1d48264a-245d-4b1e-a919-8eb7a7f90c17" n="4" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_0dffe5dd-661f-48cf-8f8e-02d70fa22f04" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_006.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_0dffe5dd-661f-48cf-8f8e-02d70fa22f04" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_006.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_c2798854-74a4-4cbf-b07d-ed2887cadd11" type="measure" ulx="177" uly="29" lrx="673" lry="760"/>
                 <zone xml:id="zone_6899a258-e984-4dc5-b0a5-c64edda539b6" type="measure" ulx="608" uly="45" lrx="1064" lry="772"/>
             </surface>
             <surface xml:id="surface_9d9e9335-eb74-4662-880c-7da07c898cd5" n="5" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_a064889e-292d-43d2-9f8d-bd6172e6803a" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_007.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_a064889e-292d-43d2-9f8d-bd6172e6803a" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_007.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_1502f2e9-2562-49db-9e25-9899ee55cc02" type="measure" ulx="145" uly="39" lrx="690" lry="800"/>
                 <zone xml:id="zone_4dfb36b4-b503-4b51-8a83-29a3e0920513" type="measure" ulx="603" uly="35" lrx="1092" lry="788"/>
             </surface>
             <surface xml:id="surface_b0d5bd0c-1e84-4d29-81f9-4933bd9526bf" n="6" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_d6fb92aa-67e4-472a-8daa-d059984210fe" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_008.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_d6fb92aa-67e4-472a-8daa-d059984210fe" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_008.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_610aca43-65c5-4c96-8227-92b24fb87305" type="measure" ulx="155" uly="0" lrx="666" lry="775"/>
                 <zone xml:id="zone_49acf1b1-042d-452c-ac89-61c6f5a3dd50" type="measure" ulx="609" uly="15" lrx="1098" lry="799"/>
             </surface>
             <surface xml:id="surface_3d979e3c-ec64-43ca-b37b-fdc10d513d42" n="7" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_d2dc3e97-bf35-4166-92e2-a7488ff7535d" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_009.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_d2dc3e97-bf35-4166-92e2-a7488ff7535d" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_009.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_b508dbd3-f36b-4938-b869-650d4aed91cd" type="measure" ulx="197" uly="24" lrx="693" lry="800"/>
                 <zone xml:id="zone_c1b89275-9aca-4036-bfc5-a405c9545422" type="measure" ulx="628" uly="16" lrx="1099" lry="766"/>
             </surface>
             <surface xml:id="surface_72ee2ddc-148e-4aaa-8849-a29ee249b365" n="8" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_27c3758d-c18d-40be-b82c-efcbc77e7611" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_010.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_27c3758d-c18d-40be-b82c-efcbc77e7611" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_010.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_78bd9c21-f700-4541-9de1-b42f1d7ddb2f" type="measure" ulx="140" uly="17" lrx="738" lry="788"/>
                 <zone xml:id="zone_2a6f53cf-4e34-4dea-ae17-70a16797874c" type="measure" ulx="612" uly="18" lrx="1123" lry="790"/>
             </surface>
             <surface xml:id="surface_5ba37d6c-8fbc-4f8c-aaaf-94aab4ef88f4" n="9" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_7729d04e-a30d-4907-aa98-96d402450856" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_011.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_7729d04e-a30d-4907-aa98-96d402450856" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_011.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_8f6768d5-514d-4c21-9fad-dc6e885b9a79" type="measure" ulx="160" uly="20" lrx="677" lry="764"/>
                 <zone xml:id="zone_0133e859-0ca4-4cbc-90a4-42329073d029" type="measure" ulx="646" uly="49" lrx="1090" lry="754"/>
             </surface>
             <surface xml:id="surface_c25dcb57-64b3-43dd-9b57-06603f0ad165" n="10" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_8f5248df-8a93-46fe-9c9c-35c9b8301d56" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_012.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_8f5248df-8a93-46fe-9c9c-35c9b8301d56" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_012.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_0c41dfa2-bb97-4ca1-991e-f71ee5ffad27" type="measure" ulx="219" uly="43" lrx="673" lry="795"/>
                 <zone xml:id="zone_647a3381-01fd-467a-8318-0ac41ddc940a" type="measure" ulx="636" uly="41" lrx="1065" lry="780"/>
             </surface>
             <surface xml:id="surface_cea94f49-a26c-4f41-b2fd-eaaefc518c74" n="11" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_d2aa36cd-038a-4516-8033-6367f0167e8f" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_013.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_d2aa36cd-038a-4516-8033-6367f0167e8f" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_013.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_0b931fe8-350f-4609-a5a3-00ab953fe568" type="measure" ulx="166" uly="27" lrx="675" lry="778"/>
                 <zone xml:id="zone_7e5d758b-6251-4051-bcd6-a98673528f3d" type="measure" ulx="588" uly="47" lrx="1088" lry="794"/>
             </surface>
             <surface xml:id="surface_ea788711-68f3-4bd0-ae04-c728737d0c23" n="12" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_a677fda9-1087-4f24-bfa1-fe56c97bebb0" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_014.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_a677fda9-1087-4f24-bfa1-fe56c97bebb0" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_014.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_718bb80c-5004-44f9-aa72-b0e51468e9bc" type="measure" ulx="154" uly="18" lrx="673" lry="777"/>
                 <zone xml:id="zone_dc3fcf3e-9e7e-44de-a609-8d38bd74fe6a" type="measure" ulx="582" uly="36" lrx="1099" lry="773"/>
             </surface>
             <surface xml:id="surface_c5e0b655-6838-4ead-bac3-35517b19dd77" n="13" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_2f668d54-de15-4616-a801-1f827fd5d619" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_015.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_2f668d54-de15-4616-a801-1f827fd5d619" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_015.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_587cb105-44f1-4ec0-84f8-4bb762e5da77" type="measure" ulx="156" uly="23" lrx="677" lry="740"/>
                 <zone xml:id="zone_674dd78b-2bb4-43e3-85e3-f620cc0a2b4c" type="measure" ulx="577" uly="51" lrx="1079" lry="792"/>
             </surface>
             <surface xml:id="surface_1b905dd4-7e7f-4fd8-81b8-387602723763" n="14" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_702bd366-74c5-4925-84c4-822ed1659edc" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_016.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_702bd366-74c5-4925-84c4-822ed1659edc" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_016.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_c2db76d8-50c4-40b6-b3c4-3cf36947b5c3" type="measure" ulx="175" uly="18" lrx="673" lry="783"/>
                 <zone xml:id="zone_31b2ef24-15bd-4980-a8f3-c13a3266c728" type="measure" ulx="602" uly="19" lrx="1084" lry="800"/>
             </surface>
             <surface xml:id="surface_6a7d077f-bbb5-4749-9ba9-0da50e344364" n="15" ulx="0" uly="0" lrx="1200" lry="800">
-                <graphic xml:id="graphic_c11fe532-9273-45d6-aec0-fa538b7f7533" target="http://localhost:8182/iiif/2/TottolaFull%2FLo01717_017.jpg" type="facsimile" width="1200" height="800"/>
+                <graphic xml:id="graphic_c11fe532-9273-45d6-aec0-fa538b7f7533" target="https://iiif.archive.org/image/iiif/3/tottola-adelson-e-salvini-libretto-atto1%2fLo01717_017.jpg" type="facsimile" width="1200" height="800"/>
                 <zone xml:id="zone_27669407-605f-43db-b1b1-28b38b9a927a" type="measure" ulx="152" uly="29" lrx="653" lry="770"/>
                 <zone xml:id="zone_06b00229-7b7b-41eb-8dc9-cbea7ea02889" type="measure" ulx="599" uly="36" lrx="1099" lry="799"/>
             </surface>
