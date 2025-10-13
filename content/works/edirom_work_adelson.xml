@@ -41,11 +41,8 @@
                     <titleStmt>
                         <title>N.1</title>
                     </titleStmt>
-                    <relation xml:id="work-mv1-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vMain.xml">
+                    <relation xml:id="work-mv1-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml">
                         <desc>Main version</desc>
-                    </relation>
-                    <relation xml:id="work-mv1-alt" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_merge_vAlt.xml">
-                        <desc>Alternative version</desc>
                     </relation>
                 </work>
                 <!-- Movement 3 -->
@@ -53,8 +50,8 @@
                     <titleStmt>
                         <title>N.3</title>
                     </titleStmt>
-                    <relation xml:id="work-mv3-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero03_merge.xml">
-                        <desc>Version</desc>
+                    <relation xml:id="work-mv3-main" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero03.xml">
+                        <desc>Main version</desc>
                     </relation>
                 </work>
                 <!-- Movement 5 -->
@@ -62,14 +59,14 @@
                     <titleStmt>
                         <title>N.5</title>
                     </titleStmt>
-                    <relation xml:id="work-mv5-first" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_merge_vFirst.xml">
+                    <relation xml:id="work-mv5-first" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero05_vMain.xml">
                         <desc>First version</desc>
                     </relation>
-                    <relation xml:id="work-mv5-app1" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vApp1.xml">
+                    <relation xml:id="work-mv5-app1" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero05_vApp1.xml">
                         <desc>Appendix 1 version</desc>
                     </relation>
-                    <relation xml:id="work-mv5-second" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero05_vBis.xml">
-                        <desc>Second edition version</desc>
+                    <relation xml:id="work-mv5-second" rel="hasVersion" target="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero05_vApp2.xml">
+                        <desc>Appendix 2 version</desc>
                     </relation>
                 </work>
                 <notesStmt>
