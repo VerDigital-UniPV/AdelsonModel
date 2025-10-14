@@ -1389,10 +1389,16 @@
                      <staff xml:id="s1ywz3qa" n="6">
                         <layer xml:id="lpef8uz" n="1">
                            <space xml:id="s1054r1m" dots="1" dur.ppq="20" dur="2"/>
-                           <rest xml:id="r12ml4p5" dur.ppq="2" dur="16"/>
-                           <space xml:id="s1uki4e3" dur.ppq="2" dur="16"/>
-                           <note xml:id="nrtzam5" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down"/>
-                           <note xml:id="n1ec44gw" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down"/>
+                           <app xml:id="app-oppure-aaaa">
+                              <rdg source="todo" xml:id="rdg-oppure-aaaa-main" corresp="colo-main">
+                                 <note xml:id="nrtzam5" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down" />
+                                 <note xml:id="n1ec44gw" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down" />
+                              </rdg>
+                              <rdg source="todo" xml:id="rdg-oppure-aaaa-alt" corresp="colo-alt">
+                                 <note xml:id="n14x5utd" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
+                                 <note xml:id="n1nicgpp" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" />
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1xv5ih0" n="7">
@@ -1413,16 +1419,32 @@
                                  <syl xml:id="schqiew" con="d" wordpos="i">ec</syl>
                               </verse>
                            </note>
-                           <note xml:id="n14x5utd" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
-                              <verse xml:id="voqp4mh" n="1">
-                                 <syl xml:id="s15zc2vc" con="d" wordpos="m">co</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1nicgpp" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
-                              <verse xml:id="vhuxm75" n="1">
-                                 <syl xml:id="sd5nao0" con="s" wordpos="t">lo</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="app-oppure-aaab">
+                              <rdg source="todo" xml:id="rdg-oppure-aaab-main" corresp="colo-main">
+                                 <note xml:id="n14x5utd-A" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="voqp4mh" n="1">
+                                       <syl xml:id="s15zc2vc" con="d" wordpos="m">co</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1nicgpp-A" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vhuxm75" n="1">
+                                       <syl xml:id="sd5nao0" con="s" wordpos="t">lo</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg source="todo" xml:id="rdg-oppure-aaab-alt" corresp="colo-alt">
+                                 <note xml:id="nrtzam5-B" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
+                                    <verse xml:id="voqp4mh-B" n="1">
+                                       <syl xml:id="s15zc2vc-B" con="d" wordpos="m">co</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1ec44gw-B" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
+                                    <verse xml:id="vhuxm75-B" n="1">
+                                       <syl xml:id="sd5nao0-B" con="s" wordpos="t">lo</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1tc9vzx" n="8">
