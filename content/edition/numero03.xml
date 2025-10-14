@@ -6911,7 +6911,7 @@
                                        <syl xml:id="s6h2f2zu" con="d" wordpos="i">Po</syl>
                                     </verse>
                                  </note>
-                                 <note xml:id="n3xisv8u" duur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                 <note xml:id="n3xisv8u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
                                     <verse xml:id="v22nrshu" n="1">
                                        <syl xml:id="s1r3n158u" con="s" wordpos="t">pa</syl>
                                     </verse>
