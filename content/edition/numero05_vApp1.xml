@@ -18,6 +18,14 @@
             <availability>Casa Ricordi Srl - 2014</availability>
          </pubStmt>
       </fileDesc>
+      <!-- Proposal for encoding corresp, TODO: revise -->
+      <workList>
+         <work>
+            <identifier auth="#composer" label="vide-leave" type="reading" xml:id="vide-leave">VI--DE: Keep measures between 27 and 41</identifier>
+            <identifier auth="#composer" label="vide-cut" type="reading" xml:id="vide-cut">VI--DE: Cut measures between 27 and 41r</identifier>
+            <title>No. 5: Romanza di Nelly (Appendix 1)</title>
+         </work>
+      </workList>
       <revisionDesc>
          <change n="1">
             <changeDesc>
@@ -4253,7 +4261,7 @@
                   </measure>
                   <sb/>
                   <app xml:id="vide">
-                     <rdg xml:id="vide-leave" source="todo" corresp="vide-leave">
+                     <rdg xml:id="rdg-vide-leave" source="todo" corresp="#vide-leave">
                         <measure xml:id="m1rn3rvj" n="27">
                            <staff xml:id="m27s1" n="1">
                               <layer xml:id="m27s1l1" n="1">
@@ -6639,7 +6647,7 @@
                         </measure>
                         <sb/>
                      </rdg>
-                     <rdg xml:id="vide-cut" source="todo" corresp="vide-cut"/>
+                     <rdg xml:id="rdg-vide-cut" source="todo" corresp="#vide-cut"/>
                   </app>
                   <measure xml:id="m1ju1214" n="42">
                      <staff xml:id="m42s1" n="1">
