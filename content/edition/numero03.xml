@@ -6039,23 +6039,46 @@
                      </staff>
                      <staff xml:id="s20dq8n" n="7">
                         <layer xml:id="lr431ds" n="1">
-                           <note xml:id="n1vgjgyt" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1i6mhfp" n="1">
-                                 <syl xml:id="s1yddw1i" con="d" wordpos="i">«Fug</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1hx2yyk" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vid3s5j" n="1">
-                                 <syl xml:id="sdoupg0" con="s" wordpos="t">gi</syl>
-                              </verse>
-                           </note>
-                           <rest xml:id="rhw9tls" dur.ppq="8" dur="4"/>
-                           <rest xml:id="r1ldghkh" dur.ppq="4" dur="8"/>
-                           <note xml:id="n1iic1c4" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v18wq534" n="1">
-                                 <syl xml:id="s1yf2nfd" con="s" wordpos="s">e</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge01">
+                              <rdg xml:id="legge-pitched-01" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1vgjgyt" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1i6mhfp" n="1">
+                                       <syl xml:id="s1yddw1i" con="d" wordpos="i">«Fug</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hx2yyk" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vid3s5j" n="1">
+                                       <syl xml:id="sdoupg0" con="s" wordpos="t">gi</syl>
+                                    </verse>
+                                 </note>
+                                 <rest xml:id="rhw9tls" dur.ppq="8" dur="4" />
+                                 <rest xml:id="r1ldghkh" dur.ppq="4" dur="8" />
+                                 <note xml:id="n1iic1c4" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v18wq534" n="1">
+                                       <syl xml:id="s1yf2nfd" con="s" wordpos="s">e</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-01" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1vgjgytu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1i6mhfpu" n="1">
+                                       <syl xml:id="s1yddw1iu" con="d" wordpos="i">«Fug</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hx2yyku" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vid3s5ju" n="1">
+                                       <syl xml:id="sdoupg0u" con="s" wordpos="t">gi</syl>
+                                    </verse>
+                                 </note>
+                                 <rest xml:id="rhw9tlsu" dur.ppq="8" dur="4" />
+                                 <rest xml:id="r1ldghkhu" dur.ppq="4" dur="8" />
+                                 <note xml:id="n1iic1c4u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v18wq534u" n="1">
+                                       <syl xml:id="s1yf2nfdu" con="s" wordpos="s">e</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1so0too" n="8">
@@ -6158,18 +6181,40 @@
                      </staff>
                      <staff xml:id="s17qbxou" n="7">
                         <layer xml:id="ledsd9o" n="1">
-                           <note xml:id="n1loj27z" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vzrjtw8" n="1">
-                                 <syl xml:id="s1ihy8jq" con="d" wordpos="i">met</syl>
-                              </verse>
-                           </note>
-                           <rest xml:id="r1bbbxqt" dur.ppq="8" dur="4"/>
-                           <rest xml:id="r1iwuaos" dur.ppq="8" dur="4"/>
-                           <note xml:id="n1aorz4v" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vobkmem" n="1">
-                                 <syl xml:id="s3nh20n" con="d" wordpos="m">ti</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge02">
+                              <rdg xml:id="legge-pitched-02" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1loj27z" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vzrjtw8" n="1">
+                                       <syl xml:id="s1ihy8jq" con="d" wordpos="i">met</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-02" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1loj27zu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vzrjtw8u" n="1">
+                                       <syl xml:id="s1ihy8jqu" con="d" wordpos="i">met</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
+                           <rest xml:id="r1bbbxqt" dur.ppq="8" dur="4" />
+                           <rest xml:id="r1iwuaos" dur.ppq="8" dur="4" />
+                           <app xml:id="legge03">
+                              <rdg xml:id="legge-pitched-03" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1aorz4v" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vobkmem" n="1">
+                                       <syl xml:id="s3nh20n" con="d" wordpos="m">ti</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-03" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1aorz4vu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vobkmemu" n="1">
+                                       <syl xml:id="s3nh20nu" con="d" wordpos="m">ti</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="snzsrjb" n="8">
@@ -6275,18 +6320,40 @@
                      </staff>
                      <staff xml:id="s1d50xf8" n="7">
                         <layer xml:id="l3ue3f7" n="1">
-                           <note xml:id="nmrusye" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vlco9f5" n="1">
-                                 <syl xml:id="s3wvtdt" con="s" wordpos="s">ti in</syl>
-                              </verse>
-                           </note>
-                           <rest xml:id="rrpwqp8" dur.ppq="8" dur="4"/>
-                           <rest xml:id="r1d7i1fa" dur.ppq="8" dur="4"/>
-                           <note xml:id="n1xczlfa" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vdrkdgm" n="1">
-                                 <syl xml:id="s1u5shmj" con="d" wordpos="i">si</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge04">
+                              <rdg xml:id="legge-pitched-04" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nmrusye" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vlco9f5" n="1">
+                                       <syl xml:id="s3wvtdt" con="s" wordpos="s">ti in</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-04" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nmrusyeu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vlco9f5u" n="1">
+                                       <syl xml:id="s3wvtdtu" con="s" wordpos="s">ti in</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
+                           <rest xml:id="rrpwqp8" dur.ppq="8" dur="4" />
+                           <rest xml:id="r1d7i1fa" dur.ppq="8" dur="4" />
+                           <app xml:id="legge05">
+                              <rdg xml:id="legge-pitched-05" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1xczlfa" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vdrkdgm" n="1">
+                                       <syl xml:id="s1u5shmj" con="d" wordpos="i">si</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-05" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1xczlfau" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vdrkdgmu" n="1">
+                                       <syl xml:id="s1u5shmju" con="d" wordpos="i">si</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="szkhwg5" n="8">
@@ -6396,16 +6463,32 @@
                      </staff>
                      <staff xml:id="s1j7e8vz" n="7">
                         <layer xml:id="l6igv0j" n="1">
-                           <note xml:id="n1etfhse" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v12i6lvx" n="1">
-                                 <syl xml:id="sb07ny5" con="d" wordpos="m">cu</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1kbitj0" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1twn3xp" n="1">
-                                 <syl xml:id="s18q8ppy" con="s" wordpos="t">ro»</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge06">
+                              <rdg xml:id="legge-pitched-06" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1etfhse" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v12i6lvx" n="1">
+                                       <syl xml:id="sb07ny5" con="d" wordpos="m">cu</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1kbitj0" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1twn3xp" n="1">
+                                       <syl xml:id="s18q8ppy" con="s" wordpos="t">ro»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-06" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1etfhseu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v12i6lvxu" n="1">
+                                       <syl xml:id="sb07ny5u" con="d" wordpos="m">cu</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1kbitj0u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1twn3xpu" n="1">
+                                       <syl xml:id="s18q8ppyu" con="s" wordpos="t">ro»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <note xml:id="nvivi8s" dur.ppq="4" dur="8" oct="3" pname="a" stem.dir="down">
                               <verse xml:id="vo3i1hj" n="1">
                                  <syl xml:id="smjdrw2" con="d" wordpos="i">Fu</syl>
@@ -6644,16 +6727,32 @@
                            </note>
                            <rest xml:id="r14d6t35" dur.ppq="8" dur="4"/>
                            <rest xml:id="r1o55o0j" dur.ppq="8" dur="4"/>
-                           <note xml:id="nm0ho88" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1hef2zn" n="1">
-                                 <syl xml:id="s14wri41" con="d" wordpos="i">«Don</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n14zltbe" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vf6br89" n="1">
-                                 <syl xml:id="syum0ul" con="s" wordpos="t">na</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge07">
+                              <rdg xml:id="legge-pitched-07" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nm0ho88" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1hef2zn" n="1">
+                                       <syl xml:id="s14wri41" con="d" wordpos="i">«Don</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14zltbe" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vf6br89" n="1">
+                                       <syl xml:id="syum0ul" con="s" wordpos="t">na</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-07" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nm0ho88u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1hef2znu" n="1">
+                                       <syl xml:id="s14wri41u" con="d" wordpos="i">«Don</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14zltbeu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vf6br89u" n="1">
+                                       <syl xml:id="syum0ulu" con="s" wordpos="t">na</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s540htz" n="8">
@@ -6793,27 +6892,59 @@
                      </staff>
                      <staff xml:id="se3zwkr" n="7">
                         <layer xml:id="lveh7r2" n="1">
-                           <note xml:id="n1gnpfdu" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vhx3qe" n="1">
-                                 <syl xml:id="s6h2f2z" con="d" wordpos="i">Po</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n3xisv8" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v22nrsh" n="1">
-                                 <syl xml:id="s1r3n158" con="s" wordpos="t">pa</syl>
-                              </verse>
-                           </note>
-                           <rest xml:id="rub90um" dur.ppq="8" dur="4"/>
-                           <note xml:id="npzvfc7" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1hhd5d8" n="1">
-                                 <syl xml:id="s3szerw" con="s" wordpos="s">vuol</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1c1ofbx" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1x8sgxd" n="1">
-                                 <syl xml:id="sgh49ic" con="d" wordpos="i">l’im</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge08">
+                              <rdg xml:id="legge-pitched-08" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1gnpfdu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vhx3qe" n="1">
+                                       <syl xml:id="s6h2f2z" con="d" wordpos="i">Po</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n3xisv8" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v22nrsh" n="1">
+                                       <syl xml:id="s1r3n158" con="s" wordpos="t">pa</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-08" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1gnpfduu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vhx3qeu" n="1">
+                                       <syl xml:id="s6h2f2zu" con="d" wordpos="i">Po</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n3xisv8u" duur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v22nrshu" n="1">
+                                       <syl xml:id="s1r3n158u" con="s" wordpos="t">pa</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
+                           <rest xml:id="rub90um" dur.ppq="8" dur="4" />
+                           <app xml:id="legge09">
+                              <rdg xml:id="legge-pitched-09" source="todo" corresp="legge-pitched">
+                                 <note xml:id="npzvfc7" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1hhd5d8" n="1">
+                                       <syl xml:id="s3szerw" con="s" wordpos="s">vuol</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1c1ofbx" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1x8sgxd" n="1">
+                                       <syl xml:id="sgh49ic" con="d" wordpos="i">l’im</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-09" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="npzvfc7u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1hhd5d8u" n="1">
+                                       <syl xml:id="s3szerwu" con="s" wordpos="s">vuol</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1c1ofbxu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1x8sgxdu" n="1">
+                                       <syl xml:id="sgh49icu" con="d" wordpos="i">l’im</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="sswd0i9" n="8">
@@ -6923,27 +7054,59 @@
                      </staff>
                      <staff xml:id="s1fwcilk" n="7">
                         <layer xml:id="l1n8mhn0" n="1">
-                           <note xml:id="n3ljqbg" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vfmvo97" n="1">
-                                 <syl xml:id="s7pxk5j" con="d" wordpos="m">por</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n4by31x" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1njwm3c" n="1">
-                                 <syl xml:id="s1de0z1m" con="s" wordpos="t">to</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge10">
+                              <rdg xml:id="legge-pitched-10" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n3ljqbg" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vfmvo97" n="1">
+                                       <syl xml:id="s7pxk5j" con="d" wordpos="m">por</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n4by31x" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1njwm3c" n="1">
+                                       <syl xml:id="s1de0z1m" con="s" wordpos="t">to</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-10" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n3ljqbgu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vfmvo97u" n="1">
+                                       <syl xml:id="s7pxk5ju" con="d" wordpos="m">por</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n4by31xu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1njwm3cu" n="1">
+                                       <syl xml:id="s1de0z1mu" con="s" wordpos="t">to</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <rest xml:id="rajx6z7" dur.ppq="8" dur="4"/>
-                           <note xml:id="n1wbbkpl" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v162h4ut" n="1">
-                                 <syl xml:id="si8jsdp" con="d" wordpos="i">del</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n8n15gx" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vhym03m" n="1">
-                                 <syl xml:id="sa4tihf" con="s" wordpos="t">la</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge11">
+                              <rdg xml:id="legge-pitched-11" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1wbbkpl" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v162h4ut" n="1">
+                                       <syl xml:id="si8jsdp" con="d" wordpos="i">del</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n8n15gx" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vhym03m" n="1">
+                                       <syl xml:id="sa4tihf" con="s" wordpos="t">la</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-11" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1wbbkplu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v162h4utu" n="1">
+                                       <syl xml:id="si8jsdpu" con="d" wordpos="i">del</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n8n15gxu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vhym03mu" n="1">
+                                       <syl xml:id="sa4tihfu" con="s" wordpos="t">la</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="sgtfl4s" n="8">
@@ -7054,26 +7217,52 @@
                      </staff>
                      <staff xml:id="s1fwmsqi" n="7">
                         <layer xml:id="l1aps2sv" n="1">
-                           <note xml:id="n50gyo6" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vumzflg" n="1">
-                                 <syl xml:id="s145uw68" con="d" wordpos="i">te</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nm623id" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v9az8ku" n="1">
-                                 <syl xml:id="sk7pzsy" con="d" wordpos="i">la ac</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nxsph5f" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1cduvh" n="1">
-                                 <syl xml:id="s707wzq" con="d" wordpos="m">cre</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1k2wrd5" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1gn8n1o" n="1">
-                                 <syl xml:id="s1alahbo" con="d" wordpos="m">den</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge12">
+                              <rdg xml:id="legge-pitched-12" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n50gyo6" dur.ppq="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vumzflg" n="1">
+                                       <syl xml:id="s145uw68" con="d" wordpos="i">te</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nm623id" dur.ppq="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v9az8ku" n="1">
+                                       <syl xml:id="sk7pzsy" con="d" wordpos="i">la ac</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nxsph5f" dur.ppq="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1cduvh" n="1">
+                                       <syl xml:id="s707wzq" con="d" wordpos="m">cre</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1k2wrd5" dur.ppq="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1gn8n1o" n="1">
+                                       <syl xml:id="s1alahbo" con="d" wordpos="m">den</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-12" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n50gyo6u" dur.ppq="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vumzflgu" n="1">
+                                       <syl xml:id="s145uw68u" con="d" wordpos="i">te</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nm623idu" dur.ppq="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v9az8kuu" n="1">
+                                       <syl xml:id="sk7pzsyu" con="d" wordpos="i">la ac</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nxsph5fu" dur.ppq="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1cduvhu" n="1">
+                                       <syl xml:id="s707wzqu" con="d" wordpos="m">cre</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1k2wrd5u" dur.ppq="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1gn8n1ou" n="1">
+                                       <syl xml:id="s1alahbou" con="d" wordpos="m">den</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="sb8f7nb" n="8">
@@ -7195,16 +7384,32 @@
                      </staff>
                      <staff xml:id="srwu8s3" n="7">
                         <layer xml:id="l8ysp30" n="1">
-                           <note xml:id="n1sgii7" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vkpvcsy" n="1">
-                                 <syl xml:id="s1gz7fsh" con="d" wordpos="m">za</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="noxqnud" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v10fn0rx" n="1">
-                                 <syl xml:id="ss2zuki" con="s" wordpos="t">ta.»</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge13">
+                              <rdg xml:id="legge-pitched-13" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1sgii7" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vkpvcsy" n="1">
+                                       <syl xml:id="s1gz7fsh" con="d" wordpos="m">za</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="noxqnud" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v10fn0rx" n="1">
+                                       <syl xml:id="ss2zuki" con="s" wordpos="t">ta.»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-13" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1sgii7u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vkpvcsyu" n="1">
+                                       <syl xml:id="s1gz7fshu" con="d" wordpos="m">za</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="noxqnudu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v10fn0rxu" n="1">
+                                       <syl xml:id="ss2zukiu" con="s" wordpos="t">ta.»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <note xml:id="n1kj0ttr" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
                               <verse xml:id="v1xyp3x" n="1">
                                  <syl xml:id="sui1jvq" con="s" wordpos="s">Cca</syl>
@@ -7707,16 +7912,32 @@
                               </verse>
                            </note>
                            <rest xml:id="r1c2kfby" dur.ppq="8" dur="4"/>
-                           <note xml:id="nqrfzph" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1iw45qc" n="1">
-                                 <syl xml:id="s1j0lenm" con="d" wordpos="i">«Don</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1hwzgeq" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v107nrnj" n="1">
-                                 <syl xml:id="s1wdc0yi" con="d" wordpos="m">n’O</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge14">
+                              <rdg xml:id="legge-pitched-14" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nqrfzph" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1iw45qc" n="1">
+                                       <syl xml:id="s1j0lenm" con="d" wordpos="i">«Don</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hwzgeq" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v107nrnj" n="1">
+                                       <syl xml:id="s1wdc0yi" con="d" wordpos="m">n’O</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-14" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nqrfzphu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1iw45qcu" n="1">
+                                       <syl xml:id="s1j0lenmu" con="d" wordpos="i">«Don</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hwzgequ" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v107nrnju" n="1">
+                                       <syl xml:id="s1wdc0yiu" con="d" wordpos="m">n’O</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s9o11e2" n="8">
@@ -7885,31 +8106,62 @@
                      </staff>
                      <staff xml:id="s1xoxsd" n="7">
                         <layer xml:id="l3plqhx" n="1">
-                           <note xml:id="n5j1fnj" dots="1" dur.ppq="6" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vsyo617" n="1">
-                                 <syl xml:id="s1fgvljd" con="d" wordpos="m">ra</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1uansp3" dur.ppq="2" dur="16" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1m9z5e7" n="1">
-                                 <syl xml:id="sdzpby" con="d" wordpos="m">zi</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n12zzwrl" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1tvk9lo" n="1">
-                                 <syl xml:id="sl0irfn" con="s" wordpos="t">o</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1obymus" dots="1" dur.ppq="12" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v2c2iyc" n="1">
-                                 <syl xml:id="swi4zg4" con="s" wordpos="s">fa</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nfpet8y" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vfoaz69" n="1">
-                                 <syl xml:id="sduams1" con="d" wordpos="i">fra</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge15">
+                              <rdg xml:id="legge-pitched-15" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n5j1fnj" dots="1" dur.ppq="6" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vsyo617" n="1">
+                                       <syl xml:id="s1fgvljd" con="d" wordpos="m">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1uansp3" dur.ppq="2" dur="16" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1m9z5e7" n="1">
+                                       <syl xml:id="sdzpby" con="d" wordpos="m">zi</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12zzwrl" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1tvk9lo" n="1">
+                                       <syl xml:id="sl0irfn" con="s" wordpos="t">o</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1obymus" dots="1" dur.ppq="12" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v2c2iyc" n="1">
+                                       <syl xml:id="swi4zg4" con="s" wordpos="s">fa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nfpet8y" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vfoaz69" n="1">
+                                       <syl xml:id="sduams1" con="d" wordpos="i">fra</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-15" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n5j1fnju" dots="1" dur.ppq="6" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vsyo617u" n="1">
+                                       <syl xml:id="s1fgvljdu" con="d" wordpos="m">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1uansp3u" dur.ppq="2" dur="16" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1m9z5e7u" n="1">
+                                       <syl xml:id="sdzpbyu" con="d" wordpos="m">zi</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12zzwrlu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1tvk9lou" n="1">
+                                       <syl xml:id="sl0irfnu" con="s" wordpos="t">o</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1obymusu" dots="1" dur.ppq="12" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v2c2iycu" n="1">
+                                       <syl xml:id="swi4zg4u" con="s" wordpos="s">fa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nfpet8yu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vfoaz69u" n="1">
+                                       <syl xml:id="sduams1u" con="d" wordpos="i">fra</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="scyp0hd" n="8">
@@ -8045,26 +8297,52 @@
                      </staff>
                      <staff xml:id="sj8jc8r" n="7">
                         <layer xml:id="lpyhzo5" n="1">
-                           <note xml:id="n102yvlu" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1xumx29" n="1">
-                                 <syl xml:id="srkz7jh" con="d" wordpos="m">cas</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1adeye3" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vkxhaci" n="1">
-                                 <syl xml:id="s1qvm6ut" con="s" wordpos="t">so</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1twh26f" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1n5o9fi" n="1">
-                                 <syl xml:id="shekrau" con="s" wordpos="s">pel</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1okduld" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1ci54li" n="1">
-                                 <syl xml:id="s1rwkv" con="d" wordpos="i">da</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge16">
+                              <rdg xml:id="legge-pitched-16" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n102yvlu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1xumx29" n="1">
+                                       <syl xml:id="srkz7jh" con="d" wordpos="m">cas</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1adeye3" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vkxhaci" n="1">
+                                       <syl xml:id="s1qvm6ut" con="s" wordpos="t">so</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1twh26f" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1n5o9fi" n="1">
+                                       <syl xml:id="shekrau" con="s" wordpos="s">pel</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1okduld" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1ci54li" n="1">
+                                       <syl xml:id="s1rwkv" con="d" wordpos="i">da</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-16" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n102yvluu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1xumx29u" n="1">
+                                       <syl xml:id="srkz7jhu" con="d" wordpos="m">cas</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1adeye3u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vkxhaciu" n="1">
+                                       <syl xml:id="s1qvm6utu" con="s" wordpos="t">so</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1twh26fu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1n5o9fiu" n="1">
+                                       <syl xml:id="shekrauu" con="s" wordpos="s">pel</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1okduldu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1ci54liu" n="1">
+                                       <syl xml:id="s1rwkvu" con="d" wordpos="i">da</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s3w2tly" n="8">
@@ -8209,26 +8487,52 @@
                      </staff>
                      <staff xml:id="swruq47" n="7">
                         <layer xml:id="l1r0w1sv" n="1">
-                           <note xml:id="n4v7ojr" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v12i6dkt" n="1">
-                                 <syl xml:id="s1rdi4kv" con="s" wordpos="t">nar</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n5ayj01" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1fcf25t" n="1">
-                                 <syl xml:id="sa0fgq7" con="d" wordpos="i">del</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n16z1jr3" dots="1" dur.ppq="12" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1mou2ir" n="1">
-                                 <syl xml:id="s1a8aq5q" con="s" wordpos="t">la</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="noks5x0" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1b21ha" n="1">
-                                 <syl xml:id="s1c8datu" con="d" wordpos="i">pi</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge17">
+                              <rdg xml:id="legge-pitched-17" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n4v7ojr" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v12i6dkt" n="1">
+                                       <syl xml:id="s1rdi4kv" con="s" wordpos="t">nar</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n5ayj01" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1fcf25t" n="1">
+                                       <syl xml:id="sa0fgq7" con="d" wordpos="i">del</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n16z1jr3" dots="1" dur.ppq="12" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1mou2ir" n="1">
+                                       <syl xml:id="s1a8aq5q" con="s" wordpos="t">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="noks5x0" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1b21ha" n="1">
+                                       <syl xml:id="s1c8datu" con="d" wordpos="i">pi</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-17" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n4v7ojru" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v12i6dktu" n="1">
+                                       <syl xml:id="s1rdi4kvu" con="s" wordpos="t">nar</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n5ayj01u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1fcf25tu" n="1">
+                                       <syl xml:id="sa0fgq7u" con="d" wordpos="i">del</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n16z1jr3u" dots="1" dur.ppq="12" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1mou2iru" n="1">
+                                       <syl xml:id="s1a8aq5qu" con="s" wordpos="t">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="noks5x0u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1b21hau" n="1">
+                                       <syl xml:id="s1c8datuu" con="d" wordpos="i">pi</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1nx1nv" n="8">
@@ -8367,16 +8671,32 @@
                      </staff>
                      <staff xml:id="s4a44w5" n="7">
                         <layer xml:id="lfox434" n="1">
-                           <note xml:id="nc65r85" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v185texf" n="1">
-                                 <syl xml:id="s1a8m3z8" con="d" wordpos="m">gio</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1rztnmq" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vaalgu" n="1">
-                                 <syl xml:id="su3fb28" con="s" wordpos="t">ne.»</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge18">
+                              <rdg xml:id="legge-pitched-18" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nc65r85" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v185texf" n="1">
+                                       <syl xml:id="s1a8m3z8" con="d" wordpos="m">gio</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1rztnmq" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vaalgu" n="1">
+                                       <syl xml:id="su3fb28" con="s" wordpos="t">ne.»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-18" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nc65r85u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v185texfu" n="1">
+                                       <syl xml:id="s1a8m3z8u" con="d" wordpos="m">gio</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1rztnmqu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vaalguu" n="1">
+                                       <syl xml:id="su3fb28u" con="s" wordpos="t">ne.»</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <note xml:id="n12xpk2r" dur.ppq="4" dur="8" oct="3" pname="a" stem.dir="down">
                               <accid xml:id="a1ndyj16" accid="f"/>
                               <verse xml:id="v1ac8neq" n="1">
@@ -8992,36 +9312,72 @@
                      <staff xml:id="sq8m49y" n="7">
                         <layer xml:id="lxwkra9" n="1">
                            <rest xml:id="r11mrw2u" dur.ppq="8" dur="4"/>
-                           <note xml:id="nn2eig7" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v3027er" n="1">
-                                 <syl xml:id="safl1ns" con="s" wordpos="s">«Fa</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1reaukq" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v9vszzy" n="1">
-                                 <syl xml:id="sh6ehcq" con="d" wordpos="i">ru</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n9wuo9d" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1c82i5e" n="1">
-                                 <syl xml:id="slgkt3k" con="d" wordpos="m">mo</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n112u23z" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vf6lhod" n="1">
-                                 <syl xml:id="st9ht2e" con="s" wordpos="s">re il</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nf52axi" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vngfhc9" n="1">
-                                 <syl xml:id="s19ksv58" con="d" wordpos="i">ma</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n12pb53" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1y83ime" n="1">
-                                 <syl xml:id="sa91109" con="d" wordpos="m">cel</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge19">
+                              <rdg xml:id="legge-pitched-19" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nn2eig7" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v3027er" n="1">
+                                       <syl xml:id="safl1ns" con="s" wordpos="s">«Fa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1reaukq" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v9vszzy" n="1">
+                                       <syl xml:id="sh6ehcq" con="d" wordpos="i">ru</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n9wuo9d" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1c82i5e" n="1">
+                                       <syl xml:id="slgkt3k" con="d" wordpos="m">mo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n112u23z" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vf6lhod" n="1">
+                                       <syl xml:id="st9ht2e" con="s" wordpos="s">re il</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nf52axi" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vngfhc9" n="1">
+                                       <syl xml:id="s19ksv58" con="d" wordpos="i">ma</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12pb53" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1y83ime" n="1">
+                                       <syl xml:id="sa91109" con="d" wordpos="m">cel</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-19" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nn2eig7u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v3027eru" n="1">
+                                       <syl xml:id="safl1nsu" con="s" wordpos="s">«Fa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1reaukqu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v9vszzyu" n="1">
+                                       <syl xml:id="sh6ehcqu" con="d" wordpos="i">ru</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n9wuo9du" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1c82i5eu" n="1">
+                                       <syl xml:id="slgkt3ku" con="d" wordpos="m">mo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n112u23zu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vf6lhodu" n="1">
+                                       <syl xml:id="st9ht2eu" con="s" wordpos="s">re il</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nf52axiu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vngfhc9u" n="1">
+                                       <syl xml:id="s19ksv58u" con="d" wordpos="i">ma</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12pb53u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1y83imeu" n="1">
+                                       <syl xml:id="sa91109u" con="d" wordpos="m">cel</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="ss2c750" n="8">
@@ -9155,46 +9511,92 @@
                      </staff>
                      <staff xml:id="s16pipxa" n="7">
                         <layer xml:id="l1sonhdm" n="1">
-                           <note xml:id="n1ajag3e" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1inqojl" n="1">
-                                 <syl xml:id="sramtzn" con="d" wordpos="m">la</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n16v7159" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vepsjom" n="1">
-                                 <syl xml:id="s7zbc74" con="s" wordpos="t">jo,</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1u5bgz4" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vtp0fm0" n="1">
-                                 <syl xml:id="sfzji1n" con="d" wordpos="i">gri</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1erfrmf" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v193q5a5" n="1">
-                                 <syl xml:id="sq1rb4l" con="d" wordpos="i">da e in</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1cn8k8x" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v18dnl7a" n="1">
-                                 <syl xml:id="s1ujhtu7" con="d" wordpos="m">si</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1i26vc7" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v3b8ssy" n="1">
-                                 <syl xml:id="s1m2s7h1" con="s" wordpos="s">ste il</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n5zi48n" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1w2z4d0" n="1">
-                                 <syl xml:id="s1e9svsw" con="d" wordpos="i">cal</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n20hyqg" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vzpqkup" n="1">
-                                 <syl xml:id="s8cgiua" con="d" wordpos="m">zo</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge20">
+                              <rdg xml:id="legge-pitched-20" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1ajag3e" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1inqojl" n="1">
+                                       <syl xml:id="sramtzn" con="d" wordpos="m">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n16v7159" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vepsjom" n="1">
+                                       <syl xml:id="s7zbc74" con="s" wordpos="t">jo,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1u5bgz4" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vtp0fm0" n="1">
+                                       <syl xml:id="sfzji1n" con="d" wordpos="i">gri</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1erfrmf" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v193q5a5" n="1">
+                                       <syl xml:id="sq1rb4l" con="d" wordpos="i">da e in</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1cn8k8x" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v18dnl7a" n="1">
+                                       <syl xml:id="s1ujhtu7" con="d" wordpos="m">si</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1i26vc7" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v3b8ssy" n="1">
+                                       <syl xml:id="s1m2s7h1" con="s" wordpos="s">ste il</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n5zi48n" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1w2z4d0" n="1">
+                                       <syl xml:id="s1e9svsw" con="d" wordpos="i">cal</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n20hyqg" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vzpqkup" n="1">
+                                       <syl xml:id="s8cgiua" con="d" wordpos="m">zo</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-20" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1ajag3eu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1inqojlu" n="1">
+                                       <syl xml:id="sramtznu" con="d" wordpos="m">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n16v7159u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vepsjomu" n="1">
+                                       <syl xml:id="s7zbc74u" con="s" wordpos="t">jo,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1u5bgz4u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vtp0fm0u" n="1">
+                                       <syl xml:id="sfzji1nu" con="d" wordpos="i">gri</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1erfrmfu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v193q5a5u" n="1">
+                                       <syl xml:id="sq1rb4lu" con="d" wordpos="i">da e in</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1cn8k8xu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v18dnl7au" n="1">
+                                       <syl xml:id="s1ujhtu7u" con="d" wordpos="m">si</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1i26vc7u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v3b8ssyu" n="1">
+                                       <syl xml:id="s1m2s7h1u" con="s" wordpos="s">ste il</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n5zi48nu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1w2z4d0u" n="1">
+                                       <syl xml:id="s1e9svswu" con="d" wordpos="i">cal</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n20hyqgu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vzpqkupu" n="1">
+                                       <syl xml:id="s8cgiuau" con="d" wordpos="m">zo</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1hhfjd1" n="8">
@@ -9295,46 +9697,92 @@
                      </staff>
                      <staff xml:id="s18fagb9" n="7">
                         <layer xml:id="l1cl3eyy" n="1">
-                           <note xml:id="n1i3zpt7" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1oe0gi5" n="1">
-                                 <syl xml:id="sgvojch" con="d" wordpos="m">la</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1p4b4u" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1ai9p2q" n="1">
-                                 <syl xml:id="scx519d" con="s" wordpos="t">jo,</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n15dqoae" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1dl1s4x" n="1">
-                                 <syl xml:id="s1msja6a" con="s" wordpos="s">la</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nkq0af4" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vagaozg" n="1">
-                                 <syl xml:id="s1vknpv1" con="d" wordpos="i">sen</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nvopisb" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vxrmqz1" n="1">
-                                 <syl xml:id="s1qq78r2" con="d" wordpos="m">sa</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="ng7kxqm" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1bhs3e6" n="1">
-                                 <syl xml:id="s15vnko9" con="s" wordpos="t">le</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n9z2cqt" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1fx2rxx" n="1">
-                                 <syl xml:id="swrvraj" con="d" wordpos="i">tut</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1eqf1m8" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1gks31f" n="1">
-                                 <syl xml:id="s1klw8qo" con="s" wordpos="t">t’i</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge21">
+                              <rdg xml:id="legge-pitched-21" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1i3zpt7" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1oe0gi5" n="1">
+                                       <syl xml:id="sgvojch" con="d" wordpos="m">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1p4b4u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1ai9p2q" n="1">
+                                       <syl xml:id="scx519d" con="s" wordpos="t">jo,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n15dqoae" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1dl1s4x" n="1">
+                                       <syl xml:id="s1msja6a" con="s" wordpos="s">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nkq0af4" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vagaozg" n="1">
+                                       <syl xml:id="s1vknpv1" con="d" wordpos="i">sen</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nvopisb" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vxrmqz1" n="1">
+                                       <syl xml:id="s1qq78r2" con="d" wordpos="m">sa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="ng7kxqm" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1bhs3e6" n="1">
+                                       <syl xml:id="s15vnko9" con="s" wordpos="t">le</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n9z2cqt" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1fx2rxx" n="1">
+                                       <syl xml:id="swrvraj" con="d" wordpos="i">tut</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1eqf1m8" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1gks31f" n="1">
+                                       <syl xml:id="s1klw8qo" con="s" wordpos="t">t’i</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-21" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1i3zpt7u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1oe0gi5u" n="1">
+                                       <syl xml:id="sgvojchu" con="d" wordpos="m">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1p4b4uu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1ai9p2qu" n="1">
+                                       <syl xml:id="scx519du" con="s" wordpos="t">jo,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n15dqoaeu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1dl1s4xu" n="1">
+                                       <syl xml:id="s1msja6au" con="s" wordpos="s">la</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nkq0af4u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vagaozgu" n="1">
+                                       <syl xml:id="s1vknpv1u" con="d" wordpos="i">sen</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nvopisbu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vxrmqz1u" n="1">
+                                       <syl xml:id="s1qq78r2u" con="d" wordpos="m">sa</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="ng7kxqmu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1bhs3e6u" n="1">
+                                       <syl xml:id="s15vnko9u" con="s" wordpos="t">le</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n9z2cqtu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1fx2rxxu" n="1">
+                                       <syl xml:id="swrvraju" con="d" wordpos="i">tut</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1eqf1m8u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1gks31fu" n="1">
+                                       <syl xml:id="s1klw8qou" con="s" wordpos="t">t’i</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s3fadhz" n="8">
@@ -9435,46 +9883,92 @@
                      </staff>
                      <staff xml:id="s1we2yl1" n="7">
                         <layer xml:id="ljz0sfl" n="1">
-                           <note xml:id="n19u1t65" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v6hcbov" n="1">
-                                 <syl xml:id="s1s9mkj7" con="d" wordpos="i">pe</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n8pbnqa" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1o4d896" n="1">
-                                 <syl xml:id="stgeimi" con="s" wordpos="t">gni</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1xuxdyw" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vagx0gt" n="1">
-                                 <syl xml:id="s1eki1pc" con="s" wordpos="s">vuol</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="ntldxkd" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vyzgrk5" n="1">
-                                 <syl xml:id="s1m6ixwv" con="s" wordpos="s">far</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n14erc7g" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v14r8ku6" n="1">
-                                 <syl xml:id="sg4riwu" con="d" wordpos="i">ven</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nd6u0wn" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vibslcb" n="1">
-                                 <syl xml:id="s1cf2a28" con="d" wordpos="m">de</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1t552kn" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v12u0j99" n="1">
-                                 <syl xml:id="s1uwze4s" con="d" wordpos="i">re al</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n7qixg5" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vbxz07i" n="1">
-                                 <syl xml:id="s11cabih" con="d" wordpos="m">l’in</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge22">
+                              <rdg xml:id="legge-pitched-22" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n19u1t65" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v6hcbov" n="1">
+                                       <syl xml:id="s1s9mkj7" con="d" wordpos="i">pe</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n8pbnqa" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1o4d896" n="1">
+                                       <syl xml:id="stgeimi" con="s" wordpos="t">gni</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1xuxdyw" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vagx0gt" n="1">
+                                       <syl xml:id="s1eki1pc" con="s" wordpos="s">vuol</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="ntldxkd" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vyzgrk5" n="1">
+                                       <syl xml:id="s1m6ixwv" con="s" wordpos="s">far</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14erc7g" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v14r8ku6" n="1">
+                                       <syl xml:id="sg4riwu" con="d" wordpos="i">ven</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nd6u0wn" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vibslcb" n="1">
+                                       <syl xml:id="s1cf2a28" con="d" wordpos="m">de</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1t552kn" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v12u0j99" n="1">
+                                       <syl xml:id="s1uwze4s" con="d" wordpos="i">re al</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n7qixg5" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vbxz07i" n="1">
+                                       <syl xml:id="s11cabih" con="d" wordpos="m">l’in</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-22" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n19u1t65u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v6hcbovu" n="1">
+                                       <syl xml:id="s1s9mkj7u" con="d" wordpos="i">pe</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n8pbnqau" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1o4d896u" n="1">
+                                       <syl xml:id="stgeimiu" con="s" wordpos="t">gni</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1xuxdywu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vagx0gtu" n="1">
+                                       <syl xml:id="s1eki1pcu" con="s" wordpos="s">vuol</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="ntldxkdu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vyzgrk5u" n="1">
+                                       <syl xml:id="s1m6ixwvu" con="s" wordpos="s">far</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14erc7gu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v14r8ku6u" n="1">
+                                       <syl xml:id="sg4riwuu" con="d" wordpos="i">ven</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nd6u0wnu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vibslcbu" n="1">
+                                       <syl xml:id="s1cf2a28u" con="d" wordpos="m">de</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1t552knu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v12u0j99u" n="1">
+                                       <syl xml:id="s1uwze4su" con="d" wordpos="i">re al</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n7qixg5u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vbxz07iu" n="1">
+                                       <syl xml:id="s11cabihu" con="d" wordpos="m">l’in</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s4h5o8x" n="8">
@@ -9601,16 +10095,32 @@
                      </staff>
                      <staff xml:id="s7q4z0y" n="7">
                         <layer xml:id="l17rr3q5" n="1">
-                           <note xml:id="nicizpq" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vz4f0j8" n="1">
-                                 <syl xml:id="s1s3nnmx" con="d" wordpos="m">can</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n12bvck3" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1giozgb" n="1">
-                                 <syl xml:id="s12gkan1" con="s" wordpos="t">to.</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge23">
+                              <rdg xml:id="legge-pitched-23" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nicizpq" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vz4f0j8" n="1">
+                                       <syl xml:id="s1s3nnmx" con="d" wordpos="m">can</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12bvck3" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1giozgb" n="1">
+                                       <syl xml:id="s12gkan1" con="s" wordpos="t">to.</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-23" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nicizpqu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vz4f0j8u" n="1">
+                                       <syl xml:id="s1s3nnmxu" con="d" wordpos="m">can</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12bvck3u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1giozgbu" n="1">
+                                       <syl xml:id="s12gkan1u" con="s" wordpos="t">to.</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <rest xml:id="r3elsgr" dur.ppq="8" dur="4"/>
                            <rest xml:id="r1srxgha" dur.ppq="16" dur="2"/>
                         </layer>
@@ -9745,37 +10255,79 @@
                      </staff>
                      <staff xml:id="sb2zypc" n="7">
                         <layer xml:id="l7n7nls" n="1">
-                           <note xml:id="n1bz4et9" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1k3wwlv" n="1">
-                                 <syl xml:id="s1l0bjfm" con="d" wordpos="i">Fug</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n18vlrq2" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v15a5ilg" n="1">
-                                 <syl xml:id="s1u7ckch" con="s" wordpos="t">gi,</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge24">
+                              <rdg xml:id="legge-pitched-24" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1bz4et9" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1k3wwlv" n="1">
+                                       <syl xml:id="s1l0bjfm" con="d" wordpos="i">Fug</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n18vlrq2" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v15a5ilg" n="1">
+                                       <syl xml:id="s1u7ckch" con="s" wordpos="t">gi,</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-24" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1bz4et9u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1k3wwlvu" n="1">
+                                       <syl xml:id="s1l0bjfmu" con="d" wordpos="i">Fug</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n18vlrq2u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v15a5ilgu" n="1">
+                                       <syl xml:id="s1u7ckchu" con="s" wordpos="t">gi,</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <rest xml:id="r1czrvdh" dur.ppq="8" dur="4"/>
-                           <note xml:id="n9a2a67" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1tqbem7" n="1">
-                                 <syl xml:id="s1d3f75n" con="d" wordpos="i">di</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1bpdbxh" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vil7fqb" n="1">
-                                 <syl xml:id="sxjrs4y" con="s" wordpos="t">co,</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1r8sqm2" dots="1" dur.ppq="6" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1u9lx6e" n="1">
-                                 <syl xml:id="sgtqp19" con="s" wordpos="s">ci</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1vg4f7c" dur.ppq="2" dur="16" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v14togbv" n="1">
-                                 <syl xml:id="sv0sw0s" con="s" wordpos="s">son</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge25">
+                              <rdg xml:id="legge-pitched-25" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n9a2a67" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1tqbem7" n="1">
+                                       <syl xml:id="s1d3f75n" con="d" wordpos="i">di</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1bpdbxh" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vil7fqb" n="1">
+                                       <syl xml:id="sxjrs4y" con="s" wordpos="t">co,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1r8sqm2" dots="1" dur.ppq="6" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1u9lx6e" n="1">
+                                       <syl xml:id="sgtqp19" con="s" wordpos="s">ci</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1vg4f7c" dur.ppq="2" dur="16" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v14togbv" n="1">
+                                       <syl xml:id="sv0sw0s" con="s" wordpos="s">son</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-25" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n9a2a67u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1tqbem7u" n="1">
+                                       <syl xml:id="s1d3f75nu" con="d" wordpos="i">di</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1bpdbxhu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vil7fqbu" n="1">
+                                       <syl xml:id="sxjrs4yu" con="s" wordpos="t">co,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1r8sqm2u" dots="1" dur.ppq="6" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1u9lx6eu" n="1">
+                                       <syl xml:id="sgtqp19u" con="s" wordpos="s">ci</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1vg4f7cu" dur.ppq="2" dur="16" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v14togbvu" n="1">
+                                       <syl xml:id="sv0sw0su" con="s" wordpos="s">son</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="ssj3w0n" n="8">
@@ -9929,27 +10481,59 @@
                      </staff>
                      <staff xml:id="s1ptfiyz" n="7">
                         <layer xml:id="lgmcwvk" n="1">
-                           <note xml:id="n3gjg4n" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v19ebg3" n="1">
-                                 <syl xml:id="s1il5qrn" con="d" wordpos="i">gua</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nw0w4ap" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1nkjdvj" n="1">
-                                 <syl xml:id="s7prtqy" con="s" wordpos="t">i.</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge26">
+                              <rdg xml:id="legge-pitched-26" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n3gjg4n" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v19ebg3" n="1">
+                                       <syl xml:id="s1il5qrn" con="d" wordpos="i">gua</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nw0w4ap" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1nkjdvj" n="1">
+                                       <syl xml:id="s7prtqy" con="s" wordpos="t">i.</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-26" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n3gjg4nu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v19ebg3u" n="1">
+                                       <syl xml:id="s1il5qrnu" con="d" wordpos="i">gua</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nw0w4apu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1nkjdvju" n="1">
+                                       <syl xml:id="s7prtqyu" con="s" wordpos="t">i.</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <rest xml:id="ry18j8w" dur.ppq="4" dur="8"/>
-                           <note xml:id="n1rdhzv3" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vml0zut" n="1">
-                                 <syl xml:id="s13s6hy6" con="s" wordpos="s">S’è</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1924evw" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1jfwynz" n="1">
-                                 <syl xml:id="s16w4zlv" con="d" wordpos="i">sa</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge27">
+                              <rdg xml:id="legge-pitched-27" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1rdhzv3" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vml0zut" n="1">
+                                       <syl xml:id="s13s6hy6" con="s" wordpos="s">S’è</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1924evw" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1jfwynz" n="1">
+                                       <syl xml:id="s16w4zlv" con="d" wordpos="i">sa</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-27" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1rdhzv3u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vml0zutu" n="1">
+                                       <syl xml:id="s13s6hy6u" con="s" wordpos="s">S’è</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1924evwu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1jfwynzu" n="1">
+                                       <syl xml:id="s16w4zlvu" con="d" wordpos="i">sa</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="sj2wdth" n="8">
@@ -10097,26 +10681,52 @@
                      </staff>
                      <staff xml:id="sjrymm0" n="7">
                         <layer xml:id="lt62w7p" n="1">
-                           <note xml:id="n1s6py5j" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v12dh03r" n="1">
-                                 <syl xml:id="s9bos07" con="d" wordpos="m">pu</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n64brz6" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vq415rj" n="1">
-                                 <syl xml:id="srvr8ke" con="s" wordpos="t">to</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nxdv5zw" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1phkv0q" n="1">
-                                 <syl xml:id="s1u1uwzg" con="d" wordpos="i">do</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n414p76" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1c8xza8" n="1">
-                                 <syl xml:id="s1ab9yv2" con="s" wordpos="t">ve</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge28">
+                              <rdg xml:id="legge-pitched-28" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1s6py5j" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v12dh03r" n="1">
+                                       <syl xml:id="s9bos07" con="d" wordpos="m">pu</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n64brz6" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vq415rj" n="1">
+                                       <syl xml:id="srvr8ke" con="s" wordpos="t">to</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nxdv5zw" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1phkv0q" n="1">
+                                       <syl xml:id="s1u1uwzg" con="d" wordpos="i">do</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n414p76" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1c8xza8" n="1">
+                                       <syl xml:id="s1ab9yv2" con="s" wordpos="t">ve</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-28" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1s6py5ju" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v12dh03ru" n="1">
+                                       <syl xml:id="s9bos07u" con="d" wordpos="m">pu</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n64brz6u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vq415rju" n="1">
+                                       <syl xml:id="srvr8keu" con="s" wordpos="t">to</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nxdv5zwu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1phkv0qu" n="1">
+                                       <syl xml:id="s1u1uwzgu" con="d" wordpos="i">do</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n414p76u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1c8xza8u" n="1">
+                                       <syl xml:id="s1ab9yv2u" con="s" wordpos="t">ve</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s180g89w" n="8">
@@ -10262,26 +10872,52 @@
                      </staff>
                      <staff xml:id="s1s4nqpf" n="7">
                         <layer xml:id="lxgmuz2" n="1">
-                           <note xml:id="n1mm85e2" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vwc23xq" n="1">
-                                 <syl xml:id="s11jmmth" con="d" wordpos="i">sta</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1rlhll8" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v94xs54" n="1">
-                                 <syl xml:id="sker2d" con="s" wordpos="t">i,</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1snc01c" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v14dq3n5" n="1">
-                                 <syl xml:id="s1bcr04q" con="s" wordpos="s">ed</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1twugfx" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vehmi8f" n="1">
-                                 <syl xml:id="s1gpi5z7" con="s" wordpos="s">io</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge29">
+                              <rdg xml:id="legge-pitched-29" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1mm85e2" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vwc23xq" n="1">
+                                       <syl xml:id="s11jmmth" con="d" wordpos="i">sta</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1rlhll8" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v94xs54" n="1">
+                                       <syl xml:id="sker2d" con="s" wordpos="t">i,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1snc01c" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v14dq3n5" n="1">
+                                       <syl xml:id="s1bcr04q" con="s" wordpos="s">ed</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1twugfx" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vehmi8f" n="1">
+                                       <syl xml:id="s1gpi5z7" con="s" wordpos="s">io</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-29" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1mm85e2u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vwc23xqu" n="1">
+                                       <syl xml:id="s11jmmthu" con="d" wordpos="i">sta</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1rlhll8u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v94xs54u" n="1">
+                                       <syl xml:id="sker2du" con="s" wordpos="t">i,</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1snc01cu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v14dq3n5u" n="1">
+                                       <syl xml:id="s1bcr04qu" con="s" wordpos="s">ed</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1twugfxu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vehmi8fu" n="1">
+                                       <syl xml:id="s1gpi5z7u" con="s" wordpos="s">io</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1hx2br1" n="8">
@@ -10421,26 +11057,52 @@
                      </staff>
                      <staff xml:id="s1htxyg9" n="7">
                         <layer xml:id="l5t70tf" n="1">
-                           <note xml:id="nlo9m5k" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1vld576" n="1">
-                                 <syl xml:id="s2evxer" con="d" wordpos="i">te</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="njx92yl" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vzkct9m" n="1">
-                                 <syl xml:id="sgdjhhi" con="s" wordpos="t">mo</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nw9tcau" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vq6p93x" n="1">
-                                 <syl xml:id="s1ewrl5d" con="s" wordpos="s">che a</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n2fugb3" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1q53cb4" n="1">
-                                 <syl xml:id="sq2owrx" con="d" wordpos="i">que</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge30">
+                              <rdg xml:id="legge-pitched-30" source="todo" corresp="legge-pitched">
+                                 <note xml:id="nlo9m5k" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1vld576" n="1">
+                                       <syl xml:id="s2evxer" con="d" wordpos="i">te</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="njx92yl" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vzkct9m" n="1">
+                                       <syl xml:id="sgdjhhi" con="s" wordpos="t">mo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nw9tcau" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vq6p93x" n="1">
+                                       <syl xml:id="s1ewrl5d" con="s" wordpos="s">che a</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n2fugb3" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1q53cb4" n="1">
+                                       <syl xml:id="sq2owrx" con="d" wordpos="i">que</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-30" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="nlo9m5ku" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1vld576u" n="1">
+                                       <syl xml:id="s2evxeru" con="d" wordpos="i">te</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="njx92ylu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vzkct9mu" n="1">
+                                       <syl xml:id="sgdjhhiu" con="s" wordpos="t">mo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nw9tcauu" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vq6p93xu" n="1">
+                                       <syl xml:id="s1ewrl5du" con="s" wordpos="s">che a</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n2fugb3u" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1q53cb4u" n="1">
+                                       <syl xml:id="sq2owrxu" con="d" wordpos="i">que</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s1bqqyci" n="8">
@@ -10576,46 +11238,92 @@
                      </staff>
                      <staff xml:id="s1y5ktj0" n="7">
                         <layer xml:id="lu9nzey" n="1">
-                           <note xml:id="n16n1iop" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v72i5e0" n="1">
-                                 <syl xml:id="s1hwbbv0" con="d" wordpos="m">st’o</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1j4no1a" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v19wdsph" n="1">
-                                 <syl xml:id="s1uk7t7q" con="s" wordpos="t">ra</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nbjula2" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vc69pz" n="1">
-                                 <syl xml:id="s7ovmp4" con="d" wordpos="i">qual</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1t360vt" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vb7bjuy" n="1">
-                                 <syl xml:id="s1q7cz75" con="d" wordpos="i">che uf</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nb7vu5l" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1wknhfp" n="1">
-                                 <syl xml:id="s1alj4j7" con="d" wordpos="m">fi</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1umxuoy" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v3go5mc" n="1">
-                                 <syl xml:id="s1yhi8rl" con="s" wordpos="t">cio</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1hpqjvu" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1fpoy17" n="1">
-                                 <syl xml:id="s13804al" con="s" wordpos="s">sia</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nr3eqwh" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1b68gk3" n="1">
-                                 <syl xml:id="sf6e6j" con="s" wordpos="s">già</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge31">
+                              <rdg xml:id="legge-pitched-31" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n16n1iop" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v72i5e0" n="1">
+                                       <syl xml:id="s1hwbbv0" con="d" wordpos="m">st’o</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1j4no1a" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v19wdsph" n="1">
+                                       <syl xml:id="s1uk7t7q" con="s" wordpos="t">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nbjula2" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vc69pz" n="1">
+                                       <syl xml:id="s7ovmp4" con="d" wordpos="i">qual</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1t360vt" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vb7bjuy" n="1">
+                                       <syl xml:id="s1q7cz75" con="d" wordpos="i">che uf</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nb7vu5l" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1wknhfp" n="1">
+                                       <syl xml:id="s1alj4j7" con="d" wordpos="m">fi</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1umxuoy" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v3go5mc" n="1">
+                                       <syl xml:id="s1yhi8rl" con="s" wordpos="t">cio</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hpqjvu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1fpoy17" n="1">
+                                       <syl xml:id="s13804al" con="s" wordpos="s">sia</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nr3eqwh" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1b68gk3" n="1">
+                                       <syl xml:id="sf6e6j" con="s" wordpos="s">già</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-31" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n16n1iopu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v72i5e0u" n="1">
+                                       <syl xml:id="s1hwbbv0u" con="d" wordpos="m">st’o</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1j4no1au" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v19wdsphu" n="1">
+                                       <syl xml:id="s1uk7t7qu" con="s" wordpos="t">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nbjula2u" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vc69pzu" n="1">
+                                       <syl xml:id="s7ovmp4u" con="d" wordpos="i">qual</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1t360vtu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vb7bjuyu" n="1">
+                                       <syl xml:id="s1q7cz75u" con="d" wordpos="i">che uf</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nb7vu5lu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1wknhfpu" n="1">
+                                       <syl xml:id="s1alj4j7u" con="d" wordpos="m">fi</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1umxuoyu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v3go5mcu" n="1">
+                                       <syl xml:id="s1yhi8rlu" con="s" wordpos="t">cio</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1hpqjvuu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1fpoy17u" n="1">
+                                       <syl xml:id="s13804alu" con="s" wordpos="s">sia</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nr3eqwhu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1b68gk3u" n="1">
+                                       <syl xml:id="sf6e6ju" con="s" wordpos="s">già</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="shnjhpa" n="8">
@@ -10804,46 +11512,92 @@
                      </staff>
                      <staff xml:id="s1rw0o89" n="7">
                         <layer xml:id="ljm1295" n="1">
-                           <note xml:id="n1yugqpa" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v19n4rfa" n="1">
-                                 <syl xml:id="sv84oxw" con="d" wordpos="i">fuo</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1bmgrvl" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v11sm4lp" n="1">
-                                 <syl xml:id="smlspad" con="s" wordpos="t">ra</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="nazoat" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v178ogrs" n="1">
-                                 <syl xml:id="s1p8hsqp" con="s" wordpos="s">per</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n14cz2dx" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vtwepr" n="1">
-                                 <syl xml:id="s15eb1tg" con="d" wordpos="i">po</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n12fpa" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="v1pvstq3" n="1">
-                                 <syl xml:id="s11o8hz6" con="d" wordpos="m">ter</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n1ykotvz" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vgyzu1z" n="1">
-                                 <syl xml:id="salpt45" con="d" wordpos="i">ti im</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n15a6kxj" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vm2com8" n="1">
-                                 <syl xml:id="s1mbp8tw" con="d" wordpos="m">pri</syl>
-                              </verse>
-                           </note>
-                           <note xml:id="n121vffd" dur.ppq="4" dur="8" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vcl8cho" n="1">
-                                 <syl xml:id="s1ja269j" con="d" wordpos="m">gio</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge32">
+                              <rdg xml:id="legge-pitched-32" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n1yugqpa" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v19n4rfa" n="1">
+                                       <syl xml:id="sv84oxw" con="d" wordpos="i">fuo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1bmgrvl" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v11sm4lp" n="1">
+                                       <syl xml:id="smlspad" con="s" wordpos="t">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nazoat" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v178ogrs" n="1">
+                                       <syl xml:id="s1p8hsqp" con="s" wordpos="s">per</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14cz2dx" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vtwepr" n="1">
+                                       <syl xml:id="s15eb1tg" con="d" wordpos="i">po</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12fpa" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="v1pvstq3" n="1">
+                                       <syl xml:id="s11o8hz6" con="d" wordpos="m">ter</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1ykotvz" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vgyzu1z" n="1">
+                                       <syl xml:id="salpt45" con="d" wordpos="i">ti im</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n15a6kxj" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vm2com8" n="1">
+                                       <syl xml:id="s1mbp8tw" con="d" wordpos="m">pri</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n121vffd" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vcl8cho" n="1">
+                                       <syl xml:id="s1ja269j" con="d" wordpos="m">gio</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-32" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n1yugqpau" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v19n4rfau" n="1">
+                                       <syl xml:id="sv84oxwu" con="d" wordpos="i">fuo</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1bmgrvlu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v11sm4lpu" n="1">
+                                       <syl xml:id="smlspadu" con="s" wordpos="t">ra</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="nazoatu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v178ogrsu" n="1">
+                                       <syl xml:id="s1p8hsqpu" con="s" wordpos="s">per</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n14cz2dxu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vtwepru" n="1">
+                                       <syl xml:id="s15eb1tgu" con="d" wordpos="i">po</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n12fpau" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="v1pvstq3u" n="1">
+                                       <syl xml:id="s11o8hz6u" con="d" wordpos="m">ter</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n1ykotvzu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vgyzu1zu" n="1">
+                                       <syl xml:id="salpt45u" con="d" wordpos="i">ti im</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n15a6kxju" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vm2com8u" n="1">
+                                       <syl xml:id="s1mbp8twu" con="d" wordpos="m">pri</syl>
+                                    </verse>
+                                 </note>
+                                 <note xml:id="n121vffdu" dur.ppq="4" dur="8" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vcl8chou" n="1">
+                                       <syl xml:id="s1ja269ju" con="d" wordpos="m">gio</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                         </layer>
                      </staff>
                      <staff xml:id="s16d377v" n="8">
@@ -10992,11 +11746,22 @@
                      </staff>
                      <staff xml:id="s2f7g2a" n="7">
                         <layer xml:id="lmwbutk" n="1">
-                           <note xml:id="n6r3vsr" dur.ppq="8" dur="4" oct="4" pname="c" stem.dir="down">
-                              <verse xml:id="vdsti52" n="1">
-                                 <syl xml:id="s1uu7dkm" con="s" wordpos="t">nar».</syl>
-                              </verse>
-                           </note>
+                           <app xml:id="legge33">
+                              <rdg xml:id="legge-pitched-33" source="todo" corresp="legge-pitched">
+                                 <note xml:id="n6r3vsr" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up">
+                                    <verse xml:id="vdsti52" n="1">
+                                       <syl xml:id="s1uu7dkm" con="s" wordpos="t">nar».</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                              <rdg xml:id="legge-unpitched-33" source="todo" corresp="legge-unpitched">
+                                 <note xml:id="n6r3vsru" dur.ppq="8" dur="4" oct="3" pname="c" stem.dir="up" head.shape="x">
+                                    <verse xml:id="vdsti52u" n="1">
+                                       <syl xml:id="s1uu7dkmu" con="s" wordpos="t">nar».</syl>
+                                    </verse>
+                                 </note>
+                              </rdg>
+                           </app>
                            <rest xml:id="r1j5isxc" dur.ppq="8" dur="4"/>
                            <rest xml:id="r11murw7" dur.ppq="8" dur="4"/>
                            <note xml:id="n6xdziz" dur.ppq="4" dur="8" oct="3" pname="f" stem.dir="down">
