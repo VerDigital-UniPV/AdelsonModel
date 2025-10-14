@@ -1,12 +1,6 @@
 <files>
-    <file target="numero01_merge_vMain.xml">
-        <preference>
-            <name>Default</name>
-            <query></query>
-        </preference>
-        <preference>
-            <name>Francesco's selection</name>
-            <query></query>
-        </preference>
+    <file target="xmldb:exist:///db/apps/edirom/adelson-model/content/edition/numero03.xml">
+    </file>
+    <file target="xmldb:exist:///db/apps/edirom/adalson-model/content/edition/numero05_vApp1.xml">
     </file>
 </files>
