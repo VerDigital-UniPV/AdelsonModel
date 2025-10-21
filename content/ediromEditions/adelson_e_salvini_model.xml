@@ -379,6 +379,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </navigatorCategory>                        
             </navigatorDefinition>
             <searchWindowConfig/>
+            <concordances>
+                <concordance name="concMain">
+                    <names>
+                        <name xml:lang="de">Haupt-Konkordanz</name>
+                        <name xml:lang="en">Main Concordance</name>
+                    </names>
+                    <groups label="Number">
+                        <names>
+                            <name xml:lang="de">Nummer</name>
+                            <name xml:lang="en">Number</name>
+                        </names>
+                        <group>
+                            <names>
+                                <name xml:lang="de">Nummer 1 - Introduzione</name>
+                                <name xml:lang="en">Number 1 - Introduzione</name>
+                            </names>
+                            <connections label="Takt">
+                                <connection name="0" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m1mqxce0"/>
+
+                                <connection name="62" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#mdavtno xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#mdavtno"/>
+                                <connection name="63" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m1iek69w xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#m1iek69w"/>
+                                <connection name="64" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m172irbi xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#m172irbi"/>
+                                <connection name="65" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m1736bih xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#m1736bih"/>
+                                <connection name="66" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m1c1cf8w xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#m1c1cf8w"/>
+                                <connection name="67" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#mt8lzgx xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#mt8lzgx"/>
+                                <connection name="68" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#mu2wh4r xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#mu2wh4r"/>
+                                <connection name="69" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#ml69e5e xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#ml69e5e"/>
+                                <connection name="70" plist="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/edition/numero01.xml#m306gs3 xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/numero01_fac_score.xml#m306gs3"/>
+                                
+                            </connections>
+                        </group>
+                    </groups>
+                </concordance>
+            </concordances>
         </work>
     </works>
 </edition>
