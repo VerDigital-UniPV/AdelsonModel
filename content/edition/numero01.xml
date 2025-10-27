@@ -42,11 +42,15 @@
                            <label>2 Oboi</label>
                            <labelAbbr>Ob.</labelAbbr>
                            <clef shape="G" line="2"/>
+                           <layerDef type="parts" n="1" label="Oboe I"/>
+                           <layerDef type="parts" n="2" label="Oboe II"/>
                         </staffDef>
                         <staffDef n="3" lines="5" keysig="1f" meter.sym="common" trans.diat="-1" trans.semi="-2">
                            <label>2 Clarinetti in Si♭</label>
                            <labelAbbr>Cl. Si♭</labelAbbr>
                            <clef shape="G" line="2"/>
+                           <layerDef type="parts" n="1" label="Clarinetto I"/>
+                           <layerDef type="parts" n="2" label="Clarinetto II"/>
                         </staffDef>
                         <staffDef n="4" lines="5" keysig="3f" meter.sym="common">
                            <label>Fagotto</label>
@@ -59,6 +63,8 @@
                            <label>2 Corni in Mi♭</label>
                            <labelAbbr>Cor. Mi♭</labelAbbr>
                            <clef shape="G" line="2"/>
+                           <layerDef type="parts" n="1" label="Corno I"/>
+                           <layerDef type="parts" n="2" label="Corno II"/>
                         </staffDef>
                      </staffGrp>
                      <staffDef n="6" lines="5" keysig="3f" meter.sym="common">
@@ -108,14 +114,11 @@
                         </staffDef>
                         <staffGrp bar.thru="true" symbol="bracket">
                            <staffDef n="14" lines="5" keysig="3f" meter.sym="common">
-                              <label>Violoncelli</label>
-                              <labelAbbr>Vc.</labelAbbr>
+                              <label>Violoncelli e Contrabbassi</label>
+                              <labelAbbr>Vc. e Cb.</labelAbbr>
                               <clef shape="F" line="4"/>
-                           </staffDef>
-                           <staffDef n="15" lines="5" keysig="3f" meter.sym="common">
-                              <label>Contrabbassi</label>
-                              <labelAbbr>Cb.</labelAbbr>
-                              <clef shape="F" line="4"/>
+                              <layerDef type="parts" n="1" label="Violoncelli"/>
+                              <layerDef type="parts" n="2" label="Contrabbassi"/>
                            </staffDef>
                         </staffGrp>
                      </staffGrp>
@@ -133,11 +136,13 @@
                         <layer xml:id="m1s2l1" n="1">
                            <mRest xml:id="m1te4xbp"/>
                         </layer>
+                        <layer n="2" sameas="m1s2l1"/>
                      </staff>
                      <staff xml:id="m1s3" n="3">
                         <layer xml:id="m1s3l1" n="1">
                            <mRest xml:id="m1b17c79"/>
                         </layer>
+                        <layer n="2" sameas="m1s3l1"/>
                      </staff>
                      <staff xml:id="m1s4" n="4">
                         <layer xml:id="m1s4l1" n="1">
@@ -148,6 +153,7 @@
                         <layer xml:id="m1s5l1" n="1">
                            <mRest xml:id="mv0tm74"/>
                         </layer>
+                        <layer n="2" sameas="m1s5l1"/>
                      </staff>
                      <staff xml:id="m1s6" n="6">
                         <layer xml:id="m1s6l1" n="1">
@@ -190,11 +196,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m1s14" n="14">
-                        <layer xml:id="m1s14l1" n="1">
-                           <mRest xml:id="mpzx8fi"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m1s15" n="15">
                         <layer xml:id="m1s15l1" n="1">
                            <bTrem xml:id="b1d0q9t2">
                               <note xml:id="nom3vqv" dur="2" pname="e" oct="4" stem.dir="down" stem.mod="2slash">
@@ -206,10 +207,13 @@
                               <accid accid="f"/>
                            </note>
                         </layer>
+                        <layer n="2" sameas="m1s15l1"/>
                      </staff>
                      <dir xml:id="d6hrsf2" startid="#r10zu8mi" place="above">SCENA I: Fanny è profondamente occupata a disegnare seduta sul poggiuolo di verdura. Slancia di quando in quando il suo furtivo sguardo d’intorno, per assicurarsi di non essere sorpresa, indi Madama Rivers, e Geronio seguiti da’ contadini</dir>
-                     <tempo xml:id="t16foz2y" startid="#r10zu8mi" place="above" midi.bpm="108.000000">Moderato</tempo>
-                     <dir xml:id="d1om5yuh" startid="#nom3vqv" place="below">[ pp ]</dir>
+                     <tempo xml:id="t16foz2y" startid="#r10zu8mi" place="above">Moderato</tempo>
+                     <supplied xml:id="s75ldo41">
+                        <dynam  layer="1 2" xml:id="d1om5yuh" startid="#nom3vqv" place="below">[pp]</dynam>
+                     </supplied>
                      <slur xml:id="s1rwl8q0" startid="#nom3vqv" curvedir="above" endid="#n1pc3bbo"/>
                   </measure>
                   <measure xml:id="mdy1zve" n="2">
@@ -222,11 +226,13 @@
                         <layer xml:id="m2s2l1" n="1">
                            <mRest xml:id="m1507shh"/>
                         </layer>
+                        <layer n="2" sameas="m2s2l1"/>
                      </staff>
                      <staff xml:id="m2s3" n="3">
                         <layer xml:id="m2s3l1" n="1">
                            <mRest xml:id="mfxw1pr"/>
                         </layer>
+                        <layer n="2" sameas="m2s3l1"/>
                      </staff>
                      <staff xml:id="m2s4" n="4">
                         <layer xml:id="m2s4l1" n="1">
@@ -239,6 +245,7 @@
                         <layer xml:id="m2s5l1" n="1">
                            <mRest xml:id="mjsahz7"/>
                         </layer>
+                        <layer n="2" sameas="m2s5l1"/>
                      </staff>
                      <staff xml:id="m2s6" n="6">
                         <layer xml:id="m2s6l1" n="1">
@@ -289,11 +296,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m2s14" n="14">
-                        <layer xml:id="m2s14l1" n="1">
-                           <mRest xml:id="moypvaq"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m2s15" n="15">
                         <layer xml:id="m2s15l1" n="1">
                            <note xml:id="n1appzz5" dur="2" pname="c" oct="4" stem.dir="down"/>
                            <note xml:id="n17e7yi4" dur="4" pname="c" oct="4" stem.dir="down">
@@ -303,8 +305,11 @@
                               <accid accid.ges="f"/>
                            </note>
                         </layer>
+                        <layer n="2" sameas="m2s15l1"/>
                      </staff>
-                     <dir xml:id="d1eel1dz" startid="#nd5sndm" place="below">[ pp ]</dir>
+                     <supplied xml:id="srqo0t41">
+                        <dynam xml:id="d1eel1dz" startid="#nd5sndm" place="below">[pp]</dynam>
+                     </supplied>
                      <slur xml:id="s741ezo" startid="#nd5sndm" curvedir="above" endid="#n85vbzu"/>
                      <tie xml:id="t1h716f5" startid="#nd5sndm" endid="#n1m056nt"/>
                      <dir xml:id="dj8f5xt" startid="#n1bjgvb0" place="below">pp</dir>
@@ -323,11 +328,13 @@
                         <layer xml:id="m3s2l1" n="1">
                            <mRest xml:id="m1gukb4r"/>
                         </layer>
+                        <layer n="2" sameas="m3s2l1"/>
                      </staff>
                      <staff xml:id="m3s3" n="3">
                         <layer xml:id="m3s3l1" n="1">
                            <mRest xml:id="m1uzxbve"/>
                         </layer>
+                        <layer n="2" sameas="m3s3l1"/>
                      </staff>
                      <staff xml:id="m3s4" n="4">
                         <layer xml:id="m3s4l1" n="1">
@@ -344,6 +351,7 @@
                         <layer xml:id="m3s5l1" n="1">
                            <mRest xml:id="mec3ukc"/>
                         </layer>
+                        <layer n="2" sameas="m3s5l1"/>
                      </staff>
                      <staff xml:id="m3s6" n="6">
                         <layer xml:id="m3s6l1" n="1">
@@ -401,11 +409,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m3s14" n="14">
-                        <layer xml:id="m3s14l1" n="1">
-                           <mRest xml:id="momujgx"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m3s15" n="15">
                         <layer xml:id="m3s15l1" n="1">
                            <note xml:id="n885h68" dur="2" pname="a" oct="3" stem.dir="down">
                               <accid accid="n"/>
@@ -415,6 +418,7 @@
                            </note>
                            <note xml:id="n13lw8gi" dur="4" pname="g" oct="3" stem.dir="down"/>
                         </layer>
+                        <layer n="2" sameas="m3s15l1"/>
                      </staff>
                      <dir xml:id="d1xcoxw9" startid="#n1ghx7hg" place="below">pp</dir>
                      <slur xml:id="s1tbmv4l" startid="#n1ghx7hg" curvedir="above" endid="#n91tdlt"/>
@@ -439,9 +443,15 @@
                         <layer xml:id="m4s4l1" n="1">
                            <note xml:id="n1bchj8y" dots="1" dur="2" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
+                              <supplied>
+                                 <artic enclose="brack" artic="acc"/>
+                              </supplied>
                            </note>
                            <note xml:id="n19l1ri3" dur="4" pname="a" oct="3" stem.dir="down">
                               <accid accid="n"/>
+                              <supplied>
+                                 <artic enclose="brack" artic="acc"/>
+                              </supplied>
                            </note>
                         </layer>
                      </staff>
@@ -449,6 +459,7 @@
                         <layer xml:id="m4s5l1" n="1">
                            <mRest xml:id="m3m9zqh"/>
                         </layer>
+                        <layer n="2" sameas="m4s5l1"/>
                      </staff>
                      <staff xml:id="m4s6" n="6">
                         <layer xml:id="m4s6l1" n="1">
@@ -505,17 +516,13 @@
                         </layer>
                      </staff>
                      <staff xml:id="m4s14" n="14">
-                        <layer xml:id="m4s14l1" n="1">
-                           <mRest xml:id="m85ifox"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m4s15" n="15">
                         <layer xml:id="m4s15l1" n="1">
                            <note xml:id="n165jbn4" dots="1" dur="2" pname="f" oct="3" stem.dir="down"/>
                            <note xml:id="nskiob8" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
                         </layer>
+                        <layer n="2" sameas="m4s15l1"/>
                      </staff>
                      <dynam xml:id="dawi9ye" label="f" startid="#n1bchj8y" place="above">f</dynam>
                      <dynam xml:id="d2lk8lk" label="f" startid="#n19l1ri3" place="above">f</dynam>
@@ -530,11 +537,13 @@
                         <layer xml:id="m5s2l1" n="1">
                            <mRest xml:id="m1fppjv8"/>
                         </layer>
+                        <layer n="2" sameas="m5s2l1"/>
                      </staff>
                      <staff xml:id="m5s3" n="3">
                         <layer xml:id="m5s3l1" n="1">
                            <mRest xml:id="m1evw6pj"/>
                         </layer>
+                        <layer n="2" sameas="m5s3l1"/>
                      </staff>
                      <staff xml:id="m5s4" n="4">
                         <layer xml:id="m5s4l1" n="1">
@@ -558,6 +567,7 @@
                         <layer xml:id="m5s5l1" n="1">
                            <mRest xml:id="m1smmd7i"/>
                         </layer>
+                        <layer n="2" sameas="m5s5l1"/>
                      </staff>
                      <staff xml:id="m5s6" n="6">
                         <layer xml:id="m5s6l1" n="1">
@@ -627,11 +637,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m5s14" n="14">
-                        <layer xml:id="m5s14l1" n="1">
-                           <mRest xml:id="mkn6gcr"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m5s15" n="15">
                         <layer xml:id="m5s15l1" n="1">
                            <note xml:id="n1pc3bbo" dur="8" pname="b" oct="2" stem.dir="up">
                               <accid accid.ges="f"/>
@@ -644,16 +649,19 @@
                            <rest xml:id="r8vb8q5" dur="8"/>
                            <rest xml:id="r1ivh2pj" dur="4"/>
                         </layer>
+                        <layer n="2" sameas="m5s15l1"/>
                      </staff>
-                     <dir xml:id="dtx0gjb" startid="#n1cyk6ca" place="below">[ ff ]</dir>
+                     <supplied>
+                        <dynam xml:id="dtx0gjb" startid="#n1cyk6ca" place="below">[ff]</dynam>
+                     </supplied>
                      <dir xml:id="d1uvj0u0" startid="#n12tgp60" place="above">pizz.</dir>
-                     <dir xml:id="d7zvi09" startid="#n12tgp60" place="below">ff</dir>
+                     <dynam xml:id="d7zvi09" startid="#n12tgp60" place="below">ff</dynam>
                      <dir xml:id="d1iplawe" startid="#n3lw8ih" place="above">pizz.</dir>
-                     <dir xml:id="ddsr5v8" startid="#n3lw8ih" place="below">ff</dir>
+                     <dynam xml:id="ddsr5v8" startid="#n3lw8ih" place="below">ff</dynam>
                      <dir xml:id="d2jakst" startid="#n19zuubh" place="above">pizz.</dir>
-                     <dir xml:id="dbbxae7" startid="#n19zuubh" place="below">ff</dir>
+                     <dynam xml:id="dbbxae7" startid="#n19zuubh" place="below">ff</dynam>
                      <dir xml:id="d1vdvolj" startid="#n90mbgv" place="above">pizz.</dir>
-                     <dir xml:id="dt1dwxw" startid="#n90mbgv" place="below">ff</dir>
+                     <dynam xml:id="dt1dwxw" startid="#n90mbgv" place="below">ff</dynam>
                   </measure>
                   <sb/>
                   <measure xml:id="mab35xp" n="6">
@@ -666,11 +674,13 @@
                         <layer xml:id="m6s2l1" n="1">
                            <mRest xml:id="mhfpbt7"/>
                         </layer>
+                        <layer n="2" sameas="m6s2l1"/>
                      </staff>
                      <staff xml:id="m6s3" n="3">
                         <layer xml:id="m6s3l1" n="1">
                            <mRest xml:id="mg3pk0f"/>
                         </layer>
+                        <layer n="2" sameas="m6s3l1"/>
                      </staff>
                      <staff xml:id="m6s4" n="4">
                         <layer xml:id="m6s4l1" n="1">
@@ -681,6 +691,7 @@
                         <layer xml:id="m6s5l1" n="1">
                            <mRest xml:id="m1q04sgb"/>
                         </layer>
+                        <layer n="2" sameas="m6s5l1"/>
                      </staff>
                      <staff xml:id="m6s6" n="6">
                         <layer xml:id="m6s6l1" n="1">
@@ -723,11 +734,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m6s14" n="14">
-                        <layer xml:id="m6s14l1" n="1">
-                           <mRest xml:id="m1su864i"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m6s15" n="15">
                         <layer xml:id="m6s15l1" n="1">
                            <note xml:id="n1ujl5qm" dur="2" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
@@ -739,9 +745,12 @@
                               <accid accid="f"/>
                            </note>
                         </layer>
+                        <layer n="2" sameas="m6s15l1"/>
                      </staff>
-                     <dir xml:id="dxcb1ek" startid="#n1ujl5qm" place="above">[arco]</dir>
-                     <dir xml:id="d1h3phvq" startid="#n1ujl5qm" place="below">pp</dir>
+                     <supplied>
+                        <dir xml:id="dxcb1ek" startid="#n1ujl5qm" place="above">[arco]</dir>
+                     </supplied>
+                     <dynam xml:id="d1h3phvq" startid="#n1ujl5qm" place="below">pp</dynam>
                      <slur xml:id="snhdtwp" startid="#n1ujl5qm" curvedir="above" endid="#npd43d8"/>
                   </measure>
                   <measure xml:id="m1mpxf3q" n="7">
@@ -754,11 +763,13 @@
                         <layer xml:id="m7s2l1" n="1">
                            <mRest xml:id="m1645jbj"/>
                         </layer>
+                        <layer n="2" sameas="m7s2l1"/>
                      </staff>
                      <staff xml:id="m7s3" n="3">
                         <layer xml:id="m7s3l1" n="1">
                            <mRest xml:id="m4rfigs"/>
                         </layer>
+                        <layer n="2" sameas="m7s3l1"/>
                      </staff>
                      <staff xml:id="m7s4" n="4">
                         <layer xml:id="m7s4l1" n="1">
@@ -771,6 +782,7 @@
                         <layer xml:id="m7s5l1" n="1">
                            <mRest xml:id="m19chxc"/>
                         </layer>
+                        <layer n="2" sameas="m7s5l1"/>
                      </staff>
                      <staff xml:id="m7s6" n="6">
                         <layer xml:id="m7s6l1" n="1">
@@ -821,11 +833,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m7s14" n="14">
-                        <layer xml:id="m7s14l1" n="1">
-                           <mRest xml:id="md7rzmg"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m7s15" n="15">
                         <layer xml:id="m7s15l1" n="1">
                            <note xml:id="n1eaxm8n" dur="2" pname="g" oct="3" stem.dir="down"/>
                            <note xml:id="ngv2bu2" dur="4" pname="g" oct="3" stem.dir="down">
@@ -833,15 +840,18 @@
                            </note>
                            <note xml:id="n1bl9zzi" dur="4" pname="f" oct="3" stem.dir="down"/>
                         </layer>
+                        <layer n="2" sameas="m7s15l1"/>
                      </staff>
-                     <dir xml:id="d1brpfsu" startid="#n5i8ire" place="below">pp</dir>
+                     <dynam xml:id="d1brpfsu" startid="#n5i8ire" place="below">pp</dynam>
                      <slur xml:id="sp9m4q4" startid="#n5i8ire" curvedir="above" endid="#n1r874ec"/>
                      <tie xml:id="t1n15bpm" startid="#n5i8ire" endid="#n3fxvpm"/>
-                     <dir xml:id="d1077cu5" startid="#nbfqaox" place="above">[arco]</dir>
-                     <dir xml:id="dy6b393" startid="#nbfqaox" place="below">pp</dir>
+                     <supplied>
+                        <dir xml:id="d1077cu5" startid="#nbfqaox" place="above">[arco]</dir>
+                        <dir xml:id="d1a7na5i" startid="#n1clw5x2" place="above">[arco]</dir>
+                     </supplied>
+                     <dynam xml:id="dy6b393" startid="#nbfqaox" place="below">pp</dynam>
                      <slur xml:id="s1g6tskn" startid="#nbfqaox" curvedir="below" endid="#n10dsux7"/>
-                     <dir xml:id="d1a7na5i" startid="#n1clw5x2" place="above">[arco]</dir>
-                     <dir xml:id="dom17k0" startid="#n1clw5x2" place="below">pp</dir>
+                     <dynam xml:id="dom17k0" startid="#n1clw5x2" place="below">pp</dynam>
                      <slur xml:id="sji9r3p" startid="#n1clw5x2" curvedir="below" endid="#n1ez0sff"/>
                      <tie xml:id="t1alnqsh" startid="#n1clw5x2" endid="#n1g07m4b"/>
                   </measure>
@@ -855,11 +865,13 @@
                         <layer xml:id="m8s2l1" n="1">
                            <mRest xml:id="m4hsp3l"/>
                         </layer>
+                        <layer n="2" sameas="m8s2l1"/>
                      </staff>
                      <staff xml:id="m8s3" n="3">
                         <layer xml:id="m8s3l1" n="1">
                            <mRest xml:id="masware"/>
                         </layer>
+                        <layer n="2" sameas="m8s3l1"/>
                      </staff>
                      <staff xml:id="m8s4" n="4">
                         <layer xml:id="m8s4l1" n="1">
@@ -878,6 +890,7 @@
                         <layer xml:id="m8s5l1" n="1">
                            <mRest xml:id="m4xi34"/>
                         </layer>
+                        <layer n="2" sameas="m8s5l1"/>
                      </staff>
                      <staff xml:id="m8s6" n="6">
                         <layer xml:id="m8s6l1" n="1">
@@ -935,11 +948,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m8s14" n="14">
-                        <layer xml:id="m8s14l1" n="1">
-                           <mRest xml:id="mdxwqfs"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m8s15" n="15">
                         <layer xml:id="m8s15l1" n="1">
                            <note xml:id="n4gls30" dur="2" pname="e" oct="3" stem.dir="down">
                               <accid accid="n"/>
@@ -949,9 +957,12 @@
                            </note>
                            <note xml:id="n12hvyc4" dur="4" pname="d" oct="3" stem.dir="down"/>
                         </layer>
+                        <layer n="2" sameas="m8s15l1"/>
                      </staff>
-                     <dir xml:id="d16fn741" startid="#n2t7sh4" place="above">[arco]</dir>
-                     <dir xml:id="d1tv030m" startid="#n2t7sh4" place="below">pp</dir>
+                     <supplied>
+                        <dir xml:id="d16fn741" startid="#n2t7sh4" place="above">arco</dir>
+                     </supplied>
+                     <dynam xml:id="d1tv030m" startid="#n2t7sh4" place="below">pp</dynam>
                      <slur xml:id="s1fa4lyq" startid="#n2t7sh4" curvedir="below" endid="#n1rzyrsb"/>
                   </measure>
                   <measure xml:id="m15s4ppu" n="9">
@@ -964,11 +975,13 @@
                         <layer xml:id="m9s2l1" n="1">
                            <mRest xml:id="mccir1b"/>
                         </layer>
+                        <layer n="2" sameas="m9s2l1"/>
                      </staff>
                      <staff xml:id="m9s3" n="3">
                         <layer xml:id="m9s3l1" n="1">
                            <mRest xml:id="m1qdmyrs"/>
                         </layer>
+                        <layer n="2" sameas="m9s3l1"/>
                      </staff>
                      <staff xml:id="m9s4" n="4">
                         <layer xml:id="m9s4l1" n="1">
@@ -979,6 +992,7 @@
                         <layer xml:id="m9s5l1" n="1">
                            <mRest xml:id="m1j0ue3a"/>
                         </layer>
+                        <layer n="2" sameas="m9s5l1"/>
                      </staff>
                      <staff xml:id="m9s6" n="6">
                         <layer xml:id="m9s6l1" n="1">
@@ -1030,17 +1044,13 @@
                         </layer>
                      </staff>
                      <staff xml:id="m9s14" n="14">
-                        <layer xml:id="m9s14l1" n="1">
-                           <mRest xml:id="m9liq9d"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m9s15" n="15">
                         <layer xml:id="m9s15l1" n="1">
                            <note xml:id="nq9h4p2" dots="1" dur="2" pname="c" oct="3" stem.dir="up"/>
                            <note xml:id="nqttpma" dur="4" pname="b" oct="2" stem.dir="up">
                               <accid accid="n"/>
                            </note>
                         </layer>
+                        <layer n="2" sameas="m9s15l1"/>
                      </staff>
                   </measure>
                   <measure xml:id="m14lor1e" n="10">
@@ -1053,11 +1063,13 @@
                         <layer xml:id="m10s2l1" n="1">
                            <mRest xml:id="m1gtaro9"/>
                         </layer>
+                        <layer n="2" sameas="m10s2l1"/>
                      </staff>
                      <staff xml:id="m10s3" n="3">
                         <layer xml:id="m10s3l1" n="1">
                            <mRest xml:id="m1k7e4tu"/>
                         </layer>
+                        <layer n="2" sameas="m10s3l1"/>
                      </staff>
                      <staff xml:id="m10s4" n="4">
                         <layer xml:id="m10s4l1" n="1">
@@ -1067,6 +1079,9 @@
                            <rest xml:id="r156xws" dur="4"/>
                            <note xml:id="nkyqet" dur="4" pname="a" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
+                              <supplied>
+                                 <artic enclose="brack" artic="stacc"/>
+                              </supplied>
                            </note>
                            <rest xml:id="rpt4z74" dur="4"/>
                         </layer>
@@ -1075,6 +1090,7 @@
                         <layer xml:id="m10s5l1" n="1">
                            <mRest xml:id="mwyh9mu"/>
                         </layer>
+                        <layer n="2" sameas="m10s5l1"/>
                      </staff>
                      <staff xml:id="m10s6" n="6">
                         <layer xml:id="m10s6l1" n="1">
@@ -1107,7 +1123,7 @@
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="rlnvfbi" dur="4"/>
-                           <note xml:id="n14mr8kl" dur="4" pname="f" oct="4" stem.dir="up"/>
+                           <note xml:id="n14mr8kl" dur="4" pname="f" oct="4" stem.dir="up" artic="stacc"/>
                            <rest xml:id="rdctaam" dur="4"/>
                         </layer>
                      </staff>
@@ -1115,7 +1131,7 @@
                         <layer xml:id="m10s12l1" n="1">
                            <note xml:id="n10dsux7" dur="4" pname="g" oct="3" stem.dir="up"/>
                            <rest xml:id="rd36ohi" dur="4"/>
-                           <note xml:id="n2pfn4r" dur="4" pname="c" oct="4" stem.dir="up"/>
+                           <note xml:id="n2pfn4r" dur="4" pname="c" oct="4" stem.dir="up" artic="stacc"/>
                            <rest xml:id="r1c5zhwx" dur="4"/>
                         </layer>
                      </staff>
@@ -1125,18 +1141,13 @@
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="r15h7a2j" dur="4"/>
-                           <note xml:id="n6j13yb" dur="4" pname="a" oct="3" stem.dir="up">
+                           <note xml:id="n6j13yb" dur="4" artic="stacc" pname="a" oct="3" stem.dir="up">
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="r1vhq3fq" dur="4"/>
                         </layer>
                      </staff>
                      <staff xml:id="m10s14" n="14">
-                        <layer xml:id="m10s14l1" n="1">
-                           <mRest xml:id="msroy4x"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m10s15" n="15">
                         <layer xml:id="m10s15l1" n="1">
                            <note xml:id="npd43d8" dur="4" pname="c" oct="3" stem.dir="up"/>
                            <rest xml:id="r1k505q5" dur="4"/>
@@ -1145,8 +1156,11 @@
                            </note>
                            <rest xml:id="r1hzw50e" dur="4"/>
                         </layer>
+                        <layer n="2" sameas="m10s15l1"/>
                      </staff>
+                     <supplied>
                      <dir xml:id="d7vwpvv" startid="#nkyqet" place="above">[secche]</dir>
+                     </supplied>
                      <dir xml:id="d1pekst1" startid="#n14mr8kl" place="above">secche</dir>
                      <dir xml:id="d1hvnlyd" startid="#n2pfn4r" place="above">secche</dir>
                      <dir xml:id="d1w2fzv3" startid="#n6j13yb" place="above">secche</dir>
@@ -1162,20 +1176,28 @@
                         <layer xml:id="m11s2l1" n="1">
                            <mRest xml:id="m1y4xcyf"/>
                         </layer>
+                        <layer n="2" sameas="m11s2l1"/>
                      </staff>
                      <staff xml:id="m11s3" n="3">
                         <layer xml:id="m11s3l1" n="1">
                            <mRest xml:id="m17kxv56"/>
                         </layer>
+                        <layer n="2" sameas="m11s3l1"/>
                      </staff>
                      <staff xml:id="m11s4" n="4">
                         <layer xml:id="m11s4l1" n="1">
                            <note xml:id="n30eq20" dur="4" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
+                              <supplied>
+                                 <artic enclose="brack" artic="stacc" />
+                              </supplied>
                            </note>
                            <rest xml:id="rqxo8h0" dur="4"/>
                            <note xml:id="n1h7nhmg" dur="4" pname="b" oct="2" stem.dir="up">
                               <accid accid.ges="f"/>
+                              <supplied>
+                                 <artic enclose="brack" artic="stacc" />
+                              </supplied>
                            </note>
                            <rest xml:id="ratz8b6" dur="4"/>
                            <clef xml:id="cql93cq" shape="C" line="4"/>
@@ -1185,6 +1207,7 @@
                         <layer xml:id="m11s5l1" n="1">
                            <mRest xml:id="m1tzn8kd"/>
                         </layer>
+                        <layer n="2" sameas="m11s5l1"/>
                      </staff>
                      <staff xml:id="m11s6" n="6">
                         <layer xml:id="m11s6l1" n="1">
@@ -1242,11 +1265,6 @@
                         </layer>
                      </staff>
                      <staff xml:id="m11s14" n="14">
-                        <layer xml:id="m11s14l1" n="1">
-                           <mRest xml:id="m19csrp9"/>
-                        </layer>
-                     </staff>
-                     <staff xml:id="m11s15" n="15">
                         <layer xml:id="m11s15l1" n="1">
                            <note xml:id="n1efm0x7" dur="4" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
@@ -1257,10 +1275,11 @@
                            </note>
                            <rest xml:id="rqt5j3o" dur="4"/>
                         </layer>
+                        <layer n="2" sameas="m11s15l1"/>
                      </staff>
                   </measure>
-                  <sb/>
                   <pb/>
+                  <sb/>
                   <measure xml:id="mfn8lr3" n="12">
                      <staff xml:id="m12s1" n="1">
                         <layer xml:id="m12s1l1" n="1">
@@ -1271,11 +1290,13 @@
                         <layer xml:id="m12s2l1" n="1">
                            <mRest xml:id="my3nd4o"/>
                         </layer>
+                        <layer n="2" sameas="m12s2l1"/>
                      </staff>
                      <staff xml:id="m12s3" n="3">
                         <layer xml:id="m12s3l1" n="1">
                            <mRest xml:id="mhsf569"/>
                         </layer>
+                        <layer n="2" sameas="m12s3l1"/>
                      </staff>
                      <staff xml:id="m12s4" n="4">
                         <layer xml:id="m12s4l1" n="1">
@@ -1286,6 +1307,7 @@
                         <layer xml:id="m12s5l1" n="1">
                            <mRest xml:id="m1xac7ho"/>
                         </layer>
+                        <layer n="2" sameas="m12s5l1" />
                      </staff>
                      <staff xml:id="m12s6" n="6">
                         <layer xml:id="m12s6l1" n="1">
@@ -1400,20 +1422,18 @@
                            <rest xml:id="re336x5" dur="8"/>
                            <rest xml:id="rc56any" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m12s15" n="15">
-                        <layer xml:id="m12s15l1" n="1">
-                           <bTrem xml:id="b3jcr2o">
+                        <layer xml:id="m12s14l2" n="2">
                               <note xml:id="n12r14xt" dur="4" pname="e" oct="3" stem.dir="down" stem.mod="2slash">
                                  <accid accid.ges="f"/>
                               </note>
-                           </bTrem>
                            <rest xml:id="r41rzuw" dur="4"/>
                            <rest xml:id="r1ynmua9" dur="2"/>
                         </layer>
                      </staff>
-                     <dir xml:id="d19f2r01" startid="#nbtu3px" place="above">[pizz.]</dir>
-                     <dir xml:id="d9ysh31" startid="#n1kbiugz" place="above">pizz.</dir>
+                     <supplied>
+                        <dir xml:id="d19f2r01" startid="#nbtu3px" place="above">[pizz.]</dir>
+                     </supplied>
+                     <dir layer="1" staff="14" xml:id="d9ysh31" startid="#n1kbiugz" place="above">pizz.</dir>
                   </measure>
                   <measure xml:id="m1751u43" n="13">
                      <staff xml:id="m13s1" n="1">
@@ -1425,11 +1445,13 @@
                         <layer xml:id="m13s2l1" n="1">
                            <mRest xml:id="m1p67xow"/>
                         </layer>
+                        <layer n="2" sameas="m13s2l1"/>
                      </staff>
                      <staff xml:id="m13s3" n="3">
                         <layer xml:id="m13s3l1" n="1">
                            <mRest xml:id="m1xiuj26"/>
                         </layer>
+                        <layer n="2" sameas="m13s3l1"/>
                      </staff>
                      <staff xml:id="m13s4" n="4">
                         <layer xml:id="m13s4l1" n="1">
@@ -1440,6 +1462,7 @@
                         <layer xml:id="m13s5l1" n="1">
                            <mRest xml:id="m1kbkggl"/>
                         </layer>
+                        <layer n="2" sameas="m13s5l1"/>
                      </staff>
                      <staff xml:id="m13s6" n="6">
                         <layer xml:id="m13s6l1" n="1">
@@ -1563,9 +1586,7 @@
                            <rest xml:id="r1d030pi" dur="8"/>
                            <rest xml:id="r160igx5" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m13s15" n="15">
-                        <layer xml:id="m13s15l1" n="1">
+                        <layer xml:id="m13s14l2" n="2">
                            <note xml:id="n2njki6" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -1584,11 +1605,13 @@
                         <layer xml:id="m14s2l1" n="1">
                            <mRest xml:id="mcebhog"/>
                         </layer>
+                        <layer n="2" sameas="m14s2l1"/>
                      </staff>
                      <staff xml:id="m14s3" n="3">
                         <layer xml:id="m14s3l1" n="1">
                            <mRest xml:id="mpek29l"/>
                         </layer>
+                        <layer n="2" sameas="m14s3l1"/>
                      </staff>
                      <staff xml:id="m14s4" n="4">
                         <layer xml:id="m14s4l1" n="1">
@@ -1597,8 +1620,9 @@
                      </staff>
                      <staff xml:id="m14s5" n="5">
                         <layer xml:id="m14s5l1" n="1">
-                           <mRest xml:id="m1905b5s"/>
+                           <mRest xml:id="m14s51"/>
                         </layer>
+                        <layer n="2" sameas="m14s3l1"/>
                      </staff>
                      <staff xml:id="m14s6" n="6">
                         <layer xml:id="m14s6l1" n="1">
@@ -1714,9 +1738,7 @@
                            <rest xml:id="r46waq0" dur="8"/>
                            <rest xml:id="r1hxd0ie" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m14s15" n="15">
-                        <layer xml:id="m14s15l1" n="1">
+                        <layer xml:id="m14s14l2" n="2">
                            <note xml:id="n1s8elab" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -1735,11 +1757,13 @@
                         <layer xml:id="m15s2l1" n="1">
                            <mRest xml:id="m1vnrxrj"/>
                         </layer>
+                        <layer n="2" sameas="m15s2l1"/>
                      </staff>
                      <staff xml:id="m15s3" n="3">
                         <layer xml:id="m15s3l1" n="1">
                            <mRest xml:id="m113i4q9"/>
                         </layer>
+                        <layer n="2" sameas="m15s3l1"/>
                      </staff>
                      <staff xml:id="m15s4" n="4">
                         <layer xml:id="m15s4l1" n="1">
@@ -1747,11 +1771,11 @@
                         </layer>
                      </staff>
                      <staff xml:id="m15s5" n="5">
-                        <layer xml:id="m15s5l1" n="1">
-                           <chord xml:id="c1rmdiel" dur="1">
-                              <note xml:id="n1g2uhks" pname="g" oct="4"/>
-                              <note xml:id="nyq91ti" pname="d" oct="5"/>
-                           </chord>
+                        <layer xml:id="m15s5l1" n="2">
+                              <note xml:id="n1g2uhks" dur="1" pname="g" oct="4"/>
+                        </layer>
+                        <layer n="1">
+                           <note xml:id="nyq91ti" pname="d" oct="5"/>
                         </layer>
                      </staff>
                      <staff xml:id="m15s6" n="6">
@@ -1871,9 +1895,7 @@
                            <rest xml:id="r8hya1v" dur="8"/>
                            <rest xml:id="r1qeefhg" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m15s15" n="15">
-                        <layer xml:id="m15s15l1" n="1">
+                        <layer xml:id="m15s15l1" n="2">
                            <note xml:id="nlah366" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -1881,7 +1903,7 @@
                            <rest xml:id="r1thkia7" dur="2"/>
                         </layer>
                      </staff>
-                     <dir xml:id="dmp5h0z" startid="#c1rmdiel" place="below">pp</dir>
+                     <dynam xml:id="dmp5h0z" layer="1 2" staff="5" startid="#c1rmdiel" place="below">pp</dynam>
                      <slur xml:id="sllded1" startid="#c1rmdiel" curvedir="above" endid="#clq1k2p"/>
                   </measure>
                   <measure xml:id="mpqq5h2" n="16">
@@ -1894,11 +1916,13 @@
                         <layer xml:id="m16s2l1" n="1">
                            <mRest xml:id="m7wbapt"/>
                         </layer>
+                        <layer n="2" sameas="m16s2l1"/>
                      </staff>
                      <staff xml:id="m16s3" n="3">
                         <layer xml:id="m16s3l1" n="1">
                            <mRest xml:id="m1udh55l"/>
                         </layer>
+                        <layer n="2" sameas="m16s3l1"/>
                      </staff>
                      <staff xml:id="m16s4" n="4">
                         <layer xml:id="m16s4l1" n="1">
@@ -1907,13 +1931,16 @@
                      </staff>
                      <staff xml:id="m16s5" n="5">
                         <layer xml:id="m16s5l1" n="1">
-                           <chord xml:id="clq1k2p" dur="8" stem.dir="down">
-                              <note xml:id="n1x243q0" pname="c" oct="5"/>
-                              <note xml:id="n1ijup1c" pname="e" oct="5"/>
-                           </chord>
+                           <note xml:id="n1ijup1c" dur="8" pname="e" oct="5"/>
                            <rest xml:id="r1shdfx5" dur="8"/>
                            <rest xml:id="r1ck632y" dur="4"/>
                            <rest xml:id="r1lhzsul" dur="2"/>
+                        </layer>
+                        <layer n="2">
+                           <note xml:id="n1x243q0" dur="8" pname="c" oct="5"/>
+                           <rest xml:id="r1shffx5" dur="8" sameas="r1shdfx5"/>
+                           <rest xml:id="r1ckg32y" dur="4" sameas="r1ck632y"/>
+                           <rest xml:id="r1lhhsul" dur="2" sameas="r1lhzsul"/>
                         </layer>
                      </staff>
                      <staff xml:id="m16s6" n="6">
@@ -2036,9 +2063,7 @@
                            <rest xml:id="rt7028y" dur="8"/>
                            <rest xml:id="r15ief04" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m16s15" n="15">
-                        <layer xml:id="m16s15l1" n="1">
+                        <layer xml:id="m16s15l1" n="2">
                            <note xml:id="nrmzqk" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -2058,11 +2083,13 @@
                         <layer xml:id="m17s2l1" n="1">
                            <mRest xml:id="m1npc57g"/>
                         </layer>
+                        <layer n="2" sameas="m17s2l1"/>
                      </staff>
                      <staff xml:id="m17s3" n="3">
                         <layer xml:id="m17s3l1" n="1">
                            <mRest xml:id="m2hi851"/>
                         </layer>
+                        <layer n="2" sameas="m17s3l1"/>
                      </staff>
                      <staff xml:id="m17s4" n="4">
                         <layer xml:id="m17s4l1" n="1">
@@ -2073,6 +2100,7 @@
                         <layer xml:id="m17s5l1" n="1">
                            <mRest xml:id="m1t7lcb3"/>
                         </layer>
+                        <layer n="2" sameas="m17s5l1" />
                      </staff>
                      <staff xml:id="m17s6" n="6">
                         <layer xml:id="m17s6l1" n="1">
@@ -2196,9 +2224,7 @@
                            <rest xml:id="r1pbhj8s" dur="8"/>
                            <rest xml:id="r3jderp" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m17s15" n="15">
-                        <layer xml:id="m17s15l1" n="1">
+                        <layer xml:id="m17s15l1" n="2">
                            <note xml:id="n14vhcwt" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -2218,11 +2244,13 @@
                         <layer xml:id="m18s2l1" n="1">
                            <mRest xml:id="m1jgatbf"/>
                         </layer>
+                        <layer n="2" sameas="m18s2l1"/>
                      </staff>
                      <staff xml:id="m18s3" n="3">
                         <layer xml:id="m18s3l1" n="1">
                            <mRest xml:id="m1nqhgf0"/>
                         </layer>
+                        <layer n="2" sameas="m18s3l1"/>
                      </staff>
                      <staff xml:id="m18s4" n="4">
                         <layer xml:id="m18s4l1" n="1">
@@ -2233,6 +2261,7 @@
                         <layer xml:id="m18s5l1" n="1">
                            <mRest xml:id="mfd9qkn"/>
                         </layer>
+                        <layer n="2" sameas="m18s5l1"/>
                      </staff>
                      <staff xml:id="m18s6" n="6">
                         <layer xml:id="m18s6l1" n="1">
@@ -2312,7 +2341,7 @@
                         <layer xml:id="m18s13l1" n="1">
                            <note xml:id="n1ac16a" dur="4" pname="d" oct="3" stem.dir="up"/>
                            <note xml:id="nsbgkee" dur="4" pname="g" oct="3" stem.dir="up"/>
-                           <note xml:id="n1yuz9io" dur="8" pname="b" oct="3" stem.dir="up">
+                           <note xml:id="n1yuz9io" dur="8" pname="b" oct="3" stem.dir="up" fontsize="small" >
                               <accid accid="n"/>
                            </note>
                            <rest xml:id="ralrnzx" dur="8"/>
@@ -2323,15 +2352,13 @@
                         <layer xml:id="m18s14l1" n="1">
                            <note xml:id="nnvo30g" dur="4" pname="d" oct="3" stem.dir="down"/>
                            <note xml:id="n1nje381" dur="4" pname="g" oct="3" stem.dir="down"/>
-                           <note xml:id="n1ewchur" dur="8" pname="b" oct="3" stem.dir="down">
+                           <note xml:id="n1ewchur" dur="8" pname="b" oct="3" fontsize="small" stem.dir="down">
                               <accid accid="n"/>
                            </note>
                            <rest xml:id="r1z120qs" dur="8"/>
                            <rest xml:id="r1xwgvmm" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m18s15" n="15">
-                        <layer xml:id="m18s15l1" n="1">
+                        <layer xml:id="m18s15l1" n="2">
                            <note xml:id="nhuiu9o" dur="4" pname="d" oct="3" stem.dir="down"/>
                            <rest xml:id="r1yf41fw" dur="4"/>
                            <rest xml:id="r1thh1yz" dur="2"/>
@@ -2348,11 +2375,13 @@
                         <layer xml:id="m19s2l1" n="1">
                            <mRest xml:id="m19mnavv"/>
                         </layer>
+                        <layer n="2" sameas="m19s2l1"/>
                      </staff>
                      <staff xml:id="m19s3" n="3">
                         <layer xml:id="m19s3l1" n="1">
                            <mRest xml:id="m1gf53ee"/>
                         </layer>
+                        <layer n="2" sameas="m19s3l1"></layer>
                      </staff>
                      <staff xml:id="m19s4" n="4">
                         <layer xml:id="m19s4l1" n="1">
@@ -2363,6 +2392,7 @@
                         <layer xml:id="m19s5l1" n="1">
                            <mRest xml:id="m9dchjp"/>
                         </layer>
+                        <layer n="2" sameas="m19s5l1"/>
                      </staff>
                      <staff xml:id="m19s6" n="6">
                         <layer xml:id="m19s6l1" n="1">
@@ -2474,9 +2504,7 @@
                            <rest xml:id="rw280dt" dur="8"/>
                            <rest xml:id="r1sqw1sp" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m19s15" n="15">
-                        <layer xml:id="m19s15l1" n="1">
+                        <layer xml:id="m19s15l1" n="2">
                            <note xml:id="nexiaub" dur="4" pname="c" oct="3" stem.dir="up"/>
                            <rest xml:id="rn90w3j" dur="4"/>
                            <note xml:id="nfy64ti" dur="4" pname="a" oct="3" stem.dir="down">
@@ -2485,7 +2513,9 @@
                            <rest xml:id="rype89q" dur="4"/>
                         </layer>
                      </staff>
+                     <supplied>
                      <dir xml:id="d1duj88o" startid="#n1qkvylz" place="above">[arco]</dir>
+                     </supplied>
                   </measure>
                   <measure xml:id="mvy7pmd" n="20">
                      <staff xml:id="m20s1" n="1">
@@ -2497,11 +2527,13 @@
                         <layer xml:id="m20s2l1" n="1">
                            <mRest xml:id="m1egz211"/>
                         </layer>
+                        <layer n="2" sameas="m20s2l1"/>
                      </staff>
                      <staff xml:id="m20s3" n="3">
                         <layer xml:id="m20s3l1" n="1">
                            <mRest xml:id="m1mgqmc7"/>
                         </layer>
+                        <layer n="2" sameas="m20s3l1"/>
                      </staff>
                      <staff xml:id="m20s4" n="4">
                         <layer xml:id="m20s4l1" n="1">
@@ -2512,6 +2544,7 @@
                         <layer xml:id="m20s5l1" n="1">
                            <mRest xml:id="mvgaopx"/>
                         </layer>
+                        <layer n="2" sameas="m20s5l1"/>
                      </staff>
                      <staff xml:id="m20s6" n="6">
                         <layer xml:id="m20s6l1" n="1">
@@ -2611,15 +2644,13 @@
                         <layer xml:id="m20s14l1" n="1">
                            <note xml:id="nwtlw4p" dur="4" pname="g" oct="2" stem.dir="up"/>
                            <note xml:id="n1tjt7tm" dur="4" pname="g" oct="3" stem.dir="down"/>
-                           <note xml:id="nhhtowq" dur="8" pname="a" oct="3" stem.dir="down">
+                           <note xml:id="nhhtowq" dur="8" pname="a" oct="3" fontsize="small" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="r1gcx0ek" dur="8"/>
                            <rest xml:id="rg0o47w" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m20s15" n="15">
-                        <layer xml:id="m20s15l1" n="1">
+                        <layer xml:id="m20s15l1" n="2">
                            <note xml:id="n1ebncjh" dur="4" pname="g" oct="3" stem.dir="down"/>
                            <rest xml:id="rco0piy" dur="4"/>
                            <note xml:id="n1hwah7p" dur="4" pname="a" oct="3" stem.dir="down">
@@ -2639,6 +2670,7 @@
                         <layer xml:id="m21s2l1" n="1">
                            <mRest xml:id="m168ksrh"/>
                         </layer>
+                        <layer n="2" sameas="m21s2l1"/>
                      </staff>
                      <staff xml:id="m21s3" n="3">
                         <layer xml:id="m21s3l1" n="1">
@@ -2655,16 +2687,17 @@
                      </staff>
                      <staff xml:id="m21s4" n="4">
                         <layer xml:id="m21s4l1" n="1">
-                           <note xml:id="nytilih" dots="1" dur="2" pname="b" oct="3" stem.dir="down">
+                           <note fontsize="small" xml:id="nytilih" dots="1" dur="2" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
-                           <note xml:id="ntdklgp" dur="4" pname="d" oct="4" stem.dir="down"/>
+                           <note fontsize="small" xml:id="ntdklgp" dur="4" pname="d" oct="4" stem.dir="down"/>
                         </layer>
                      </staff>
                      <staff xml:id="m21s5" n="5">
                         <layer xml:id="m21s5l1" n="1">
                            <mRest xml:id="m1ijpu0h"/>
                         </layer>
+                        <layer n="2" sameas="m21s5l1"/>
                      </staff>
                      <staff xml:id="m21s6" n="6">
                         <layer xml:id="m21s6l1" n="1">
@@ -2803,15 +2836,13 @@
                            <note xml:id="n1ajrxl1" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
-                           <note xml:id="nh2q6mj" dur="8" pname="b" oct="3" stem.dir="down">
+                           <note fontsize="small" xml:id="nh2q6mj" dur="8" pname="b" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="rvusijw" dur="8"/>
                            <rest xml:id="r1xup7dp" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m21s15" n="15">
-                        <layer xml:id="m21s15l1" n="1">
+                        <layer xml:id="m21s15l1" n="2">
                            <note xml:id="nw42yt0" dur="4" pname="b" oct="2" stem.dir="up">
                               <accid accid.ges="f"/>
                            </note>
@@ -2822,9 +2853,9 @@
                            <rest xml:id="r1vrfqlg" dur="4"/>
                         </layer>
                      </staff>
-                     <dir xml:id="d9t8p5y" startid="#nz98ew1" place="below">pp</dir>
+                     <dynam staff="3" layer="1 2" xml:id="d9t8p5y" startid="#nz98ew1" place="below">pp</dynam>
                      <slur xml:id="s33adds" startid="#nz98ew1" curvedir="above" endid="#c1fvplb2"/>
-                     <dir xml:id="d2b5rb3" startid="#nytilih" place="below">pp</dir>
+                     <dynam staff="4" xml:id="d2b5rb3" startid="#nytilih" place="below">pp</dynam>
                      <slur xml:id="s1ldebmm" startid="#nytilih" curvedir="above" endid="#n19nxegt"/>
                      <tie xml:id="t16n62ei" startid="#ng2sp7y" endid="#n1kcrqf2"/>
                   </measure>
@@ -2840,21 +2871,25 @@
                         <layer xml:id="m22s2l1" n="1">
                            <mRest xml:id="m18h0xwj"/>
                         </layer>
+                        <layer n="2" sameas="m22s2l1"/>
                      </staff>
                      <staff xml:id="m22s3" n="3">
                         <layer xml:id="m22s3l1" n="1">
-                           <chord xml:id="c1fvplb2" dur="4" stem.dir="up">
-                              <note xml:id="n1ucn91s" pname="f" oct="4"/>
-                              <note xml:id="n124ozcr" pname="a" oct="4"/>
-                           </chord>
-                           <rest xml:id="r18xp9r7" dur="4"/>
-                           <rest xml:id="renhbfq" dur="4"/>
+                           <note xml:id="n124ozcr" dur="4" pname="a" oct="4"/>
+                           <rest xml:id="r18p9r7" dur="4"/>
+                           <rest xml:id="rnhbfq" dur="4"/>
                            <note xml:id="neecm7y" dur="4" pname="a" oct="5" stem.dir="down"/>
+                        </layer>
+                        <layer n="2">
+                           <note dur="4" xml:id="n1ucn91s" pname="f" oct="4"/>
+                           <rest xml:id="r18xp9r7" sameas="r18p9r7" dur="4"/>
+                           <rest xml:id="renhbfq" sameas="rnhbfq" dur="4"/>
+                           <space dur="4" type="rest"/>
                         </layer>
                      </staff>
                      <staff xml:id="m22s4" n="4">
                         <layer xml:id="m22s4l1" n="1">
-                           <note xml:id="n19nxegt" dur="4" pname="e" oct="4" stem.dir="down">
+                           <note fontsize="small" xml:id="n19nxegt" dur="4" pname="e" oct="4" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
                            <rest xml:id="r1l7pi2y" dur="4"/>
@@ -2866,6 +2901,7 @@
                         <layer xml:id="m22s5l1" n="1">
                            <mRest xml:id="m12bpj6w"/>
                         </layer>
+                        <layer n="2" sameas="m22s5l1"/>
                      </staff>
                      <staff xml:id="m22s6" n="6">
                         <layer xml:id="m22s6l1" n="1">
@@ -2960,9 +2996,7 @@
                            </note>
                            <rest xml:id="r1f6lqwx" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m22s15" n="15">
-                        <layer xml:id="m22s15l1" n="1">
+                        <layer xml:id="m22s15l1" n="2">
                            <note xml:id="n1n3207r" dur="4" pname="e" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -2975,10 +3009,10 @@
                            <rest xml:id="r1jlzni9" dur="4"/>
                         </layer>
                      </staff>
-                     <dir xml:id="d1h66yfy" startid="#nxa93wx" place="below">ff</dir>
-                     <dir xml:id="dwq11l0" startid="#neecm7y" place="above">Solo</dir>
-                     <dir xml:id="d1wp50i2" startid="#neecm7y" place="below">ff</dir>
-                     <dir xml:id="dp9mchh" startid="#nhdhebp" place="above">arco</dir>
+                     <dynam xml:id="d1h66yfy" startid="#nxa93wx" place="below">ff</dynam>
+                     <dir staff="3" layer="1" xml:id="dwq11l0" startid="#neecm7y" place="above">Solo</dir>
+                     <dynam staff="3" layer="1" xml:id="d1wp50i2" startid="#neecm7y" place="below">ff</dynam>
+                     <dir staff="14" layer="1" xml:id="dp9mchh" startid="#nhdhebp" place="above">arco</dir>
                   </measure>
                   <sb/>
                   <pb/>
@@ -2995,6 +3029,7 @@
                         <layer xml:id="m23s2l1" n="1">
                            <mRest xml:id="m3vp4zx"/>
                         </layer>
+                        <layer n="2" sameas="m23s2l1"/>
                      </staff>
                      <staff xml:id="m23s3" n="3">
                         <layer xml:id="m23s3l1" n="1">
@@ -3002,6 +3037,9 @@
                            <note xml:id="n1p7y5x" dur="4" pname="a" oct="5" stem.dir="down"/>
                            <note xml:id="nmer1nr" dur="4" pname="a" oct="5" stem.dir="down"/>
                            <note xml:id="n1l6cqfh" dur="4" pname="a" oct="5" stem.dir="down"/>
+                        </layer>
+                        <layer n="2">
+                           <mSpace type="rest"/>
                         </layer>
                      </staff>
                      <staff xml:id="m23s4" n="4">
@@ -3013,6 +3051,7 @@
                         <layer xml:id="m23s5l1" n="1">
                            <mRest xml:id="m508gg8"/>
                         </layer>
+                        <layer n="2" sameas="m23s5l1"/>
                      </staff>
                      <staff xml:id="m23s6" n="6">
                         <layer xml:id="m23s6l1" n="1">
@@ -3084,27 +3123,22 @@
                         <layer xml:id="m23s14l1" n="1">
                            <note xml:id="nvq8wt1" dur="1" pname="g" oct="3"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m23s15" n="15">
-                        <layer xml:id="m23s15l1" n="1">
-                           <bTrem xml:id="bc8sbso">
-                              <note xml:id="n1xtjvx2" dur="4" pname="g" oct="3" stem.dir="down" stem.mod="2slash"/>
-                           </bTrem>
+                        <layer xml:id="m23s15l1" n="2">
+                           <note xml:id="n1xtjvx2" dur="4" pname="g" oct="3" stem.dir="down"/>
                            <rest xml:id="r8zikr" dur="4"/>
                            <note xml:id="nmbnprv" dur="4" pname="g" oct="3" stem.dir="down"/>
                            <rest xml:id="rtxya3e" dur="4"/>
                         </layer>
                      </staff>
                      <hairpin xml:id="h1uh8f3c" form="dim" startid="#n4mf6t9" place="below" endid="#n1x671r6"/>
-                     <dir xml:id="d1wun5tw" startid="#n1j97qa3" place="above">I</dir>
+                     <dir staff="3" layer="1" xml:id="d1wun5tw" startid="#n1j97qa3" place="above">I</dir>
                      <hairpin xml:id="h19ztbws" form="dim" startid="#nmer1nr" place="below" endid="#n1cm3xy0"/>
-                     <dir xml:id="d14nunuz" startid="#nxwqpr9" place="below">ff</dir>
+                     <dynam xml:id="d14nunuz" startid="#nxwqpr9" place="below">ff</dynam>
                      <hairpin xml:id="h9f4q5h" form="dim" startid="#n58rvdh" place="below" endid="#nbgyj3w"/>
-                     <dir xml:id="dkaoxpi" startid="#nnszpel" place="below">ff</dir>
+                     <dynam xml:id="dkaoxpi" startid="#nnszpel" place="below">ff</dynam>
                      <hairpin xml:id="h1bpk36j" form="dim" startid="#n1nobqzp" place="below" endid="#n11yo0mh"/>
-                     <dir xml:id="d9vsash" startid="#nk7n4z9" place="below">ff</dir>
-                     <dir xml:id="dkn3pzw" startid="#nvq8wt1" place="below">ff</dir>
-                     <dir xml:id="d11wx5ki" startid="#n1xtjvx2" place="below">ff</dir>
+                     <dynam xml:id="d9vsash" startid="#nk7n4z9" place="below">ff</dynam>
+                     <dynam staff="14" layer="1 2" xml:id="dkn3pzw" startid="#nvq8wt1" place="below">ff</dynam>
                      <hairpin xml:id="h1591fui" form="dim" startid="#nmbnprv" place="below" endid="#r1ntyxw6"/>
                   </measure>
                   <measure xml:id="mnlg5tw" n="24">
@@ -3127,6 +3161,7 @@
                         <layer xml:id="m24s2l1" n="1">
                            <mRest xml:id="m9zf8pa"/>
                         </layer>
+                        <layer n="2" sameas="m24s2l1"/>
                      </staff>
                      <staff xml:id="m24s3" n="3">
                         <layer xml:id="m24s3l1" n="1">
@@ -3140,6 +3175,9 @@
                            <rest xml:id="ryklax4" dur="8"/>
                            <note xml:id="ny3psai" dur="4" pname="d" oct="5" stem.dir="down"/>
                         </layer>
+                        <layer n="2">
+                           <mSpace type="rest" />
+                        </layer>
                      </staff>
                      <staff xml:id="m24s4" n="4">
                         <layer xml:id="m24s4l1" n="1">
@@ -3150,6 +3188,7 @@
                         <layer xml:id="m24s5l1" n="1">
                            <mRest xml:id="m110ko35"/>
                         </layer>
+                        <layer n="2" sameas="m24s5l1"></layer>
                      </staff>
                      <staff xml:id="m24s6" n="6">
                         <layer xml:id="m24s6l1" n="1">
@@ -3227,9 +3266,7 @@
                            <note xml:id="n10cmmoq" dur="4" pname="c" oct="3" stem.dir="up"/>
                            <rest xml:id="rfkiaur" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m24s15" n="15">
-                        <layer xml:id="m24s15l1" n="1">
+                        <layer xml:id="m24s15l1" n="2">
                            <note xml:id="nkvl2fc" dur="4" pname="c" oct="4" stem.dir="down"/>
                            <rest xml:id="reapni6" dur="4"/>
                            <note xml:id="n1xigl91" dur="4" pname="c" oct="3" stem.dir="up"/>
@@ -3237,9 +3274,9 @@
                         </layer>
                      </staff>
                      <slur xml:id="st3yh31" startid="#n1swnjhq" curvedir="above" endid="#n4999so"/>
-                     <dir xml:id="do55yj7" startid="#nj7hg2z" place="below">pp</dir>
+                     <dynam xml:id="do55yj7" startid="#nj7hg2z" place="below">pp</dynam>
                      <slur xml:id="s1nybcgh" startid="#n1rgj8ci" curvedir="above" endid="#n11ssg7d"/>
-                     <dir xml:id="d12nvcod" startid="#ny3psai" place="below">pp</dir>
+                     <dynam xml:id="d12nvcod" startid="#ny3psai" place="below">pp</dynam>
                   </measure>
                   <measure xml:id="m73zi5z" n="25">
                      <staff xml:id="m25s1" n="1">
@@ -3256,6 +3293,7 @@
                         <layer xml:id="m25s2l1" n="1">
                            <mRest xml:id="m13xp0g4"/>
                         </layer>
+                        <layer n="2" sameas="m25s2l1"/>
                      </staff>
                      <staff xml:id="m25s3" n="3">
                         <layer xml:id="m25s3l1" n="1">
@@ -3263,6 +3301,9 @@
                            <note xml:id="nksort8" dur="4" pname="e" oct="5" stem.dir="down"/>
                            <note xml:id="n1up9fad" dur="4" pname="f" oct="5" stem.dir="down"/>
                            <note xml:id="n8xqghe" dur="4" pname="g" oct="5" stem.dir="down"/>
+                        </layer>
+                        <layer n="2">
+                           <mSpace type="rest"/>
                         </layer>
                      </staff>
                      <staff xml:id="m25s4" n="4">
@@ -3274,6 +3315,7 @@
                         <layer xml:id="m25s5l1" n="1">
                            <mRest xml:id="mkv8psa"/>
                         </layer>
+                        <layer n="2" sameas="m25s5l1"/>
                      </staff>
                      <staff xml:id="m25s6" n="6">
                         <layer xml:id="m25s6l1" n="1">
@@ -3357,9 +3399,7 @@
                               <accid accid.ges="f"/>
                            </note>
                         </layer>
-                     </staff>
-                     <staff xml:id="m25s15" n="15">
-                        <layer xml:id="m25s15l1" n="1">
+                        <layer xml:id="m25s15l1" n="2">
                            <note xml:id="n1c3gr1p" dur="4" pname="a" oct="3" stem.dir="down">
                               <accid accid.ges="f"/>
                            </note>
@@ -3374,11 +3414,10 @@
                      <hairpin xml:id="h13bspmd" form="cres" startid="#nyzh0qm" place="below" endid="#n1uzaerq"/>
                      <slur xml:id="s1sfl0km" startid="#n18h8b76" curvedir="above" endid="#nksort8"/>
                      <hairpin xml:id="h1q5m7gi" form="cres" startid="#n18h8b76" place="below" endid="#n8xqghe"/>
-                     <dir xml:id="d13thjt7" startid="#n184eei9" place="below">pp</dir>
-                     <dir xml:id="dzyg3f9" startid="#n1ctytor" place="below">pp</dir>
-                     <dir xml:id="dcw4xle" startid="#nzgxy8t" place="below">pp</dir>
-                     <dir xml:id="dhjiayn" startid="#n1nglgpx" place="below">pp</dir>
-                     <dir xml:id="d1lzr4si" startid="#n1c3gr1p" place="below">pp</dir>
+                     <dynam xml:id="d13thjt7" startid="#n184eei9" place="below">pp</dynam>
+                     <dynam xml:id="dzyg3f9" startid="#n1ctytor" place="below">pp</dynam>
+                     <dynam xml:id="dcw4xle" startid="#nzgxy8t" place="below">pp</dynam>
+                     <dynam staff="14" layer="1 2" xml:id="dhjiayn" startid="#n1nglgpx" place="below">pp</dynam>
                   </measure>
                   <measure xml:id="m13399hj" n="26">
                      <staff xml:id="m26s1" n="1">
@@ -3395,6 +3434,7 @@
                         <layer xml:id="m26s2l1" n="1">
                            <mRest xml:id="m1m8pc7s"/>
                         </layer>
+                        <layer n="2" sameas="m26s2l1"/>
                      </staff>
                      <staff xml:id="m26s3" n="3">
                         <layer xml:id="m26s3l1" n="1">
@@ -3402,6 +3442,9 @@
                            <note xml:id="n1fka9s1" dur="8" pname="f" oct="5" stem.dir="down"/>
                            <note xml:id="n1ya3f8t" dur="4" pname="e" oct="5" stem.dir="down"/>
                            <rest xml:id="r1c6ku5i" dur="4"/>
+                        </layer>
+                        <layer n="2">
+                           <mSpace type="rest"/>
                         </layer>
                      </staff>
                      <staff xml:id="m26s4" n="4">
@@ -3413,6 +3456,7 @@
                         <layer xml:id="m26s5l1" n="1">
                            <mRest xml:id="m1rtyp35"/>
                         </layer>
+                        <layer n="2" sameas="m26s5l1"/>
                      </staff>
                      <staff xml:id="m26s6" n="6">
                         <layer xml:id="m26s6l1" n="1">
@@ -3494,9 +3538,7 @@
                            <note xml:id="n33a4io" dur="4" pname="g" oct="3" stem.dir="down"/>
                            <rest xml:id="rdnmn23" dur="4"/>
                         </layer>
-                     </staff>
-                     <staff xml:id="m26s15" n="15">
-                        <layer xml:id="m26s15l1" n="1">
+                        <layer xml:id="m26s15l1" n="2">
                            <note xml:id="nge1s2x" dur="4" pname="g" oct="3" stem.dir="down"/>
                            <rest xml:id="r105phuz" dur="4"/>
                            <note xml:id="n13tffgt" dur="4" pname="g" oct="3" stem.dir="down"/>
