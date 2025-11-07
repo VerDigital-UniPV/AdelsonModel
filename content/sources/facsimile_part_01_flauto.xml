@@ -344,38 +344,38 @@
             <surface xml:id="surface_34edacf6-caa1-4c6a-aba2-f62bd192f749" n="9" ulx="0" uly="0" lrx="3688" lry="2957">
                 <graphic xml:id="graphic_d2501b50-b37b-4c93-952b-5130734cb3d1" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0009.jpg" type="facsimile" width="3688" height="2957"/>
             </surface>
-            <surface xml:id="surface_2c3a955a-4cc2-45c5-954a-b54feb0fe0b1" n="10" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_4eb77f44-0647-4dea-890e-08cfd0c499a7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0010.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_2c3a955a-4cc2-45c5-954a-b54feb0fe0b1" n="10" ulx="0" uly="0" lrx="3614" lry="2951">
+                <graphic xml:id="graphic_4eb77f44-0647-4dea-890e-08cfd0c499a7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0010.jpg" type="facsimile" width="3614" height="2951"/>
             </surface>
-            <surface xml:id="surface_25754abf-f4c7-433f-8e3f-6110905b9d84" n="11" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_e2da5ac4-46d4-4752-bdfd-5d016f8375e6" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0011.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_25754abf-f4c7-433f-8e3f-6110905b9d84" n="11" ulx="0" uly="0" lrx="3691" lry="2933">
+                <graphic xml:id="graphic_e2da5ac4-46d4-4752-bdfd-5d016f8375e6" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0011.jpg" type="facsimile" width="3691" height="2933"/>
             </surface>
-            <surface xml:id="surface_2e672c3e-fe7b-4fc6-a3d1-4a855c6ee207" n="12" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_c6dd7373-87c9-4432-a21e-8c294212287d" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0012.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_2e672c3e-fe7b-4fc6-a3d1-4a855c6ee207" n="12" ulx="0" uly="0" lrx="3667" lry="2970">
+                <graphic xml:id="graphic_c6dd7373-87c9-4432-a21e-8c294212287d" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0012.jpg" type="facsimile" width="3667" height="2970"/>
             </surface>
-            <surface xml:id="surface_8aaade03-b513-43dd-9bf6-841cc9601fa1" n="13" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_46ea04bc-6add-4625-b83d-46a8f5475aee" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0013.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_8aaade03-b513-43dd-9bf6-841cc9601fa1" n="13" ulx="0" uly="0" lrx="3626" lry="2963">
+                <graphic xml:id="graphic_46ea04bc-6add-4625-b83d-46a8f5475aee" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0013.jpg" type="facsimile" width="3626" height="2963"/>
             </surface>
-            <surface xml:id="surface_a8b7c823-8849-4599-8642-29d865ba8e92" n="14" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_f634f8fa-697a-4c23-b96a-0a9b2612e08f" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0014.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_a8b7c823-8849-4599-8642-29d865ba8e92" n="14" ulx="0" uly="0" lrx="3679" lry="2972">
+                <graphic xml:id="graphic_f634f8fa-697a-4c23-b96a-0a9b2612e08f" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0014.jpg" type="facsimile" width="3679" height="2972"/>
             </surface>
-            <surface xml:id="surface_fbea6916-a791-4a4b-9011-fb59261c5607" n="15" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_c123af6c-962d-48b8-9ebf-42eec3613b8c" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0015.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_fbea6916-a791-4a4b-9011-fb59261c5607" n="15" ulx="0" uly="0" lrx="3637" lry="2957">
+                <graphic xml:id="graphic_c123af6c-962d-48b8-9ebf-42eec3613b8c" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0015.jpg" type="facsimile" width="3637" height="2957"/>
             </surface>
-            <surface xml:id="surface_f11402c0-a676-4e07-b7b2-8bb2f4ca200d" n="16" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_0ac2997c-c698-40f1-bf63-8e1700cd10b7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0016.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_f11402c0-a676-4e07-b7b2-8bb2f4ca200d" n="16" ulx="0" uly="0" lrx="3676" lry="3000">
+                <graphic xml:id="graphic_0ac2997c-c698-40f1-bf63-8e1700cd10b7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0016.jpg" type="facsimile" width="3676" height="3000"/>
             </surface>
-            <surface xml:id="surface_a747a5ec-2b92-42a9-a8c7-c2b492f4e502" n="17" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_64dd099b-0a39-4395-9bdc-ec5845158c22" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0017.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_a747a5ec-2b92-42a9-a8c7-c2b492f4e502" n="17" ulx="0" uly="0" lrx="3647" lry="2924">
+                <graphic xml:id="graphic_64dd099b-0a39-4395-9bdc-ec5845158c22" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0017.jpg" type="facsimile" width="3647" height="2924"/>
             </surface>
-            <surface xml:id="surface_3237a71a-18b5-4869-b723-f5a031431636" n="18" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_0f6b6a5b-2a03-4ad8-8e32-906b43054b3a" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0018.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_3237a71a-18b5-4869-b723-f5a031431636" n="18" ulx="0" uly="0" lrx="3739" lry="3026">
+                <graphic xml:id="graphic_0f6b6a5b-2a03-4ad8-8e32-906b43054b3a" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0018.jpg" type="facsimile" width="3739" height="3026"/>
             </surface>
-            <surface xml:id="surface_33119079-c4b7-4c98-89d5-77120898e9cb" n="19" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_cee87a91-33cb-40ee-84c9-33ed2930aea7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0019.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_33119079-c4b7-4c98-89d5-77120898e9cb" n="19" ulx="0" uly="0" lrx="3559" lry="2936">
+                <graphic xml:id="graphic_cee87a91-33cb-40ee-84c9-33ed2930aea7" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0019.jpg" type="facsimile" width="3559" height="2936"/>
             </surface>
-            <surface xml:id="surface_ce045389-90b0-4a21-af5a-0cb62eab8650" n="20" ulx="0" uly="0" lrx="0" lry="0">
-                <graphic xml:id="graphic_2e302075-cff8-4016-99ce-c59481f6a64e" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0020.jpg" type="facsimile" width="0" height="0"/>
+            <surface xml:id="surface_ce045389-90b0-4a21-af5a-0cb62eab8650" n="20" ulx="0" uly="0" lrx="3739" lry="3026">
+                <graphic xml:id="graphic_2e302075-cff8-4016-99ce-c59481f6a64e" target="https://iiif.archive.org/image/iiif/3/adelson-e-salvini-parts-01-flauto%2f01flauto_page-0020.jpg" type="facsimile" width="3739" height="3026"/>
             </surface>
         </facsimile>
         <body> 
