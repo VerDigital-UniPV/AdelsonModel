@@ -659,9 +659,7 @@ from @who attribute
             <div xml:id="act1sc2" n="2" type="scene">
                <head rend="center">SCENA II</head>
                <stage type="entrance">Si avvanza <name>Struley</name> in abito da cacciatore
-                  con fucile alle mani
-                  <app>
-                     <rdg source="#1816">, e <name>detto</name></rdg>
+                  con fucile alle mani<app><rdg source="#1816">, e <name>detto</name></rdg>
                      <rdg source="#1825"/>
                   </app>
                </stage>
