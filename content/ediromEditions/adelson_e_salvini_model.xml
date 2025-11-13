@@ -288,7 +288,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <navigatorItem xml:id="navItem-4-1-3-4" sortNo="4" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/facsimile_part_04_clarinetto_1.xml">
                                 <names>
                                     <name xml:lang="de">04 Clarinetto 1</name>
-                                    <name xml:lang="en">01 Clarinetto 1</name>
+                                    <name xml:lang="en">04 Clarinetto 1</name>
                                 </names>
                             </navigatorItem>
                             <navigatorItem xml:id="navItem-4-1-3-5" sortNo="5" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/facsimile_part_05_clarinetto_2.xml">
@@ -298,50 +298,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </names>
                             </navigatorItem>
                             <!-- TODO: Missing instruments -->
-                            <navigatorItem xml:id="navItem-4-1-3-9" sortNo="9" targets="xmldb:exist:///db/apps/edirom/adelson_e_salvini_model/content/sources/facsimile_part_09_violino_1.xml">
-                                <names>
-                                    <name xml:lang="de">09 Violino 1</name>
-                                    <name xml:lang="en">09 Violino 1</name>
-                                </names>
-                            </navigatorItem>
-                            <!-- TODO: Missing instruments -->
                         </navigatorCategory>
-                        <navigatorItem xml:id="navItem-4-1-4" sortNo="4" targets="">
-                            <names>
-                                <name xml:lang="de">p-Ny (part)</name>
-                                <name xml:lang="en">p-Ny (part)</name>
-                            </names>
-                        </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-5" sortNo="5" targets="">
-                            <names>
-                                <name xml:lang="de">GB-Lbl</name>
-                                <name xml:lang="en">GB-Lbl</name>
-                            </names>
-                        </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-6" sortNo="6" targets="">
-                            <names>
-                                <name xml:lang="de">rScho</name>
-                                <name xml:lang="en">rScho</name>
-                            </names>
-                        </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-7" sortNo="7" targets="">
-                            <names>
-                                <name xml:lang="de">rRi</name>
-                                <name xml:lang="en">rRi</name>
-                            </names>
-                        </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-8" sortNo="8" targets="">
-                            <names>
-                                <name xml:lang="de">Fioravanti's score</name>
-                                <name xml:lang="en">Fioravanti's score</name>
-                            </names>
-                        </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-1-9" sortNo="9" targets="">
-                            <names>
-                                <name xml:lang="de">Watermarks</name>
-                                <name xml:lang="en">Watermarks</name>
-                            </names>
-                        </navigatorItem>
                     </navigatorCategory>
                     <navigatorCategory xml:id="navCategory-4-2" sortNo="2" targets="">
                         <names>
