@@ -40,7 +40,7 @@
    <!-- add diminuendos in bar 3 -->
    <music>
       <body>
-         <mdiv>
+         <mdiv n="5">
             <score>
                <scoreDef>
                   <staffGrp>
