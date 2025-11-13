@@ -309,7 +309,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <navigatorItem xml:id="navItem-4-1-4" sortNo="4" targets="">
                             <names>
                                 <name xml:lang="de">p-Ny (part)</name>
-                                <name xml:lang="en">p-Ny (part</name>
+                                <name xml:lang="en">p-Ny (part)</name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-4-1-5" sortNo="5" targets="">
