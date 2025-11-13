@@ -2,7 +2,9 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei">
     <meiHead>
         <fileDesc>
-            <titleStmt/>
+            <titleStmt>
+                <title>Oboe 1</title>
+            </titleStmt>
             <pubStmt/>
         </fileDesc>
         <encodingDesc>

@@ -2,7 +2,9 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei">
     <meiHead>
         <fileDesc>
-            <titleStmt/>
+            <titleStmt>
+                <title>Flauto</title>
+            </titleStmt>
             <pubStmt/>
         </fileDesc>
         <encodingDesc>
